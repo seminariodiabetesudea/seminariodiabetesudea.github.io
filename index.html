@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capture-Recapture Analysis Tool</title>
+<meta name="description" content="Estimate true population size from incomplete registries using capture-recapture methods.">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-display: 'Satoshi', sans-serif;
+  --font-body: 'General Sans', sans-serif;
+  --surface-0: oklch(1 0 0);
+  --surface-1: oklch(0.985 0.001 250);
+  --surface-2: oklch(0.965 0.002 250);
+  --text-primary: oklch(0.18 0.01 260);
+  --text-secondary: oklch(0.45 0.01 260);
+  --text-tertiary: oklch(0.60 0.01 260);
+  --border-light: oklch(0.88 0.005 260);
+  --border-medium: oklch(0.78 0.01 260);
+  --accent: oklch(0.55 0.16 205);
+  --accent-hover: oklch(0.48 0.16 205);
+  --accent-subtle: oklch(0.92 0.03 205);
+  --accent-on: oklch(0.99 0.001 205);
+  --radius-md: 0.5rem;
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  color-scheme: light;
+}
+:root.dark, @media (prefers-color-scheme: dark) { :root:not(.light) {
+  --surface-0: oklch(0.16 0.005 260);
+  --surface-1: oklch(0.19 0.005 260);
+  --surface-2: oklch(0.22 0.006 260);
+  --text-primary: oklch(0.93 0.002 260);
+  --text-secondary: oklch(0.68 0.005 260);
+  --text-tertiary: oklch(0.52 0.008 260);
+  --border-light: oklch(0.28 0.008 260);
+  --border-medium: oklch(0.34 0.01 260);
+  --accent: oklch(0.68 0.14 205);
+  --accent-hover: oklch(0.62 0.14 205);
+  --accent-subtle: oklch(0.22 0.04 205);
+  --accent-on: oklch(0.12 0.01 205);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+  color-scheme: dark;
+}}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-body);
+  color: var(--text-primary);
+  background: var(--surface-1);
+  min-height: 100vh;
+  display: flex; align-items: center; justify-content: center;
+  padding: 1.5rem;
+  transition: background 0.25s var(--ease-out), color 0.25s var(--ease-out);
+}
+.page {
+  max-width: 34rem; width: 100%;
+  text-align: center;
+}
+.logo-svg { width: 3rem; height: 3rem; margin: 0 auto 1.25rem; display: block; }
+h1 {
+  font-family: var(--font-display); font-size: clamp(1.625rem, 1.45rem + 0.9vw, 1.875rem); font-weight: 700;
+  line-height: 1.3; margin-bottom: 0.5rem;
+}
+p { color: var(--text-secondary); font-size: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem); line-height: 1.6; margin-bottom: 1.5rem; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  font-family: var(--font-body); font-weight: 500; font-size: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
+  padding: 0.75rem 1.5rem; border: 1.5px solid transparent; border-radius: var(--radius-md);
+  cursor: pointer; text-decoration: none; line-height: 1;
+  transition: all 0.15s var(--ease-out);
+}
+.btn-primary { background: var(--accent); color: var(--accent-on); border-color: var(--accent); }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--text-secondary); border-color: var(--border-light); }
+.btn-ghost:hover { background: var(--surface-2); color: var(--text-primary); }
+.links { margin-top: 2rem; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+.theme-toggle {
+  position: fixed; top: 1rem; right: 1rem;
+  background: var(--surface-0); border: 1.5px solid var(--border-medium); border-radius: 9999px;
+  cursor: pointer; padding: 0.5rem; width: 2.75rem; height: 2.75rem;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); font-size: 1.25rem;
+  transition: all 0.15s var(--ease-out);
+  box-shadow: var(--shadow-md);
+}
+.theme-toggle:hover { background: var(--surface-2); color: var(--text-primary); }
+footer {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 1rem; text-align: center;
+  font-size: clamp(0.6875rem, 0.65rem + 0.15vw, 0.75rem); color: var(--text-tertiary);
+}
+</style>
+</head>
+<body>
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+
+<div class="page">
+  <svg class="logo-svg" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+    <circle cx="11" cy="13" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2"/>
+    <circle cx="23" cy="13" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2"/>
+    <circle cx="17" cy="23" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2" opacity="0.45"/>
+    <circle cx="13.5" cy="16.5" r="1.4" fill="var(--accent)"/>
+    <circle cx="20.5" cy="16.5" r="1.4" fill="var(--accent)"/>
+    <circle cx="17" cy="21" r="1.4" fill="var(--accent)" opacity="0.55"/>
+  </svg>
+
+  <h1>Capture-Recapture Analysis Tool</h1>
+  <p>Estimate true disease prevalence from incomplete registries. Compare hospital, laboratory, clinic, and pharmacy records to determine how many cases go unobserved.</p>
+
+  <a class="btn btn-primary" href="capture-recapture/capture-recapture.html">Open the Calculator</a>
+<!--
+  <div class="links">
+    <a class="btn btn-ghost" href="capture-recapture/validate-models.html">Validation</a>
+  </div>-->
+</div>
+
+<footer>Capture-Recapture Analysis Tool &middot; Static site for GitHub Pages &middot; No server required</footer>
+
+<script>
+(function() {
+  var toggle = document.getElementById('themeToggle');
+  function updateIcon(d) { toggle.innerHTML = d ? '&#9788;' : '&#9790;'; }
+  function apply(m) {
+    var r = document.documentElement;
+    r.classList.remove('light', 'dark');
+    if (m === 'dark') { r.classList.add('dark'); updateIcon(true); }
+    else if (m === 'light') { r.classList.add('light'); updateIcon(false); }
+    else updateIcon(window.matchMedia('(prefers-color-scheme: dark)').matches);
+  }
+  var theme = 'auto';
+  apply(theme);
+  toggle.addEventListener('click', function() {
+    theme = theme === 'dark' ? 'light' : theme === 'light' ? 'auto' : 'dark';
+    apply(theme);
+  });
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function() {
+    if (theme === 'auto') apply('auto');
+  });
+})();
+</script>
+</body>
+</html>

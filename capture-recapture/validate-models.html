@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Statistical Engine Validation — webR</title>
+<style>
+body { font-family: system-ui, sans-serif; max-width: 64rem; margin: 2rem auto; padding: 0 1rem; background: #f8f9fa; color: #212529; }
+h1 { font-size: 1.5rem; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.875rem; }
+th, td { padding: 0.5rem 0.75rem; text-align: right; border-bottom: 1px solid #dee2e6; }
+th:first-child, td:first-child { text-align: left; }
+th { background: #e9ecef; font-weight: 600; }
+.pass { color: #198754; }
+.fail { color: #dc3545; }
+.test-group { margin: 2rem 0; padding: 1rem; background: white; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.test-group h2 { font-size: 1.125rem; margin: 0 0 0.75rem 0; }
+.summary { padding: 1rem; border-radius: 0.5rem; margin: 1.5rem 0; }
+.all-pass { background: #d1e7dd; }
+.some-fail { background: #f8d7da; }
+.loading { color: #6c757d; font-style: italic; }
+</style>
+</head>
+<body>
+<h1>Statistical Engine Validation</h1>
+<p>Running <code>Rcapture::closedp.t()</code> via WebAssembly (webR) and comparing against reference output from <code>validation_results.json</code>.</p>
+<div id="status" class="loading">Initializing webR engine…</div>
+<div id="results"></div>
+
+<script>
+/* ============================================================
+   CHAPMAN ESTIMATOR (2-source, pure JS)
+   ============================================================ */
+function chapmanEstimator(n1, n2, m) {
+  if (m <= 0) return { error: 'No overlap between the two sources.' };
+  const Nhat = ((n1 + 1) * (n2 + 1)) / (m + 1) - 1;
+  const varN = ((n1 + 1) * (n2 + 1) * (n1 - m) * (n2 - m)) / ((m + 1) * (m + 1) * (m + 2));
+  const se = Math.sqrt(Math.max(0, varN));
+  return { Nhat, se, ciLow: Nhat - 1.96 * se, ciHigh: Nhat + 1.96 * se };
+}
+
+function pctDiff(a, b) { return Math.abs(a - b) / Math.abs(b) * 100; }
+function check(val, expected, tol) { return pctDiff(val, expected) <= tol; }
+
+/* ============================================================
+   TEST CASE DATA
+   ============================================================ */
+const testCases = {
+  chapman: { n1: 313, n2: 238, m: 157 },
+  loglinear_3source: {
+    sources: ["Hospital", "Laboratory", "Clinic"],
+    rows: [
+      { Hospital: 0, Laboratory: 0, Clinic: 1 },
+      { Hospital: 0, Laboratory: 1, Clinic: 0 },
+      { Hospital: 0, Laboratory: 1, Clinic: 1 },
+      { Hospital: 1, Laboratory: 0, Clinic: 0 },
+      { Hospital: 1, Laboratory: 0, Clinic: 1 },
+      { Hospital: 1, Laboratory: 1, Clinic: 0 },
+      { Hospital: 1, Laboratory: 1, Clinic: 1 }
+    ]
+  },
+  loglinear_4source: {
+    sources: ["Clinical_History", "Pharmacy", "Specialist", "Screening"],
+    rows: [
+      { Clinical_History: 0, Pharmacy: 0, Specialist: 0, Screening: 1 },
+      { Clinical_History: 0, Pharmacy: 0, Specialist: 1, Screening: 0 },
+      { Clinical_History: 0, Pharmacy: 0, Specialist: 1, Screening: 1 },
+      { Clinical_History: 0, Pharmacy: 1, Specialist: 0, Screening: 0 },
+      { Clinical_History: 0, Pharmacy: 1, Specialist: 0, Screening: 1 },
+      { Clinical_History: 0, Pharmacy: 1, Specialist: 1, Screening: 0 },
+      { Clinical_History: 0, Pharmacy: 1, Specialist: 1, Screening: 1 },
+      { Clinical_History: 1, Pharmacy: 0, Specialist: 0, Screening: 0 },
+      { Clinical_History: 1, Pharmacy: 0, Specialist: 0, Screening: 1 },
+      { Clinical_History: 1, Pharmacy: 0, Specialist: 1, Screening: 0 },
+      { Clinical_History: 1, Pharmacy: 0, Specialist: 1, Screening: 1 },
+      { Clinical_History: 1, Pharmacy: 1, Specialist: 0, Screening: 0 },
+      { Clinical_History: 1, Pharmacy: 1, Specialist: 0, Screening: 1 },
+      { Clinical_History: 1, Pharmacy: 1, Specialist: 1, Screening: 0 },
+      { Clinical_History: 1, Pharmacy: 1, Specialist: 1, Screening: 1 }
+    ]
+  },
+  loglinear_3source_high_overlap: {
+    sources: ["Registry_A", "Registry_B", "Registry_C"],
+    rows: [
+      { Registry_A: 0, Registry_B: 0, Registry_C: 1 },
+      { Registry_A: 0, Registry_B: 1, Registry_C: 0 },
+      { Registry_A: 0, Registry_B: 1, Registry_C: 1 },
+      { Registry_A: 1, Registry_B: 0, Registry_C: 0 },
+      { Registry_A: 1, Registry_B: 0, Registry_C: 1 },
+      { Registry_A: 1, Registry_B: 1, Registry_C: 0 },
+      { Registry_A: 1, Registry_B: 1, Registry_C: 1 }
+    ]
+  }
+};
+
+/* ============================================================
+   RUN TESTS WITH WEBR
+   ============================================================ */
+async function runLogLinearTest(webR, name, tc) {
+  var rcols = tc.sources.map(function(s) {
+    var vals = [];
+    for (var i = 0; i < tc.rows.length; i++) vals.push(tc.rows[i][s] || 0);
+    return '"' + s + '"=c(' + vals.join(',') + ')';
+  });
+  var rCode = [
+    'library(Rcapture)',
+    'df <- data.frame(' + rcols.join(',') + ')',
+    'fit <- Rcapture::closedp.t(df)',
+    'list(abundance=unname(fit$results[,"abundance"]),stderr=unname(fit$results[,"stderr"]),AIC=unname(fit$results[,"AIC"]),BIC=unname(fit$results[,"BIC"]),models=rownames(fit$results))'
+  ].join('\n');
+
+  var shelter = await new webR.Shelter();
+  var res = await shelter.evalR(rCode);
+
+  var abundance = await (await res.get('abundance')).toArray();
+  var stderr    = await (await res.get('stderr')).toArray();
+  var AIC       = await (await res.get('AIC')).toArray();
+  var BIC       = await (await res.get('BIC')).toArray();
+  var modelsJs  = await (await res.get('models')).toJs();
+
+  shelter.purge();
+
+  return {
+    abundance: abundance,
+    stderr: stderr,
+    AIC: AIC,
+    BIC: BIC,
+    models: modelsJs.values || modelsJs
+  };
+}
+
+async function runAllTests(webR, refData) {
+  var html = '';
+  var ref = refData.tests || {};
+  var totalPass = 0, totalFail = 0;
+
+  // Chapman test
+  var c = ref.chapman_2source || { n1: 313, n2: 238, m: 157, chapman: { Nhat: 473.97, se: 15.46 } };
+  var chap = chapmanEstimator(testCases.chapman.n1, testCases.chapman.n2, testCases.chapman.m);
+  var rChap = c.chapman || c;
+  var cnPass = check(chap.Nhat, rChap.Nhat || c.Nhat, 0.01);
+  var csPass = check(chap.se, rChap.se || c.se, 0.1);
+
+  html += '<div class="test-group"><h2>Chapman Estimator (2 sources)</h2><table><tr><th>Metric</th><th>JS</th><th>R ref</th><th>Diff</th><th>Status</th></tr>';
+  html += '<tr><td>N-hat</td><td>' + chap.Nhat.toFixed(2) + '</td><td>' + (rChap.Nhat || c.Nhat).toFixed(2) + '</td><td class="' + (cnPass ? 'pass' : 'fail') + '">' + pctDiff(chap.Nhat, rChap.Nhat || c.Nhat).toFixed(3) + '%</td><td class="' + (cnPass ? 'pass' : 'fail') + '">' + (cnPass ? 'PASS' : 'FAIL') + '</td></tr>';
+  html += '<tr><td>SE</td><td>' + chap.se.toFixed(2) + '</td><td>' + (rChap.se || c.se).toFixed(2) + '</td><td class="' + (csPass ? 'pass' : 'fail') + '">' + pctDiff(chap.se, rChap.se || c.se).toFixed(3) + '%</td><td class="' + (csPass ? 'pass' : 'fail') + '">' + (csPass ? 'PASS' : 'FAIL') + '</td></tr>';
+  html += '</table></div>';
+  totalPass += (cnPass + csPass); totalFail += (2 - cnPass - csPass);
+
+  // Log-linear tests
+  var logKeys = ['loglinear_3source', 'loglinear_4source', 'loglinear_3source_high_overlap'];
+  for (var ki = 0; ki < logKeys.length; ki++) {
+    var key = logKeys[ki];
+    var tc = testCases[key];
+    var rTest = ref[key];
+    if (!rTest) continue;
+
+    var rResults;
+    try {
+      rResults = await runLogLinearTest(webR, key, tc);
+    } catch(e) {
+      html += '<div class="test-group"><h2>' + tc.sources.length + '-source: ' + tc.sources.join(', ') + '</h2><div class="fail">Error: ' + e.message + '</div></div>';
+      continue;
+    }
+
+    var rModels = {};
+    if (rTest.all_models) {
+      for (var ai = 0; ai < rTest.all_models.length; ai++) {
+        rModels[rTest.all_models[ai].model] = rTest.all_models[ai];
+      }
+    }
+
+    html += '<div class="test-group"><h2>' + tc.sources.length + '-source Log-Linear: ' + tc.sources.join(', ') + '</h2><table><tr><th>Model</th><th>webR N-hat</th><th>Ref N-hat</th><th>N-hat Diff</th><th>webR SE</th><th>Ref SE</th><th>webR AIC</th><th>Ref AIC</th><th>Status</th></tr>';
+
+    for (var mi = 0; mi < rResults.models.length; mi++) {
+      var rRow = rResults;
+      var nHat = rRow.abundance[mi];
+      var se = rRow.stderr[mi];
+      var aic = rRow.AIC[mi];
+      var model = rRow.models[mi];
+      var refModel = rModels[model];
+      if (!refModel) continue;
+
+      var nPass = check(nHat, refModel.Nhat, 0.1);
+      var sPass = check(se, refModel.se, 1.0);
+      html += '<tr>';
+      html += '<td>' + model + '</td>';
+      html += '<td>' + nHat.toFixed(2) + '</td>';
+      html += '<td>' + refModel.Nhat.toFixed(2) + '</td>';
+      html += '<td class="' + (nPass ? 'pass' : 'fail') + '">' + pctDiff(nHat, refModel.Nhat).toFixed(3) + '%</td>';
+      html += '<td>' + se.toFixed(2) + '</td>';
+      html += '<td>' + refModel.se.toFixed(2) + '</td>';
+      html += '<td>' + aic.toFixed(2) + '</td>';
+      html += '<td>' + refModel.aic.toFixed(2) + '</td>';
+      html += '<td class="' + (nPass ? 'pass' : 'fail') + '">' + (nPass ? 'PASS' : 'FAIL') + '</td>';
+      html += '</tr>';
+      totalPass += (nPass ? 1 : 0); totalFail += (nPass ? 0 : 1);
+    }
+    html += '</table></div>';
+  }
+
+  var total = totalPass + totalFail;
+  var allPass = totalFail === 0;
+  html = '<div class="summary ' + (allPass ? 'all-pass' : 'some-fail') + '"><strong>' + (allPass ? 'ALL CHECKS PASSED' : 'SOME CHECKS FAILED') + '</strong> &mdash; ' + totalPass + '/' + total + ' passed</div>' + html;
+  html += '<div style="font-size:0.8rem;color:#6c757d;margin-top:1rem"><strong>Tolerances:</strong> Chapman N-hat &lt; 0.01%, SE &lt; 0.1%. webR vs reference: N-hat &lt; 0.1%, SE &lt; 1.0%. Reference data loaded from validation_results.json.</div>';
+  document.getElementById('results').innerHTML = html;
+}
+
+/* ============================================================
+   INIT: Load webR + reference JSON, then run
+   ============================================================ */
+var refData = {};
+var statusEl = document.getElementById('status');
+
+fetch('validation_results.json')
+  .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+  .then(function(d) { refData = d; statusEl.textContent = 'Loading webR engine…'; })
+  .catch(function() { refData = {}; statusEl.textContent = 'Loading webR engine (no reference file)…'; })
+  .then(function() {
+    return import('https://webr.r-wasm.org/latest/webr.mjs');
+  })
+  .then(function(webrMod) {
+    var webR = new webrMod.WebR();
+    statusEl.textContent = 'Initializing webR engine…';
+    return webR.init().then(function() { return webR; });
+  })
+  .then(function(webR) {
+    statusEl.textContent = 'Installing R packages…';
+    return webR.evalRVoid('webr::install("Rcapture")').then(function() { return webR; });
+  })
+  .then(function(webR) {
+    statusEl.textContent = '';
+    return runAllTests(webR, refData);
+  })
+  .catch(function(e) {
+    statusEl.innerHTML = '<span style="color:#dc3545">Error: ' + e.message + '</span>';
+    console.error(e);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,595 @@
+{
+  "generated_at": "2026-05-16T14:16:35Z",
+  "r_version": "R version 4.6.0 (2026-04-24)",
+  "rcapture_version": "1.4.4",
+  "tests": {
+    "chapman_2source": {
+      "description": "2-source Chapman estimator",
+      "n_individuals": 500,
+      "source1_captures": 313,
+      "source2_captures": 238,
+      "overlap": 157,
+      "chapman": {
+        "Nhat": 473.9746835443,
+        "se": 15.4565632002,
+        "ci_low": 443.6798196719,
+        "ci_high": 504.2695474167
+      }
+    },
+    "loglinear_3source": {
+      "description": "3-source log-linear (Argentina-style)",
+      "n_individuals": 223,
+      "sources": ["Hospital", "Laboratory", "Clinic"],
+      "observed_unique": 223,
+      "best_model": {
+        "model": "Mb",
+        "Nhat": 245.7765544797,
+        "se": 8.7351667528,
+        "ci_low": 228.6556276442,
+        "ci_high": 262.8974813152,
+        "aic": 45.1700499264,
+        "bic": 55.3915652408
+      },
+      "all_models": [
+        {
+          "model": "M0",
+          "Nhat": 287.9537664385,
+          "se": 13.8325049368,
+          "ci_low": 260.8420567623,
+          "ci_high": 315.0654761147,
+          "aic": 56.1318627015,
+          "bic": 62.9462062444
+        },
+        {
+          "model": "Mt",
+          "Nhat": 285.3253351989,
+          "se": 13.4668386461,
+          "ci_low": 258.9303314526,
+          "ci_high": 311.7203389453,
+          "aic": 47.2873990244,
+          "bic": 60.9160861102
+        },
+        {
+          "model": "Mh Chao (LB)",
+          "Nhat": 289.9873417722,
+          "se": 16.3169416215,
+          "ci_low": 258.0061361941,
+          "ci_high": 321.9685473504,
+          "aic": 58.0667758208,
+          "bic": 68.2882911351
+        },
+        {
+          "model": "Mh Poisson2",
+          "Nhat": 292.943571607,
+          "se": 25.0650043231,
+          "ci_low": 243.8161631338,
+          "ci_high": 342.0709800803,
+          "aic": 58.0667758208,
+          "bic": 68.2882911351
+        },
+        {
+          "model": "Mh Darroch",
+          "Nhat": 296.0302633262,
+          "se": 36.8496153769,
+          "ci_low": 223.8050171874,
+          "ci_high": 368.2555094649,
+          "aic": 58.0667758208,
+          "bic": 68.2882911351
+        },
+        {
+          "model": "Mh Gamma3.5",
+          "Nhat": 299.2960559241,
+          "se": 50.6453096038,
+          "ci_low": 200.0312491007,
+          "ci_high": 398.5608627474,
+          "aic": 58.0667758208,
+          "bic": 68.2882911351
+        },
+        {
+          "model": "Mth Chao (LB)",
+          "Nhat": 288.0564402724,
+          "se": 15.9392155184,
+          "ci_low": 256.8155778562,
+          "ci_high": 319.2973026885,
+          "aic": 49.1580607754,
+          "bic": 66.1939196327
+        },
+        {
+          "model": "Mth Poisson2",
+          "Nhat": 292.1520941862,
+          "se": 24.802748723,
+          "ci_low": 243.5387066892,
+          "ci_high": 340.7654816832,
+          "aic": 49.1580607754,
+          "bic": 66.1939196327
+        },
+        {
+          "model": "Mth Darroch",
+          "Nhat": 296.5055916111,
+          "se": 37.0898216831,
+          "ci_low": 223.8095411123,
+          "ci_high": 369.2016421099,
+          "aic": 49.1580607754,
+          "bic": 66.1939196327
+        },
+        {
+          "model": "Mth Gamma3.5",
+          "Nhat": 301.1952910428,
+          "se": 51.9087094255,
+          "ci_low": 199.4542205688,
+          "ci_high": 402.9363615168,
+          "aic": 49.1580607754,
+          "bic": 66.1939196327
+        },
+        {
+          "model": "Mb",
+          "Nhat": 245.7765544797,
+          "se": 8.7351667528,
+          "ci_low": 228.6556276442,
+          "ci_high": 262.8974813152,
+          "aic": 45.1700499264,
+          "bic": 55.3915652408
+        },
+        {
+          "model": "Mbh",
+          "Nhat": 236.0909090909,
+          "se": 11.7038286924,
+          "ci_low": 213.1514048538,
+          "ci_high": 259.030413328,
+          "aic": 45.7960018788,
+          "bic": 59.4246889647
+        }
+      ],
+      "capture_history": [
+        {
+          "Hospital": 0,
+          "Laboratory": 0,
+          "Clinic": 1,
+          "freq": 24
+        },
+        {
+          "Hospital": 0,
+          "Laboratory": 1,
+          "Clinic": 0,
+          "freq": 45
+        },
+        {
+          "Hospital": 0,
+          "Laboratory": 1,
+          "Clinic": 1,
+          "freq": 23
+        },
+        {
+          "Hospital": 1,
+          "Laboratory": 0,
+          "Clinic": 0,
+          "freq": 57
+        },
+        {
+          "Hospital": 1,
+          "Laboratory": 0,
+          "Clinic": 1,
+          "freq": 25
+        },
+        {
+          "Hospital": 1,
+          "Laboratory": 1,
+          "Clinic": 0,
+          "freq": 31
+        },
+        {
+          "Hospital": 1,
+          "Laboratory": 1,
+          "Clinic": 1,
+          "freq": 18
+        }
+      ]
+    },
+    "loglinear_4source": {
+      "description": "4-source log-linear (Colombia-style)",
+      "n_individuals": 372,
+      "sources": ["Clinical_History", "Pharmacy", "Specialist", "Screening"],
+      "observed_unique": 372,
+      "best_model": {
+        "model": "Mt",
+        "Nhat": 418.4846066069,
+        "se": 9.1987816769,
+        "ci_low": 400.4549945201,
+        "ci_high": 436.5142186937,
+        "aic": 86.5966653332,
+        "bic": 106.1911346045
+      },
+      "all_models": [
+        {
+          "model": "M0",
+          "Nhat": 425.302763017,
+          "se": 9.996138296,
+          "ci_low": 405.7103319568,
+          "ci_high": 444.8951940772,
+          "aic": 175.8651078135,
+          "bic": 183.702895522
+        },
+        {
+          "model": "Mt",
+          "Nhat": 418.4846066069,
+          "se": 9.1987816769,
+          "ci_low": 400.4549945201,
+          "ci_high": 436.5142186937,
+          "aic": 86.5966653332,
+          "bic": 106.1911346045
+        },
+        {
+          "model": "Mh Chao (LB)",
+          "Nhat": 425.302763017,
+          "se": 9.996138296,
+          "ci_low": 405.7103319568,
+          "ci_high": 444.8951940772,
+          "aic": 175.8651078135,
+          "bic": 183.702895522
+        },
+        {
+          "model": "Mh Poisson2",
+          "Nhat": 418.5996154022,
+          "se": 11.7694759925,
+          "ci_low": 395.5314424569,
+          "ci_high": 441.6677883476,
+          "aic": 177.1464594445,
+          "bic": 188.9031410074
+        },
+        {
+          "model": "Mh Darroch",
+          "Nhat": 413.7989093533,
+          "se": 13.891429424,
+          "ci_low": 386.5717076823,
+          "ci_high": 441.0261110243,
+          "aic": 177.0035448273,
+          "bic": 188.7602263901
+        },
+        {
+          "model": "Mh Gamma3.5",
+          "Nhat": 409.9084826554,
+          "se": 15.7830109364,
+          "ci_low": 378.97378122,
+          "ci_high": 440.8431840908,
+          "aic": 176.9604828646,
+          "bic": 188.7171644274
+        },
+        {
+          "model": "Mth Chao (LB)",
+          "Nhat": 418.4846066069,
+          "se": 9.1987816769,
+          "ci_low": 400.4549945201,
+          "ci_high": 436.5142186937,
+          "aic": 86.5966653332,
+          "bic": 106.1911346045
+        },
+        {
+          "model": "Mth Poisson2",
+          "Nhat": 416.8281979028,
+          "se": 11.4018173683,
+          "ci_low": 394.4806358609,
+          "ci_high": 439.1757599447,
+          "aic": 88.5429761073,
+          "bic": 112.056339233
+        },
+        {
+          "model": "Mth Darroch",
+          "Nhat": 414.8980680608,
+          "se": 14.2304542148,
+          "ci_low": 387.0063777999,
+          "ci_high": 442.7897583217,
+          "aic": 88.5026525898,
+          "bic": 112.0160157154
+        },
+        {
+          "model": "Mth Gamma3.5",
+          "Nhat": 413.2169769549,
+          "se": 17.1072055298,
+          "ci_low": 379.6868541165,
+          "ci_high": 446.7470997934,
+          "aic": 88.4850463367,
+          "bic": 111.9984094623
+        },
+        {
+          "model": "Mb",
+          "Nhat": 383.2982582803,
+          "se": 4.4585609284,
+          "ci_low": 374.5594788606,
+          "ci_high": 392.0370377,
+          "aic": 128.3553027139,
+          "bic": 140.1119842767
+        },
+        {
+          "model": "Mbh",
+          "Nhat": 379.0712637302,
+          "se": 12.6010458341,
+          "ci_low": 354.3732138954,
+          "ci_high": 403.7693135651,
+          "aic": 127.9687296981,
+          "bic": 143.6443051152
+        }
+      ],
+      "capture_history": [
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 0,
+          "Specialist": 0,
+          "Screening": 1,
+          "freq": 15
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 0,
+          "Specialist": 1,
+          "Screening": 0,
+          "freq": 24
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 0,
+          "Specialist": 1,
+          "Screening": 1,
+          "freq": 9
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 1,
+          "Specialist": 0,
+          "Screening": 0,
+          "freq": 50
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 1,
+          "Specialist": 0,
+          "Screening": 1,
+          "freq": 15
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 1,
+          "Specialist": 1,
+          "Screening": 0,
+          "freq": 32
+        },
+        {
+          "Clinical_History": 0,
+          "Pharmacy": 1,
+          "Specialist": 1,
+          "Screening": 1,
+          "freq": 10
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 0,
+          "Specialist": 0,
+          "Screening": 0,
+          "freq": 51
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 0,
+          "Specialist": 0,
+          "Screening": 1,
+          "freq": 21
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 0,
+          "Specialist": 1,
+          "Screening": 0,
+          "freq": 28
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 0,
+          "Specialist": 1,
+          "Screening": 1,
+          "freq": 6
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 1,
+          "Specialist": 0,
+          "Screening": 0,
+          "freq": 52
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 1,
+          "Specialist": 0,
+          "Screening": 1,
+          "freq": 16
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 1,
+          "Specialist": 1,
+          "Screening": 0,
+          "freq": 33
+        },
+        {
+          "Clinical_History": 1,
+          "Pharmacy": 1,
+          "Specialist": 1,
+          "Screening": 1,
+          "freq": 10
+        }
+      ]
+    },
+    "loglinear_3source_high_overlap": {
+      "description": "3-source high overlap",
+      "n_individuals": 194,
+      "sources": ["Registry_A", "Registry_B", "Registry_C"],
+      "observed_unique": 194,
+      "best_model": {
+        "model": "Mb",
+        "Nhat": 199.3850817471,
+        "se": 3.0871806265,
+        "ci_low": 193.3342077191,
+        "ci_high": 205.435955775,
+        "aic": 43.8979120806,
+        "bic": 53.7014865578
+      },
+      "all_models": [
+        {
+          "model": "M0",
+          "Nhat": 206.560607015,
+          "se": 4.3700645988,
+          "ci_low": 197.9952804014,
+          "ci_high": 215.1259336286,
+          "aic": 49.4804581249,
+          "bic": 56.016174443
+        },
+        {
+          "model": "Mt",
+          "Nhat": 205.9806742496,
+          "se": 4.2575806223,
+          "ci_low": 197.6358162299,
+          "ci_high": 214.3255322692,
+          "aic": 45.6321503167,
+          "bic": 58.703582953
+        },
+        {
+          "model": "Mh Chao (LB)",
+          "Nhat": 207.9534883721,
+          "se": 5.4034640947,
+          "ci_low": 197.3626987466,
+          "ci_high": 218.5442779976,
+          "aic": 51.1920641549,
+          "bic": 60.9956386321
+        },
+        {
+          "model": "Mh Poisson2",
+          "Nhat": 209.0813845823,
+          "se": 7.1089733467,
+          "ci_low": 195.1477968227,
+          "ci_high": 223.0149723419,
+          "aic": 51.1920641549,
+          "bic": 60.9956386321
+        },
+        {
+          "model": "Mh Darroch",
+          "Nhat": 210.3004515326,
+          "se": 9.4603364723,
+          "ci_low": 191.7581920468,
+          "ci_high": 228.8427110183,
+          "aic": 51.1920641549,
+          "bic": 60.9956386321
+        },
+        {
+          "model": "Mh Gamma3.5",
+          "Nhat": 211.6358962053,
+          "se": 12.4226259417,
+          "ci_low": 187.2875493596,
+          "ci_high": 235.9842430511,
+          "aic": 51.1920641549,
+          "bic": 60.9956386321
+        },
+        {
+          "model": "Mth Chao (LB)",
+          "Nhat": 207.5127864193,
+          "se": 5.2838263728,
+          "ci_low": 197.1564867285,
+          "ci_high": 217.8690861101,
+          "aic": 47.24870958,
+          "bic": 63.5880003753
+        },
+        {
+          "model": "Mth Poisson2",
+          "Nhat": 208.7816420535,
+          "se": 6.9932088354,
+          "ci_low": 195.0749527361,
+          "ci_high": 222.488331371,
+          "aic": 47.24870958,
+          "bic": 63.5880003753
+        },
+        {
+          "model": "Mth Darroch",
+          "Nhat": 210.1696437004,
+          "se": 9.392699405,
+          "ci_low": 191.7599528665,
+          "ci_high": 228.5793345343,
+          "aic": 47.24870958,
+          "bic": 63.5880003753
+        },
+        {
+          "model": "Mth Gamma3.5",
+          "Nhat": 211.7086578079,
+          "se": 12.471418121,
+          "ci_low": 187.2646782907,
+          "ci_high": 236.1526373251,
+          "aic": 47.24870958,
+          "bic": 63.5880003753
+        },
+        {
+          "model": "Mb",
+          "Nhat": 199.3850817471,
+          "se": 3.0871806265,
+          "ci_low": 193.3342077191,
+          "ci_high": 205.435955775,
+          "aic": 43.8979120806,
+          "bic": 53.7014865578
+        },
+        {
+          "model": "Mbh",
+          "Nhat": 201.84,
+          "se": 10.0420040435,
+          "ci_low": 182.1576720747,
+          "ci_high": 221.5223279253,
+          "aic": 45.5229661625,
+          "bic": 58.5943987987
+        }
+      ],
+      "capture_history": [
+        {
+          "Registry_A": 0,
+          "Registry_B": 0,
+          "Registry_C": 1,
+          "freq": 14
+        },
+        {
+          "Registry_A": 0,
+          "Registry_B": 1,
+          "Registry_C": 0,
+          "freq": 18
+        },
+        {
+          "Registry_A": 0,
+          "Registry_B": 1,
+          "Registry_C": 1,
+          "freq": 21
+        },
+        {
+          "Registry_A": 1,
+          "Registry_B": 0,
+          "Registry_C": 0,
+          "freq": 28
+        },
+        {
+          "Registry_A": 1,
+          "Registry_B": 0,
+          "Registry_C": 1,
+          "freq": 37
+        },
+        {
+          "Registry_A": 1,
+          "Registry_B": 1,
+          "Registry_C": 0,
+          "freq": 28
+        },
+        {
+          "Registry_A": 1,
+          "Registry_B": 1,
+          "Registry_C": 1,
+          "freq": 48
+        }
+      ]
+    }
+  },
+  "summary": [
+    "Use this JSON to validate the JavaScript IWLS engine.",
+    "For each test case, compare N-hat, SE, AIC, BIC across all models.",
+    "Acceptable tolerance: N-hat within 0.5%, SE within 1%, BIC within 0.1."
+  ]
+}

@@ -1,0 +1,1682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Capture-Recapture Analysis Tool</title>
+<meta name="description" content="Estimate true population size from incomplete registries using capture-recapture methods.">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script>
+MathJax={tex:{inlineMath:[['\\(','\\)'],['$','$']],displayMath:[['\\[','\\]']]},svg:{fontCache:'global'}};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+<style>
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root {
+  --font-display: 'Satoshi', sans-serif;
+  --font-body: 'General Sans', sans-serif;
+
+  --space-1:  0.25rem; --space-2:  0.5rem;  --space-3:  0.75rem;
+  --space-4:  1rem;    --space-5:  1.25rem; --space-6:  1.5rem;
+  --space-8:  2rem;    --space-10: 2.5rem;  --space-12: 3rem;  --space-16: 4rem;
+
+  --text-xs:   clamp(0.6875rem, 0.65rem + 0.15vw, 0.75rem);
+  --text-sm:   clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
+  --text-base: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  --text-lg:   clamp(1.0625rem, 1rem + 0.3vw, 1.125rem);
+  --text-xl:   clamp(1.1875rem, 1.1rem + 0.4vw, 1.25rem);
+  --text-2xl:  clamp(1.375rem, 1.25rem + 0.6vw, 1.5rem);
+  --text-3xl:  clamp(1.625rem, 1.45rem + 0.9vw, 1.875rem);
+  --text-4xl:  clamp(2rem, 1.75rem + 1.25vw, 2.25rem);
+  --text-5xl:  clamp(2.5rem, 2rem + 2vw, 3rem);
+
+  --radius-sm: 0.375rem; --radius-md: 0.5rem; --radius-lg: 0.75rem; --radius-full: 9999px;
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+
+  --surface-0:       oklch(1 0 0);
+  --surface-1:       oklch(0.985 0.001 250);
+  --surface-2:       oklch(0.965 0.002 250);
+  --surface-3:       oklch(0.94 0.003 250);
+  --text-primary:    oklch(0.18 0.01 260);
+  --text-secondary:  oklch(0.45 0.01 260);
+  --text-tertiary:   oklch(0.60 0.01 260);
+  --border-light:    oklch(0.88 0.005 260);
+  --border-medium:   oklch(0.78 0.01 260);
+
+  --accent:            oklch(0.55 0.16 205);
+  --accent-hover:      oklch(0.48 0.16 205);
+  --accent-subtle:     oklch(0.92 0.03 205);
+  --accent-on:         oklch(0.99 0.001 205);
+  --success:           oklch(0.55 0.16 150);
+  --success-subtle:    oklch(0.92 0.04 150);
+  --warning:           oklch(0.62 0.16 78);
+  --warning-subtle:    oklch(0.93 0.06 78);
+  --danger:            oklch(0.50 0.19 22);
+  --danger-subtle:     oklch(0.93 0.04 22);
+  --info:              oklch(0.55 0.12 245);
+  --info-subtle:       oklch(0.92 0.03 245);
+
+  color-scheme: light;
+}
+
+:root.dark,
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --surface-0:       oklch(0.16 0.005 260);
+    --surface-1:       oklch(0.19 0.005 260);
+    --surface-2:       oklch(0.22 0.006 260);
+    --surface-3:       oklch(0.26 0.008 260);
+    --text-primary:    oklch(0.93 0.002 260);
+    --text-secondary:  oklch(0.68 0.005 260);
+    --text-tertiary:   oklch(0.52 0.008 260);
+    --border-light:    oklch(0.28 0.008 260);
+    --border-medium:   oklch(0.34 0.01 260);
+
+    --accent:            oklch(0.68 0.14 205);
+    --accent-hover:      oklch(0.62 0.14 205);
+    --accent-subtle:     oklch(0.22 0.04 205);
+    --accent-on:         oklch(0.12 0.01 205);
+    --success:           oklch(0.66 0.14 150);
+    --success-subtle:    oklch(0.22 0.04 150);
+    --warning:           oklch(0.72 0.15 78);
+    --warning-subtle:    oklch(0.24 0.06 78);
+    --danger:            oklch(0.60 0.17 22);
+    --danger-subtle:     oklch(0.23 0.05 22);
+    --info:              oklch(0.65 0.12 245);
+    --info-subtle:       oklch(0.22 0.04 245);
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+    --shadow-lg: 0 8px 30px rgba(0,0,0,0.5);
+
+    color-scheme: dark;
+  }
+}
+
+/* ============================================================
+   RESET & BASE
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--text-primary);
+  background: var(--surface-1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background var(--duration-normal) var(--ease-out),
+              color var(--duration-normal) var(--ease-out);
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); line-height: 1.25; }
+h1 { font-size: var(--text-4xl); font-weight: 700; }
+h2 { font-size: var(--text-3xl); font-weight: 700; }
+h3 { font-size: var(--text-2xl); font-weight: 600; }
+h4 { font-size: var(--text-xl); font-weight: 600; }
+h5 { font-size: var(--text-lg); font-weight: 500; }
+h6 { font-size: var(--text-base); font-weight: 500; }
+
+p + p { margin-top: var(--space-3); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img, svg { max-width: 100%; height: auto; }
+
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container { width: 100%; max-width: 78rem; margin: 0 auto; padding: 0 var(--space-4); }
+
+.app-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-4) 0;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap; gap: var(--space-3);
+}
+
+.logo-area { display: flex; align-items: center; gap: var(--space-3); }
+.logo-svg { width: 2.25rem; height: 2.25rem; flex-shrink: 0; }
+.logo-text {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.theme-toggle {
+  background: none; border: 1.5px solid var(--border-medium); border-radius: var(--radius-full);
+  cursor: pointer; padding: var(--space-2); width: 2.75rem; height: 2.75rem;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-secondary); font-size: 1.25rem;
+  transition: all var(--duration-fast) var(--ease-out);
+}
+.theme-toggle:hover { background: var(--surface-2); color: var(--text-primary); }
+
+/* ============================================================
+   TAB NAVIGATION
+   ============================================================ */
+.tab-nav {
+  display: flex; gap: 0;
+  border-bottom: 2px solid var(--border-light);
+  margin-bottom: var(--space-6);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.tab-btn {
+  font-family: var(--font-body); font-size: var(--text-sm); font-weight: 500;
+  padding: var(--space-3) var(--space-5); background: none; border: none;
+  border-bottom: 2px solid transparent; margin-bottom: -2px;
+  color: var(--text-secondary); cursor: pointer; white-space: nowrap;
+  transition: all var(--duration-fast) var(--ease-out);
+  min-height: 2.75rem;
+}
+.tab-btn:hover { color: var(--text-primary); }
+.tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; animation: fadeIn var(--duration-normal) var(--ease-out); }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+.card {
+  background: var(--surface-0);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  box-shadow: var(--shadow-sm);
+  transition: background var(--duration-normal) var(--ease-out),
+              border-color var(--duration-normal) var(--ease-out);
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2);
+  font-family: var(--font-body); font-weight: 500; font-size: var(--text-sm);
+  line-height: 1; padding: 0.625rem 1.125rem; border: 1.5px solid transparent;
+  border-radius: var(--radius-sm); cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-out);
+  min-height: 2.75rem; white-space: nowrap;
+}
+.btn-primary { background: var(--accent); color: var(--accent-on); border-color: var(--accent); }
+.btn-primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
+.btn-secondary { background: var(--surface-2); color: var(--text-primary); border-color: var(--border-medium); }
+.btn-secondary:hover { background: var(--surface-3); }
+.btn-ghost { background: transparent; color: var(--text-secondary); border-color: transparent; }
+.btn-ghost:hover { background: var(--surface-2); color: var(--text-primary); }
+.btn-sm { font-size: var(--text-xs); padding: 0.375rem 0.75rem; min-height: 2rem; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; pointer-events: none; }
+
+/* ============================================================
+   FORMS
+   ============================================================ */
+.form-group { display: flex; flex-direction: column; gap: var(--space-1); }
+.form-label { font-size: var(--text-xs); font-weight: 500; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.form-input, .form-select {
+  font-family: var(--font-body); font-size: var(--text-sm);
+  color: var(--text-primary); background: var(--surface-0);
+  border: 1.5px solid var(--border-medium); border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem; min-height: 2.75rem;
+  transition: border-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out);
+}
+.form-input:focus, .form-select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-subtle); }
+
+input[type="range"] {
+  -webkit-appearance: none; appearance: none; width: 100%; height: 6px;
+  background: var(--surface-3); border-radius: 3px; outline: none; cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; width: 22px; height: 22px; border-radius: 50%;
+  background: var(--accent); cursor: pointer; border: 2px solid var(--surface-0);
+  box-shadow: var(--shadow-sm);
+}
+input[type="range"]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 4px var(--accent-subtle); }
+input[type="range"]:disabled { opacity: 0.35; cursor: not-allowed; }
+input[type="range"]:disabled::-webkit-slider-thumb { cursor: not-allowed; }
+
+.checkbox-wrap { display: flex; align-items: center; gap: var(--space-2); min-height: 2.75rem; cursor: pointer; font-size: var(--text-sm); }
+.checkbox-wrap input[type="checkbox"] { width: 1.25rem; height: 1.25rem; accent-color: var(--accent); cursor: pointer; flex-shrink: 0; }
+
+/* ============================================================
+   KPI CARDS
+   ============================================================ */
+.kpi-grid { display: grid; gap: var(--space-4); grid-template-columns: repeat(4, 1fr); margin-bottom: var(--space-6); }
+.kpi {
+  padding: var(--space-4) var(--space-5);
+  display: flex; flex-direction: column;
+}
+.kpi-label { font-size: var(--text-xs); font-weight: 500; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: var(--space-1); }
+.kpi-value { font-family: var(--font-display); font-size: var(--text-2xl); font-weight: 700; color: var(--text-primary); line-height: 1.1; }
+.kpi-sub { font-size: var(--text-xs); color: var(--text-tertiary); margin-top: var(--space-1); }
+.kpi-hilite .kpi-value { color: var(--accent); }
+
+@media (max-width: 64em) { .kpi-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 36em) { .kpi-grid { grid-template-columns: 1fr; } }
+
+/* ============================================================
+   BADGES
+   ============================================================ */
+.badge {
+  display: inline-flex; align-items: center;
+  font-family: var(--font-body); font-size: var(--text-xs); font-weight: 500;
+  padding: 0.1875rem 0.625rem; border-radius: var(--radius-full); line-height: 1.4; white-space: nowrap;
+}
+.badge-accent { background: var(--accent-subtle); color: var(--accent); }
+.badge-success { background: var(--success-subtle); color: var(--success); }
+.badge-warning { background: var(--warning-subtle); color: var(--warning); }
+.badge-danger { background: var(--danger-subtle); color: var(--danger); }
+
+/* ============================================================
+   TABLES
+   ============================================================ */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }
+th { text-align: left; font-weight: 600; color: var(--text-secondary); padding: var(--space-2) var(--space-3); border-bottom: 2px solid var(--border-medium); white-space: nowrap; cursor: pointer; user-select: none; }
+th:hover { color: var(--text-primary); }
+td { padding: var(--space-2) var(--space-3); border-bottom: 1px solid var(--border-light); color: var(--text-primary); }
+tr:hover td { background: var(--surface-2); }
+tr:last-child td { border-bottom: none; }
+.sort-indicator { font-size: var(--text-xs); margin-left: var(--space-1); }
+
+.row-best td { font-weight: 600; color: var(--accent); }
+
+/* ============================================================
+   PANELS & SECTIONS
+   ============================================================ */
+.panel-header {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: var(--space-4); flex-wrap: wrap; gap: var(--space-3);
+}
+.panel-title { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 600; color: var(--text-primary); }
+
+.empty-state {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: var(--space-10) var(--space-4); text-align: center; color: var(--text-tertiary);
+}
+.empty-state-icon { font-size: 2.5rem; margin-bottom: var(--space-3); opacity: 0.4; }
+.empty-state-text { font-size: var(--text-sm); max-width: 24rem; }
+
+.alert {
+  padding: var(--space-3) var(--space-4); border-radius: var(--radius-sm);
+  font-size: var(--text-sm); display: flex; align-items: flex-start; gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+.alert-warning { background: var(--warning-subtle); color: var(--warning); }
+.alert-danger { background: var(--danger-subtle); color: var(--danger); }
+
+/* ============================================================
+   SKELETON
+   ============================================================ */
+.skeleton { background: var(--surface-3); border-radius: var(--radius-sm); animation: sk-pulse 1.5s ease-in-out infinite; }
+@keyframes sk-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* ============================================================
+   VISUALIZATION
+   ============================================================ */
+.viz-container { display: flex; align-items: center; justify-content: center; min-height: 20rem; }
+.viz-container svg { max-width: 100%; height: auto; }
+
+.upset-container { width: 100%; }
+.upset-bar { fill: var(--accent); transition: fill var(--duration-fast) var(--ease-out); }
+.upset-bar:hover { fill: var(--accent-hover); }
+.upset-dot-active { fill: var(--text-primary); }
+.upset-dot-inactive { fill: var(--surface-3); }
+.upset-label { font-family: var(--font-body); font-size: var(--text-xs); fill: var(--text-secondary); }
+.upset-val { font-family: var(--font-display); font-size: var(--text-sm); font-weight: 600; fill: var(--text-primary); }
+
+/* ============================================================
+   FILE UPLOAD ZONE
+   ============================================================ */
+.upload-zone {
+  border: 2px dashed var(--border-medium); border-radius: var(--radius-md);
+  padding: var(--space-4); text-align: center; cursor: pointer;
+  transition: border-color var(--duration-fast) var(--ease-out),
+              background var(--duration-fast) var(--ease-out);
+}
+.upload-zone:hover { border-color: var(--accent); background: var(--accent-subtle); }
+.upload-zone.dragover { border-color: var(--accent); background: var(--accent-subtle); }
+.upload-zone-text { font-size: var(--text-sm); color: var(--text-secondary); }
+.upload-zone-hint { font-size: var(--text-xs); color: var(--text-tertiary); margin-top: var(--space-1); }
+
+/* ============================================================
+   CALCULATOR LAYOUT
+   ============================================================ */
+.calc-layout { display: grid; gap: var(--space-6); grid-template-columns: 18rem 1fr; }
+.calc-sidebar { display: flex; flex-direction: column; gap: var(--space-5); }
+.calc-main { display: flex; flex-direction: column; gap: var(--space-6); min-width: 0; }
+
+@media (max-width: 56em) {
+  .calc-layout { grid-template-columns: 1fr; }
+}
+
+.slider-row { display: flex; align-items: center; gap: var(--space-3); }
+.slider-row input[type="range"] { flex: 1; }
+.slider-val { font-family: var(--font-display); font-size: var(--text-sm); font-weight: 600; color: var(--accent); min-width: 2.5rem; text-align: right; }
+
+/* ============================================================
+   INTRO & ASSUMPTIONS CONTENT
+   ============================================================ */
+.prose { max-width: 42rem; }
+.prose p { color: var(--text-secondary); }
+.prose h2, .prose h3 { margin-top: var(--space-8); margin-bottom: var(--space-4); }
+.prose ul, .prose ol { padding-left: var(--space-6); color: var(--text-secondary); }
+.prose li + li { margin-top: var(--space-2); }
+.formula-block { overflow-x: auto; padding: var(--space-4); background: var(--surface-2); border-radius: var(--radius-md); margin: var(--space-4) 0; text-align: center; }
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.app-footer {
+  margin-top: var(--space-12); padding: var(--space-6) 0;
+  border-top: 1px solid var(--border-light);
+  text-align: center; font-size: var(--text-xs); color: var(--text-tertiary);
+}
+
+/* ============================================================
+   TOOLTIP
+   ============================================================ */
+[data-tooltip] { position: relative; }
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+  background: var(--text-primary); color: var(--surface-0);
+  font-size: var(--text-xs); padding: var(--space-1) var(--space-3); border-radius: var(--radius-sm);
+  white-space: nowrap; pointer-events: none; opacity: 0;
+  transition: opacity var(--duration-fast) var(--ease-out);
+  z-index: 100;
+}
+[data-tooltip]:hover::after { opacity: 1; }
+
+/* ============================================================
+   MODEL COMPARISON TABLE HIGHLIGHT
+   ============================================================ */
+.highlight-row { background: var(--accent-subtle); }
+.highlight-row td { color: var(--accent); }
+
+/* ============================================================
+   ANIMATED NUMBER
+   ============================================================ */
+@keyframes countIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+.anim-num { animation: countIn var(--duration-slow) var(--ease-out); display: inline-block; }
+
+/* ============================================================
+   RESPONSIVE UTILITIES
+   ============================================================ */
+.hide-mobile { display: block; }
+@media (max-width: 36em) { .hide-mobile { display: none; } }
+
+/* ============================================================
+   DROPDOWN / SELECT STYLING
+   ============================================================ */
+.form-select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 8L1 3h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 0.75rem center; padding-right: 2rem; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="app-header">
+  <div class="logo-area">
+    <svg class="logo-svg" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+      <circle cx="11" cy="13" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2"/>
+      <circle cx="23" cy="13" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2"/>
+      <circle cx="17" cy="23" r="8.5" fill="none" stroke="var(--accent)" stroke-width="2.2" opacity="0.45"/>
+      <circle cx="13.5" cy="16.5" r="1.4" fill="var(--accent)"/>
+      <circle cx="20.5" cy="16.5" r="1.4" fill="var(--accent)"/>
+      <circle cx="17" cy="21" r="1.4" fill="var(--accent)" opacity="0.55"/>
+    </svg>
+    <span class="logo-text">Capture-Recapture</span>
+  </div>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
+</header>
+
+<!-- ============================================================
+     TAB NAVIGATION
+     ============================================================ -->
+<nav class="tab-nav" role="tablist">
+  <button class="tab-btn active" role="tab" data-tab="intro">Introduction</button>
+  <button class="tab-btn" role="tab" data-tab="calc">Calculator &amp; Simulation</button>
+  <button class="tab-btn" role="tab" data-tab="assumptions">Assumptions</button>
+</nav>
+
+<!-- ============================================================
+     TAB: INTRODUCTION
+     ============================================================ -->
+<section class="tab-panel active" id="tab-intro" role="tabpanel">
+  <div class="prose">
+    <h1>Capture-Recapture Analysis Tool</h1>
+    <p><strong>Capture-recapture</strong> (CRC) methods estimate the true number of disease cases in a population when only partial registries are available. This technique, originally developed for wildlife population estimation, is now widely used in epidemiology and public health surveillance to assess underreporting and estimate disease burden.</p>
+
+    <h2>Why Use Capture-Recapture?</h2>
+    <p>Health information systems rarely capture every case. Hospital records, laboratory databases, pharmacy dispensation logs, and specialist registries each cover only a fraction of true cases. By comparing overlaps between these independent sources, CRC methods estimate how many cases were missed by <strong>all</strong> sources.</p>
+
+    <h2>Lincoln-Petersen Chapman Estimator</h2>
+    <p>For two independent sources, the Chapman estimator provides a nearly unbiased estimate of the total population size:</p>
+
+    <div class="formula-block">
+      \[\hat{N} = \frac{(n_1 + 1)(n_2 + 1)}{m + 1} - 1\]
+    </div>
+
+    <p>Where:</p>
+    <ul>
+      <li><strong>n₁</strong> — number of individuals captured in source 1</li>
+      <li><strong>n₂</strong> — number of individuals captured in source 2</li>
+      <li><strong>m</strong> — number of individuals captured in <strong>both</strong> sources (overlap)</li>
+      <li><strong>N̂</strong> — estimated total population size</li>
+    </ul>
+
+    <p>The variance and 95% confidence interval are:</p>
+
+    <div class="formula-block">
+      \[\text{Var}(\hat{N}) = \frac{(n_1+1)(n_2+1)(n_1-m)(n_2-m)}{(m+1)^2(m+2)}\]
+      \[\text{CI}_{95\%} = \hat{N} \pm 1.96 \times \sqrt{\text{Var}(\hat{N})}\]
+    </div>
+
+    <h2>Three or More Sources</h2>
+    <p>With three or more sources, log-linear models account for dependencies between sources. The tool fits six candidate models — M₀, M<sub>t</sub>, M<sub>h</sub>, M<sub>th</sub>, M<sub>b</sub>, and M<sub>bh</sub> — and selects the best model by minimum BIC (Bayesian Information Criterion).</p>
+
+    <h2>Example Data</h2>
+    <p>Download a sample dataset to explore the tool with real-world-like data:</p>
+    <p><a class="btn btn-secondary" href="#" id="downloadExample">Download Example XLSX</a></p>
+  </div>
+</section>
+
+<!-- ============================================================
+     TAB: CALCULATOR
+     ============================================================ -->
+<section class="tab-panel" id="tab-calc" role="tabpanel">
+  <div class="calc-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="calc-sidebar">
+      <div class="card">
+        <div class="form-group">
+          <label class="form-label" for="sampleChoice" data-tooltip="Choose a built-in sample dataset or upload your own">Data Source</label>
+          <select class="form-select" id="sampleChoice">
+            <option value="argentina">Argentina — Diabetes (3 sources)</option>
+            <option value="colombia">Colombia — Diabetes (4 sources)</option>
+            <option value="upload">Upload Custom Data</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="card" id="sourceConfigCard" style="display:none">
+        <h6 style="margin-bottom:var(--space-3)">Sources &amp; Capture Probabilities</h6>
+        <div id="sourceConfig"></div>
+      </div>
+
+      <div class="card" id="uploadCard" style="display:none">
+        <h6 style="margin-bottom:var(--space-3)">Upload File</h6>
+        <div class="upload-zone" id="uploadZone" role="button" tabindex="0" aria-label="Upload XLSX or CSV file">
+          <div class="upload-zone-text">Drop XLSX or CSV file here</div>
+          <div class="upload-zone-hint">or click to browse</div>
+        </div>
+        <input type="file" id="fileInput" accept=".xlsx,.csv" style="display:none">
+        <div id="fileInfo" style="margin-top:var(--space-2);font-size:var(--text-xs);color:var(--text-secondary)"></div>
+        <button class="btn btn-ghost btn-sm" style="margin-top:var(--space-2);width:100%" id="downloadTemplate">Download Template XLSX</button>
+      </div>
+
+      <div class="card">
+        <div class="form-group">
+          <label class="form-label" for="populationSize" data-tooltip="Total at-risk population for prevalence calculation (per 10,000 inhabitants)">Reference Population</label>
+          <input class="form-input" type="number" id="populationSize" value="100000" min="1" step="1000">
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN RESULTS -->
+    <main class="calc-main">
+
+      <!-- KPI Row -->
+      <div class="kpi-grid" id="kpiGrid">
+        <div class="card kpi"><div class="kpi-label">Estimated N</div><div class="kpi-value">—</div><div class="kpi-sub">Run analysis to see estimate</div></div>
+        <div class="card kpi"><div class="kpi-label">Observed</div><div class="kpi-value">—</div><div class="kpi-sub">Unique individuals in data</div></div>
+        <div class="card kpi"><div class="kpi-label">Hidden</div><div class="kpi-value">—</div><div class="kpi-sub">Est. unobserved cases</div></div>
+        <div class="card kpi"><div class="kpi-label">Prevalence</div><div class="kpi-value">—</div><div class="kpi-sub">Per 10,000 inhabitants</div></div>
+      </div>
+
+      <!-- Visualization -->
+      <div class="card">
+        <div class="panel-header"><span class="panel-title">Source Overlap Visualization</span></div>
+        <div class="viz-container" id="vizContainer">
+          <div class="empty-state"><div class="empty-state-text">Select 2 or more sources and run analysis to see the overlap diagram</div></div>
+        </div>
+      </div>
+
+      <!-- Model Comparison Table -->
+      <div class="card" id="modelComparisonCard">
+        <div class="panel-header"><span class="panel-title">Model Comparison</span></div>
+        <div class="table-wrap" id="modelTableWrap">
+          <div class="empty-state"><div class="empty-state-text">Select 3 or more sources to compare log-linear models</div></div>
+        </div>
+      </div>
+
+      <!-- Overlap Table -->
+      <div class="card">
+        <div class="panel-header">
+          <span class="panel-title">Intersection Frequency Table</span>
+          <div style="display:flex;gap:var(--space-2)">
+            <button class="btn btn-ghost btn-sm" id="exportCSV">Export CSV</button>
+            <button class="btn btn-ghost btn-sm" id="exportXLSX">Export XLSX</button>
+            <button class="btn btn-ghost btn-sm" id="exportJSON">Export JSON</button>
+          </div>
+        </div>
+        <div class="table-wrap" id="overlapTableWrap">
+          <div class="empty-state"><div class="empty-state-text">Select 2 or more sources and run analysis to see intersection frequencies</div></div>
+        </div>
+      </div>
+
+      <!-- Data Preview -->
+      <div class="card">
+        <div class="panel-header"><span class="panel-title">Data Preview</span><span style="font-size:var(--text-xs);color:var(--text-tertiary)">First 15 rows</span></div>
+        <div class="table-wrap" id="previewTableWrap">
+          <div class="empty-state"><div class="empty-state-text">No data loaded</div></div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</section>
+
+<!-- ============================================================
+     TAB: ASSUMPTIONS
+     ============================================================ -->
+<section class="tab-panel" id="tab-assumptions" role="tabpanel">
+  <div class="prose">
+    <h1>CRC Assumptions</h1>
+    <p>All capture-recapture estimators rely on four key assumptions. Violations can bias estimates, so understanding them is essential for valid inference.</p>
+
+    <h2>1. Closed Population</h2>
+    <p>The population must remain constant during the study period — no births, deaths, immigration, or emigration. In epidemiological applications, this means the at-risk population should be stable and case definitions must be time-aligned across data sources.</p>
+
+    <h2>2. Perfect Matching</h2>
+    <p>Individuals captured in multiple sources must be correctly linked. This requires a reliable unique identifier (e.g., national ID number, medical record number) or high-quality probabilistic record linkage. Mismatches inflate the number of "unique" individuals and underestimate N.</p>
+
+    <h2>3. Source Independence (for 2-source methods)</h2>
+    <p>The Lincoln-Petersen estimator assumes the two sources are independent — capture in one source does not affect the probability of capture in the other. When sources are positively dependent (e.g., hospital and specialist records), the estimator underestimates the hidden population. When negatively dependent, it overestimates. Using three or more sources with log-linear models allows modeling dependencies.</p>
+
+    <h2>4. Homogeneous Capture Probabilities</h2>
+    <p>Within each source, all individuals should have the same probability of being captured. If some individuals are more likely to appear in a registry (e.g., severe cases, urban residents), the estimator will be biased. Models M<sub>h</sub> and M<sub>th</sub> account for individual heterogeneity.</p>
+
+    <h2>Practical Recommendations</h2>
+    <ul>
+      <li>Use at least 3 sources when possible — this allows fitting models that relax the independence assumption</li>
+      <li>Compare multiple models (M₀, M<sub>t</sub>, M<sub>h</sub>, M<sub>th</sub>, M<sub>b</sub>, M<sub>bh</sub>) and prefer the one with lowest BIC</li>
+      <li>If model selection yields very different N̂ values, conduct sensitivity analysis</li>
+      <li>Report confidence intervals to communicate uncertainty</li>
+      <li>If possible, validate estimates against an independent data source or expert judgment</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="app-footer">Capture-Recapture Analysis Tool &middot; Static site for GitHub Pages &middot; No server required</footer>
+
+</div><!-- /container -->
+
+<script>
+(function() {
+/* ============================================================
+   MATH HELPERS
+   ============================================================ */
+function seiran(seed) {
+  return function() {
+    seed = (seed * 16807) % 2147483647;
+    return (seed - 1) / 2147483646;
+  };
+}
+
+/* ============================================================
+   STATISTICAL ENGINE
+   ============================================================ */
+function chapmanEstimator(n1, n2, m) {
+  if (m <= 0) return { error: 'No overlap between the two sources. Cannot estimate.' };
+  const Nhat = ((n1 + 1) * (n2 + 1)) / (m + 1) - 1;
+  const varN = ((n1 + 1) * (n2 + 1) * (n1 - m) * (n2 - m)) / ((m + 1) * (m + 1) * (m + 2));
+  const se = Math.sqrt(Math.max(0, varN));
+  const ciLow = Nhat - 1.96 * se;
+  const ciHigh = Nhat + 1.96 * se;
+  return { Nhat, se, ciLow, ciHigh, method: 'Chapman (Lincoln-Petersen)', k: 2 };
+}
+
+async function runRClosedpT(dfBin, sources) {
+  const webR = state.webR;
+  if (!webR || state.webrReady !== 'ready') return { error: 'R engine not ready' };
+
+  if (state.webrRunning) return { error: 'Analysis already in progress' };
+  state.webrRunning = true;
+
+  try {
+    const rcols = sources.map(function(s) {
+      var vals = [];
+      for (var i = 0; i < dfBin.length; i++) vals.push(dfBin[i][s] || 0);
+      return '"' + s + '"=c(' + vals.join(',') + ')';
+    });
+
+    const rCode = [
+      'library(Rcapture)',
+      'df <- data.frame(' + rcols.join(',') + ')',
+      'fit <- Rcapture::closedp.t(df)',
+      'list(abundance=unname(fit$results[,"abundance"]),stderr=unname(fit$results[,"stderr"]),AIC=unname(fit$results[,"AIC"]),BIC=unname(fit$results[,"BIC"]),models=rownames(fit$results))'
+    ].join('\n');
+
+    const shelter = await new webR.Shelter();
+    const res = await shelter.evalR(rCode);
+
+    const abundanceRObj = await res.get('abundance');
+    const stderrRObj    = await res.get('stderr');
+    const AICRObj       = await res.get('AIC');
+    const BICRObj       = await res.get('BIC');
+    const modelsRObj    = await res.get('models');
+
+    const abundance = await abundanceRObj.toArray();
+    const stderr    = await stderrRObj.toArray();
+    const AIC       = await AICRObj.toArray();
+    const BIC       = await BICRObj.toArray();
+    const modelsJs  = await modelsRObj.toJs();
+
+    shelter.purge();
+
+    var models = modelsJs.values || modelsJs;
+    if (!models || models.length === 0) { state.webrRunning = false; return { error: 'No models returned' }; }
+
+    var fits = [];
+    for (var i = 0; i < models.length; i++) {
+      fits.push({
+        model: models[i],
+        label: modelLabels[models[i]] || models[i],
+        nHat: abundance[i],
+        se: stderr[i],
+        ciLow: abundance[i] - 1.96 * stderr[i],
+        ciHigh: abundance[i] + 1.96 * stderr[i],
+        aic: AIC[i],
+        bic: BIC[i],
+        converged: true
+      });
+    }
+    fits.sort(function(a, b) { return a.bic - b.bic; });
+    state.webrRunning = false;
+    state.webrError = null;
+    return fits;
+  } catch(e) {
+    state.webrRunning = false;
+    state.webrError = e.message;
+    console.error('WebR error:', e);
+    return { error: typeof e === 'string' ? e : (e.message || String(e)) };
+  }
+}
+
+const modelLabels = {
+  'M0': 'M\u2080 \u2014 Equal catchability',
+  'Mt': 'M\u209c \u2014 Time variation',
+  'Mh Chao (LB)': 'M\u2095 Chao \u2014 Lower bound',
+  'Mh Poisson2': 'M\u2095 \u2014 Heterogeneity (Poisson2)',
+  'Mh Darroch': 'M\u2095 \u2014 Heterogeneity (Darroch)',
+  'Mh Gamma3.5': 'M\u2095 \u2014 Heterogeneity (Gamma 3.5)',
+  'Mth Chao (LB)': 'M\u209c\u2095 \u2014 Time+Heterog (Chao LB)',
+  'Mth Poisson2': 'M\u209c\u2095 \u2014 Time+Heterog (Poisson2)',
+  'Mth Darroch': 'M\u209c\u2095 \u2014 Time+Heterog (Darroch)',
+  'Mth Gamma3.5': 'M\u209c\u2095 \u2014 Time+Heterog (Gamma 3.5)',
+  'Mb': 'M_b \u2014 Behavioral response',
+  'Mbh': 'M_bh \u2014 Behavioral + Heterogeneity'
+};
+
+/* ============================================================
+   DATA ENGINE
+   ============================================================ */
+function generateSynthetic(n, probs, idPrefix, seed) {
+  const rand = seiran(seed);
+  const probsArr = Object.values(probs);
+  const sources = Object.keys(probs);
+  const rows = [];
+  for (let i = 0; i < n; i++) {
+    const row = { id: idPrefix + String(i + 1).padStart(4, '0') };
+    for (let j = 0; j < sources.length; j++) {
+      row[sources[j]] = rand() < probsArr[j] ? 1 : 0;
+    }
+    rows.push(row);
+  }
+  return rows;
+}
+
+function parseFileData(workbook, ext, filename) {
+  const sheet = workbook.Sheets[workbook.SheetNames[0]];
+  const json = XLSX.utils.sheet_to_json(sheet, { defval: 0 });
+  if (json.length === 0) return { error: 'File is empty or could not be parsed.' };
+  const cols = Object.keys(json[0]);
+  if (!cols.find(c => c.toLowerCase() === 'id')) return { error: 'File must have an "id" column with unique identifiers.' };
+  const idCol = cols.find(c => c.toLowerCase() === 'id');
+  const rows = json.map(row => {
+    const r = { id: String(row[idCol] || '') };
+    for (const c of cols) {
+      if (c.toLowerCase() !== 'id') r[c] = Number(row[c]) || 0;
+    }
+    return r;
+  });
+  return { rows, sources: cols.filter(c => c.toLowerCase() !== 'id'), filename };
+}
+
+function generateTemplateXLSX() {
+  const data = [
+    { id: 'P001', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 },
+    { id: 'P002', Fuente_A: 0, Fuente_B: 1, Fuente_C: 1 },
+    { id: 'P003', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 }
+  ];
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Data');
+  return XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+}
+
+/* ============================================================
+   APP STATE
+   ============================================================ */
+const state = {
+  sampleChoice: 'argentina',
+  probs: {
+    Hospital: 0.45, Laboratory: 0.40, Clinic: 0.30
+  },
+  probsColombia: {
+    Clinical_History: 0.55, Pharmacy: 0.50, Specialist: 0.35, Screening: 0.25
+  },
+  fileData: null,
+  filename: null,
+  selectedSources: [],
+  populationSize: 100000,
+  data: null,
+  sources: [],
+  analysis: null,
+  modelFits: null,
+  theme: 'auto',
+  computing: false,
+  webR: null,
+  webrReady: 'loading',
+  webrError: null,
+  webrRunning: false
+};
+
+/* ============================================================
+   STATE DERIVATION
+   ============================================================ */
+function recomputeData() {
+  if (state.sampleChoice === 'argentina') {
+    state.data = generateSynthetic(300, state.probs, 'TB', 1);
+    state.sources = Object.keys(state.probs);
+    state.filename = null;
+    state.fileData = null;
+  } else if (state.sampleChoice === 'colombia') {
+    state.data = generateSynthetic(400, state.probsColombia, 'DM', 2);
+    state.sources = Object.keys(state.probsColombia);
+    state.filename = null;
+    state.fileData = null;
+  } else if (state.sampleChoice === 'upload' && state.fileData) {
+    state.data = state.fileData.rows;
+    state.sources = state.fileData.sources;
+  } else if (state.sampleChoice === 'upload' && !state.fileData) {
+    // Keep existing data/sources, don't clear until a file is actually uploaded
+  }
+
+  const prev = new Set(state.selectedSources);
+  state.selectedSources = state.sources.filter(s => prev.has(s));
+  if (state.selectedSources.length < 2 && state.sources.length >= 2) {
+    state.selectedSources = state.sources.slice(0, 2);
+  } else if (state.selectedSources.length === 0 && state.sources.length >= 1) {
+    state.selectedSources = state.sources.slice(0, Math.min(2, state.sources.length));
+  }
+
+  state.populationSize = parseInt(document.getElementById('populationSize')?.value) || 100000;
+
+  runAnalysis();
+}
+
+async function runAnalysis() {
+  state.analysis = null;
+  state.modelFits = null;
+
+  if (!state.data || state.data.length === 0) return;
+  const selSources = state.selectedSources.filter(s => state.sources.includes(s));
+  if (selSources.length < 2) return;
+
+  state.computing = true;
+  renderAll();
+  await doAnalysis(selSources);
+  state.computing = false;
+  renderAll();
+}
+
+async function doAnalysis(selSources) {
+  const dfBin = state.data.map(row => {
+    const r = { id: row.id };
+    for (const s of selSources) r[s] = Number(row[s]) || 0;
+    return r;
+  });
+
+  const observed = new Set();
+  for (const row of dfBin) {
+    const any = selSources.some(s => row[s] === 1);
+    if (any) observed.add(row.id);
+  }
+  const nObs = observed.size;
+
+  let analysis;
+  if (selSources.length === 2) {
+    const s0 = selSources[0], s1 = selSources[1];
+    let n1 = 0, n2 = 0, m = 0;
+    for (const row of dfBin) {
+      if (row[s0]) n1++;
+      if (row[s1]) n2++;
+      if (row[s0] && row[s1]) m++;
+    }
+    const c = chapmanEstimator(n1, n2, m);
+    if (c.error) { state.analysis = { error: c.error }; return; }
+    analysis = {
+      Nhat: c.Nhat, se: c.se, ciLow: c.ciLow, ciHigh: c.ciHigh,
+      observed: nObs, hidden: c.Nhat - nObs,
+      method: c.method, k: 2,
+      prevalence: (c.Nhat / state.populationSize) * 10000,
+      prevLow: (c.ciLow / state.populationSize) * 10000,
+      prevHigh: (c.ciHigh / state.populationSize) * 10000,
+      dfBin
+    };
+  } else {
+    const result = await runRClosedpT(dfBin, selSources);
+    if (!result) {
+      // null = webR not loaded yet, no error to show
+      return;
+    }
+    if (result.error) {
+      state.analysis = { error: result.error };
+      return;
+    }
+    const fits = result;
+    if (fits.length === 0) {
+      state.analysis = { error: 'No models fitted.' };
+      return;
+    }
+    state.modelFits = fits;
+    const best = fits[0];
+    analysis = {
+      Nhat: best.nHat, se: best.se, ciLow: best.ciLow, ciHigh: best.ciHigh,
+      observed: nObs, hidden: best.nHat - nObs,
+      method: best.label, k: selSources.length,
+      prevalence: (best.nHat / state.populationSize) * 10000,
+      prevLow: (best.ciLow / state.populationSize) * 10000,
+      prevHigh: (best.ciHigh / state.populationSize) * 10000,
+      dfBin
+    };
+  }
+
+  const ov = buildOverlapTable(dfBin, selSources);
+  analysis.overlap = ov.table;
+  analysis.overlapSources = selSources;
+
+  state.analysis = analysis;
+}
+
+function buildOverlapTable(dfBin, sources) {
+  const map = {};
+  for (const row of dfBin) {
+    const key = sources.map(s => row[s] ? '1' : '0').join('|');
+    if (!map[key]) {
+      map[key] = { count: 0, pattern: {} };
+      sources.forEach((s, i) => { map[key].pattern[s] = row[s] ? 1 : 0; });
+    }
+    map[key].count++;
+  }
+  const table = Object.values(map).map(v => ({ ...v.pattern, Count: v.count }));
+  table.sort((a, b) => b.Count - a.Count);
+  return { table, sources };
+}
+
+/* ============================================================
+   RENDER FUNCTIONS
+   ============================================================ */
+function renderAll() {
+  renderSourceConfig();
+  renderUploadZone();
+  renderKPIs();
+  renderVisualization();
+  renderModelTable();
+  renderOverlapTable();
+  renderPreviewTable();
+}
+
+function renderSourceConfig() {
+  const container = document.getElementById('sourceConfig');
+  const card = document.getElementById('sourceConfigCard');
+  const uploadCard = document.getElementById('uploadCard');
+
+  if (state.sampleChoice === 'upload') {
+    uploadCard.style.display = '';
+  } else {
+    uploadCard.style.display = 'none';
+  }
+
+  if (!state.sources || state.sources.length === 0) {
+    card.style.display = 'none';
+    return;
+  }
+
+  card.style.display = '';
+
+  const isUpload = state.sampleChoice === 'upload';
+  const probs = isUpload ? null : (state.sampleChoice === 'argentina' ? state.probs : state.probsColombia);
+
+  var html = '';
+  for (var i = 0; i < state.sources.length; i++) {
+    var src = state.sources[i];
+    var checked = state.selectedSources.indexOf(src) >= 0;
+    var displayName = src.replace(/_/g, ' ');
+
+    html += '<div class="source-row" style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);min-height:2.75rem">';
+    html += '<label class="checkbox-wrap" style="margin-bottom:0;flex-shrink:0;min-width:7.5rem">';
+    html += '<input type="checkbox" value="' + src + '" ' + (checked ? 'checked' : '') + '>';
+    html += '<span>' + displayName + '</span>';
+    html += '</label>';
+
+    if (!isUpload && probs) {
+      var val = Math.round((probs[src] || 0.5) * 100);
+      html += '<input type="range" min="1" max="99" value="' + val + '" data-source="' + src + '"' + (checked ? '' : ' disabled') + ' style="flex:1;min-width:0">';
+      html += '<span class="slider-val">' + val + '%</span>';
+    }
+
+    html += '</div>';
+  }
+
+  var wrStatus = '';
+  if (state.webrReady === 'loading') wrStatus = '<span style="color:var(--text-tertiary)">\u25e6 Loading R engine\u2026</span>';
+  else if (state.webrReady === 'installing') wrStatus = '<span style="color:var(--warning)">\u25e6 Installing R packages\u2026</span>';
+  else if (state.webrReady === 'ready') wrStatus = '<span style="color:var(--success)">\u2022 R engine ready</span>';
+  else if (state.webrReady === 'error') wrStatus = '<span style="color:var(--danger)">\u2717 R engine error</span>';
+  if (wrStatus) html += '<div style="font-size:var(--text-xs);color:var(--text-tertiary);margin-top:var(--space-2)">' + wrStatus + '</div>';
+
+  if (state.selectedSources.length < 2 && state.sources.length >= 1) {
+    html += '<div class="alert alert-warning" style="margin-top:var(--space-3)"><span>&#9888;</span> Select at least 2 sources for CRC analysis</div>';
+  }
+  if (state.selectedSources.length > 3) {
+    html += '<div style="font-size:var(--text-xs);color:var(--text-tertiary);margin-top:var(--space-2)"><span>&#9432;</span> With 4+ sources, an UpSet plot will be shown instead of an Euler diagram</div>';
+  }
+
+  container.innerHTML = html;
+
+  container.querySelectorAll('input[type="checkbox"]').forEach(function(cb) {
+    cb.addEventListener('change', function() {
+      state.selectedSources = [];
+      container.querySelectorAll('input[type="checkbox"]:checked').forEach(function(c) {
+        state.selectedSources.push(c.value);
+      });
+      runAnalysis();
+    });
+  });
+
+  container.querySelectorAll('input[type="range"]').forEach(function(slider) {
+    slider.addEventListener('input', function() {
+      var key = slider.dataset.source;
+      var val = parseInt(slider.value) / 100;
+      if (state.sampleChoice === 'argentina') state.probs[key] = val;
+      else state.probsColombia[key] = val;
+      slider.nextElementSibling.textContent = Math.round(val * 100) + '%';
+    });
+    slider.addEventListener('change', function() {
+      recomputeData();
+    });
+  });
+}
+
+function renderUploadZone() {
+  const zone = document.getElementById('uploadZone');
+  const info = document.getElementById('fileInfo');
+
+  if (state.sampleChoice !== 'upload') return;
+
+  if (state.filename) {
+    info.textContent = 'Loaded: ' + state.filename + ' (' + state.data.length + ' rows, ' + state.sources.length + ' sources)';
+  } else {
+    info.textContent = '';
+  }
+
+  zone.onclick = () => document.getElementById('fileInput').click();
+  zone.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { document.getElementById('fileInput').click(); e.preventDefault(); } };
+
+  zone.ondragover = (e) => { e.preventDefault(); zone.classList.add('dragover'); };
+  zone.ondragleave = () => zone.classList.remove('dragover');
+  zone.ondrop = (e) => { e.preventDefault(); zone.classList.remove('dragover'); handleFile(e.dataTransfer.files[0]); };
+
+  document.getElementById('fileInput').onchange = (e) => { if (e.target.files[0]) handleFile(e.target.files[0]); };
+}
+
+function handleFile(file) {
+  const ext = file.name.split('.').pop().toLowerCase();
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = new Uint8Array(e.target.result);
+      const wb = XLSX.read(data, { type: 'array' });
+      const parsed = parseFileData(wb, ext, file.name);
+      if (parsed.error) {
+        alert(parsed.error);
+        return;
+      }
+      state.fileData = parsed;
+      state.filename = file.name;
+      const info = document.getElementById('fileInfo');
+      if (info) {
+        info.innerHTML = '<span style="color:var(--success);font-weight:500">&#10003;</span> Loaded: <strong>' + file.name + '</strong> &mdash; ' + parsed.rows.length + ' rows, ' + parsed.sources.length + ' sources: <span style="color:var(--text-secondary)">' + parsed.sources.map(function(s) { return s.replace(/_/g, ' '); }).join(', ') + '</span>';
+      }
+      recomputeData();
+    } catch (err) {
+      alert('Could not parse file. Ensure it is a valid XLSX or CSV file with an "id" column.');
+    }
+  };
+  reader.readAsArrayBuffer(file);
+}
+
+function renderKPIs() {
+  const container = document.getElementById('kpiGrid');
+  const a = state.analysis;
+
+  if (state.computing) {
+    container.innerHTML = [
+      { label: 'Estimated N', sub: 'Computing...' },
+      { label: 'Observed', sub: 'Computing...' },
+      { label: 'Hidden', sub: 'Computing...' },
+      { label: 'Prevalence', sub: 'Computing...' }
+    ].map(k => `<div class="card kpi"><div class="kpi-label">${k.label}</div><div class="kpi-value" style="height:2.5rem"><div class="skeleton" style="width:70%;height:1.75rem;margin-top:0.375rem"></div></div><div class="kpi-sub">${k.sub}</div></div>`).join('');
+    return;
+  }
+
+  if (!a) {
+    container.innerHTML = [
+      { label: 'Estimated N', sub: 'Run analysis to see estimate' },
+      { label: 'Observed', sub: 'Unique individuals in data' },
+      { label: 'Hidden', sub: 'Est. unobserved cases' },
+      { label: 'Prevalence', sub: 'Per 10,000 inhabitants' }
+    ].map(k => `<div class="card kpi"><div class="kpi-label">${k.label}</div><div class="kpi-value">—</div><div class="kpi-sub">${k.sub}</div></div>`).join('');
+    return;
+  }
+
+  if (a.error) {
+    container.innerHTML = `<div class="card kpi" style="grid-column:1/-1"><div class="kpi-label">Error</div><div class="kpi-value" style="color:var(--danger);font-size:var(--text-lg)">${a.error}</div></div>`;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="card kpi kpi-hilite">
+      <div class="kpi-label">Estimated N <span class="badge badge-accent" style="margin-left:var(--space-2)">${a.method}</span></div>
+      <div class="kpi-value anim-num">${Math.round(a.Nhat).toLocaleString()}</div>
+      <div class="kpi-sub">95% CI: ${Math.round(a.ciLow).toLocaleString()} — ${Math.round(a.ciHigh).toLocaleString()}</div>
+    </div>
+    <div class="card kpi">
+      <div class="kpi-label">Observed</div>
+      <div class="kpi-value anim-num">${a.observed.toLocaleString()}</div>
+      <div class="kpi-sub">Unique individuals (${a.k} sources)</div>
+    </div>
+    <div class="card kpi">
+      <div class="kpi-label">Hidden (est.)</div>
+      <div class="kpi-value anim-num" style="color:var(--warning)">${Math.round(a.hidden).toLocaleString()}</div>
+      <div class="kpi-sub">${(a.hidden / a.Nhat * 100).toFixed(1)}% of estimated total</div>
+    </div>
+    <div class="card kpi">
+      <div class="kpi-label">Prevalence</div>
+      <div class="kpi-value anim-num">${a.prevalence.toFixed(1)}</div>
+      <div class="kpi-sub">per 10,000 (CI: ${a.prevLow.toFixed(1)} — ${a.prevHigh.toFixed(1)})</div>
+    </div>`;
+}
+
+function renderVisualization() {
+  const container = document.getElementById('vizContainer');
+  if (state.computing) {
+    container.innerHTML = '<div style="text-align:center"><div class="skeleton" style="width:24rem;height:16rem;max-width:100%;display:inline-block"></div></div>';
+    return;
+  }
+  const a = state.analysis;
+  if (!a || a.error) {
+    container.innerHTML = '<div class="empty-state"><div class="empty-state-text">Select 2 or more sources and run analysis to see the overlap diagram</div></div>';
+    return;
+  }
+  const sources = a.overlapSources || state.selectedSources;
+  if (sources.length <= 3) renderEulerDiagram(container, a, sources);
+  else renderUpsetPlot(container, a, sources);
+}
+
+function renderEulerDiagram(container, a, sources) {
+  var k = sources.length;
+  var ov = a.overlap || [];
+  var sourceCounts = sources.map(function(s) {
+    var cnt = 0;
+    for (var i = 0; i < a.dfBin.length; i++) if (a.dfBin[i][s]) cnt++;
+    return cnt;
+  });
+
+  var svgW = 420, svgH = 340;
+  var maxR = 95, minR = 28;
+  var circles = [], overlapLabels = [];
+
+  function findOverlap(conds) {
+    for (var i = 0; i < ov.length; i++) {
+      var match = true;
+      var keys = Object.keys(conds);
+      for (var j = 0; j < keys.length; j++) {
+        if ((ov[i][keys[j]] || 0) !== conds[keys[j]]) { match = false; break; }
+      }
+      if (match) return ov[i].Count;
+    }
+    return 0;
+  }
+
+  if (k === 2) {
+    var overlapCount = findOverlap({}); 
+    overlapCount = 0;
+    for (var i = 0; i < ov.length; i++) {
+      if ((ov[i][sources[0]] || 0) === 1 && (ov[i][sources[1]] || 0) === 1) { overlapCount += ov[i].Count; }
+    }
+    var maxCount = Math.max(sourceCounts[0], sourceCounts[1], 1);
+    var r1 = Math.max(minR, Math.sqrt(sourceCounts[0] / maxCount) * maxR);
+    var r2 = Math.max(minR, Math.sqrt(sourceCounts[1] / maxCount) * maxR);
+    var overlapRatio = overlapCount / Math.max(1, Math.min(sourceCounts[0], sourceCounts[1]));
+    var maxDist = r1 + r2 - 8;
+    var minDist = Math.min(r1, r2) * 0.35;
+    var d = maxDist - overlapRatio * (maxDist - minDist);
+    var cx1 = svgW / 2 - d / 2, cx2 = svgW / 2 + d / 2;
+    var cy = svgH / 2 + 15;
+
+    circles = [
+      { cx: cx1, cy: cy, r: r1, label: sources[0], count: sourceCounts[0], color: 'var(--accent)', opacity: 0.30 },
+      { cx: cx2, cy: cy, r: r2, label: sources[1], count: sourceCounts[1], color: 'var(--warning)', opacity: 0.30 }
+    ];
+
+    if (overlapCount > 0) {
+      overlapLabels.push({ x: svgW / 2, y: cy, text: String(overlapCount), bold: true });
+    }
+    var u0 = sourceCounts[0] - overlapCount;
+    var u1 = sourceCounts[1] - overlapCount;
+    if (u0 > 0) overlapLabels.push({ x: cx1 - r1 * 0.35, y: cy, text: String(u0), dim: true });
+    if (u1 > 0) overlapLabels.push({ x: cx2 + r2 * 0.35, y: cy, text: String(u1), dim: true });
+
+  } else if (k === 3) {
+    var colors = ['var(--accent)', 'var(--warning)', 'var(--success)'];
+    var maxCount = Math.max(sourceCounts[0], sourceCounts[1], sourceCounts[2], 1);
+    var radii = sourceCounts.map(function(c) { return Math.max(minR, Math.sqrt(c / maxCount) * maxR); });
+
+    var ov01 = 0, ov02 = 0, ov12 = 0, ov012 = 0;
+    for (var i = 0; i < ov.length; i++) {
+      var o = ov[i];
+      if ((o[sources[0]] || 0) && (o[sources[1]] || 0) && (o[sources[2]] || 0)) ov012 += o.Count;
+      else if ((o[sources[0]] || 0) && (o[sources[1]] || 0)) ov01 += o.Count;
+      else if ((o[sources[0]] || 0) && (o[sources[2]] || 0)) ov02 += o.Count;
+      else if ((o[sources[1]] || 0) && (o[sources[2]] || 0)) ov12 += o.Count;
+    }
+    ov01 += ov012; ov02 += ov012; ov12 += ov012;
+
+    function compDist(i, j, overlap) {
+      var maxD = radii[i] + radii[j] - 8;
+      var minD = Math.min(radii[i], radii[j]) * 0.25;
+      var ratio = overlap / Math.max(1, Math.min(sourceCounts[i], sourceCounts[j]));
+      return maxD - ratio * (maxD - minD);
+    }
+
+    var d01 = compDist(0, 1, ov01);
+    var d02 = compDist(0, 2, ov02);
+    var d12 = compDist(1, 2, ov12);
+
+    var p0 = { x: 0, y: 0 };
+    var p1 = { x: d01, y: 0 };
+    var x2 = (d01 * d01 + d02 * d02 - d12 * d12) / (2 * Math.max(d01, 0.1));
+    x2 = Math.max(-radii[2], Math.min(d01 + radii[2], x2));
+    var y2sq = d02 * d02 - x2 * x2;
+    var y2 = y2sq > 0 ? -Math.sqrt(y2sq) : -radii[2];
+    var p2 = { x: x2, y: y2 };
+
+    var points = [p0, p1, p2];
+    var xs = [p0.x, p1.x, p2.x], ys = [p0.y, p1.y, p2.y];
+    var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs);
+    var minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+    var ox = (svgW - (maxX - minX)) / 2 - minX;
+    var oy = (svgH - (maxY - minY)) / 2 - minY + 20;
+
+    circles = sources.map(function(s, i) {
+      return {
+        cx: points[i].x + ox, cy: points[i].y + oy, r: radii[i],
+        label: s, count: sourceCounts[i], color: colors[i], opacity: 0.28
+      };
+    });
+
+    if (ov01 > 0) overlapLabels.push({ x: (circles[0].cx + circles[1].cx) / 2, y: (circles[0].cy + circles[1].cy) / 2, text: String(ov01), bold: true });
+    if (ov02 > 0) overlapLabels.push({ x: (circles[0].cx + circles[2].cx) / 2, y: (circles[0].cy + circles[2].cy) / 2, text: String(ov02), bold: true });
+    if (ov12 > 0) overlapLabels.push({ x: (circles[1].cx + circles[2].cx) / 2, y: (circles[1].cy + circles[2].cy) / 2, text: String(ov12), bold: true });
+    if (ov012 > 0) overlapLabels.push({ x: (circles[0].cx + circles[1].cx + circles[2].cx) / 3, y: (circles[0].cy + circles[1].cy + circles[2].cy) / 3, text: String(ov012), bold: true });
+  }
+
+  var svg = '<svg viewBox="0 0 ' + svgW + ' ' + svgH + '" width="100%" style="max-width:' + svgW + 'px" aria-label="Euler diagram showing source overlaps">';
+  svg += '<text x="' + (svgW / 2) + '" y="22" text-anchor="middle" font-family="var(--font-body)" font-size="var(--text-sm)" fill="var(--text-secondary)">Euler Diagram (' + k + ' sources)</text>';
+
+  for (var ci = 0; ci < circles.length; ci++) {
+    var c = circles[ci];
+    svg += '<circle cx="' + c.cx + '" cy="' + c.cy + '" r="' + c.r + '" fill="' + c.color + '" fill-opacity="' + c.opacity + '" stroke="' + c.color + '" stroke-width="2" stroke-opacity="0.5"/>';
+  }
+
+  for (var oi = 0; oi < overlapLabels.length; oi++) {
+    var ol = overlapLabels[oi];
+    var sz = ol.bold ? 'var(--text-base)' : 'var(--text-sm)';
+    var fw = ol.bold ? '600' : '400';
+    var clr = ol.dim ? 'var(--text-tertiary)' : 'var(--text-primary)';
+    svg += '<text x="' + ol.x + '" y="' + ol.y + '" text-anchor="middle" font-family="var(--font-display)" font-size="' + sz + '" font-weight="' + fw + '" fill="' + clr + '" dominant-baseline="central">' + ol.text + '</text>';
+  }
+
+  var cx0 = svgW / 2, cy0 = svgH / 2;
+  for (var ci2 = 0; ci2 < circles.length; ci2++) {
+    var cc = circles[ci2];
+    var dx = cc.cx - cx0, dy = cc.cy - cy0;
+    var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+    var ndx = dx / dist, ndy = dy / dist;
+    var lx = cc.cx + ndx * (cc.r + 16);
+    var ly = cc.cy + ndy * (cc.r + 16);
+    var anchor = ndx < -0.3 ? 'end' : ndx > 0.3 ? 'start' : 'middle';
+    svg += '<text x="' + lx + '" y="' + (ly - 6) + '" text-anchor="' + anchor + '" font-family="var(--font-body)" font-size="var(--text-xs)" fill="var(--text-primary)" font-weight="500">' + cc.label.replace(/_/g, ' ') + '</text>';
+    svg += '<text x="' + lx + '" y="' + (ly + 10) + '" text-anchor="' + anchor + '" font-family="var(--font-display)" font-size="var(--text-xs)" fill="var(--text-secondary)">n=' + cc.count + '</text>';
+  }
+
+  svg += '</svg>';
+  container.innerHTML = svg;
+}
+
+function renderUpsetPlot(container, a, sources) {
+  var ov = a.overlap || [];
+  var k = sources.length;
+
+  var setSizes = sources.map(function(s) {
+    var cnt = 0;
+    for (var i = 0; i < a.dfBin.length; i++) if (a.dfBin[i][s]) cnt++;
+    return cnt;
+  });
+  var maxSet = Math.max.apply(null, setSizes.concat([1]));
+
+  var sets = ov.filter(function(o) { return o.Count > 0; });
+  sets.sort(function(a, b) { return b.Count - a.Count; });
+  var topN = Math.min(sets.length, 25);
+  var displayed = sets.slice(0, topN);
+  var maxInt = displayed[0] ? displayed[0].Count : 1;
+
+  var setLabelW = 90, setBarW = 100, gap = 18;
+  var dotSpc = 18, dotR = 5;
+  var dotW = k * dotSpc + 10;
+  var intBarW = 240;
+  var rowH = 26, rowGap = 6;
+  var margin = { top: 32, bottom: 38, left: 10, right: 10 };
+
+  var intRows = displayed.length;
+  var chartH = margin.top + intRows * (rowH + rowGap) + margin.bottom;
+  var totalW = margin.left + setLabelW + setBarW + gap + dotW + gap + intBarW + margin.right;
+
+  var setLabelX = margin.left;
+  var setBarX = setLabelX + setLabelW;
+  var dotX = setBarX + setBarW + gap;
+  var intBarX = dotX + dotW + gap;
+  var dotColX = sources.map(function(_, s) { return dotX + 5 + s * dotSpc; });
+
+  var svg = '<svg viewBox="0 0 ' + totalW + ' ' + chartH + '" width="100%" style="max-width:' + totalW + 'px" aria-label="UpSet plot">';
+
+  svg += '<text x="' + (totalW / 2) + '" y="18" text-anchor="middle" font-family="var(--font-body)" font-size="var(--text-sm)" fill="var(--text-secondary)">UpSet Plot \u2014 ' + k + ' Sources</text>';
+  svg += '<text x="' + (setBarX + setBarW / 2) + '" y="' + (margin.top - 8) + '" text-anchor="middle" font-family="var(--font-body)" font-size="10" fill="var(--text-tertiary)">Set Size</text>';
+  svg += '<text x="' + (intBarX + intBarW / 2) + '" y="' + (margin.top - 8) + '" text-anchor="middle" font-family="var(--font-body)" font-size="10" fill="var(--text-tertiary)">Intersection Size</text>';
+
+  for (var s = 0; s < k; s++) {
+    var sy = margin.top + s * (rowH + rowGap);
+    svg += '<text x="' + setLabelX + '" y="' + (sy + rowH / 2 + 4) + '" text-anchor="start" font-family="var(--font-body)" font-size="var(--text-xs)" fill="var(--text-primary)" font-weight="500">' + sources[s].replace(/_/g, ' ') + '</text>';
+    var bw = Math.max(2, (setSizes[s] / maxSet) * setBarW);
+    svg += '<rect x="' + setBarX + '" y="' + (sy + 3) + '" width="' + bw + '" height="' + (rowH - 6) + '" fill="var(--surface-3)" rx="2"/>';
+    svg += '<text x="' + (setBarX + bw + 6) + '" y="' + (sy + rowH / 2 + 4) + '" font-family="var(--font-display)" font-size="11" font-weight="600" fill="var(--text-secondary)">' + setSizes[s] + '</text>';
+  }
+
+  for (var r = 0; r < intRows; r++) {
+    var iy = margin.top + r * (rowH + rowGap);
+    var entry = displayed[r];
+
+    var ibw = Math.max(2, (entry.Count / maxInt) * intBarW);
+    svg += '<rect x="' + intBarX + '" y="' + iy + '" width="' + ibw + '" height="' + rowH + '" fill="var(--accent)" rx="3"><title>' + entry.Count + ' individuals</title></rect>';
+    svg += '<text x="' + (intBarX + ibw + 6) + '" y="' + (iy + rowH / 2 + 4) + '" font-family="var(--font-display)" font-size="var(--text-sm)" font-weight="600" fill="var(--text-primary)">' + entry.Count + '</text>';
+
+    for (var d = 0; d < k; d++) {
+      var dx = dotColX[d];
+      var active = entry[sources[d]] === 1;
+      svg += '<circle cx="' + dx + '" cy="' + (iy + rowH / 2) + '" r="' + dotR + '" fill="' + (active ? 'var(--text-primary)' : 'var(--surface-3)') + '" stroke="' + (active ? 'var(--text-primary)' : 'var(--border-light)') + '" stroke-width="1"/>';
+      if (active && d < k - 1 && entry[sources[d + 1]] === 1) {
+        svg += '<line x1="' + (dx + dotR) + '" y1="' + (iy + rowH / 2) + '" x2="' + (dotColX[d + 1] - dotR) + '" y2="' + (iy + rowH / 2) + '" stroke="var(--text-primary)" stroke-width="2"/>';
+      }
+    }
+  }
+
+  var labelY = margin.top + intRows * (rowH + rowGap) + 12;
+  for (var l = 0; l < k; l++) {
+    var sx = dotColX[l];
+    svg += '<text x="' + sx + '" y="' + labelY + '" text-anchor="end" font-family="var(--font-body)" font-size="10" fill="var(--text-secondary)" transform="rotate(-35, ' + sx + ', ' + labelY + ')">' + sources[l].replace(/_/g, ' ') + '</text>';
+  }
+
+  svg += '</svg>';
+  container.innerHTML = svg;
+}
+
+let sortState = {};
+
+function makeTableSortable(tableEl, tableId) {
+  if (!sortState[tableId]) sortState[tableId] = { col: -1, asc: true };
+  const st = sortState[tableId];
+  const headers = tableEl.querySelectorAll('th');
+  headers.forEach((th, i) => {
+    th.style.cursor = 'pointer';
+    th.addEventListener('click', () => {
+      if (st.col === i) st.asc = !st.asc; else { st.col = i; st.asc = true; }
+      sortTable(tableEl, i, st.asc, tableId);
+      headers.forEach(h => h.querySelector('.sort-indicator')?.remove());
+      th.innerHTML += `<span class="sort-indicator">${st.asc ? '&#9650;' : '&#9660;'}</span>`;
+    });
+  });
+}
+
+function sortTable(table, col, asc, tableId) {
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  rows.sort((a, b) => {
+    let va = a.children[col]?.textContent || '';
+    let vb = b.children[col]?.textContent || '';
+    const na = parseFloat(va.replace(/,/g, ''));
+    const nb = parseFloat(vb.replace(/,/g, ''));
+    if (!isNaN(na) && !isNaN(nb)) { va = na; vb = nb; }
+    return asc ? (va > vb ? 1 : va < vb ? -1 : 0) : (va < vb ? 1 : va > vb ? -1 : 0);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+}
+
+function renderModelTable() {
+  const card = document.getElementById('modelComparisonCard');
+  const wrap = document.getElementById('modelTableWrap');
+  const fits = state.modelFits;
+  const k = state.analysis?.k || 0;
+
+  if (k < 3) { card.style.display = 'none'; return; }
+  card.style.display = '';
+
+  if (!fits || fits.length === 0) {
+    wrap.innerHTML = '<div class="empty-state"><div class="empty-state-text">No models fitted yet</div></div>';
+    return;
+  }
+
+  let html = '<table><thead><tr><th>Model</th><th>N-hat</th><th>SE</th><th>95% CI</th><th>AIC</th><th>BIC</th><th>Converged</th></tr></thead><tbody>';
+  for (let i = 0; i < fits.length; i++) {
+    const f = fits[i];
+    const best = i === 0;
+    html += `<tr class="${best ? 'highlight-row' : ''}">
+      <td>${f.label} ${best ? '<span class="badge badge-accent" style="margin-left:var(--space-2)">Best</span>' : ''}</td>
+      <td>${Math.round(f.nHat).toLocaleString()}</td>
+      <td>${f.se.toFixed(1)}</td>
+      <td>${Math.round(f.ciLow).toLocaleString()} — ${Math.round(f.ciHigh).toLocaleString()}</td>
+      <td>${f.aic !== null ? f.aic.toFixed(1) : '\u2014'}</td>
+      <td>${f.bic !== null ? f.bic.toFixed(1) : '\u2014'}</td>
+      <td>${f.converged ? '&#10003;' : '&#10007;'}</td>
+    </tr>`;
+  }
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  const table = wrap.querySelector('table');
+  if (table) makeTableSortable(table, 'models');
+}
+
+function renderOverlapTable() {
+  const wrap = document.getElementById('overlapTableWrap');
+  const a = state.analysis;
+
+  if (state.computing) { wrap.innerHTML = '<div style="text-align:center;padding:var(--space-6)"><div class="skeleton" style="width:60%;height:8rem;display:inline-block"></div></div>'; return; }
+
+  if (!a || !a.overlap || a.error) {
+    wrap.innerHTML = '<div class="empty-state"><div class="empty-state-text">Select 2 or more sources and run analysis to see intersection frequencies</div></div>';
+    return;
+  }
+
+  const sources = a.overlapSources || [];
+  let html = '<table><thead><tr>';
+  for (const s of sources) html += `<th>${s.replace(/_/g, ' ')}</th>`;
+  html += '<th>Count</th></tr></thead><tbody>';
+  for (const row of a.overlap) {
+    html += '<tr>';
+    for (const s of sources) html += `<td>${row[s] ? '&#10003;' : ''}</td>`;
+    html += `<td style="font-weight:600">${row.Count}</td></tr>`;
+  }
+  html += '</tbody></table>';
+  wrap.innerHTML = html;
+
+  const table = wrap.querySelector('table');
+  if (table) makeTableSortable(table, 'overlap');
+}
+
+function renderPreviewTable() {
+  const wrap = document.getElementById('previewTableWrap');
+  if (!state.data || state.data.length === 0) {
+    wrap.innerHTML = '<div class="empty-state"><div class="empty-state-text">No data loaded</div></div>';
+    return;
+  }
+
+  const preview = state.data.slice(0, 15);
+  const cols = ['id', ...state.sources];
+  let html = '<table><thead><tr>';
+  for (const c of cols) html += `<th>${c}</th>`;
+  html += '</tr></thead><tbody>';
+  for (const row of preview) {
+    html += '<tr>';
+    for (const c of cols) html += `<td>${row[c] !== undefined ? row[c] : ''}</td>`;
+    html += '</tr>';
+  }
+  html += '</tbody></table>';
+  if (state.data.length > 15) html += `<div style="padding:var(--space-2) var(--space-3);font-size:var(--text-xs);color:var(--text-tertiary)">Showing 15 of ${state.data.length} rows</div>`;
+  wrap.innerHTML = html;
+}
+
+/* ============================================================
+   EXPORT FUNCTIONS
+   ============================================================ */
+function exportCSV() {
+  const a = state.analysis;
+  if (!a || !a.overlap) return;
+  const sources = a.overlapSources || [];
+  const header = [...sources.map(s => s.replace(/_/g, ' ')), 'Count'].join(',');
+  const rows = a.overlap.map(r => [...sources.map(s => r[s] || 0), r.Count].join(','));
+  downloadFile(header + '\n' + rows.join('\n'), 'capture-recapture-overlap.csv', 'text/csv');
+}
+
+function exportXLSX() {
+  const a = state.analysis;
+  if (!a || !a.overlap) return;
+  const sources = a.overlapSources || [];
+  const data = a.overlap.map(r => {
+    const row = {};
+    sources.forEach(s => { row[s.replace(/_/g, ' ')] = r[s] || 0; });
+    row.Count = r.Count;
+    return row;
+  });
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Overlap');
+  XLSX.writeFile(wb, 'capture-recapture-overlap.xlsx');
+}
+
+function exportJSON() {
+  const a = state.analysis;
+  if (!a) return;
+  const exportData = {
+    method: a.method,
+    k: a.k,
+    Nhat: a.Nhat,
+    se: a.se,
+    ciLow: a.ciLow,
+    ciHigh: a.ciHigh,
+    observed: a.observed,
+    hidden: a.hidden,
+    populationSize: state.populationSize,
+    prevalence: a.prevalence,
+    prevalenceCI: [a.prevLow, a.prevHigh],
+    overlap: a.overlap,
+    sources: a.overlapSources || [],
+    modelFits: state.modelFits || null,
+    exportedAt: new Date().toISOString()
+  };
+  downloadFile(JSON.stringify(exportData, null, 2), 'capture-recapture-analysis.json', 'application/json');
+}
+
+function downloadFile(content, filename, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+function downloadExampleXLSX() {
+  const data = [
+    { id: 'P001', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 },
+    { id: 'P002', Fuente_A: 0, Fuente_B: 1, Fuente_C: 1 },
+    { id: 'P003', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 },
+    { id: 'P004', Fuente_A: 0, Fuente_B: 0, Fuente_C: 1 },
+    { id: 'P005', Fuente_A: 1, Fuente_B: 1, Fuente_C: 1 },
+    { id: 'P006', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 },
+    { id: 'P007', Fuente_A: 0, Fuente_B: 1, Fuente_C: 0 },
+    { id: 'P008', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 }
+  ];
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Data');
+  XLSX.writeFile(wb, 'capture-recapture-example.xlsx');
+}
+
+/* ============================================================
+   EVENT HANDLERS
+   ============================================================ */
+document.getElementById('sampleChoice').addEventListener('change', (e) => {
+  state.sampleChoice = e.target.value;
+  recomputeData();
+});
+
+document.getElementById('populationSize').addEventListener('change', (e) => {
+  state.populationSize = parseInt(e.target.value) || 100000;
+  runAnalysis();
+});
+
+document.getElementById('downloadTemplate').addEventListener('click', () => {
+  const arr = generateTemplateXLSX();
+  const blob = new Blob([arr], { type: 'application/octet-stream' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'capture-recapture-template.xlsx';
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+});
+
+document.getElementById('exportCSV').addEventListener('click', exportCSV);
+document.getElementById('exportXLSX').addEventListener('click', exportXLSX);
+document.getElementById('exportJSON').addEventListener('click', exportJSON);
+document.getElementById('downloadExample').addEventListener('click', (e) => { e.preventDefault(); downloadExampleXLSX(); });
+
+/* Tab navigation */
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    const target = document.getElementById('tab-' + btn.dataset.tab);
+    if (target) target.classList.add('active');
+
+    if (btn.dataset.tab === 'calc' && state.data && state.data.length > 0) {
+      setTimeout(() => { if (window.MathJax) MathJax.typesetPromise?.(); }, 100);
+    }
+  });
+});
+
+/* Theme toggle */
+const themeToggle = document.getElementById('themeToggle');
+function updateThemeIcon(isDark) { themeToggle.innerHTML = isDark ? '&#9788;' : '&#9790;'; }
+function applyTheme(mode) {
+  const root = document.documentElement;
+  root.classList.remove('light', 'dark');
+  if (mode === 'dark') { root.classList.add('dark'); updateThemeIcon(true); }
+  else if (mode === 'light') { root.classList.add('light'); updateThemeIcon(false); }
+  else updateThemeIcon(window.matchMedia('(prefers-color-scheme: dark)').matches);
+}
+applyTheme('auto');
+themeToggle.addEventListener('click', () => {
+  state.theme = state.theme === 'dark' ? 'light' : state.theme === 'light' ? 'auto' : 'dark';
+  applyTheme(state.theme);
+});
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+  if (state.theme === 'auto') applyTheme('auto');
+});
+
+/* ============================================================
+   INIT
+   ============================================================ */
+recomputeData();
+
+/* Handle loaded fonts / MathJax re-render on tab switch */
+document.addEventListener('DOMContentLoaded', () => {
+  if (window.MathJax) MathJax.typesetPromise?.();
+});
+
+/* ============================================================
+   WEBR INITIALIZATION
+   ============================================================ */
+if (location.protocol === 'file:') {
+  state.webrReady = 'error';
+  state.webrError = 'R engine requires HTTP. Open via python3 -m http.server or deploy to GitHub Pages.';
+  renderSourceConfig();
+} else {
+  import('https://webr.r-wasm.org/latest/webr.mjs').then(function(webrMod) {
+    var webR = new webrMod.WebR();
+    state.webR = webR;
+    return webR.init();
+  }).then(function() {
+    state.webrReady = 'installing';
+    renderSourceConfig();
+    return state.webR.evalRVoid('webr::install("Rcapture")');
+  }).then(function() {
+    state.webrReady = 'ready';
+    renderSourceConfig();
+    runAnalysis();
+  }).catch(function(e) {
+    state.webrReady = 'error';
+    state.webrError = e.message;
+    renderSourceConfig();
+    console.error('WebR init failed:', e);
+  });
+}
+
+})();
+</script>
+</body>
+</html>
