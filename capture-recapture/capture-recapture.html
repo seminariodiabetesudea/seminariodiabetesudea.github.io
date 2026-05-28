@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Capture-Recapture Analysis Tool</title>
+<title>Capture-Recapture Analysis Tool — STEP-T1D Study</title>
 <meta name="description" content="Estimate true population size from incomplete registries using capture-recapture methods.">
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
 <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" rel="stylesheet">
@@ -453,7 +453,7 @@ tr:last-child td { border-bottom: none; }
       <circle cx="20.5" cy="16.5" r="1.4" fill="var(--accent)"/>
       <circle cx="17" cy="21" r="1.4" fill="var(--accent)" opacity="0.55"/>
     </svg>
-    <span class="logo-text">Capture-Recapture</span>
+    <span class="logo-text">Capture-Recapture — STEP-T1D</span>
   </div>
   <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">&#9790;</button>
 </header>
@@ -503,9 +503,32 @@ tr:last-child td { border-bottom: none; }
     <h2>Three or More Sources</h2>
     <p>With three or more sources, log-linear models account for dependencies between sources. The tool fits six candidate models — M₀, M<sub>t</sub>, M<sub>h</sub>, M<sub>th</sub>, M<sub>b</sub>, and M<sub>bh</sub> — and selects the best model by minimum BIC (Bayesian Information Criterion).</p>
 
+    <h2>References</h2>
+    <ul>
+      <li><strong>Lincoln-Petersen estimator:</strong> Petersen, C. G. J. (1896). The yearly immigration of young plaice into the Limfjord from the German Sea. <em>Report of the Danish Biological Station</em>, 6, 1–48. — Lincoln, F. C. (1930). Calculating waterfowl abundance on the basis of banding returns. <em>USDA Circular</em>, 118, 1–4.</li>
+      <li><strong>Chapman estimator:</strong> Chapman, D. G. (1951). Some properties of the hypergeometric distribution with applications to zoological sample censuses. <em>University of California Publications in Statistics</em>, 1(7), 131–160.</li>
+      <li><strong>Log-linear models for CRC:</strong> Fienberg, S. E. (1972). The multiple recapture census for closed populations and incomplete 2<sup>k</sup> contingency tables. <em>Biometrika</em>, 59(3), 591–603. — Cormack, R. M. (1989). Log-linear models for capture-recapture. <em>Biometrics</em>, 45(2), 395–413.</li>
+      <li><strong>M<sub>0</sub>, M<sub>t</sub>, M<sub>h</sub>, M<sub>th</sub>, M<sub>b</sub>, M<sub>bh</sub> models:</strong> Otis, D. L., Burnham, K. P., White, G. C., & Anderson, D. R. (1978). Statistical inference from capture data on closed animal populations. <em>Wildlife Monographs</em>, 62, 3–135. — Pollock, K. H. (1982). A capture-recapture design robust to unequal probability of capture. <em>The Journal of Wildlife Management</em>, 46(3), 752–757.</li>
+      <li><strong>Rcapture R package:</strong> Baillargeon, S., & Rivest, L.-P. (2007). Rcapture: Loglinear models for capture-recapture in R. <em>Journal of Statistical Software</em>, 19(5), 1–31.</li>
+      <li><strong>Epidemiological applications:</strong> Chao, A., Tsay, P. K., Lin, S. H., Shau, W. Y., & Chao, D. Y. (2001). The applications of capture-recapture models to epidemiological data. <em>Statistics in Medicine</em>, 20(20), 3123–3157.</li>
+    </ul>
+
     <h2>Example Data</h2>
-    <p>Download a sample dataset to explore the tool with real-world-like data:</p>
+    <p>Download a sample dataset to explore the tool. The data format requires one row per individual with a unique <code>id</code> column. Each source column uses <strong>1</strong> if the individual was captured in that source and <strong>0</strong> if not. At least two source columns must be present.</p>
     <p><a class="btn btn-secondary" href="#" id="downloadExample">Download Example XLSX</a></p>
+
+    <h2>How to Cite</h2>
+    <p>Pérez Bedoya, J. P., Pérez Aguirre, C. A., Barengo, N. C., Lacalle Remigio, J. R., &amp; Diaz Valencia, P. A. (2026). Incidence of Type 1 Diabetes in the Metropolitan Area of the Aburrá Valley, Colombia, 2015–2024: Analysis of the STEP-T1D Study.</p>
+
+    <h2>Disclaimer</h2>
+    <p><strong>No data collection:</strong> This tool runs entirely in your browser. No data is transmitted, stored, or collected by the tool — all computations are performed locally on your computer.</p>
+    <p><strong>No responsibility:</strong> The authors are not responsible for any interpretations, decisions, or conclusions drawn from the results produced by this tool. Users should verify results independently and seek appropriate methodological guidance.</p>
+
+    <h2>Contact</h2>
+    <p>
+      Juan Pablo Pérez Bedoya: <a href="mailto:juan.perez42@udea.edu.co">juan.perez42@udea.edu.co</a><br>
+      Carlos Andrés Pérez-Aguirre: <a href="mailto:caaperezag@unal.edu.co">caaperezag@unal.edu.co</a>
+    </p>
   </div>
 </section>
 
@@ -560,7 +583,7 @@ tr:last-child td { border-bottom: none; }
         <div class="card kpi"><div class="kpi-label">Estimated N</div><div class="kpi-value">—</div><div class="kpi-sub">Run analysis to see estimate</div></div>
         <div class="card kpi"><div class="kpi-label">Observed</div><div class="kpi-value">—</div><div class="kpi-sub">Unique individuals in data</div></div>
         <div class="card kpi"><div class="kpi-label">Hidden</div><div class="kpi-value">—</div><div class="kpi-sub">Est. unobserved cases</div></div>
-        <div class="card kpi"><div class="kpi-label">Prevalence</div><div class="kpi-value">—</div><div class="kpi-sub">Per 10,000 inhabitants</div></div>
+        <div class="card kpi"><div class="kpi-label">Prevalence / Incidence</div><div class="kpi-value">—</div><div class="kpi-sub">Per 10,000 inhabitants (see Assumptions)</div></div>
       </div>
 
       <!-- Visualization -->
@@ -634,11 +657,14 @@ tr:last-child td { border-bottom: none; }
       <li>Report confidence intervals to communicate uncertainty</li>
       <li>If possible, validate estimates against an independent data source or expert judgment</li>
     </ul>
+
+    <h2>Interpretation: Incidence or Prevalence?</h2>
+    <p>Whether the estimated N̂ represents <strong>incidence</strong> or <strong>prevalence</strong> depends on the study design, not on the estimator itself. If the data sources capture <em>newly diagnosed cases</em> over a defined period (e.g., one year of new diagnoses), the estimate reflects <strong>incidence</strong>. If the data sources capture <em>existing cases</em> at a given point or period, the estimate reflects <strong>prevalence</strong>. The researcher is responsible for interpreting the results according to their study design and case definitions.</p>
   </div>
 </section>
 
 <!-- Footer -->
-<footer class="app-footer">Capture-Recapture Analysis Tool &middot; Static site for GitHub Pages &middot; No server required</footer>
+<footer class="app-footer">Capture-Recapture Analysis Tool &middot; Part of the STEP-T1D Study &middot; All computation performed locally &middot; No data collected</footer>
 
 </div><!-- /container -->
 
@@ -786,9 +812,9 @@ function parseFileData(workbook, ext, filename) {
 
 function generateTemplateXLSX() {
   const data = [
-    { id: 'P001', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 },
-    { id: 'P002', Fuente_A: 0, Fuente_B: 1, Fuente_C: 1 },
-    { id: 'P003', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 }
+    { id: 'P001', Source_A: 1, Source_B: 1, Source_C: 0 },
+    { id: 'P002', Source_A: 0, Source_B: 1, Source_C: 1 },
+    { id: 'P003', Source_A: 1, Source_B: 0, Source_C: 0 }
   ];
   const ws = XLSX.utils.json_to_sheet(data);
   const wb = XLSX.utils.book_new();
@@ -1118,7 +1144,7 @@ function renderKPIs() {
       { label: 'Estimated N', sub: 'Run analysis to see estimate' },
       { label: 'Observed', sub: 'Unique individuals in data' },
       { label: 'Hidden', sub: 'Est. unobserved cases' },
-      { label: 'Prevalence', sub: 'Per 10,000 inhabitants' }
+      { label: 'Prevalence / Incidence', sub: 'Per 10,000 inhabitants (see Assumptions)' }
     ].map(k => `<div class="card kpi"><div class="kpi-label">${k.label}</div><div class="kpi-value">—</div><div class="kpi-sub">${k.sub}</div></div>`).join('');
     return;
   }
@@ -1145,7 +1171,7 @@ function renderKPIs() {
       <div class="kpi-sub">${(a.hidden / a.Nhat * 100).toFixed(1)}% of estimated total</div>
     </div>
     <div class="card kpi">
-      <div class="kpi-label">Prevalence</div>
+      <div class="kpi-label">Prevalence / Incidence</div>
       <div class="kpi-value anim-num">${a.prevalence.toFixed(1)}</div>
       <div class="kpi-sub">per 10,000 (CI: ${a.prevLow.toFixed(1)} — ${a.prevHigh.toFixed(1)})</div>
     </div>`;
@@ -1561,14 +1587,14 @@ function downloadFile(content, filename, mime) {
 
 function downloadExampleXLSX() {
   const data = [
-    { id: 'P001', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 },
-    { id: 'P002', Fuente_A: 0, Fuente_B: 1, Fuente_C: 1 },
-    { id: 'P003', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 },
-    { id: 'P004', Fuente_A: 0, Fuente_B: 0, Fuente_C: 1 },
-    { id: 'P005', Fuente_A: 1, Fuente_B: 1, Fuente_C: 1 },
-    { id: 'P006', Fuente_A: 1, Fuente_B: 0, Fuente_C: 0 },
-    { id: 'P007', Fuente_A: 0, Fuente_B: 1, Fuente_C: 0 },
-    { id: 'P008', Fuente_A: 1, Fuente_B: 1, Fuente_C: 0 }
+    { id: 'P001', Source_A: 1, Source_B: 1, Source_C: 0 },
+    { id: 'P002', Source_A: 0, Source_B: 1, Source_C: 1 },
+    { id: 'P003', Source_A: 1, Source_B: 0, Source_C: 0 },
+    { id: 'P004', Source_A: 0, Source_B: 0, Source_C: 1 },
+    { id: 'P005', Source_A: 1, Source_B: 1, Source_C: 1 },
+    { id: 'P006', Source_A: 1, Source_B: 0, Source_C: 0 },
+    { id: 'P007', Source_A: 0, Source_B: 1, Source_C: 0 },
+    { id: 'P008', Source_A: 1, Source_B: 1, Source_C: 0 }
   ];
   const ws = XLSX.utils.json_to_sheet(data);
   const wb = XLSX.utils.book_new();
