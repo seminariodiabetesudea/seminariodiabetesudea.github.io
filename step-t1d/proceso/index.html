@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Mapa del proceso STEP-T1D">
+<meta property="og:description" content="Cómo STEP-T1D convierte historias clínicas de doce instituciones en una estimación de la diabetes tipo 1 en el Valle de Aburrá. Cifras preliminares.">
+<title>STEP-T1D process map</title>
+<meta name="description" content="How STEP-T1D turns clinical charts from twelve institutions into an estimate of type 1 diabetes in the Valle de Aburrá.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@450;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: a brand-ink hero, then an eight-stage process map (the measure rule is its spine,
+   one tick per stage) and the stages themselves, each expandable in place.
+   Tokens: copied from the STEP-T1D design system (tokens.css, version 1793527154-db53). */
+:root {
+  --brand-ink:#0c2340; --brand-blue:#3a70ab; --brand-lens:#6c99c7; --brand-drop:#c8382c; --on-ink:#ffffff; --on-ink-soft:#d5e2f0;
+  --surface:#ffffff; --surface-subtle:#f2f5f9; --surface-raised:#ffffff; --surface-wash:#f1f8ff; --surface-sunken:#e7ecf0; --surface-chart:#f8fafd;
+  --border-hairline:#e7ecf0; --border:#d6dbe1; --border-strong:#b8bec5; --border-control:#6e757d;
+  --text:#0c2340; --text-secondary:#555c63; --text-muted:#6e757d; --text-link:#24588f; --text-link-hover:#16416d; --text-drop:#a8261c;
+  --accent:#3a70ab; --accent-hover:#24588f; --accent-quiet:#6c99c7; --on-accent:#ffffff; --focus-ring:#5283ba;
+  --status-good:#0e664d; --status-warning:#8c5e0f;
+  --chart-cat-1:#3a70ab; --chart-cat-2:#c8382c; --chart-cat-3:#1d9fa0; --chart-grid:#e7ecf0; --chart-axis:#b8bec5; --chart-nodata:#e7ecf0;
+  --shadow-sm:0 1px 2px rgba(12,35,64,.06),0 1px 1px rgba(12,35,64,.04); --shadow-md:0 2px 4px rgba(12,35,64,.06),0 8px 16px -6px rgba(12,35,64,.10);
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:20px; --space-6:24px; --space-8:32px; --space-10:40px; --space-12:48px; --space-16:64px;
+  --radius-xs:3px; --radius-sm:6px; --radius-md:10px; --radius-lg:16px; --radius-full:9999px;
+  --font-display:Archivo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  --font-text:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --font-data:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --surface:#0c1723; --surface-subtle:#172534; --surface-raised:#1a2838; --surface-wash:#1c2d3f; --surface-sunken:#060f19; --surface-chart:#0e1a26;
+  --border-hairline:#293747; --border:#38485a; --border-strong:#4d5f75; --border-control:#8894a1;
+  --text:#e7eef5; --text-secondary:#aeb9c5; --text-muted:#8894a1; --text-link:#8dbbf0; --text-link-hover:#b0d5fe; --text-drop:#f68676;
+  --accent:#76a9e2; --accent-hover:#b0d5fe; --accent-quiet:#6c99c7; --on-accent:#0c2340; --focus-ring:#76afee;
+  --status-good:#46b591; --status-warning:#eaa948;
+  --chart-cat-1:#4b8fd9; --chart-cat-2:#de5c4d; --chart-cat-3:#1ea4a5; --chart-grid:#223246; --chart-axis:#4d5f75; --chart-nodata:#293747;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 2px 4px rgba(0,0,0,.4),0 8px 16px -6px rgba(0,0,0,.55);
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --surface:#0c1723; --surface-subtle:#172534; --surface-raised:#1a2838; --surface-wash:#1c2d3f; --surface-sunken:#060f19; --surface-chart:#0e1a26;
+  --border-hairline:#293747; --border:#38485a; --border-strong:#4d5f75; --border-control:#8894a1;
+  --text:#e7eef5; --text-secondary:#aeb9c5; --text-muted:#8894a1; --text-link:#8dbbf0; --text-link-hover:#b0d5fe; --text-drop:#f68676;
+  --accent:#76a9e2; --accent-hover:#b0d5fe; --accent-quiet:#6c99c7; --on-accent:#0c2340; --focus-ring:#76afee;
+  --status-good:#46b591; --status-warning:#eaa948;
+  --chart-cat-1:#4b8fd9; --chart-cat-2:#de5c4d; --chart-cat-3:#1ea4a5; --chart-grid:#223246; --chart-axis:#4d5f75; --chart-nodata:#293747;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 2px 4px rgba(0,0,0,.4),0 8px 16px -6px rgba(0,0,0,.55);
+  color-scheme: dark; }
+
+*,*::before,*::after { box-sizing:border-box; }
+[hidden] { display:none!important; }
+body { margin:0; background:var(--surface); color:var(--text); font-family:var(--font-display); -webkit-font-smoothing:antialiased; }
+h1,h2,h3,p,ol,ul,figure { margin:0; }
+ol,ul { padding:0; list-style:none; }
+.wrap { max-width:1200px; margin:0 auto; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); }
+.num { font-variant-numeric:tabular-nums; }
+:focus-visible { outline:2px solid var(--focus-ring); outline-offset:2px; border-radius:var(--radius-xs); }
+button { font:inherit; color:inherit; }
+@media (prefers-reduced-motion: reduce) { *,*::before,*::after { transition:none!important; animation:none!important; scroll-behavior:auto!important; } }
+
+/* measure rule */
+.rule { display:flex; align-items:flex-end; height:10px; }
+.rule i { display:block; width:1px; height:4px; background:var(--brand-lens); margin-right:15px; }
+.rule i:nth-child(5n+1) { height:9px; background:var(--border-strong); }
+.rule .line { flex:1; height:1px; background:var(--border-hairline); }
+.hero .rule i:nth-child(5n+1) { background:var(--on-ink-soft); }
+.hero .rule .line { background:rgba(213,226,240,.25); }
+.eyebrow { font-size:12px; line-height:16px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--accent); }
+
+/* hero */
+.hero { background:var(--brand-ink); color:var(--on-ink); padding-block:var(--space-12) var(--space-10); }
+.hero-grid { display:grid; gap:var(--space-6); }
+.hero-top { display:flex; align-items:flex-start; justify-content:space-between; gap:var(--space-4); flex-wrap:wrap; }
+.hero-top svg.logo { width:220px; height:auto; flex:none; }
+.hero .eyebrow { color:var(--on-ink-soft); }
+.hero h1 { font-size:clamp(32px, 5vw, 44px); line-height:1.1; font-weight:700; letter-spacing:-.02em; text-wrap:balance; max-width:22ch; }
+.hero .lead { font-family:var(--font-text); font-size:18px; line-height:30px; color:var(--on-ink-soft); max-width:62ch; }
+.hero .lead strong { color:var(--on-ink); font-weight:600; }
+.lang { display:inline-flex; border:1px solid rgba(213,226,240,.5); border-radius:var(--radius-sm); overflow:hidden; }
+.lang button { background:transparent; border:0; padding:6px 12px; font-size:13px; font-weight:600; letter-spacing:.04em; color:var(--on-ink-soft); cursor:pointer; }
+.lang button[aria-current="true"] { background:var(--on-ink); color:var(--brand-ink); }
+.prelim { display:inline-flex; align-items:center; gap:var(--space-2); font-size:13px; line-height:18px; font-weight:500; color:var(--status-warning); }
+.prelim svg { width:15px; height:15px; flex:none; }
+.hero .prelim { color:#eaa948; }
+
+/* process map (overview) */
+.mapband { background:var(--surface-subtle); border-bottom:1px solid var(--border-hairline); padding-block:var(--space-8); }
+.map-scroll { overflow-x:auto; padding-bottom:var(--space-2); -webkit-overflow-scrolling:touch; }
+.map { display:flex; align-items:stretch; gap:0; min-width:max-content; }
+.node { display:flex; align-items:stretch; }
+.node a { display:grid; grid-template-rows:auto auto 1fr; gap:var(--space-1); width:132px; padding:var(--space-3); border-radius:var(--radius-md);
+  background:var(--surface-raised); border:1px solid var(--border); box-shadow:var(--shadow-sm); color:var(--text); text-decoration:none;
+  transition:border-color .15s ease, box-shadow .15s ease, transform .15s ease; }
+.node a:hover { border-color:var(--accent-quiet); box-shadow:var(--shadow-md); transform:translateY(-1px); }
+.node a[aria-current="true"] { border-color:var(--accent); box-shadow:0 0 0 1px var(--accent), var(--shadow-md); }
+.node .step { font-family:var(--font-data); font-size:11px; color:var(--text-muted); display:flex; justify-content:space-between; align-items:center; }
+.node .step svg { width:20px; height:20px; color:var(--border-control); }
+.node a[aria-current="true"] .step svg { color:var(--accent); }
+.node .nm { font-size:14px; line-height:18px; font-weight:600; }
+.node .fig { font-size:20px; line-height:24px; font-weight:700; letter-spacing:-.01em; font-variant-numeric:tabular-nums; align-self:end; }
+.node .fig small { display:block; font-family:var(--font-data); font-size:11px; line-height:14px; font-weight:450; color:var(--text-muted); letter-spacing:0; }
+.node .fig.soon { font-size:13px; line-height:18px; color:var(--text-muted); font-weight:500; }
+.arrow { display:flex; align-items:center; width:28px; color:var(--border-strong); flex:none; }
+.arrow svg { width:28px; height:12px; }
+
+/* controls */
+.controls { display:flex; flex-wrap:wrap; gap:var(--space-4) var(--space-8); align-items:flex-end; padding-block:var(--space-6) 0; }
+.ctl { display:grid; gap:var(--space-2); min-width:0; }
+.ctl .lbl { font-size:12px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--text-muted); }
+.seg { display:flex; flex-wrap:wrap; gap:var(--space-1); }
+.seg label { position:relative; }
+.seg input { position:absolute; opacity:0; inset:0; margin:0; cursor:pointer; }
+.seg span { display:inline-block; padding:7px 12px; border:1px solid var(--border); border-radius:var(--radius-sm); font-size:13px; line-height:18px; font-weight:500; color:var(--text-secondary); background:var(--surface); cursor:pointer; }
+.seg input:checked + span { background:var(--accent); border-color:var(--accent); color:var(--on-accent); }
+.seg input:focus-visible + span { outline:2px solid var(--focus-ring); outline-offset:2px; }
+.delta { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); min-height:17px; }
+
+/* stages */
+.stages { display:grid; gap:var(--space-4); padding-block:var(--space-8) var(--space-16); }
+.stage { border:1px solid var(--border); border-radius:var(--radius-lg); background:var(--surface-raised); overflow:hidden; scroll-margin-top:16px; }
+.stage-head { width:100%; display:grid; grid-template-columns:auto 1fr auto; gap:var(--space-4); align-items:center; padding:var(--space-5) var(--space-6);
+  background:transparent; border:0; text-align:left; cursor:pointer; }
+.stage-head:hover { background:var(--surface-wash); }
+.stage-ico { width:44px; height:44px; border-radius:var(--radius-md); background:var(--surface-wash); color:var(--accent); display:grid; place-items:center; flex:none; }
+.stage-ico svg { width:24px; height:24px; }
+.stage-title { display:grid; gap:2px; min-width:0; }
+.stage-title .k { font-family:var(--font-data); font-size:12px; color:var(--text-muted); }
+.stage-title h2 { font-size:19px; line-height:26px; font-weight:600; text-wrap:balance; }
+.stage-title .sum { font-family:var(--font-text); font-size:15px; line-height:23px; color:var(--text-secondary); }
+.stage-side { display:flex; align-items:center; gap:var(--space-4); }
+.chev { width:20px; height:20px; color:var(--border-control); transition:transform .2s ease; }
+.stage-head[aria-expanded="true"] .chev { transform:rotate(180deg); }
+.status { display:inline-flex; align-items:center; gap:6px; font-size:13px; line-height:18px; font-weight:500; white-space:nowrap; }
+.status svg { width:15px; height:15px; }
+.status.done { color:var(--status-good); } .status.sign, .status.review { color:var(--status-warning); } .status.soon { color:var(--text-muted); }
+.stage-body { padding:0 var(--space-6) var(--space-6); display:grid; gap:var(--space-6); border-top:1px solid var(--border-hairline); padding-top:var(--space-6); }
+.cols { display:grid; grid-template-columns:minmax(0, 5fr) minmax(0, 7fr); gap:var(--space-8); align-items:start; }
+.prose { font-family:var(--font-text); font-size:16px; line-height:27px; color:var(--text); max-width:62ch; display:grid; gap:var(--space-3); }
+.prose .plain-label, .tech summary { font-family:var(--font-display); font-size:12px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); }
+.tech { border-top:1px solid var(--border-hairline); padding-top:var(--space-3); }
+.tech summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:var(--space-2); }
+.tech summary::-webkit-details-marker { display:none; }
+.tech summary::before { content:"+"; font-family:var(--font-data); font-size:15px; width:12px; }
+.tech[open] summary::before { content:"–"; }
+.tech p { font-family:var(--font-text); font-size:14px; line-height:23px; color:var(--text-secondary); margin-top:var(--space-2); }
+.tech code, .data { font-family:var(--font-data); font-size:.92em; }
+.stats { display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:var(--space-4); }
+.stat { display:grid; gap:2px; padding:var(--space-4); border:1px solid var(--border); border-radius:var(--radius-md); background:var(--surface); }
+.stat .v { font-size:28px; line-height:32px; font-weight:700; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.stat .u { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); }
+.stat .l { font-size:14px; line-height:19px; font-weight:500; color:var(--text); }
+
+/* figure anatomy */
+.fig { background:var(--surface-chart); border:1px solid var(--border); border-radius:var(--radius-lg); padding:var(--space-5); display:grid; gap:var(--space-3); min-width:0; }
+.fig .fnum { font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--text-muted); }
+.fig h3 { font-size:16px; line-height:22px; font-weight:600; text-wrap:balance; }
+.fig .cap { font-size:13px; line-height:19px; color:var(--text-secondary); }
+.fig .src { font-family:var(--font-data); font-size:12px; line-height:17px; color:var(--text-muted); }
+.legend { display:flex; flex-wrap:wrap; gap:var(--space-2) var(--space-5); }
+.legend span { display:inline-flex; align-items:center; gap:var(--space-2); font-size:13px; font-weight:500; color:var(--text-secondary); }
+.legend i { width:10px; height:10px; border-radius:var(--radius-xs); flex:none; }
+.tbl-toggle { justify-self:start; background:transparent; border:0; padding:0; color:var(--text-link); font-size:14px; font-weight:500; cursor:pointer; text-decoration:underline; text-underline-offset:3px; }
+.tbl-wrap { overflow-x:auto; }
+table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums; }
+th, td { text-align:left; padding:var(--space-2) var(--space-3); }
+thead th { background:var(--surface-subtle); font-size:13px; font-weight:600; color:var(--text-secondary); border-bottom:1px solid var(--border); }
+td { font-family:var(--font-data); font-size:13px; border-bottom:1px solid var(--border-hairline); }
+td:first-child { font-family:var(--font-display); font-weight:500; }
+th.n, td.n { text-align:right; }
+
+/* stacked bar (records by list) */
+.stack { display:flex; height:28px; border-radius:var(--radius-xs); overflow:hidden; gap:2px; background:var(--surface-chart); }
+.stack div { display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:600; color:#fff; font-variant-numeric:tabular-nums; min-width:0; }
+
+/* lists and institutions */
+.lists { display:grid; grid-template-columns:repeat(3, minmax(0, 1fr)); gap:var(--space-4); }
+.list { border:1px solid var(--border); border-radius:var(--radius-md); background:var(--surface); padding:var(--space-4); display:grid; gap:var(--space-3); align-content:start; min-width:0; }
+.list-h { display:grid; gap:2px; }
+.list-h .id { display:flex; align-items:center; gap:var(--space-2); font-size:13px; font-weight:700; letter-spacing:.06em; }
+.list-h .id i { width:12px; height:12px; border-radius:var(--radius-xs); }
+.list-h .meaning { font-size:15px; line-height:20px; font-weight:600; }
+.list-h .tot { font-family:var(--font-data); font-size:12px; color:var(--text-muted); }
+.inst { width:100%; display:grid; gap:4px; padding:var(--space-2); border:1px solid transparent; border-radius:var(--radius-sm); background:transparent; text-align:left; cursor:pointer; }
+.inst:hover { background:var(--surface-wash); }
+.inst[aria-expanded="true"] { border-color:var(--accent-quiet); background:var(--surface-wash); }
+.inst .row { display:flex; justify-content:space-between; gap:var(--space-2); font-size:14px; line-height:18px; font-weight:500; }
+.inst .row .n { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); white-space:nowrap; }
+.inst .bar { height:6px; border-radius:var(--radius-xs); background:var(--chart-grid); overflow:hidden; }
+.inst .bar i { display:block; height:100%; border-radius:0 var(--radius-xs) var(--radius-xs) 0; }
+.inst-detail { padding:var(--space-3); border-radius:var(--radius-sm); background:var(--surface-subtle); display:grid; gap:var(--space-2); font-size:13px; line-height:19px; color:var(--text-secondary); }
+.tags { display:flex; flex-wrap:wrap; gap:var(--space-1); }
+.tag { font-family:var(--font-data); font-size:12px; padding:2px 8px; border:1px solid var(--border); border-radius:var(--radius-sm); background:var(--surface); color:var(--text-secondary); }
+
+/* flow (who counts) */
+.flow { display:grid; gap:var(--space-2); }
+.frow { display:grid; grid-template-columns:minmax(0, 1.25fr) minmax(0, 1fr); gap:var(--space-4); align-items:center; padding:var(--space-2) 0; border-bottom:1px solid var(--border-hairline); }
+.frow:last-child { border-bottom:0; }
+.frow .t { font-size:14px; line-height:19px; font-weight:500; }
+.frow .x { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); display:flex; flex-wrap:wrap; gap:2px var(--space-3); margin-top:2px; }
+.frow .x b { color:var(--text); font-weight:500; }
+.frow .x i { display:inline-block; width:8px; height:8px; border-radius:2px; margin-right:4px; }
+.fbar { display:grid; gap:4px; }
+.fbar .track { height:14px; background:var(--chart-grid); border-radius:var(--radius-xs); overflow:hidden; }
+.fbar .track i { display:block; height:100%; background:var(--chart-cat-1); border-radius:0 var(--radius-xs) var(--radius-xs) 0; transition:width .35s ease; }
+.fbar .r { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); text-align:right; }
+.frow.first .t, .frow.last .t { font-weight:700; }
+.frow.last .fbar .track i { background:var(--accent); }
+
+/* venn */
+.venn svg { width:100%; max-width:520px; height:auto; display:block; margin:0 auto; }
+.venn .ring { fill-opacity:.12; stroke-width:2; }
+.venn .lab { font-family:var(--font-display); font-size:13px; font-weight:700; fill:var(--text); }
+.venn .cnt { font-family:var(--font-display); font-size:17px; font-weight:700; fill:var(--text); font-variant-numeric:tabular-nums; }
+.venn .hid { fill:var(--brand-drop); font-family:var(--font-display); font-size:34px; font-weight:700; }
+.venn .hidl { font-family:var(--font-display); font-size:12px; fill:var(--text-secondary); }
+
+/* model grid */
+.mgrid { display:grid; grid-template-columns:auto repeat(8, minmax(0, 1fr)); gap:4px; align-items:center; font-size:11px; }
+.mgrid .rh { font-size:12px; color:var(--text-secondary); padding-right:var(--space-2); white-space:nowrap; }
+.mgrid .ch { font-family:var(--font-data); font-size:10px; color:var(--text-muted); text-align:center; line-height:12px; }
+.mgrid .m { aspect-ratio:1; max-width:100%; border-radius:var(--radius-xs); background:var(--surface-wash); border:1px solid var(--accent-quiet); }
+.mgrid .m:hover, .mgrid .m:focus-visible { background:var(--accent); }
+.mtip { font-family:var(--font-data); font-size:12px; color:var(--text-secondary); min-height:17px; }
+
+/* municipalities rule */
+.munis { display:grid; gap:var(--space-2); }
+.munis .rule i { margin-right:calc((100% - 10px) / 9 - 1px); }
+.munis ul { display:grid; grid-template-columns:repeat(5, minmax(0, 1fr)); gap:var(--space-2) var(--space-4); font-size:13px; color:var(--text-secondary); }
+
+/* bars (people by number of records) */
+.cols-bars { display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:var(--space-2); align-items:end; height:150px; }
+.cb { display:grid; grid-template-rows:auto 1fr; gap:4px; height:100%; align-items:end; text-align:center; }
+.cb .v { font-family:var(--font-data); font-size:12px; color:var(--text); }
+.cb .b { background:var(--chart-cat-1); border-radius:var(--radius-xs) var(--radius-xs) 0 0; min-height:2px; }
+.cb-x { display:grid; grid-template-columns:repeat(6, minmax(0, 1fr)); gap:var(--space-2); text-align:center; font-family:var(--font-data); font-size:12px; color:var(--text-muted); border-top:1px solid var(--chart-axis); padding-top:4px; }
+
+footer.page { border-top:1px solid var(--border); padding-block:var(--space-8); color:var(--text-muted); font-size:13px; line-height:19px; }
+footer.page .src { font-family:var(--font-data); font-size:12px; }
+
+@media (max-width: 860px) {
+  .cols { grid-template-columns:minmax(0, 1fr); gap:var(--space-6); }
+  .lists { grid-template-columns:minmax(0, 1fr); }
+  .stage-head { grid-template-columns:auto 1fr; }
+  .stage-side { grid-column:1 / -1; justify-content:space-between; }
+  .munis ul { grid-template-columns:repeat(2, minmax(0, 1fr)); }
+  .frow { grid-template-columns:minmax(0, 1fr); gap:var(--space-2); }
+  .mgrid .rh { white-space:normal; font-size:11px; }
+}
+</style>
+
+</head>
+<body>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-top">
+      <span id="logo" aria-hidden="false"></span>
+      <div class="lang" role="group" id="langToggle">
+        <button type="button" data-lang="es" lang="es">ES</button>
+        <button type="button" data-lang="en" lang="en">EN</button>
+      </div>
+    </div>
+    <div class="rule" aria-hidden="true" id="heroRule"></div>
+    <p class="eyebrow" id="heroEyebrow"></p>
+    <h1 id="heroTitle"></h1>
+    <p class="lead" id="heroLead"></p>
+    <p class="prelim" id="heroPrelim"></p>
+  </div>
+</header>
+
+<div class="mapband">
+  <div class="wrap">
+    <nav class="map-scroll" id="mapNav"><ol class="map" id="map"></ol></nav>
+    <div class="controls" id="controls"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <ol class="stages" id="stages"></ol>
+</main>
+
+<footer class="page">
+  <div class="wrap" id="pageFooter"></div>
+</footer>
+
+<script type="application/json" id="contract">{"version":"process-2026-11-01.1","status":"preliminary","extracted":"2026-11-01","export":{"records":4784,"columns":183,"form_versions":5,"submission_first":"2026-02-03","submission_last":"2026-10-31","older_version_columns":70,"institutions":12,"spellings":21},"cleaning":{"placeholder_dx_years":395,"placeholder_insulin_years":2538,"impossible_birth_years":3,"unknown_dx_months":1788,"unknown_insulin_months":3261,"unusable_documents":2,"older_version_columns":70,"residence_at_dx_unknown":3399},"records":{"export":4784,"linked":4767,"excluded_not_approved":17},"lists":[{"id":"A","institutions":[{"name":"Hospital Pablo Tobón Uribe","records":626,"spellings":["Hospital Pablo Tobon Uribe"]},{"name":"Hospital Alma Máter de Antioquia","records":379,"spellings":["Hospital Alma Mater De Antioquia","Hospital Alma Mater","Hospital Alma Mate De Antioquia","Hosptial Alma Mater De Antioquia"]},{"name":"Hospital San Vicente Fundación","records":286,"spellings":["Hospital San Vicente Fundacion"]}]},{"id":"B","institutions":[{"name":"Metrosalud","records":413,"spellings":["Metrosalud","Ese Metrosalud","Mterosalud","Matrosalud"]},{"name":"Hospital Marco Fidel Suárez","records":406,"spellings":["Hospital Marco Fidel Suarez"]},{"name":"Hospital General de Medellín","records":159,"spellings":["Hospital General De Medellin"]},{"name":"Hospital Manuel Uribe Ángel","records":132,"spellings":["Hospital Manuel Uribe Angel","Clinica Manuel Uribe Angel"]},{"name":"Hospital Venancio Díaz Díaz","records":83,"spellings":["Hospital Venancio Diaz Diaz"]}]},{"id":"C","institutions":[{"name":"Clid (Clínica Integral de Diabetes)","records":1449,"spellings":["Clid","Clinica Clid"]},{"name":"Clínica ABC","records":374,"spellings":["Abc"]},{"name":"Neurum","records":355,"spellings":["Neurum"]},{"name":"Clínica Noel","records":105,"spellings":["Clinica Noel","Noel"]}]}],"linkage":{"records":4767,"people":3329,"people_by_records":{"1":2268,"2":768,"3":232,"4":42,"5":15,"6":4},"document_links":1795,"cross_type_links":380,"within_list_links":608,"document_conflicts":40,"model_links":1913,"threshold":0.9,"candidate_pairs":2323,"grey_zone_pairs":53,"clusters_for_review":61,"pairs_for_review":266,"people_with_conflicting_sex":37},"flows":{"main":{"2015-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":1794,"remaining":1345,"excluded_by_list":{"A":532,"B":510,"C":1223},"remaining_by_list":{"A":574,"B":396,"C":725}},{"key":"age_unknown","excluded":1,"remaining":1344,"excluded_by_list":{"A":0,"B":0,"C":1},"remaining_by_list":{"A":574,"B":396,"C":724}},{"key":"age_over_35","excluded":38,"remaining":1306,"excluded_by_list":{"A":9,"B":8,"C":21},"remaining_by_list":{"A":565,"B":388,"C":703}},{"key":"not_resident","excluded":259,"remaining":1047,"excluded_by_list":{"A":97,"B":51,"C":154},"remaining_by_list":{"A":468,"B":337,"C":549}},{"key":"residence_unresolved","excluded":32,"remaining":1015,"excluded_by_list":{"A":17,"B":7,"C":9},"remaining_by_list":{"A":451,"B":330,"C":540}},{"key":"sex_missing","excluded":0,"remaining":1015,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":451,"B":330,"C":540}}],"2005-2014":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":2117,"remaining":1022,"excluded_by_list":{"A":764,"B":583,"C":1286},"remaining_by_list":{"A":342,"B":323,"C":662}},{"key":"age_unknown","excluded":6,"remaining":1016,"excluded_by_list":{"A":4,"B":2,"C":3},"remaining_by_list":{"A":338,"B":321,"C":659}},{"key":"age_over_35","excluded":8,"remaining":1008,"excluded_by_list":{"A":0,"B":1,"C":7},"remaining_by_list":{"A":338,"B":320,"C":652}},{"key":"not_resident","excluded":149,"remaining":859,"excluded_by_list":{"A":57,"B":31,"C":83},"remaining_by_list":{"A":281,"B":289,"C":569}},{"key":"residence_unresolved","excluded":26,"remaining":833,"excluded_by_list":{"A":8,"B":5,"C":14},"remaining_by_list":{"A":273,"B":284,"C":555}},{"key":"sex_missing","excluded":0,"remaining":833,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":273,"B":284,"C":555}}],"2005-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":772,"remaining":2367,"excluded_by_list":{"A":190,"B":187,"C":561},"remaining_by_list":{"A":916,"B":719,"C":1387}},{"key":"age_unknown","excluded":7,"remaining":2360,"excluded_by_list":{"A":4,"B":2,"C":4},"remaining_by_list":{"A":912,"B":717,"C":1383}},{"key":"age_over_35","excluded":46,"remaining":2314,"excluded_by_list":{"A":9,"B":9,"C":28},"remaining_by_list":{"A":903,"B":708,"C":1355}},{"key":"not_resident","excluded":408,"remaining":1906,"excluded_by_list":{"A":154,"B":82,"C":237},"remaining_by_list":{"A":749,"B":626,"C":1118}},{"key":"residence_unresolved","excluded":58,"remaining":1848,"excluded_by_list":{"A":25,"B":12,"C":23},"remaining_by_list":{"A":724,"B":614,"C":1095}},{"key":"sex_missing","excluded":0,"remaining":1848,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":724,"B":614,"C":1095}}]},"S5":{"2015-2024":[{"key":"linked","excluded":0,"remaining":3332,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1167,"B":1022,"C":1967}},{"key":"dx_unknown","excluded":189,"remaining":3143,"excluded_by_list":{"A":57,"B":113,"C":19},"remaining_by_list":{"A":1110,"B":909,"C":1948}},{"key":"outside_window","excluded":1797,"remaining":1346,"excluded_by_list":{"A":535,"B":512,"C":1223},"remaining_by_list":{"A":575,"B":397,"C":725}},{"key":"age_unknown","excluded":1,"remaining":1345,"excluded_by_list":{"A":0,"B":0,"C":1},"remaining_by_list":{"A":575,"B":397,"C":724}},{"key":"age_over_35","excluded":38,"remaining":1307,"excluded_by_list":{"A":9,"B":8,"C":21},"remaining_by_list":{"A":566,"B":389,"C":703}},{"key":"not_resident","excluded":259,"remaining":1048,"excluded_by_list":{"A":97,"B":51,"C":154},"remaining_by_list":{"A":469,"B":338,"C":549}},{"key":"residence_unresolved","excluded":32,"remaining":1016,"excluded_by_list":{"A":17,"B":7,"C":9},"remaining_by_list":{"A":452,"B":331,"C":540}},{"key":"sex_missing","excluded":0,"remaining":1016,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":452,"B":331,"C":540}}],"2005-2014":[{"key":"linked","excluded":0,"remaining":3332,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1167,"B":1022,"C":1967}},{"key":"dx_unknown","excluded":189,"remaining":3143,"excluded_by_list":{"A":57,"B":113,"C":19},"remaining_by_list":{"A":1110,"B":909,"C":1948}},{"key":"outside_window","excluded":2119,"remaining":1024,"excluded_by_list":{"A":766,"B":585,"C":1286},"remaining_by_list":{"A":344,"B":324,"C":662}},{"key":"age_unknown","excluded":6,"remaining":1018,"excluded_by_list":{"A":4,"B":2,"C":3},"remaining_by_list":{"A":340,"B":322,"C":659}},{"key":"age_over_35","excluded":8,"remaining":1010,"excluded_by_list":{"A":0,"B":1,"C":7},"remaining_by_list":{"A":340,"B":321,"C":652}},{"key":"not_resident","excluded":149,"remaining":861,"excluded_by_list":{"A":57,"B":31,"C":83},"remaining_by_list":{"A":283,"B":290,"C":569}},{"key":"residence_unresolved","excluded":26,"remaining":835,"excluded_by_list":{"A":8,"B":5,"C":14},"remaining_by_list":{"A":275,"B":285,"C":555}},{"key":"sex_missing","excluded":0,"remaining":835,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":275,"B":285,"C":555}}],"2005-2024":[{"key":"linked","excluded":0,"remaining":3332,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1167,"B":1022,"C":1967}},{"key":"dx_unknown","excluded":189,"remaining":3143,"excluded_by_list":{"A":57,"B":113,"C":19},"remaining_by_list":{"A":1110,"B":909,"C":1948}},{"key":"outside_window","excluded":773,"remaining":2370,"excluded_by_list":{"A":191,"B":188,"C":561},"remaining_by_list":{"A":919,"B":721,"C":1387}},{"key":"age_unknown","excluded":7,"remaining":2363,"excluded_by_list":{"A":4,"B":2,"C":4},"remaining_by_list":{"A":915,"B":719,"C":1383}},{"key":"age_over_35","excluded":46,"remaining":2317,"excluded_by_list":{"A":9,"B":9,"C":28},"remaining_by_list":{"A":906,"B":710,"C":1355}},{"key":"not_resident","excluded":408,"remaining":1909,"excluded_by_list":{"A":154,"B":82,"C":237},"remaining_by_list":{"A":752,"B":628,"C":1118}},{"key":"residence_unresolved","excluded":58,"remaining":1851,"excluded_by_list":{"A":25,"B":12,"C":23},"remaining_by_list":{"A":727,"B":616,"C":1095}},{"key":"sex_missing","excluded":0,"remaining":1851,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":727,"B":616,"C":1095}}]},"S6":{"2015-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":194,"remaining":3135,"excluded_by_list":{"A":59,"B":113,"C":22},"remaining_by_list":{"A":1105,"B":906,"C":1945}},{"key":"outside_window","excluded":1801,"remaining":1334,"excluded_by_list":{"A":531,"B":511,"C":1229},"remaining_by_list":{"A":574,"B":395,"C":716}},{"key":"age_unknown","excluded":0,"remaining":1334,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":574,"B":395,"C":716}},{"key":"age_over_35","excluded":37,"remaining":1297,"excluded_by_list":{"A":9,"B":8,"C":20},"remaining_by_list":{"A":565,"B":387,"C":696}},{"key":"not_resident","excluded":256,"remaining":1041,"excluded_by_list":{"A":96,"B":51,"C":152},"remaining_by_list":{"A":469,"B":336,"C":544}},{"key":"residence_unresolved","excluded":32,"remaining":1009,"excluded_by_list":{"A":17,"B":7,"C":9},"remaining_by_list":{"A":452,"B":329,"C":535}},{"key":"sex_missing","excluded":0,"remaining":1009,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":452,"B":329,"C":535}}],"2005-2014":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":194,"remaining":3135,"excluded_by_list":{"A":59,"B":113,"C":22},"remaining_by_list":{"A":1105,"B":906,"C":1945}},{"key":"outside_window","excluded":2111,"remaining":1024,"excluded_by_list":{"A":764,"B":583,"C":1283},"remaining_by_list":{"A":341,"B":323,"C":662}},{"key":"age_unknown","excluded":6,"remaining":1018,"excluded_by_list":{"A":4,"B":2,"C":3},"remaining_by_list":{"A":337,"B":321,"C":659}},{"key":"age_over_35","excluded":8,"remaining":1010,"excluded_by_list":{"A":0,"B":1,"C":7},"remaining_by_list":{"A":337,"B":320,"C":652}},{"key":"not_resident","excluded":151,"remaining":859,"excluded_by_list":{"A":58,"B":31,"C":85},"remaining_by_list":{"A":279,"B":289,"C":567}},{"key":"residence_unresolved","excluded":26,"remaining":833,"excluded_by_list":{"A":8,"B":5,"C":14},"remaining_by_list":{"A":271,"B":284,"C":553}},{"key":"sex_missing","excluded":0,"remaining":833,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":271,"B":284,"C":553}}],"2005-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":194,"remaining":3135,"excluded_by_list":{"A":59,"B":113,"C":22},"remaining_by_list":{"A":1105,"B":906,"C":1945}},{"key":"outside_window","excluded":777,"remaining":2358,"excluded_by_list":{"A":190,"B":188,"C":567},"remaining_by_list":{"A":915,"B":718,"C":1378}},{"key":"age_unknown","excluded":6,"remaining":2352,"excluded_by_list":{"A":4,"B":2,"C":3},"remaining_by_list":{"A":911,"B":716,"C":1375}},{"key":"age_over_35","excluded":45,"remaining":2307,"excluded_by_list":{"A":9,"B":9,"C":27},"remaining_by_list":{"A":902,"B":707,"C":1348}},{"key":"not_resident","excluded":407,"remaining":1900,"excluded_by_list":{"A":154,"B":82,"C":237},"remaining_by_list":{"A":748,"B":625,"C":1111}},{"key":"residence_unresolved","excluded":58,"remaining":1842,"excluded_by_list":{"A":25,"B":12,"C":23},"remaining_by_list":{"A":723,"B":613,"C":1088}},{"key":"sex_missing","excluded":0,"remaining":1842,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":723,"B":613,"C":1088}}]},"S16":{"2015-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":1794,"remaining":1345,"excluded_by_list":{"A":532,"B":510,"C":1223},"remaining_by_list":{"A":574,"B":396,"C":725}},{"key":"age_unknown","excluded":1,"remaining":1344,"excluded_by_list":{"A":0,"B":0,"C":1},"remaining_by_list":{"A":574,"B":396,"C":724}},{"key":"age_over_35","excluded":38,"remaining":1306,"excluded_by_list":{"A":9,"B":8,"C":21},"remaining_by_list":{"A":565,"B":388,"C":703}},{"key":"not_resident","excluded":259,"remaining":1047,"excluded_by_list":{"A":97,"B":51,"C":154},"remaining_by_list":{"A":468,"B":337,"C":549}},{"key":"sex_missing","excluded":0,"remaining":1047,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":468,"B":337,"C":549}}],"2005-2014":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":2117,"remaining":1022,"excluded_by_list":{"A":764,"B":583,"C":1286},"remaining_by_list":{"A":342,"B":323,"C":662}},{"key":"age_unknown","excluded":6,"remaining":1016,"excluded_by_list":{"A":4,"B":2,"C":3},"remaining_by_list":{"A":338,"B":321,"C":659}},{"key":"age_over_35","excluded":8,"remaining":1008,"excluded_by_list":{"A":0,"B":1,"C":7},"remaining_by_list":{"A":338,"B":320,"C":652}},{"key":"not_resident","excluded":149,"remaining":859,"excluded_by_list":{"A":57,"B":31,"C":83},"remaining_by_list":{"A":281,"B":289,"C":569}},{"key":"sex_missing","excluded":0,"remaining":859,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":281,"B":289,"C":569}}],"2005-2024":[{"key":"linked","excluded":0,"remaining":3329,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":1164,"B":1019,"C":1967}},{"key":"dx_unknown","excluded":190,"remaining":3139,"excluded_by_list":{"A":58,"B":113,"C":19},"remaining_by_list":{"A":1106,"B":906,"C":1948}},{"key":"outside_window","excluded":772,"remaining":2367,"excluded_by_list":{"A":190,"B":187,"C":561},"remaining_by_list":{"A":916,"B":719,"C":1387}},{"key":"age_unknown","excluded":7,"remaining":2360,"excluded_by_list":{"A":4,"B":2,"C":4},"remaining_by_list":{"A":912,"B":717,"C":1383}},{"key":"age_over_35","excluded":46,"remaining":2314,"excluded_by_list":{"A":9,"B":9,"C":28},"remaining_by_list":{"A":903,"B":708,"C":1355}},{"key":"not_resident","excluded":408,"remaining":1906,"excluded_by_list":{"A":154,"B":82,"C":237},"remaining_by_list":{"A":749,"B":626,"C":1118}},{"key":"sex_missing","excluded":0,"remaining":1906,"excluded_by_list":{"A":0,"B":0,"C":0},"remaining_by_list":{"A":749,"B":626,"C":1118}}]}},"histories":{"main":{"2015-2024":{"A":246,"B":183,"C":308,"AB":46,"AC":131,"BC":73,"ABC":28},"2005-2014":{"A":106,"B":117,"C":363,"AB":55,"AC":80,"BC":80,"ABC":32},"2005-2024":{"A":352,"B":300,"C":671,"AB":101,"AC":211,"BC":153,"ABC":60}},"S5":{"2015-2024":{"A":247,"B":183,"C":308,"AB":46,"AC":130,"BC":73,"ABC":29},"2005-2014":{"A":107,"B":118,"C":363,"AB":55,"AC":80,"BC":79,"ABC":33},"2005-2024":{"A":354,"B":301,"C":671,"AB":101,"AC":210,"BC":152,"ABC":62}},"S6":{"2015-2024":{"A":247,"B":181,"C":302,"AB":46,"AC":131,"BC":74,"ABC":28},"2005-2014":{"A":106,"B":119,"C":364,"AB":55,"AC":79,"BC":79,"ABC":31},"2005-2024":{"A":353,"B":300,"C":666,"AB":101,"AC":210,"BC":153,"ABC":59}},"S16":{"2015-2024":{"A":262,"B":189,"C":317,"AB":47,"AC":131,"BC":73,"ABC":28},"2005-2014":{"A":114,"B":121,"C":376,"AB":55,"AC":80,"BC":81,"ABC":32},"2005-2024":{"A":376,"B":310,"C":693,"AB":102,"AC":211,"BC":154,"ABC":60}}},"windows":{"2015-2024":"main","2005-2014":"secondary","2005-2024":"extended"},"model_space_size":64,"municipalities":10}</script>
+<script>
+(function () {
+  "use strict";
+  const C = JSON.parse(document.getElementById("contract").textContent);
+
+  /* ---------- icons (STEP-T1D design system, stroke swapped to currentColor) ---------- */
+  const ICON = {"registries": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 6c0-1.66 3.58-3 8-3s8 1.34 8 3-3.58 3-8 3-8-1.34-8-3Z\"></path><path d=\"M4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6\"></path><path d=\"M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3\"></path></svg>", "studyDesign": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7.5 4H5.5A1.5 1.5 0 0 0 4 5.5v14A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5v-14A1.5 1.5 0 0 0 18.5 4h-2\"></path><rect x=\"8.5\" y=\"2.5\" width=\"7\" height=\"3\" rx=\"1\"></rect><circle cx=\"11\" cy=\"13\" r=\"3.2\"></circle><path d=\"M13.4 15.4 16.2 18.2\"></path></svg>", "partners": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"8.75\" cy=\"12\" r=\"4.75\"></circle><circle cx=\"15.25\" cy=\"12\" r=\"4.75\"></circle></svg>", "cohort": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"9\" cy=\"8.75\" r=\"2.9\"></circle><path d=\"M3.5 19.25a5.5 5.5 0 0 1 11 0\"></path><circle cx=\"17\" cy=\"9.75\" r=\"2.2\"></circle><path d=\"M15 15.1a4.3 4.3 0 0 1 5.5 4.15\"></path></svg>", "timeline": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.25 18h17.5\"></path><path d=\"M6.75 18v2.5M12 18v2.5M17.25 18v2.5\"></path><path d=\"M4.5 13.75h8.25\"></path><path d=\"M4.5 12v3.5M12.75 12v3.5\"></path><path d=\"M10.75 7.5h8.75\"></path><path d=\"M10.75 5.75v3.5M19.5 5.75v3.5\"></path></svg>", "lens": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.75\"></circle><path d=\"m15.4 15.4 5.1 5.1\"></path></svg>", "analysis": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 3.5v16h16.5\"></path><path d=\"M7 15.5 10.5 11l3.2 2.1L19 6.75\"></path><circle cx=\"10.5\" cy=\"11\" r=\"1.5\"></circle><circle cx=\"19\" cy=\"6.75\" r=\"1.5\"></circle></svg>", "territory": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M2.75 19.5h18.5\"></path><path d=\"M2.75 16.5 7 10.25l3.25 3.75 2.4-3.35 3.35 5.85\"></path><circle cx=\"17.5\" cy=\"6.5\" r=\"3.4\"></circle><path d=\"m20.05 8.95 1.5 1.5\"></path></svg>", "check": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8.75\"></circle><path d=\"m8 12.25 2.75 2.75L16 9.75\"></path></svg>", "alert": "<svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8.75\"></circle><path d=\"M12 7.5v5.25\"></path><path d=\"M12 16.25h.01\"></path></svg>"};
+
+  /* ---------- text ---------- */
+  const T = {
+    es: {
+      eyebrow: "Mapa del proceso",
+      title: "De la historia clínica a la estimación",
+      lead: "Así cuenta <strong>STEP-T1D</strong> (Tendencias espaciotemporales del perfil epidemiológico de la diabetes tipo 1) a las personas con diabetes tipo 1 del Valle de Aburrá, incluidas las que ningún registro alcanzó a ver. Cada paso muestra qué se hizo y con cuántos datos.",
+      prelim: "Preliminar · cifras de la extracción del {date}, antes de la firma del equipo",
+      win: "Años de diagnóstico", rule: "Reglas", step: "Paso {i} de {n}",
+      windows: { "2015-2024": "2015–2024 · principal", "2005-2014": "2005–2014 · secundaria", "2005-2024": "2005–2024 · extendida" },
+      rules: { main: "Reglas del plan", S5: "Con los {n} registros no aprobados", S6: "Fecha registrada primero", S16: "Con quienes no tienen dato de residencia" },
+      delta: "{d} personas frente a las reglas del plan", deltaZero: "Igual que con las reglas del plan",
+      plain: "En palabras simples", tech: "En términos técnicos",
+      showTable: "Ver la tabla", hideTable: "Ocultar la tabla",
+      status: { done: "Hecho", sign: "Por firmar", review: "En revisión", soon: "Próximamente" },
+      source: "Fuente: exportación STEP-T1D (KoboToolbox), extracción {date} · contrato {v} · Preliminar",
+      people: "personas", records: "registros",
+      lists: { A: "Hospitales universitarios de referencia", B: "Red pública y municipal", C: "Clínicas privadas especializadas" },
+      footer: "Última actualización: {date}. Todas las cifras salen del contrato de datos {v}, generado por el pipeline del estudio; ninguna se escribe a mano. Son agregados: la página no contiene datos de personas.",
+      figure: "Figura {n}",
+      stages: {
+        collect: {
+          name: "Recolectar", title: "Recolectar las historias clínicas",
+          sum: "{inst} instituciones de salud revisaron historias clínicas de personas con diabetes tipo 1.",
+          plain: ["Entre el {first} y el {last}, el equipo revisó historias clínicas en {inst} instituciones del Valle de Aburrá y registró {records} casos en un formulario común.", "Una misma persona puede aparecer en varias instituciones. No es un error: el método se apoya justamente en eso."],
+          tech: "Exportación de KoboToolbox con todas las versiones del formulario y sus etiquetas: {records} registros, {columns} columnas, {versions} versiones. Cada registro es una persona vista en una institución.",
+          figTitle: "Las clínicas privadas aportan casi la mitad de los registros", figCap: "Registros por lista. Una persona vista en dos listas aporta un registro a cada una."
+        },
+        clean: {
+          name: "Limpiar", title: "Limpiar sin inventar datos",
+          sum: "Lo que la historia no dice queda como desconocido.",
+          plain: ["Cuando una historia no registra un dato, el formulario guarda un código, como el año «1800». Esos códigos pasan a ser datos faltantes en lugar de tratarse como fechas reales, y cada cambio se cuenta."],
+          tech: "Años 1799, 1800 y 1801 son códigos de dato desconocido; los años anteriores a 1900 y los nacimientos anteriores a 1915 son imposibles; un documento «99» o de menos de cinco caracteres no identifica a nadie. Un mes desconocido se toma como mitad de año. Las {older} columnas de versiones antiguas del formulario se verifican vacías y una columna desconocida detiene el proceso.",
+          stats: { dx: "años de diagnóstico con código de desconocido", ins: "años de inicio de insulina con código de desconocido", mon: "meses de diagnóstico sin dato", cols: "columnas antiguas verificadas vacías" }
+        },
+        lists: {
+          name: "Tres listas", title: "Agrupar las instituciones en tres listas",
+          sum: "{spellings} formas de escribir los nombres → {inst} instituciones → 3 listas.",
+          plain: ["El método compara listas que encuentran a las personas por caminos distintos. Por eso cada institución se asigna a una de tres listas según el tipo de atención que presta.", "Una tabla revisada traduce cada forma de escribir el nombre a su institución y su lista. Si aparece un nombre nuevo, el proceso se detiene hasta que alguien lo revise. Toque una institución para ver cómo aparece escrita en los registros."],
+          tech: "Tabla institution_lists.csv: coincidencia exacta después de normalizar mayúsculas, tildes y espacios, sin reglas por palabras clave. Una institución en blanco se excluye y una forma de escribir desconocida detiene la corrida con sugerencias. Estado: propuesta del equipo técnico, pendiente de firma (punto de control C2).",
+          spellings: "Cómo aparece escrita", recs: "{n} registros", why: { A: "Hospital universitario de alta complejidad que recibe remisiones.", B: "Parte de la red pública o municipal de atención.", C: "Clínica privada especializada en diabetes o endocrinología." }
+        },
+        link: {
+          name: "Unir", title: "Reconocer a la misma persona en varios registros",
+          sum: "{records} registros → {people} personas.",
+          plain: ["Una niña puede tener registro civil, después tarjeta de identidad y luego cédula, y aparecer en dos o tres instituciones. Unir sus registros evita contarla más de una vez.", "Los enlaces perdidos inflan la estimación y los enlaces falsos la reducen, así que cada decisión dudosa pasa por revisión manual."],
+          tech: "Regla de documento entre tipos de documento, confirmada por año de nacimiento ±1 y nombre o sexo; modelo probabilístico de Fellegi y Sunter en Splink 5, con probabilidades m y u estimadas por EM y ajuste por la frecuencia de los apellidos; bloqueo por documento, por código fonético del apellido y año de nacimiento, y por nombre, apellido y municipio; umbral de probabilidad {thr}. Las probabilidades son casi binarias: {grey} de {cand} pares candidatos quedan entre 0,01 y 0,999.",
+          stats: { cross: "uniones entre tipos de documento", review: "pares para revisión manual", clusters: "personas con 4 o más registros, revisadas a mano" },
+          figTitle: "La mayoría de las personas tiene un solo registro, pero un tercio tiene varios", figCap: "Personas según cuántos registros quedaron unidos."
+        },
+        who: {
+          name: "Quién cuenta", title: "Decidir quién cuenta",
+          sum: "{n} personas diagnosticadas en {win}, entre 0 y 35 años, que vivían en el valle.",
+          plain: ["Primero se unen los registros y después se aplican los criterios a cada persona, nunca a cada registro, para que nadie quede en una lista y desaparezca de otra.", "La fecha de diagnóstico es la de la primera insulina; si falta, la fecha registrada. Cada paso muestra cuántas personas salen y de qué lista venían."],
+          tech: "Edad al diagnóstico en años cumplidos a partir del año y el mes de nacimiento y de diagnóstico (mitad de año si el mes falta). Residencia al diagnóstico: «Sí» cuenta, «No» excluye; si se desconoce, se usa el lugar del diagnóstico y luego la residencia actual. Las variantes son análisis de sensibilidad previstos en el plan: S5 incluye los registros marcados «no aprobado», S6 usa primero la fecha registrada y S16 cuenta como residentes a quienes no tienen ningún dato de residencia.",
+          steps: { linked: "Personas tras unir registros", dx_unknown: "Sin fecha creíble de diagnóstico", outside_window: "Diagnosticadas fuera de {win}", age_unknown: "Sin edad al diagnóstico", age_over_35: "Mayores de 35 años al diagnóstico", not_resident: "No vivían en el valle al diagnóstico", residence_unresolved: "Sin ningún dato de residencia", sex_missing: "Sin sexo registrado" },
+          out: "salen", stay: "quedan", byList: "por lista",
+          figTitle: "La ventana de años es el criterio que más personas deja por fuera", figCap: "Personas en cada paso, con las que salen por lista. Una persona registrada en dos listas cuenta en ambas.",
+          th: ["Paso", "Salen", "Lista A", "Lista B", "Lista C", "Quedan"]
+        },
+        overlaps: {
+          name: "Cruces", title: "Ver cómo se cruzan las listas",
+          sum: "{n} personas aparecen en más de una lista.",
+          plain: ["Si dos listas comparten muchas personas, casi nadie se les escapa. Si comparten pocas, hay muchas personas que ninguna vio.", "Contar cuántas personas hay en cada cruce es lo que permite estimar las que faltan, el signo de interrogación del dibujo."],
+          tech: "Siete historias de captura observables (solo A, solo B, solo C y sus cruces) por estrato de sexo, edad y año. La octava celda, la de quienes no están en ninguna lista, es la que predicen los modelos log-lineales. El término que une las tres listas no se puede identificar con los datos y solo se explora como análisis de sensibilidad.",
+          hidden: "nadie los registró", hidden2: "se estiman en el paso 7",
+          figTitle: "Las listas se cruzan lo suficiente para estimar a quienes faltan", figCap: "Personas en cada combinación de listas. Las áreas no son proporcionales a las cifras.",
+          th: ["Listas", "Personas"], none: "Ninguna lista", tbd: "por estimar"
+        },
+        estimate: {
+          name: "Estimar", title: "Estimar los casos que nadie registró",
+          sum: "{models} modelos, combinados según qué tan bien explican los datos.",
+          plain: ["Ningún modelo por sí solo es seguro. Se ajustan {models} modelos que suponen formas distintas en que las listas se relacionan y se combinan dando más peso a los que mejor explican los datos, como quien consulta varios pronósticos del tiempo."],
+          tech: "Modelos log-lineales de Poisson en PyMC: 8 estructuras de dependencia entre listas (nunca el término de tres vías) × lista por edad × lista por periodo × lista por sexo. Las distribuciones a priori se fijan antes de ver resultados (punto de control C3). Cada modelo se ajusta con NUTS y debe pasar criterios de convergencia; la verosimilitud marginal se calcula por SMC y bridge sampling; el promedio bayesiano es una mezcla de distribuciones posteriores.",
+          figTitle: "Antes de ver los datos, los {models} modelos pesan lo mismo", figCap: "Cada cuadro es un modelo: filas, dependencia entre listas; columnas, efectos de edad, periodo y sexo sobre la captura. Los pesos se calculan en la fase 5.",
+          deps: ["Independencia", "A–B", "A–C", "B–C", "A–B y A–C", "A–B y B–C", "A–C y B–C", "Las tres parejas"],
+          covs: ["—", "edad", "periodo", "sexo", "edad periodo", "edad sexo", "periodo sexo", "los tres"], tip: "Modelo: {dep}; efectos sobre la captura: {cov}"
+        },
+        rates: {
+          name: "Tasas", title: "De casos a tasas",
+          sum: "Tasas por 100 000 personas-año en los {munis} municipios del valle.",
+          plain: ["Para comparar con otros lugares, los casos se dividen por la población de cada año según las proyecciones del DANE por municipio, sexo y edad.", "Se publican dos cifras: la registrada, comparable con otros registros del mundo, y la corregida por los casos que nadie registró."],
+          tech: "Población del DANE: retroproyecciones 2005–2017 y proyecciones 2018–2042 por área, sexo y edad simple. Tasas por 100 000 personas-año, estandarizadas directamente con los pesos de DIAMOND y EURODIAB; tendencia por regresión de Poisson; intervalos a partir de la distribución posterior, sorteo por sorteo. Un análisis de sensibilidad suaviza el empalme entre las dos series del DANE en 2017–2018.",
+          figTitle: "Los diez municipios del Valle de Aburrá", figCap: "La regla de medida lleva una marca por municipio. Las tasas se publicarán cuando el plan de análisis esté congelado."
+        }
+      }
+    },
+    en: {
+      eyebrow: "Process map",
+      title: "From clinical charts to an estimate",
+      lead: "How <strong>STEP-T1D</strong> (Spatiotemporal Trends in the Epidemiological Profile of Type 1 Diabetes) counts the people with type 1 diabetes in the Valle de Aburrá, including those no record ever reached. Each step shows what was done and with how much data.",
+      prelim: "Preliminary · figures from the {date} extraction, before the team's sign-off",
+      win: "Years of diagnosis", rule: "Rules", step: "Step {i} of {n}",
+      windows: { "2015-2024": "2015–2024 · main", "2005-2014": "2005–2014 · secondary", "2005-2024": "2005–2024 · extended" },
+      rules: { main: "Rules of the plan", S5: "With the {n} records not approved", S6: "Recorded date first", S16: "With people with no residence information" },
+      delta: "{d} people compared with the rules of the plan", deltaZero: "Same as with the rules of the plan",
+      plain: "In plain words", tech: "In technical terms",
+      showTable: "Show the table", hideTable: "Hide the table",
+      status: { done: "Done", sign: "To be signed", review: "Under review", soon: "Coming next" },
+      source: "Source: STEP-T1D export (KoboToolbox), extracted {date} · contract {v} · Preliminary",
+      people: "people", records: "records",
+      lists: { A: "Referral academic hospitals", B: "Public and municipal network", C: "Specialised private clinics" },
+      footer: "Last updated: {date}. Every figure comes from data contract {v}, generated by the study's pipeline; none is typed by hand. They are aggregates: this page holds no data about individuals.",
+      figure: "Figure {n}",
+      stages: {
+        collect: {
+          name: "Collect", title: "Collect the clinical charts",
+          sum: "{inst} health institutions reviewed the charts of people with type 1 diabetes.",
+          plain: ["Between {first} and {last}, the team reviewed clinical charts at {inst} institutions in the Valle de Aburrá and entered {records} records in a common form.", "The same person can appear at several institutions. That is not an error: the method relies on it."],
+          tech: "KoboToolbox export with every form version and its labels: {records} records, {columns} columns, {versions} versions. Each record is one person seen at one institution.",
+          figTitle: "Private clinics supply almost half of the records", figCap: "Records by list. A person seen on two lists adds one record to each."
+        },
+        clean: {
+          name: "Clean", title: "Clean without inventing data",
+          sum: "What the chart does not say stays unknown.",
+          plain: ["When a chart does not record a value, the form stores a code such as the year 1800. Those codes become missing values instead of being read as real dates, and every change is counted."],
+          tech: "The years 1799, 1800 and 1801 are codes for unknown; years before 1900 and births before 1915 are impossible; a document number 99 or shorter than five characters identifies no one. An unknown month counts as mid-year. The {older} columns from older form versions are checked to be empty, and an unknown column stops the run.",
+          stats: { dx: "diagnosis years coded as unknown", ins: "insulin-start years coded as unknown", mon: "diagnosis months not recorded", cols: "older columns checked empty" }
+        },
+        lists: {
+          name: "Three lists", title: "Group the institutions into three lists",
+          sum: "{spellings} spellings of their names → {inst} institutions → 3 lists.",
+          plain: ["The method compares lists that find people through different routes. So each institution goes to one of three lists, by the kind of care it provides.", "A reviewed table maps every spelling of a name to its institution and its list. If a new name appears, the run stops until someone reviews it. Tap an institution to see how it is written in the records."],
+          tech: "Table institution_lists.csv: exact match after normalising case, accents and spaces, with no keyword rules. A blank institution is excluded, and an unknown spelling stops the run with suggestions. Status: proposed by the technical team, waiting for sign-off (checkpoint C2).",
+          spellings: "How it is written", recs: "{n} records", why: { A: "A high-complexity university hospital that receives referrals.", B: "Part of the public or municipal care network.", C: "A private clinic specialised in diabetes or endocrinology." }
+        },
+        link: {
+          name: "Link", title: "Recognise the same person across records",
+          sum: "{records} records → {people} people.",
+          plain: ["A girl may have a birth registration, then a child's identity card, then an adult ID, and appear at two or three institutions. Linking her records keeps her from being counted more than once.", "Missed links inflate the estimate and false links shrink it, so every doubtful decision goes to manual review."],
+          tech: "A document rule across document types, confirmed by birth year ±1 and by name or sex; a Fellegi–Sunter model in Splink 5, with m and u probabilities estimated by EM and term-frequency adjustment for common surnames; blocking on document, on surname phonetic code and birth year, and on first name, surname and municipality; probability threshold {thr}. The probabilities are almost binary: {grey} of {cand} candidate pairs fall between 0.01 and 0.999.",
+          stats: { cross: "links across document types", review: "pairs for manual review", clusters: "people with 4 or more records, reviewed by hand" },
+          figTitle: "Most people have one record, but a third have several", figCap: "People by how many records were linked to them."
+        },
+        who: {
+          name: "Who counts", title: "Decide who counts",
+          sum: "{n} people diagnosed in {win}, aged 0–35, who lived in the valley.",
+          plain: ["Records are linked first and the criteria are applied to each person, never to each record, so nobody stays on one list and vanishes from another.", "The date of diagnosis is the first insulin injection, or the recorded date when that is missing. Each step shows how many people leave and which list they came from."],
+          tech: "Age at diagnosis in completed years from the year and month of birth and of diagnosis (mid-year when the month is missing). Residence at diagnosis: “Sí” counts, “No” excludes; when unknown, the place of diagnosis decides, then current residence. The variants are sensitivity analyses in the plan: S5 includes records marked “not approved”, S6 uses the recorded date first, and S16 counts as residents the people with no residence information at all.",
+          steps: { linked: "People after linking records", dx_unknown: "No credible date of diagnosis", outside_window: "Diagnosed outside {win}", age_unknown: "No age at diagnosis", age_over_35: "Older than 35 at diagnosis", not_resident: "Not living in the valley at diagnosis", residence_unresolved: "No residence information at all", sex_missing: "Sex not recorded" },
+          out: "leave", stay: "remain", byList: "by list",
+          figTitle: "The window of years removes the most people", figCap: "People at each step, with those who leave by list. A person recorded on two lists counts in both.",
+          th: ["Step", "Leave", "List A", "List B", "List C", "Remain"]
+        },
+        overlaps: {
+          name: "Overlaps", title: "See how the lists overlap",
+          sum: "{n} people appear on more than one list.",
+          plain: ["If two lists share many people, few escape them both. If they share few, many people were seen by neither.", "Counting the people in each overlap is what lets the study estimate those who are missing, the question mark in the drawing."],
+          tech: "Seven observable capture histories (A only, B only, C only and their overlaps) by stratum of sex, age and year. The eighth cell, the people on no list, is what the log-linear models predict. The term joining all three lists cannot be identified from the data and is only explored as a sensitivity analysis.",
+          hidden: "recorded by no one", hidden2: "estimated in step 7",
+          figTitle: "The lists overlap enough to estimate who is missing", figCap: "People in each combination of lists. Areas are not proportional to the counts.",
+          th: ["Lists", "People"], none: "No list", tbd: "to be estimated"
+        },
+        estimate: {
+          name: "Estimate", title: "Estimate the cases nobody recorded",
+          sum: "{models} models, combined by how well they explain the data.",
+          plain: ["No single model is safe on its own. The study fits {models} models that assume different ways the lists relate, and combines them, giving more weight to those that explain the data best, much like weighing several weather forecasts."],
+          tech: "Poisson log-linear models in PyMC: 8 structures of dependence between lists (never the three-way term) × list by age × list by period × list by sex. Priors are fixed before any result is seen (checkpoint C3). Each model is fitted with NUTS and must pass convergence checks; marginal likelihoods come from SMC and bridge sampling; the Bayesian model average is a mixture of posteriors.",
+          figTitle: "Before seeing the data, the {models} models weigh the same", figCap: "Each square is a model: rows, dependence between lists; columns, effects of age, period and sex on capture. The weights are computed in Phase 5.",
+          deps: ["Independence", "A–B", "A–C", "B–C", "A–B and A–C", "A–B and B–C", "A–C and B–C", "All three pairs"],
+          covs: ["—", "age", "period", "sex", "age period", "age sex", "period sex", "all three"], tip: "Model: {dep}; effects on capture: {cov}"
+        },
+        rates: {
+          name: "Rates", title: "From cases to rates",
+          sum: "Rates per 100 000 person-years in the valley's {munis} municipalities.",
+          plain: ["To compare with other places, cases are divided by each year's population, from DANE projections by municipality, sex and age.", "Two figures are published: the registered one, comparable with registries worldwide, and the one corrected for the cases nobody recorded."],
+          tech: "DANE population: back-projections 2005–2017 and projections 2018–2042 by area, sex and single age. Rates per 100 000 person-years, directly standardised with DIAMOND and EURODIAB weights; trend by Poisson regression; intervals from the posterior distribution, draw by draw. A sensitivity analysis smooths the join between DANE's two series at 2017–2018.",
+          figTitle: "The ten municipalities of the Valle de Aburrá", figCap: "The measure rule carries one tick per municipality. Rates will be published once the analysis plan is frozen."
+        }
+      }
+    }
+  };
+
+  const STAGES = [
+    { key: "collect", icon: "registries", status: "done" },
+    { key: "clean", icon: "studyDesign", status: "done" },
+    { key: "lists", icon: "partners", status: "sign" },
+    { key: "link", icon: "cohort", status: "review" },
+    { key: "who", icon: "timeline", status: "sign" },
+    { key: "overlaps", icon: "lens", status: "done" },
+    { key: "estimate", icon: "analysis", status: "soon" },
+    { key: "rates", icon: "territory", status: "soon" }
+  ];
+  const MUNICIPALITIES = ["Medellín", "Barbosa", "Bello", "Caldas", "Copacabana", "Envigado", "Girardota", "Itagüí", "La Estrella", "Sabaneta"];
+  const LIST_COLOR = { A: "var(--chart-cat-1)", B: "var(--chart-cat-2)", C: "var(--chart-cat-3)" };
+
+  /* ---------- state ---------- */
+  const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+  const navLang = (navigator.language || "es").toLowerCase().startsWith("en") ? "en" : "es";
+  const S = { lang: store.get("stept1d-lang") || navLang, win: "2015-2024", rule: "main", open: new Set(["lists", "who"]), inst: null, tables: new Set() };
+
+  /* ---------- helpers ---------- */
+  const NBSP = " ";
+  const nf = (n) => (n === null || n === undefined) ? "—" : String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, NBSP);
+  const sf = (n) => (n > 0 ? "+" : n < 0 ? "−" : "") + nf(Math.abs(n));
+  const tx = (s, v) => s.replace(/\{(\w+)\}/g, (m, k) => (v && k in v) ? v[k] : m);
+  const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const L = () => T[S.lang];
+  const dateLong = (iso) => {
+    const d = new Date(iso + "T12:00:00");
+    return d.toLocaleDateString(S.lang === "es" ? "es-CO" : "en-GB", { day: "numeric", month: "long", year: "numeric" });
+  };
+  const winLabel = (w) => w.replace("-", "–");
+  const flow = (rule, win) => C.flows[rule][win];
+  const finalN = (rule, win) => { const f = flow(rule, win); return f[f.length - 1].remaining; };
+  const hist = () => C.histories[S.rule][S.win];
+  const multi = (h) => h.AB + h.AC + h.BC + h.ABC;
+  const recordsByList = () => Object.fromEntries(C.lists.map((l) => [l.id, l.institutions.reduce((a, i) => a + i.records, 0)]));
+  const source = () => `<p class="src">${esc(tx(L().source, { date: C.extracted, v: C.version }))}</p>`;
+  const statusHtml = (st) => {
+    const ic = st === "done" ? ICON.check : st === "soon" ? "" : ICON.alert;
+    return `<span class="status ${st}">${ic}${esc(L().status[st])}</span>`;
+  };
+  let figNo = 0;
+  const figure = (title, plot, cap, table) => {
+    figNo += 1;
+    const id = `tbl-${figNo}`;
+    const open = S.tables.has(id);
+    return `<figure class="fig"><p class="fnum">${esc(tx(L().figure, { n: figNo }))}</p><h3>${esc(title)}</h3>${plot}
+      <p class="cap">${esc(cap)}</p>${source()}
+      ${table ? `<button type="button" class="tbl-toggle" data-table="${id}" aria-expanded="${open}" aria-controls="${id}">${esc(open ? L().hideTable : L().showTable)}</button>
+      <div class="tbl-wrap" id="${id}" ${open ? "" : "hidden"}>${table}</div>` : ""}</figure>`;
+  };
+  const legend = () => `<div class="legend">${["A", "B", "C"].map((id) => `<span><i style="background:${LIST_COLOR[id]}"></i>${id} · ${esc(L().lists[id])}</span>`).join("")}</div>`;
+
+  /* ---------- stage bodies ---------- */
+  function bodyCollect(s) {
+    const r = recordsByList(); const tot = r.A + r.B + r.C;
+    const bar = `<div class="stack" role="img" aria-label="${esc(["A", "B", "C"].map((id) => `${id}: ${nf(r[id])}`).join(", "))}">${["A", "B", "C"].map((id) => `<div style="width:${(100 * r[id] / tot).toFixed(2)}%;background:${LIST_COLOR[id]}">${nf(r[id])}</div>`).join("")}</div>`;
+    const table = `<table><thead><tr><th>${esc(L().stages.who.th[0].replace(/.*/, S.lang === "es" ? "Lista" : "List"))}</th><th class="n">${esc(L().records)}</th></tr></thead><tbody>${["A", "B", "C"].map((id) => `<tr><td>${id} · ${esc(L().lists[id])}</td><td class="n">${nf(r[id])}</td></tr>`).join("")}</tbody></table>`;
+    return cols(prose(s, { first: dateLong(C.export.submission_first), last: dateLong(C.export.submission_last), inst: C.export.institutions, records: nf(C.export.records) },
+      { records: nf(C.export.records), columns: C.export.columns, versions: C.export.form_versions }),
+      figure(s.figTitle, legend() + bar, s.figCap, table));
+  }
+  function bodyClean(s) {
+    const c = C.cleaning;
+    const st = [[c.placeholder_dx_years, s.stats.dx], [c.placeholder_insulin_years, s.stats.ins], [c.unknown_dx_months, s.stats.mon], [c.older_version_columns, s.stats.cols]];
+    return cols(prose(s, {}, { older: c.older_version_columns }),
+      `<div class="stats">${st.map(([v, l]) => `<div class="stat"><span class="v">${nf(v)}</span><span class="l">${esc(l)}</span></div>`).join("")}</div>`);
+  }
+  function bodyLists(s) {
+    const max = Math.max(...C.lists.flatMap((l) => l.institutions.map((i) => i.records)));
+    const cards = C.lists.map((l) => {
+      const tot = l.institutions.reduce((a, i) => a + i.records, 0);
+      const rows = l.institutions.map((i) => {
+        const id = `inst-${l.id}-${i.name.replace(/[^A-Za-z]/g, "")}`;
+        const open = S.inst === id;
+        return `<li><button type="button" class="inst" data-inst="${id}" aria-expanded="${open}" aria-controls="${id}-d">
+            <span class="row"><span>${esc(i.name)}</span><span class="n">${nf(i.records)}</span></span>
+            <span class="bar"><i style="width:${(100 * i.records / max).toFixed(1)}%;background:${LIST_COLOR[l.id]}"></i></span></button>
+          <div class="inst-detail" id="${id}-d" ${open ? "" : "hidden"}>
+            <span>${esc(tx(s.recs, { n: nf(i.records) }))} · ${esc(s.why[l.id])}</span>
+            <span><strong>${esc(s.spellings)}:</strong></span>
+            <span class="tags">${i.spellings.map((sp) => `<span class="tag">${esc(sp)}</span>`).join("")}</span></div></li>`;
+      }).join("");
+      return `<div class="list"><div class="list-h"><span class="id"><i style="background:${LIST_COLOR[l.id]}"></i>${S.lang === "es" ? "LISTA" : "LIST"} ${l.id}</span>
+        <span class="meaning">${esc(L().lists[l.id])}</span><span class="tot">${nf(l.institutions.length)} · ${nf(tot)} ${esc(L().records)}</span></div><ul>${rows}</ul></div>`;
+    }).join("");
+    return `${prose(s, {}, {})}<div class="lists">${cards}</div>${source()}`;
+  }
+  function bodyLink(s) {
+    const k = C.linkage;
+    const pb = k.people_by_records; const keys = Object.keys(pb).sort((a, b) => a - b); const mx = Math.max(...keys.map((x) => pb[x]));
+    const bars = `<div class="cols-bars" role="img" aria-label="${esc(keys.map((x) => `${x}: ${nf(pb[x])}`).join(", "))}">${keys.map((x) => `<div class="cb"><span class="v">${nf(pb[x])}</span><span class="b" style="height:${Math.max(2, 100 * pb[x] / mx).toFixed(1)}%"></span></div>`).join("")}</div>
+      <div class="cb-x">${keys.map((x) => `<span>${x}</span>`).join("")}</div>`;
+    const table = `<table><thead><tr><th>${S.lang === "es" ? "Registros por persona" : "Records per person"}</th><th class="n">${esc(L().people)}</th></tr></thead><tbody>${keys.map((x) => `<tr><td>${x}</td><td class="n">${nf(pb[x])}</td></tr>`).join("")}</tbody></table>`;
+    const stats = `<div class="stats">${[[k.cross_type_links, s.stats.cross], [k.pairs_for_review, s.stats.review], [k.clusters_for_review, s.stats.clusters]].map(([v, l]) => `<div class="stat"><span class="v">${nf(v)}</span><span class="l">${esc(l)}</span></div>`).join("")}</div>`;
+    return cols(prose(s, {}, { thr: String(k.threshold).replace(".", S.lang === "es" ? "," : "."), grey: nf(k.grey_zone_pairs), cand: nf(k.candidate_pairs) }) + stats,
+      figure(s.figTitle, bars, s.figCap, table));
+  }
+  function bodyWho(s) {
+    const f = flow(S.rule, S.win); const top = f[0].remaining;
+    const rows = f.map((st, i) => {
+      const label = tx(s.steps[st.key], { win: winLabel(S.win) });
+      const ex = i === 0 ? "" : `<span class="x"><b>${nf(st.excluded)} ${esc(s.out)}</b>${["A", "B", "C"].map((id) => `<span><i style="background:${LIST_COLOR[id]}"></i>${id} ${nf(st.excluded_by_list[id])}</span>`).join("")}</span>`;
+      return `<li class="frow ${i === 0 ? "first" : ""} ${i === f.length - 1 ? "last" : ""}"><div><span class="t">${esc(label)}</span>${ex}</div>
+        <div class="fbar"><span class="track"><i style="width:${(100 * st.remaining / top).toFixed(1)}%"></i></span><span class="r">${nf(st.remaining)} ${esc(s.stay)}</span></div></li>`;
+    }).join("");
+    const table = `<table><thead><tr>${s.th.map((h, i) => `<th class="${i ? "n" : ""}">${esc(h)}</th>`).join("")}</tr></thead><tbody>${f.map((st) => `<tr><td>${esc(tx(s.steps[st.key], { win: winLabel(S.win) }))}</td><td class="n">${nf(st.excluded)}</td>${["A", "B", "C"].map((id) => `<td class="n">${nf(st.excluded_by_list[id])}</td>`).join("")}<td class="n">${nf(st.remaining)}</td></tr>`).join("")}</tbody></table>`;
+    return cols(prose(s, {}, {}), figure(s.figTitle, legend() + `<ol class="flow">${rows}</ol>`, s.figCap, table));
+  }
+  function bodyOverlaps(s) {
+    const h = hist();
+    const pos = { A: [118, 112], B: [302, 112], C: [210, 262], AB: [210, 96], AC: [150, 196], BC: [270, 196], ABC: [210, 166] };
+    const svg = `<svg viewBox="0 0 420 330" role="img" aria-label="${esc(Object.entries(h).map(([k, v]) => `${k}: ${nf(v)}`).join(", "))}">
+      <circle class="ring" cx="160" cy="135" r="98" fill="var(--chart-cat-1)" stroke="var(--chart-cat-1)"/>
+      <circle class="ring" cx="260" cy="135" r="98" fill="var(--chart-cat-2)" stroke="var(--chart-cat-2)"/>
+      <circle class="ring" cx="210" cy="222" r="98" fill="var(--chart-cat-3)" stroke="var(--chart-cat-3)"/>
+      <text class="lab" x="62" y="40">A</text><text class="lab" x="350" y="40">B</text><text class="lab" x="300" y="318">C</text>
+      ${Object.entries(pos).map(([k, [x, y]]) => `<text class="cnt" x="${x}" y="${y}" text-anchor="middle">${nf(h[k])}</text>`).join("")}
+      <text class="hid" x="374" y="270" text-anchor="middle">?</text>
+      <text class="hidl" x="374" y="292" text-anchor="middle">${esc(s.hidden)}</text>
+      <text class="hidl" x="374" y="308" text-anchor="middle">${esc(s.hidden2)}</text></svg>`;
+    const order = ["A", "B", "C", "AB", "AC", "BC", "ABC"];
+    const table = `<table><thead><tr><th>${esc(s.th[0])}</th><th class="n">${esc(s.th[1])}</th></tr></thead><tbody>${order.map((k) => `<tr><td>${k.split("").join(" + ")}</td><td class="n">${nf(h[k])}</td></tr>`).join("")}<tr><td>${esc(s.none)}</td><td class="n">${esc(s.tbd)}</td></tr></tbody></table>`;
+    return cols(prose(s, {}, {}), figure(s.figTitle, legend() + `<div class="venn">${svg}</div>`, s.figCap, table));
+  }
+  function bodyEstimate(s) {
+    const m = C.model_space_size;
+    const cells = s.deps.map((d, r) => `<span class="rh">${esc(d)}</span>${s.covs.map((c, k) => `<span class="m" tabindex="0" data-tip="${esc(tx(s.tip, { dep: d, cov: c }))}" aria-label="${esc(tx(s.tip, { dep: d, cov: c }))}"></span>`).join("")}`).join("");
+    const head = `<span></span>${s.covs.map((c) => `<span class="ch">${esc(c)}</span>`).join("")}`;
+    return cols(prose(s, { models: m }, {}), figure(tx(s.figTitle, { models: m }), `<div class="mgrid">${head}${cells}</div><p class="mtip" id="mtip" aria-live="polite"></p>`, s.figCap, null));
+  }
+  function bodyRates(s) {
+    const ticks = MUNICIPALITIES.map(() => "<i></i>").join("");
+    return cols(prose(s, {}, {}), figure(s.figTitle, `<div class="munis"><div class="rule" aria-hidden="true">${ticks}</div><ul>${MUNICIPALITIES.map((m) => `<li>${esc(m)}</li>`).join("")}</ul></div>`, s.figCap, null));
+  }
+  const BODY = { collect: bodyCollect, clean: bodyClean, lists: bodyLists, link: bodyLink, who: bodyWho, overlaps: bodyOverlaps, estimate: bodyEstimate, rates: bodyRates };
+
+  function prose(s, vPlain, vTech) {
+    return `<div class="prose"><p class="plain-label">${esc(L().plain)}</p>${s.plain.map((p) => `<p>${esc(tx(p, vPlain))}</p>`).join("")}
+      <details class="tech"><summary>${esc(L().tech)}</summary><p>${esc(tx(s.tech, vTech))}</p></details></div>`;
+  }
+  function cols(a, b) { return `<div class="cols"><div>${a}</div><div>${b}</div></div>`; }
+
+  function summary(key) {
+    const s = L().stages[key];
+    const v = {
+      collect: { inst: C.export.institutions }, clean: {},
+      lists: { spellings: C.export.spellings, inst: C.export.institutions },
+      link: { records: nf(C.linkage.records), people: nf(C.linkage.people) },
+      who: { n: nf(finalN(S.rule, S.win)), win: winLabel(S.win) },
+      overlaps: { n: nf(multi(hist())) }, estimate: { models: C.model_space_size }, rates: { munis: C.municipalities }
+    }[key];
+    return tx(s.sum, v);
+  }
+  function nodeFigure(key) {
+    const L_ = L();
+    switch (key) {
+      case "collect": return `${nf(C.export.records)}<small>${esc(L_.records)}</small>`;
+      case "clean": return `${nf(C.cleaning.placeholder_dx_years + C.cleaning.placeholder_insulin_years)}<small>${S.lang === "es" ? "códigos a faltante" : "codes to missing"}</small>`;
+      case "lists": return `3<small>${nf(C.export.institutions)} ${S.lang === "es" ? "instituciones" : "institutions"}</small>`;
+      case "link": return `${nf(C.linkage.people)}<small>${esc(L_.people)}</small>`;
+      case "who": return `${nf(finalN(S.rule, S.win))}<small>${esc(L_.people)} · ${winLabel(S.win)}</small>`;
+      case "overlaps": return `${nf(multi(hist()))}<small>${S.lang === "es" ? "en 2 o más listas" : "on 2 or more lists"}</small>`;
+      default: return null;
+    }
+  }
+
+  /* ---------- render ---------- */
+  function render() {
+    const L_ = L();
+    document.documentElement.lang = S.lang;
+    document.title = S.lang === "es" ? "Mapa del proceso STEP-T1D" : "STEP-T1D process map";
+    document.querySelectorAll("#langToggle button").forEach((b) => b.setAttribute("aria-current", String(b.dataset.lang === S.lang)));
+    document.getElementById("langToggle").setAttribute("aria-label", S.lang === "es" ? "Idioma" : "Language");
+    document.getElementById("heroRule").innerHTML = STAGES.map(() => "<i></i>").join("") + '<span class="line"></span>';
+    document.getElementById("heroEyebrow").textContent = L_.eyebrow;
+    document.getElementById("heroTitle").textContent = L_.title;
+    document.getElementById("heroLead").innerHTML = L_.lead;
+    document.getElementById("heroPrelim").innerHTML = ICON.alert + esc(tx(L_.prelim, { date: C.extracted }));
+    document.getElementById("mapNav").setAttribute("aria-label", L_.eyebrow);
+
+    document.getElementById("map").innerHTML = STAGES.map((st, i) => {
+      const s = L_.stages[st.key]; const fig = nodeFigure(st.key);
+      return `<li class="node"><a href="#stage-${st.key}" data-go="${st.key}" aria-current="${S.open.has(st.key)}">
+          <span class="step">${String(i + 1).padStart(2, "0")}${ICON[st.icon]}</span><span class="nm">${esc(s.name)}</span>
+          <span class="fig ${fig ? "" : "soon"}">${fig || esc(L_.status.soon)}</span></a></li>${i < STAGES.length - 1 ? '<li class="arrow" aria-hidden="true"><svg viewBox="0 0 28 12"><path d="M2 6h22M19 1.5 24 6l-5 4.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></li>' : ""}`;
+    }).join("");
+
+    const ruleKeys = ["main", "S5", "S6", "S16"];
+    const d = finalN(S.rule, S.win) - finalN("main", S.win);
+    document.getElementById("controls").innerHTML = `
+      <div class="ctl" role="radiogroup" aria-labelledby="lblWin"><span class="lbl" id="lblWin">${esc(L_.win)}</span><div class="seg">${Object.keys(C.windows).map((w) => `<label><input type="radio" name="win" id="win-${w}" value="${w}" ${S.win === w ? "checked" : ""}><span>${esc(L_.windows[w])}</span></label>`).join("")}</div></div>
+      <div class="ctl" role="radiogroup" aria-labelledby="lblRule"><span class="lbl" id="lblRule">${esc(L_.rule)}</span><div class="seg">${ruleKeys.map((r) => `<label><input type="radio" name="rule" id="rule-${r}" value="${r}" ${S.rule === r ? "checked" : ""}><span>${esc(tx(L_.rules[r], { n: C.records.excluded_not_approved }))}</span></label>`).join("")}</div>
+      <span class="delta" aria-live="polite">${S.rule === "main" ? "" : esc(d === 0 ? L_.deltaZero : tx(L_.delta, { d: sf(d) }))}</span></div>`;
+
+    figNo = 0;
+    document.getElementById("stages").innerHTML = STAGES.map((st, i) => {
+      const s = L_.stages[st.key]; const open = S.open.has(st.key);
+      return `<li class="stage" id="stage-${st.key}">
+        <button type="button" class="stage-head" data-stage="${st.key}" aria-expanded="${open}" aria-controls="body-${st.key}">
+          <span class="stage-ico">${ICON[st.icon]}</span>
+          <span class="stage-title"><span class="k">${esc(tx(L_.step, { i: i + 1, n: STAGES.length }))}</span><h2>${esc(s.title)}</h2><span class="sum">${esc(summary(st.key))}</span></span>
+          <span class="stage-side">${statusHtml(st.status)}<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span>
+        </button>
+        <div class="stage-body" id="body-${st.key}" ${open ? "" : "hidden"}>${open ? BODY[st.key](s) : ""}</div></li>`;
+    }).join("");
+    document.getElementById("pageFooter").innerHTML = `<p>${esc(tx(L_.footer, { date: C.extracted, v: C.version }))}</p>`;
+  }
+
+  /* ---------- events ---------- */
+  document.addEventListener("click", (e) => {
+    const lang = e.target.closest("#langToggle button");
+    if (lang) { S.lang = lang.dataset.lang; store.set("stept1d-lang", S.lang); render(); return; }
+    const head = e.target.closest(".stage-head");
+    if (head) { const k = head.dataset.stage; S.open.has(k) ? S.open.delete(k) : S.open.add(k); render(); document.querySelector(`.stage-head[data-stage="${k}"]`).focus(); return; }
+    const go = e.target.closest("[data-go]");
+    if (go) { e.preventDefault(); const k = go.dataset.go; S.open.add(k); render();
+      const el = document.getElementById(`stage-${k}`); el.scrollIntoView({ behavior: "smooth", block: "start" }); el.querySelector(".stage-head").focus({ preventScroll: true }); return; }
+    const inst = e.target.closest(".inst");
+    if (inst) { S.inst = S.inst === inst.dataset.inst ? null : inst.dataset.inst; render(); const b = document.querySelector(`.inst[data-inst="${inst.dataset.inst}"]`); if (b) b.focus(); return; }
+    const tb = e.target.closest(".tbl-toggle");
+    if (tb) { const id = tb.dataset.table; S.tables.has(id) ? S.tables.delete(id) : S.tables.add(id); render(); const b = document.querySelector(`.tbl-toggle[data-table="${id}"]`); if (b) b.focus(); }
+  });
+  document.addEventListener("change", (e) => {
+    if (e.target.name === "win") S.win = e.target.value;
+    else if (e.target.name === "rule") S.rule = e.target.value;
+    else return;
+    const id = e.target.id; render(); const el = document.getElementById(id); if (el) el.focus();
+  });
+  const tip = (e) => { const m = e.target.closest(".mgrid .m"); const out = document.getElementById("mtip"); if (m && out) out.textContent = m.dataset.tip; };
+  document.addEventListener("mouseover", tip);
+  document.addEventListener("focusin", tip);
+
+  /* ---------- start ---------- */
+  document.getElementById("logo").innerHTML = "<svg class=\"logo\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 626.26 260.10\" role=\"img\" aria-label=\"STEP-T1D\">\n  <title>STEP-T1D reversed</title>\n  <g transform=\"translate(0.00,176.00)\"><path d=\"M35.69 1.19Q29.24 1.19 23.59 0.05Q17.94 -1.09 13.63 -3.67Q9.32 -6.24 6.84 -10.46Q4.36 -14.67 4.36 -20.82V-21.71Q4.36 -22.20 4.46 -22.50H21.61Q21.61 -22.20 21.56 -21.76Q21.51 -21.31 21.51 -21.01Q21.51 -17.84 23.15 -15.91Q24.78 -13.98 27.76 -13.13Q30.73 -12.29 34.69 -12.29Q36.87 -12.29 38.76 -12.49Q40.64 -12.69 42.13 -13.18Q43.62 -13.68 44.76 -14.42Q45.90 -15.17 46.44 -16.21Q46.99 -17.25 46.99 -18.64Q46.99 -20.92 45.25 -22.40Q43.52 -23.89 40.59 -24.88Q37.67 -25.87 34.00 -26.76Q30.33 -27.66 26.37 -28.65Q22.40 -29.64 18.73 -31.13Q15.07 -32.61 12.14 -34.89Q9.22 -37.17 7.48 -40.59Q5.75 -44.01 5.75 -48.87Q5.75 -54.22 8.03 -58.14Q10.31 -62.05 14.32 -64.53Q18.34 -67.01 23.59 -68.15Q28.85 -69.29 34.79 -69.29Q40.64 -69.29 45.75 -68.10Q50.85 -66.91 54.82 -64.38Q58.78 -61.85 61.01 -58.04Q63.24 -54.22 63.34 -48.87V-47.68H46.29V-48.37Q46.29 -50.65 45.05 -52.39Q43.81 -54.12 41.34 -55.16Q38.86 -56.20 35.19 -56.20Q31.52 -56.20 28.99 -55.51Q26.47 -54.82 25.13 -53.53Q23.79 -52.24 23.79 -50.45Q23.79 -48.27 25.52 -46.89Q27.26 -45.50 30.23 -44.51Q33.21 -43.52 36.87 -42.67Q40.54 -41.83 44.46 -40.89Q48.37 -39.95 52.04 -38.51Q55.71 -37.07 58.68 -34.84Q61.66 -32.61 63.39 -29.34Q65.13 -26.07 65.13 -21.41Q65.13 -13.28 61.31 -8.33Q57.49 -3.37 50.80 -1.09Q44.11 1.19 35.69 1.19Z M91.79 0.00V-53.53H69.69V-68.10H131.64V-53.53H109.53V0.00Z M140.06 0.00V-68.10H196.27V-54.22H157.81V-41.43H191.41V-27.85H157.81V-13.88H196.96V0.00Z M207.37 0.00V-68.10H244.84Q251.78 -68.10 256.69 -65.27Q261.59 -62.45 264.22 -57.44Q266.85 -52.44 266.85 -45.70Q266.85 -38.76 264.12 -33.70Q261.39 -28.65 256.39 -25.82Q251.38 -23.00 244.44 -23.00H225.11V0.00ZM225.11 -36.68H240.28Q244.44 -36.68 246.62 -39.01Q248.80 -41.34 248.80 -45.50Q248.80 -48.47 247.86 -50.36Q246.92 -52.24 245.04 -53.28Q243.15 -54.32 240.28 -54.32H225.11Z\" fill=\"#FFFFFF\"></path></g>\n  <g transform=\"translate(300.13,0)\"><g>\n  <circle cx=\"50\" cy=\"50\" r=\"44.5\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"11\"></circle>\n  <rect x=\"44\" y=\"90\" width=\"12\" height=\"86.00\" rx=\"6\" fill=\"#FFFFFF\"></rect>\n  <rect x=\"25\" y=\"18\" width=\"50\" height=\"64\" rx=\"14\" fill=\"#FFFFFF\"></rect>\n  <rect x=\"32\" y=\"25\" width=\"36\" height=\"36\" rx=\"5\" fill=\"#0C2340\"></rect>\n  <path d=\"M50 29 L57.98 44.34 A9 9 0 1 1 42.02 44.34 Z\" fill=\"#FFFFFF\"></path>\n  <rect x=\"33\" y=\"65\" width=\"15\" height=\"7.5\" rx=\"3.75\" fill=\"#0C2340\"></rect>\n  <rect x=\"52\" y=\"65\" width=\"15\" height=\"7.5\" rx=\"3.75\" fill=\"#0C2340\"></rect>\n  <path d=\"M42.5 82 A7.5 7.5 0 0 1 57.5 82 Z\" fill=\"#0C2340\"></path>\n</g></g>\n  <g transform=\"translate(426.13,176.00)\"><path d=\"M24.48 0.00V-53.53H2.38V-68.10H64.33V-53.53H42.23V0.00Z M75.24 0.00V-12.79H91.49V-49.17H75.14V-58.78Q79.10 -59.08 83.81 -60.47Q88.52 -61.85 93.13 -63.89Q97.74 -65.92 101.41 -68.20H107.75V-12.79H123.11V0.00Z M132.73 0.00V-68.10H161.18Q172.28 -68.10 179.96 -64.43Q187.64 -60.76 191.66 -53.28Q195.67 -45.80 195.67 -34.10Q195.67 -22.50 191.66 -14.92Q187.64 -7.34 179.96 -3.67Q172.28 0.00 161.18 0.00ZM150.47 -13.88H160.98Q165.14 -13.88 168.22 -15.07Q171.29 -16.26 173.37 -18.54Q175.45 -20.82 176.44 -24.19Q177.43 -27.56 177.43 -31.92V-36.08Q177.43 -40.54 176.44 -43.91Q175.45 -47.28 173.37 -49.56Q171.29 -51.84 168.22 -53.03Q165.14 -54.22 160.98 -54.22H150.47Z\" fill=\"#FFFFFF\"></path></g>\n  <g transform=\"translate(0,248.36) scale(0.5592)\"><path d=\"M33.50 1.20Q27.90 1.20 22.70 0.05Q17.50 -1.10 13.50 -3.65Q9.50 -6.20 7.20 -10.15Q4.90 -14.10 4.90 -19.60Q4.90 -20.20 4.95 -20.75Q5.00 -21.30 5.00 -21.70H16.20Q16.20 -21.40 16.15 -20.80Q16.10 -20.20 16.10 -19.80Q16.10 -16.10 18.30 -13.50Q20.50 -10.90 24.45 -9.60Q28.40 -8.30 33.50 -8.30Q36.30 -8.30 38.90 -8.65Q41.50 -9.00 43.65 -9.75Q45.80 -10.50 47.40 -11.65Q49.00 -12.80 49.90 -14.40Q50.80 -16.00 50.80 -18.10Q50.80 -21.30 48.95 -23.40Q47.10 -25.50 43.95 -26.90Q40.80 -28.30 36.85 -29.40Q32.90 -30.50 28.70 -31.60Q24.50 -32.70 20.55 -34.20Q16.60 -35.70 13.45 -37.85Q10.30 -40.00 8.45 -43.25Q6.60 -46.50 6.60 -51.20Q6.60 -55.70 8.50 -59.20Q10.40 -62.70 14.00 -65.05Q17.60 -67.40 22.60 -68.60Q27.60 -69.80 33.90 -69.80Q39.30 -69.80 44.10 -68.65Q48.90 -67.50 52.50 -65.10Q56.10 -62.70 58.15 -59.00Q60.20 -55.30 60.20 -50.20V-49.00H49.10V-50.30Q49.10 -53.50 47.20 -55.70Q45.30 -57.90 41.90 -59.10Q38.50 -60.30 34.00 -60.30Q28.70 -60.30 25.10 -59.25Q21.50 -58.20 19.65 -56.35Q17.80 -54.50 17.80 -51.90Q17.80 -49.00 19.70 -47.15Q21.60 -45.30 24.75 -44.00Q27.90 -42.70 31.85 -41.65Q35.80 -40.60 39.95 -39.45Q44.10 -38.30 48.05 -36.80Q52.00 -35.30 55.15 -33.10Q58.30 -30.90 60.20 -27.65Q62.10 -24.40 62.10 -19.70Q62.10 -12.30 58.40 -7.65Q54.70 -3.00 48.25 -0.90Q41.80 1.20 33.50 1.20Z M92.30 1.20Q87.80 1.20 85.25 -0.55Q82.70 -2.30 81.65 -5.05Q80.60 -7.80 80.60 -10.90V-44.00H74.00V-52.60H80.80L82.70 -67.30H91.00V-52.60H100.50V-44.00H91.00V-12.10Q91.00 -9.80 92.00 -8.60Q93.00 -7.40 95.30 -7.40H100.50V-0.40Q99.50 0.00 98.05 0.35Q96.60 0.70 95.10 0.95Q93.60 1.20 92.30 1.20Z M131.70 1.20Q124.10 1.20 119.40 -2.85Q114.70 -6.90 114.70 -16.70V-52.60H125.10V-18.30Q125.10 -15.30 125.85 -13.30Q126.60 -11.30 128.00 -10.10Q129.40 -8.90 131.30 -8.40Q133.20 -7.90 135.50 -7.90Q139.10 -7.90 142.05 -9.65Q145.00 -11.40 146.80 -14.55Q148.60 -17.70 148.60 -21.80V-52.60H159.00V0.00H150.50L149.60 -7.50H148.90Q147.00 -4.60 144.40 -2.70Q141.80 -0.80 138.65 0.20Q135.50 1.20 131.70 1.20Z M196.00 1.20Q189.60 1.20 184.90 -1.70Q180.20 -4.60 177.65 -10.70Q175.10 -16.80 175.10 -26.50Q175.10 -36.00 177.70 -42.00Q180.30 -48.00 184.90 -50.90Q189.50 -53.80 195.50 -53.80Q199.00 -53.80 202.00 -53.00Q205.00 -52.20 207.35 -50.50Q209.70 -48.80 211.30 -46.20H212.00V-72.30H222.40V0.00H213.90L212.90 -7.20H212.20Q209.60 -3.00 205.35 -0.90Q201.10 1.20 196.00 1.20ZM198.90 -7.80Q203.50 -7.80 206.35 -9.85Q209.20 -11.90 210.60 -15.85Q212.00 -19.80 212.00 -25.50V-26.90Q212.00 -31.70 211.10 -35.10Q210.20 -38.50 208.50 -40.65Q206.80 -42.80 204.40 -43.80Q202.00 -44.80 199.00 -44.80Q194.40 -44.80 191.50 -42.95Q188.60 -41.10 187.25 -37.20Q185.90 -33.30 185.90 -27.10V-25.30Q185.90 -19.10 187.30 -15.25Q188.70 -11.40 191.55 -9.60Q194.40 -7.80 198.90 -7.80Z M247.00 18.20Q244.00 18.20 242.00 17.75Q240.00 17.30 239.50 17.20V9.70H244.50Q246.70 9.70 248.95 8.70Q251.20 7.70 253.00 5.50Q254.80 3.30 256.00 0.00L235.50 -52.60H246.40L256.60 -26.40Q257.30 -24.60 258.15 -21.90Q259.00 -19.20 259.85 -16.40Q260.70 -13.60 261.30 -11.40H261.80Q262.30 -12.90 262.85 -14.85Q263.40 -16.80 264.00 -18.90Q264.60 -21.00 265.20 -22.95Q265.80 -24.90 266.20 -26.30L274.70 -52.60H285.30L267.50 -2.00Q266.00 2.20 264.20 5.90Q262.40 9.60 260.05 12.35Q257.70 15.10 254.50 16.65Q251.30 18.20 247.00 18.20Z M342.60 0.00V-59.00H319.90V-68.60H376.70V-59.00H353.80V0.00Z M396.80 18.20Q393.80 18.20 391.80 17.75Q389.80 17.30 389.30 17.20V9.70H394.30Q396.50 9.70 398.75 8.70Q401.00 7.70 402.80 5.50Q404.60 3.30 405.80 0.00L385.30 -52.60H396.20L406.40 -26.40Q407.10 -24.60 407.95 -21.90Q408.80 -19.20 409.65 -16.40Q410.50 -13.60 411.10 -11.40H411.60Q412.10 -12.90 412.65 -14.85Q413.20 -16.80 413.80 -18.90Q414.40 -21.00 415.00 -22.95Q415.60 -24.90 416.00 -26.30L424.50 -52.60H435.10L417.30 -2.00Q415.80 2.20 414.00 5.90Q412.20 9.60 409.85 12.35Q407.50 15.10 404.30 16.65Q401.10 18.20 396.80 18.20Z M448.20 17.30V-52.60H456.70L457.60 -45.40H458.30Q461.00 -49.60 465.20 -51.70Q469.40 -53.80 474.60 -53.80Q481.10 -53.80 485.75 -50.90Q490.40 -48.00 492.90 -41.90Q495.40 -35.80 495.40 -26.10Q495.40 -16.70 492.85 -10.65Q490.30 -4.60 485.70 -1.70Q481.10 1.20 475.10 1.20Q471.60 1.20 468.60 0.40Q465.60 -0.40 463.25 -2.10Q460.90 -3.80 459.20 -6.40H458.60V17.30ZM471.50 -7.80Q476.20 -7.80 479.10 -9.65Q482.00 -11.50 483.35 -15.40Q484.70 -19.30 484.70 -25.30V-27.10Q484.70 -33.40 483.30 -37.30Q481.90 -41.20 479.05 -43.00Q476.20 -44.80 471.70 -44.80Q467.10 -44.80 464.20 -42.75Q461.30 -40.70 459.95 -36.70Q458.60 -32.70 458.60 -27.00V-25.60Q458.60 -20.90 459.50 -17.50Q460.40 -14.10 462.10 -11.95Q463.80 -9.80 466.20 -8.80Q468.60 -7.80 471.50 -7.80Z M533.40 1.20Q525.30 1.20 519.85 -1.75Q514.40 -4.70 511.60 -10.80Q508.80 -16.90 508.80 -26.30Q508.80 -35.80 511.60 -41.85Q514.40 -47.90 519.90 -50.85Q525.40 -53.80 533.60 -53.80Q541.10 -53.80 546.15 -50.95Q551.20 -48.10 553.80 -42.30Q556.40 -36.50 556.40 -27.70V-23.70H519.50Q519.70 -18.10 521.20 -14.35Q522.70 -10.60 525.75 -8.85Q528.80 -7.10 533.50 -7.10Q536.40 -7.10 538.70 -7.85Q541.00 -8.60 542.60 -10.05Q544.20 -11.50 545.10 -13.55Q546.00 -15.60 546.00 -18.20H556.20Q556.20 -13.50 554.60 -9.90Q553.00 -6.30 549.95 -3.85Q546.90 -1.40 542.70 -0.10Q538.50 1.20 533.40 1.20ZM519.70 -31.30H545.50Q545.50 -35.20 544.65 -37.85Q543.80 -40.50 542.20 -42.20Q540.60 -43.90 538.40 -44.65Q536.20 -45.40 533.40 -45.40Q529.20 -45.40 526.25 -43.90Q523.30 -42.40 521.70 -39.25Q520.10 -36.10 519.70 -31.30Z M599.90 0.00V-8.70H616.90V-54.20H599.90V-60.70Q603.20 -60.90 607.20 -61.90Q611.20 -62.90 615.20 -64.60Q619.20 -66.30 622.50 -68.70H627.40V-8.70H643.10V0.00Z M686.10 0.00V-68.60H712.60Q723.20 -68.60 730.70 -64.95Q738.20 -61.30 742.25 -53.75Q746.30 -46.20 746.30 -34.30Q746.30 -22.50 742.25 -14.90Q738.20 -7.30 730.70 -3.65Q723.20 0.00 712.60 0.00ZM697.30 -9.60H712.50Q717.80 -9.60 721.95 -11.00Q726.10 -12.40 728.95 -15.30Q731.80 -18.20 733.25 -22.65Q734.70 -27.10 734.70 -33.20V-35.30Q734.70 -41.50 733.25 -45.95Q731.80 -50.40 728.95 -53.30Q726.10 -56.20 721.95 -57.60Q717.80 -59.00 712.50 -59.00H697.30Z M763.30 -61.70V-72.30H773.70V-61.70ZM763.30 0.00V-52.60H773.70V0.00Z M805.90 1.20Q803.40 1.20 800.50 0.60Q797.60 0.00 795.05 -1.60Q792.50 -3.20 790.90 -6.05Q789.30 -8.90 789.30 -13.50Q789.30 -18.90 791.80 -22.40Q794.30 -25.90 798.80 -27.90Q803.30 -29.90 809.55 -30.70Q815.80 -31.50 823.20 -31.50V-36.70Q823.20 -39.30 822.35 -41.30Q821.50 -43.30 819.25 -44.40Q817.00 -45.50 812.80 -45.50Q808.60 -45.50 806.25 -44.45Q803.90 -43.40 802.95 -41.85Q802.00 -40.30 802.00 -38.50V-37.00H792.00Q791.90 -37.50 791.90 -38.00V-39.20Q791.90 -43.90 794.55 -47.15Q797.20 -50.40 802.00 -52.10Q806.80 -53.80 813.10 -53.80Q819.90 -53.80 824.45 -51.85Q829.00 -49.90 831.30 -46.30Q833.60 -42.70 833.60 -37.60V-10.90Q833.60 -9.00 834.55 -8.20Q835.50 -7.40 836.80 -7.40H840.40V-0.40Q839.20 0.10 837.40 0.60Q835.60 1.10 833.20 1.10Q830.50 1.10 828.65 0.15Q826.80 -0.80 825.65 -2.55Q824.50 -4.30 824.10 -6.50H823.50Q821.70 -4.20 819.15 -2.45Q816.60 -0.70 813.30 0.25Q810.00 1.20 805.90 1.20ZM808.80 -7.40Q811.90 -7.40 814.55 -8.35Q817.20 -9.30 819.10 -11.05Q821.00 -12.80 822.10 -15.25Q823.20 -17.70 823.20 -20.60V-24.10Q816.30 -24.10 811.10 -23.30Q805.90 -22.50 803.00 -20.35Q800.10 -18.20 800.10 -14.40Q800.10 -12.10 801.10 -10.55Q802.10 -9.00 804.10 -8.20Q806.10 -7.40 808.80 -7.40Z M879.50 1.20Q874.30 1.20 870.10 -0.90Q865.90 -3.00 863.20 -7.20H862.50L861.60 0.00H853.10V-72.30H863.50V-46.20H864.10Q865.80 -48.80 868.15 -50.50Q870.50 -52.20 873.50 -53.00Q876.50 -53.80 880.00 -53.80Q886.00 -53.80 890.60 -50.90Q895.20 -48.00 897.75 -42.00Q900.30 -36.00 900.30 -26.50Q900.30 -16.80 897.80 -10.70Q895.30 -4.60 890.65 -1.70Q886.00 1.20 879.50 1.20ZM876.60 -7.80Q881.10 -7.80 883.95 -9.60Q886.80 -11.40 888.20 -15.25Q889.60 -19.10 889.60 -25.30V-27.10Q889.60 -33.30 888.25 -37.20Q886.90 -41.10 884.00 -42.95Q881.10 -44.80 876.40 -44.80Q873.50 -44.80 871.10 -43.80Q868.70 -42.80 867.00 -40.65Q865.30 -38.50 864.40 -35.10Q863.50 -31.70 863.50 -26.90V-25.50Q863.50 -19.80 864.85 -15.85Q866.20 -11.90 869.10 -9.85Q872.00 -7.80 876.60 -7.80Z M938.30 1.20Q930.20 1.20 924.75 -1.75Q919.30 -4.70 916.50 -10.80Q913.70 -16.90 913.70 -26.30Q913.70 -35.80 916.50 -41.85Q919.30 -47.90 924.80 -50.85Q930.30 -53.80 938.50 -53.80Q946.00 -53.80 951.05 -50.95Q956.10 -48.10 958.70 -42.30Q961.30 -36.50 961.30 -27.70V-23.70H924.40Q924.60 -18.10 926.10 -14.35Q927.60 -10.60 930.65 -8.85Q933.70 -7.10 938.40 -7.10Q941.30 -7.10 943.60 -7.85Q945.90 -8.60 947.50 -10.05Q949.10 -11.50 950.00 -13.55Q950.90 -15.60 950.90 -18.20H961.10Q961.10 -13.50 959.50 -9.90Q957.90 -6.30 954.85 -3.85Q951.80 -1.40 947.60 -0.10Q943.40 1.20 938.30 1.20ZM924.60 -31.30H950.40Q950.40 -35.20 949.55 -37.85Q948.70 -40.50 947.10 -42.20Q945.50 -43.90 943.30 -44.65Q941.10 -45.40 938.30 -45.40Q934.10 -45.40 931.15 -43.90Q928.20 -42.40 926.60 -39.25Q925.00 -36.10 924.60 -31.30Z M990.50 1.20Q986.00 1.20 983.45 -0.55Q980.90 -2.30 979.85 -5.05Q978.80 -7.80 978.80 -10.90V-44.00H972.20V-52.60H979.00L980.90 -67.30H989.20V-52.60H998.70V-44.00H989.20V-12.10Q989.20 -9.80 990.20 -8.60Q991.20 -7.40 993.50 -7.40H998.70V-0.40Q997.70 0.00 996.25 0.35Q994.80 0.70 993.30 0.95Q991.80 1.20 990.50 1.20Z M1035.20 1.20Q1027.10 1.20 1021.65 -1.75Q1016.20 -4.70 1013.40 -10.80Q1010.60 -16.90 1010.60 -26.30Q1010.60 -35.80 1013.40 -41.85Q1016.20 -47.90 1021.70 -50.85Q1027.20 -53.80 1035.40 -53.80Q1042.90 -53.80 1047.95 -50.95Q1053.00 -48.10 1055.60 -42.30Q1058.20 -36.50 1058.20 -27.70V-23.70H1021.30Q1021.50 -18.10 1023.00 -14.35Q1024.50 -10.60 1027.55 -8.85Q1030.60 -7.10 1035.30 -7.10Q1038.20 -7.10 1040.50 -7.85Q1042.80 -8.60 1044.40 -10.05Q1046.00 -11.50 1046.90 -13.55Q1047.80 -15.60 1047.80 -18.20H1058.00Q1058.00 -13.50 1056.40 -9.90Q1054.80 -6.30 1051.75 -3.85Q1048.70 -1.40 1044.50 -0.10Q1040.30 1.20 1035.20 1.20ZM1021.50 -31.30H1047.30Q1047.30 -35.20 1046.45 -37.85Q1045.60 -40.50 1044.00 -42.20Q1042.40 -43.90 1040.20 -44.65Q1038.00 -45.40 1035.20 -45.40Q1031.00 -45.40 1028.05 -43.90Q1025.10 -42.40 1023.50 -39.25Q1021.90 -36.10 1021.50 -31.30Z M1093.70 1.20Q1088.20 1.20 1084.00 0.00Q1079.80 -1.20 1077.00 -3.30Q1074.20 -5.40 1072.75 -8.35Q1071.30 -11.30 1071.30 -14.90Q1071.30 -15.40 1071.35 -15.80Q1071.40 -16.20 1071.40 -16.50H1081.70V-15.40Q1081.70 -12.30 1083.40 -10.45Q1085.10 -8.60 1087.95 -7.85Q1090.80 -7.10 1094.20 -7.10Q1097.20 -7.10 1099.75 -7.85Q1102.30 -8.60 1103.95 -10.10Q1105.60 -11.60 1105.60 -13.90Q1105.60 -16.90 1103.50 -18.50Q1101.40 -20.10 1098.00 -21.05Q1094.60 -22.00 1090.90 -23.10Q1087.60 -24.00 1084.35 -25.05Q1081.10 -26.10 1078.50 -27.80Q1075.90 -29.50 1074.30 -32.10Q1072.70 -34.70 1072.70 -38.60Q1072.70 -42.30 1074.30 -45.10Q1075.90 -47.90 1078.75 -49.80Q1081.60 -51.70 1085.55 -52.70Q1089.50 -53.70 1094.20 -53.70Q1099.10 -53.70 1102.90 -52.65Q1106.70 -51.60 1109.35 -49.70Q1112.00 -47.80 1113.40 -45.15Q1114.80 -42.50 1114.80 -39.50Q1114.80 -38.90 1114.75 -38.25Q1114.70 -37.60 1114.70 -37.40H1104.50V-38.30Q1104.50 -40.30 1103.40 -41.90Q1102.30 -43.50 1099.95 -44.50Q1097.60 -45.50 1093.70 -45.50Q1091.10 -45.50 1089.10 -45.05Q1087.10 -44.60 1085.80 -43.80Q1084.50 -43.00 1083.85 -41.90Q1083.20 -40.80 1083.20 -39.40Q1083.20 -37.10 1084.85 -35.85Q1086.50 -34.60 1089.20 -33.75Q1091.90 -32.90 1095.00 -31.90Q1098.60 -30.90 1102.30 -29.85Q1106.00 -28.80 1109.15 -27.20Q1112.30 -25.60 1114.25 -22.80Q1116.20 -20.00 1116.20 -15.30Q1116.20 -11.00 1114.50 -7.80Q1112.80 -4.60 1109.75 -2.65Q1106.70 -0.70 1102.60 0.25Q1098.50 1.20 1093.70 1.20Z\" fill=\"#D5E2F0\"></path></g>\n</svg>";
+  const h = (location.hash || "").replace("#stage-", "");
+  if (STAGES.some((s) => s.key === h)) S.open.add(h);
+  render();
+})();
+</script>
+
+</body>
+</html>
