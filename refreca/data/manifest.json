@@ -1,0 +1,66 @@
+{
+ "generated": "2026-11-15",
+ "countries": [
+  {
+   "id": "co",
+   "name": "Colombia",
+   "rawRows": 940319,
+   "dropped": 0,
+   "rawDeaths": 3454206,
+   "years": [
+    1985,
+    2020
+   ],
+   "hasPopulation": true,
+   "subdivisionLabel": "Departamento"
+  },
+  {
+   "id": "ar",
+   "name": "Argentina",
+   "rawRows": 716320,
+   "dropped": 465348,
+   "rawDeaths": 2333810,
+   "years": [
+    2005,
+    2019
+   ],
+   "hasPopulation": false,
+   "subdivisionLabel": "Provincia"
+  },
+  {
+   "id": "cl",
+   "name": "Chile",
+   "rawRows": 73021,
+   "dropped": 0,
+   "rawDeaths": 1208269,
+   "years": [
+    1997,
+    2019
+   ],
+   "hasPopulation": true,
+   "subdivisionLabel": null
+  }
+ ],
+ "files": [
+  {
+   "file": "mortalidad-co-nacional.json",
+   "bytes": 492324
+  },
+  {
+   "file": "mortalidad-co-territorio.json",
+   "bytes": 828602
+  },
+  {
+   "file": "mortalidad-ar-nacional.json",
+   "bytes": 214459
+  },
+  {
+   "file": "mortalidad-ar-territorio.json",
+   "bytes": 331824
+  },
+  {
+   "file": "mortalidad-cl-nacional.json",
+   "bytes": 274618
+  }
+ ]
+}
