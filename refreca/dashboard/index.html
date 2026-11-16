@@ -1,39 +1,40 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><script>try{var l=localStorage.getItem('refreca-lang');if(l==='en'||l==='pt')document.documentElement.lang=l}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tablero — REFRECA</title>
-  <meta name="description" content="Tablero de un conjunto de datos de REFRECA: gráficos, tablas, indicadores y descargas.">
+  <title data-i18n="db.title">Tablero — REFRECA</title>
+  <meta name="description" data-i18n-attr="content:db.description" content="Tablero de un conjunto de datos de REFRECA: gráficos, tablas, indicadores y descargas.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@600;700;800&display=swap">
-  <script type="module" crossorigin src="/refreca/assets/dashboard-CPhFO8Fm.js"></script>
-  <link rel="modulepreload" crossorigin href="/refreca/assets/main-Dq9W11a2.js">
-  <link rel="modulepreload" crossorigin href="/refreca/assets/data-DoYlId72.js">
-  <link rel="stylesheet" crossorigin href="/refreca/assets/main-Dvu0UG5y.css">
+  <script type="module" crossorigin src="/refreca/assets/dashboard-BvbVxvoC.js"></script>
+  <link rel="modulepreload" crossorigin href="/refreca/assets/main-CZTiFB3h.js">
+  <link rel="modulepreload" crossorigin href="/refreca/assets/data-C7pT6_is.js">
+  <link rel="stylesheet" crossorigin href="/refreca/assets/main-CB9wZv5-.css">
   <link rel="stylesheet" crossorigin href="/refreca/assets/dashboard-BT8cVg2R.css">
 </head>
 <body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
   <header class="site-header">
-    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio">
-      <span class="brand-name">Repositorio de Salud de las Américas</span>
+    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand-name" data-i18n="brand.name">Repositorio de Salud de las Américas</span>
       <span class="brand-rule" aria-hidden="true"></span>
-      <span class="brand-tagline">Vigilando Enfermedades Crónicas</span>
+      <span class="brand-tagline" data-i18n="brand.tagline">Vigilando Enfermedades Crónicas</span>
     </a>
-    <nav class="site-nav" aria-label="Principal"><a href="/refreca/">Inicio</a><a href="/refreca/datasets/">Datasets</a><a href="/refreca/guia/">Guía de indicadores</a><a href="/refreca/acerca/">Acerca</a></nav>
+    <nav class="site-nav" aria-label="Principal" data-i18n-attr="aria-label:nav.label"><a href="/refreca/" data-i18n="nav.home">Inicio</a><a href="/refreca/datasets/" data-i18n="nav.datasets">Datasets</a><a href="/refreca/guia/" data-i18n="nav.guide">Guía de indicadores</a><a href="/refreca/acerca/" data-i18n="nav.about">Acerca</a></nav>
+    <div class="lang"><label for="lang-select" data-i18n="lang.label">Idioma</label><select id="lang-select"><option value="es">Español</option><option value="en">English</option><option value="pt">Português</option></select></div>
   </header>
   <main id="contenido">
     <section class="page-title" id="dashboard-header">
-      <h1>Tablero</h1>
-      <p>Cargando el conjunto de datos.</p>
+      <h1 data-i18n="db.eyebrow">Tablero</h1>
+      <p data-i18n="db.loadingDataset">Cargando el conjunto de datos.</p>
     </section>
-    <noscript><p class="notice">Este tablero necesita JavaScript.</p></noscript>
+    <noscript><p class="notice" data-i18n="db.noscript">Este tablero necesita JavaScript.</p></noscript>
     <div id="dashboard" class="explorer" aria-busy="true"></div>
   </main>
-  <footer class="site-footer" aria-label="Pie de página">
-    <p class="footer-text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
+  <footer class="site-footer" aria-label="Pie de página" data-i18n-attr="aria-label:footer.label">
+    <p class="footer-text" data-i18n="footer.text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
     <div class="footer-strip" aria-hidden="true"></div>
   </footer>
 </body>

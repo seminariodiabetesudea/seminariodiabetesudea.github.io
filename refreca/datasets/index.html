@@ -1,59 +1,59 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><script>try{var l=localStorage.getItem('refreca-lang');if(l==='en'||l==='pt')document.documentElement.lang=l}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Conjuntos de datos — REFRECA</title>
-  <meta name="description" content="Catálogo de conjuntos de datos de REFRECA: búsqueda por texto, tema y país.">
+  <title data-i18n="list.title">Conjuntos de datos — REFRECA</title>
+  <meta name="description" data-i18n-attr="content:list.description" content="Catálogo de conjuntos de datos de REFRECA: búsqueda por texto, tema y país.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@600;700;800&display=swap">
-  <script type="module" crossorigin src="/refreca/assets/datasets-E4nTj-2h.js"></script>
-  <link rel="modulepreload" crossorigin href="/refreca/assets/main-Dq9W11a2.js">
-  <link rel="modulepreload" crossorigin href="/refreca/assets/search-B7x-ghm7.js">
-  <link rel="modulepreload" crossorigin href="/refreca/assets/data-DoYlId72.js">
-  <link rel="stylesheet" crossorigin href="/refreca/assets/main-Dvu0UG5y.css">
-  <link rel="stylesheet" crossorigin href="/refreca/assets/search-ChJYWajo.css">
+  <script type="module" crossorigin src="/refreca/assets/datasets-D8J6ycHc.js"></script>
+  <link rel="modulepreload" crossorigin href="/refreca/assets/main-CZTiFB3h.js">
+  <link rel="modulepreload" crossorigin href="/refreca/assets/data-C7pT6_is.js">
+  <link rel="stylesheet" crossorigin href="/refreca/assets/main-CB9wZv5-.css">
+  <link rel="stylesheet" crossorigin href="/refreca/assets/catalog-ChJYWajo.css">
 </head>
 <body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
   <header class="site-header">
-    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio">
-      <span class="brand-name">Repositorio de Salud de las Américas</span>
+    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand-name" data-i18n="brand.name">Repositorio de Salud de las Américas</span>
       <span class="brand-rule" aria-hidden="true"></span>
-      <span class="brand-tagline">Vigilando Enfermedades Crónicas</span>
+      <span class="brand-tagline" data-i18n="brand.tagline">Vigilando Enfermedades Crónicas</span>
     </a>
-    <nav class="site-nav" aria-label="Principal"><a href="/refreca/">Inicio</a><a href="/refreca/datasets/" aria-current="page">Datasets</a><a href="/refreca/guia/">Guía de indicadores</a><a href="/refreca/acerca/">Acerca</a></nav>
+    <nav class="site-nav" aria-label="Principal" data-i18n-attr="aria-label:nav.label"><a href="/refreca/" data-i18n="nav.home">Inicio</a><a href="/refreca/datasets/" aria-current="page" data-i18n="nav.datasets">Datasets</a><a href="/refreca/guia/" data-i18n="nav.guide">Guía de indicadores</a><a href="/refreca/acerca/" data-i18n="nav.about">Acerca</a></nav>
+    <div class="lang"><label for="lang-select" data-i18n="lang.label">Idioma</label><select id="lang-select"><option value="es">Español</option><option value="en">English</option><option value="pt">Português</option></select></div>
   </header>
   <main id="contenido">
     <section class="page-title">
-      <h1>Conjuntos de datos</h1>
-      <p>Busque por enfermedad, variable, país o fuente. Cada conjunto de datos tiene una ficha con sus variables, advertencias y archivos descargables, y un dashboard para explorarlo.</p>
+      <h1 data-i18n="cat.datasets">Conjuntos de datos</h1>
+      <p data-i18n="list.lead">Busque por enfermedad, variable, país o fuente. Cada conjunto de datos tiene una ficha con sus variables, advertencias y archivos descargables, y un dashboard para explorarlo.</p>
     </section>
     <div class="catalog">
-      <form class="catalog-search" role="search" action="/refreca/datasets/" method="get" aria-label="Buscar conjuntos de datos">
+      <form class="catalog-search" role="search" action="/refreca/datasets/" method="get" aria-label="Buscar conjuntos de datos" data-i18n-attr="aria-label:list.searchAria">
         <div class="field field-query">
-          <label for="q">Buscar</label>
-          <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Por ejemplo, diabetes o población">
+          <label for="q" data-i18n="cat.search">Buscar</label>
+          <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Por ejemplo, diabetes o población" data-i18n-attr="placeholder:list.placeholder">
         </div>
         <div class="field">
-          <label for="tema">Tema</label>
-          <select id="tema" name="tema"><option value="">Todos los temas</option></select>
+          <label for="tema" data-i18n="cat.theme">Tema</label>
+          <select id="tema" name="tema"><option value="" data-i18n="list.allThemes">Todos los temas</option></select>
         </div>
         <div class="field">
-          <label for="pais">País</label>
-          <select id="pais" name="pais"><option value="">Todos los países</option></select>
+          <label for="pais" data-i18n="cat.country">País</label>
+          <select id="pais" name="pais"><option value="" data-i18n="list.allCountries">Todos los países</option></select>
         </div>
         <div class="field field-submit">
-          <button type="submit">Buscar</button>
+          <button type="submit" data-i18n="cat.search">Buscar</button>
         </div>
       </form>
-      <p id="count" class="result-count" role="status" aria-live="polite">Cargando el catálogo.</p>
+      <p id="count" class="result-count" role="status" aria-live="polite" data-i18n="list.loading">Cargando el catálogo.</p>
       <ul id="results" class="results" aria-busy="true"></ul>
     </div>
   </main>
-  <footer class="site-footer" aria-label="Pie de página">
-    <p class="footer-text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
+  <footer class="site-footer" aria-label="Pie de página" data-i18n-attr="aria-label:footer.label">
+    <p class="footer-text" data-i18n="footer.text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
     <div class="footer-strip" aria-hidden="true"></div>
   </footer>
 </body>

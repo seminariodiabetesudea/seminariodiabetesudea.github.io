@@ -1,30 +1,43 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><script>try{var l=localStorage.getItem('refreca-lang');if(l==='en'||l==='pt')document.documentElement.lang=l}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Acerca de REFRECA — REFRECA</title>
-  <meta name="description" content="Qué es REFRECA, el repositorio de datos de salud de las Américas, y cómo citarlo.">
+  <title data-en="About REFRECA — REFRECA" data-pt="Sobre o REFRECA — REFRECA">Acerca de REFRECA — REFRECA</title>
+  <meta name="description" content="Qué es REFRECA, el repositorio de datos de salud de las Américas, y cómo citarlo." data-en="What REFRECA, the health data repository of the Americas, is and how to cite it." data-pt="O que é o REFRECA, o repositório de dados de saúde das Américas, e como citá-lo.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@600;700;800&display=swap">
-  <script type="module" crossorigin src="/refreca/assets/main-Dq9W11a2.js"></script>
-  <link rel="stylesheet" crossorigin href="/refreca/assets/main-Dvu0UG5y.css">
+  <script type="module" crossorigin src="/refreca/assets/main-CZTiFB3h.js"></script>
+  <script type="module" crossorigin src="/refreca/assets/prose-DFFY9sL9.js"></script>
+  <link rel="stylesheet" crossorigin href="/refreca/assets/main-CB9wZv5-.css">
 </head>
 <body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
   <header class="site-header">
-    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio">
-      <span class="brand-name">Repositorio de Salud de las Américas</span>
+    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand-name" data-i18n="brand.name">Repositorio de Salud de las Américas</span>
       <span class="brand-rule" aria-hidden="true"></span>
-      <span class="brand-tagline">Vigilando Enfermedades Crónicas</span>
+      <span class="brand-tagline" data-i18n="brand.tagline">Vigilando Enfermedades Crónicas</span>
     </a>
-    <nav class="site-nav" aria-label="Principal"><a href="/refreca/">Inicio</a><a href="/refreca/datasets/">Datasets</a><a href="/refreca/guia/">Guía de indicadores</a><a href="/refreca/acerca/" aria-current="page">Acerca</a></nav>
+    <nav class="site-nav" aria-label="Principal" data-i18n-attr="aria-label:nav.label"><a href="/refreca/" data-i18n="nav.home">Inicio</a><a href="/refreca/datasets/" data-i18n="nav.datasets">Datasets</a><a href="/refreca/guia/" data-i18n="nav.guide">Guía de indicadores</a><a href="/refreca/acerca/" aria-current="page" data-i18n="nav.about">Acerca</a></nav>
+    <div class="lang"><label for="lang-select" data-i18n="lang.label">Idioma</label><select id="lang-select"><option value="es">Español</option><option value="en">English</option><option value="pt">Português</option></select></div>
   </header>
   <main id="contenido">
     <section class="page-title">
       <h1>Acerca de REFRECA</h1>
     </section>
+    <!-- Each Spanish block is followed by <template data-lang="en|pt">; src/i18n/prose.ts swaps them in. -->
+    <template data-lang="en">
+    <section class="page-title">
+      <h1>About REFRECA</h1>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="page-title">
+      <h1>Sobre o REFRECA</h1>
+    </section>
+    </template>
     <div class="prose">
       <h2>Qué es</h2>
       <p>REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas, es un repositorio de datos abiertos para la vigilancia de las enfermedades crónicas en la región. Reúne conjuntos de datos de mortalidad, nutrición, pobreza y población, los describe con sus fuentes y advertencias y permite explorarlos en el navegador. El sitio se publica como páginas estáticas, sin servidor.</p>
@@ -41,9 +54,45 @@
       <h2>Cómo citar</h2>
       <p>REFRECA. Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Disponible en: <a href="https://seminariodiabetesudea.github.io/refreca/">https://<wbr>seminariodiabetesudea.<wbr>github.io/<wbr>refreca/</a>. Indique la fecha de consulta y la fuente original de cada conjunto de datos, que figura en el catálogo.</p>
     </div>
+    <template data-lang="en">
+    <div class="prose">
+      <h2>What it is</h2>
+      <p>REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas (Health Repository of the Americas, Monitoring Chronic Diseases), is an open data repository for chronic disease surveillance in the region. It brings together datasets on mortality, nutrition, poverty and population, describes them with their sources and caveats, and lets you explore them in the browser. The site is published as static pages, with no server.</p>
+      <h2>What it contains</h2>
+      <ul>
+        <li>A <a href="/refreca/datasets/">dataset catalog</a> with text search and filters by theme and country.</li>
+        <li>A page for each dataset, with its description, source, period, caveats, variables and downloadable files.</li>
+        <li>A dashboard for each dataset to explore the data with charts and tables.</li>
+        <li>Epidemiological indicators calculated in the browser: crude and specific rates, age-adjusted rates, proportional mortality, rate ratios and years of life lost.</li>
+      </ul>
+      <p>The metadata follow the CKAN package structure to make later synchronization with a data portal easier. The original files are not published; the downloadable resources are aggregates prepared by REFRECA.</p>
+      <h2>Team and contact</h2>
+      <p>Team information and contact details will be published once the network confirms them.</p>
+      <h2>How to cite</h2>
+      <p>REFRECA. Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Disponible en: <a href="https://seminariodiabetesudea.github.io/refreca/">https://<wbr>seminariodiabetesudea.<wbr>github.io/<wbr>refreca/</a>. Please state the date of access and the original source of each dataset, which is listed in the catalog.</p>
+    </div>
+    </template>
+    <template data-lang="pt">
+    <div class="prose">
+      <h2>O que é</h2>
+      <p>O REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas (Repositório de Saúde das Américas, Vigiando Doenças Crônicas), é um repositório de dados abertos para a vigilância das doenças crônicas na região. Reúne conjuntos de dados de mortalidade, nutrição, pobreza e população, descreve-os com suas fontes e avisos e permite explorá-los no navegador. O site é publicado como páginas estáticas, sem servidor.</p>
+      <h2>O que contém</h2>
+      <ul>
+        <li>Um <a href="/refreca/datasets/">catálogo de conjuntos de dados</a> com busca por texto e filtros por tema e país.</li>
+        <li>Uma ficha para cada conjunto de dados, com descrição, fonte, período, avisos, variáveis e arquivos para download.</li>
+        <li>Um dashboard para cada conjunto de dados, para consultar os dados com gráficos e tabelas.</li>
+        <li>Indicadores epidemiológicos calculados no navegador: taxas brutas e específicas, taxas ajustadas por idade, mortalidade proporcional, razão de taxas e anos de vida perdidos.</li>
+      </ul>
+      <p>Os metadados seguem a estrutura de pacotes do CKAN para facilitar uma sincronização posterior com um portal de dados. Os arquivos originais não são publicados; os recursos para download são agregados preparados pelo REFRECA.</p>
+      <h2>Equipe e contato</h2>
+      <p>As informações da equipe e os dados de contato serão publicados quando a rede os confirmar.</p>
+      <h2>Como citar</h2>
+      <p>REFRECA. Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Disponible en: <a href="https://seminariodiabetesudea.github.io/refreca/">https://<wbr>seminariodiabetesudea.<wbr>github.io/<wbr>refreca/</a>. Indique a data de acesso e a fonte original de cada conjunto de dados, que consta no catálogo.</p>
+    </div>
+    </template>
   </main>
-  <footer class="site-footer" aria-label="Pie de página">
-    <p class="footer-text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
+  <footer class="site-footer" aria-label="Pie de página" data-i18n-attr="aria-label:footer.label">
+    <p class="footer-text" data-i18n="footer.text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
     <div class="footer-strip" aria-hidden="true"></div>
   </footer>
 </body>

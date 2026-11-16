@@ -1,40 +1,80 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"><script>try{var l=localStorage.getItem('refreca-lang');if(l==='en'||l==='pt')document.documentElement.lang=l}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cómo leer los indicadores — REFRECA</title>
-  <meta name="description" content="Guía para el público general: qué significa cada indicador de REFRECA, cómo se calcula y cómo interpretarlo, con diagramas y ejemplos.">
+  <title data-en="How to read the indicators — REFRECA" data-pt="Como ler os indicadores — REFRECA">Cómo leer los indicadores — REFRECA</title>
+  <meta name="description" content="Guía para el público general: qué significa cada indicador de REFRECA, cómo se calcula y cómo interpretarlo, con diagramas y ejemplos." data-en="A guide for the general public: what each REFRECA indicator means, how it is calculated and how to interpret it, with diagrams and examples." data-pt="Guia para o público em geral: o que significa cada indicador do REFRECA, como é calculado e como interpretá-lo, com diagramas e exemplos.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@600;700;800&display=swap">
-  <script type="module" crossorigin src="/refreca/assets/main-Dq9W11a2.js"></script>
-  <link rel="stylesheet" crossorigin href="/refreca/assets/main-Dvu0UG5y.css">
+  <script type="module" crossorigin src="/refreca/assets/main-CZTiFB3h.js"></script>
+  <script type="module" crossorigin src="/refreca/assets/prose-DFFY9sL9.js"></script>
+  <link rel="stylesheet" crossorigin href="/refreca/assets/main-CB9wZv5-.css">
   <link rel="stylesheet" crossorigin href="/refreca/assets/guia-6FT9kRVi.css">
 </head>
 <body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <a class="skip" href="#contenido" data-i18n="skip">Saltar al contenido</a>
   <header class="site-header">
-    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio">
-      <span class="brand-name">Repositorio de Salud de las Américas</span>
+    <a class="brand" href="/refreca/" aria-label="REFRECA, Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas. Inicio" data-i18n-attr="aria-label:brand.aria">
+      <span class="brand-name" data-i18n="brand.name">Repositorio de Salud de las Américas</span>
       <span class="brand-rule" aria-hidden="true"></span>
-      <span class="brand-tagline">Vigilando Enfermedades Crónicas</span>
+      <span class="brand-tagline" data-i18n="brand.tagline">Vigilando Enfermedades Crónicas</span>
     </a>
-    <nav class="site-nav" aria-label="Principal"><a href="/refreca/">Inicio</a><a href="/refreca/datasets/">Datasets</a><a href="/refreca/guia/" aria-current="page">Guía de indicadores</a><a href="/refreca/acerca/">Acerca</a></nav>
+    <nav class="site-nav" aria-label="Principal" data-i18n-attr="aria-label:nav.label"><a href="/refreca/" data-i18n="nav.home">Inicio</a><a href="/refreca/datasets/" data-i18n="nav.datasets">Datasets</a><a href="/refreca/guia/" aria-current="page" data-i18n="nav.guide">Guía de indicadores</a><a href="/refreca/acerca/" data-i18n="nav.about">Acerca</a></nav>
+    <div class="lang"><label for="lang-select" data-i18n="lang.label">Idioma</label><select id="lang-select"><option value="es">Español</option><option value="en">English</option><option value="pt">Português</option></select></div>
   </header>
   <main id="contenido">
+    <!-- Translatable blocks: each Spanish block is followed by <template data-lang="en|pt"> with the
+         full translated markup; src/i18n/prose.ts swaps them in. Keep ids and anchors identical. -->
     <section class="page-title">
       <h1>Cómo leer los indicadores</h1>
       <p>Guía para el público general: qué mide cada indicador de REFRECA, cómo se calcula y cómo interpretarlo. Los ejemplos numéricos son ilustrativos y no provienen de los datos del repositorio.</p>
     </section>
+    <template data-lang="en">
+    <section class="page-title">
+      <h1>How to read the indicators</h1>
+      <p>A guide for the general public: what each REFRECA indicator measures, how it is calculated and how to interpret it. The numerical examples are illustrative and do not come from the repository’s data.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="page-title">
+      <h1>Como ler os indicadores</h1>
+      <p>Guia para o público em geral: o que cada indicador do REFRECA mede, como é calculado e como interpretá-lo. Os exemplos numéricos são ilustrativos e não vêm dos dados do repositório.</p>
+    </section>
+    </template>
     <nav class="guide-toc" aria-label="Contenido de la guía">
       <h2>En esta guía</h2>
       <ol><li><a href="#basico">Antes de empezar</a></li><li><a href="#tasa-cruda">Tasa cruda</a></li><li><a href="#tasa-especifica">Tasa específica por edad y sexo</a></li><li><a href="#tasa-ajustada">Tasa ajustada por edad</a></li><li><a href="#intervalo">Intervalos de confianza</a></li><li><a href="#mortalidad-proporcional">Mortalidad proporcional</a></li><li><a href="#razon">Razón de tasas</a></li><li><a href="#avp">Años de vida perdidos</a></li><li><a href="#tendencia">Tendencia</a></li><li><a href="#precauciones">Precauciones</a></li><li><a href="#glosario">Glosario</a></li></ol>
     </nav>
+    <template data-lang="en">
+    <nav class="guide-toc" aria-label="Guide contents">
+      <h2>In this guide</h2>
+      <ol><li><a href="#basico">Before you start</a></li><li><a href="#tasa-cruda">Crude rate</a></li><li><a href="#tasa-especifica">Age- and sex-specific rate</a></li><li><a href="#tasa-ajustada">Age-adjusted rate</a></li><li><a href="#intervalo">Confidence intervals</a></li><li><a href="#mortalidad-proporcional">Proportional mortality</a></li><li><a href="#razon">Rate ratio</a></li><li><a href="#avp">Years of life lost</a></li><li><a href="#tendencia">Trend</a></li><li><a href="#precauciones">Precautions</a></li><li><a href="#glosario">Glossary</a></li></ol>
+    </nav>
+    </template>
+    <template data-lang="pt">
+    <nav class="guide-toc" aria-label="Conteúdo do guia">
+      <h2>Neste guia</h2>
+      <ol><li><a href="#basico">Antes de começar</a></li><li><a href="#tasa-cruda">Taxa bruta</a></li><li><a href="#tasa-especifica">Taxa específica por idade e sexo</a></li><li><a href="#tasa-ajustada">Taxa ajustada por idade</a></li><li><a href="#intervalo">Intervalos de confiança</a></li><li><a href="#mortalidad-proporcional">Mortalidade proporcional</a></li><li><a href="#razon">Razão de taxas</a></li><li><a href="#avp">Anos de vida perdidos</a></li><li><a href="#tendencia">Tendência</a></li><li><a href="#precauciones">Precauções</a></li><li><a href="#glosario">Glossário</a></li></ol>
+    </nav>
+    </template>
     <section class="prose" id="basico">
       <h2>Antes de empezar: lo esencial</h2>
       <p>Los indicadores convierten listas de muertes y de habitantes en cifras que se pueden comparar entre años, sexos, edades y países. Por sí solo, un número de muertes dice poco: un país grande siempre tendrá más muertes que uno pequeño. Por eso casi todos los indicadores relacionan las muertes con la población.</p><ul><li><strong>Defunción o muerte</strong>: cada fallecimiento registrado en el certificado de defunción, con una causa, una edad, un sexo y un año.</li><li><strong>Población</strong>: las personas que viven en la zona durante el año. Es el denominador de las tasas.</li><li><strong>Por 100 000 habitantes</strong>: forma de expresar una tasa para trabajar con números fáciles de leer. Una tasa de 150 por 100 000 significa 150 muertes por cada 100 000 personas en un año.</li><li><strong>Causa</strong>: la enfermedad o grupo de enfermedades que originó la muerte, según la Clasificación Internacional de Enfermedades (CIE).</li></ul><p>Cada dashboard de REFRECA ofrece estos indicadores como pestañas o paneles. Debajo de cada gráfico hay una tabla con los valores exactos y un botón para descargarlos.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="basico">
+      <h2>Before you start: the essentials</h2>
+      <p>Indicators turn lists of deaths and inhabitants into figures that can be compared across years, sexes, ages and countries. On its own, a number of deaths says little: a large country will always have more deaths than a small one. That is why almost every indicator relates deaths to the population.</p><ul><li><strong>Death</strong>: each death recorded on a death certificate, with a cause, an age, a sex and a year.</li><li><strong>Population</strong>: the people living in the area during the year. It is the denominator of rates.</li><li><strong>Per 100,000 inhabitants</strong>: a way of expressing a rate so that the numbers are easy to read. A rate of 150 per 100,000 means 150 deaths for every 100,000 people in one year.</li><li><strong>Cause</strong>: the disease or group of diseases that led to the death, according to the International Classification of Diseases (ICD).</li></ul><p>Each REFRECA dashboard offers these indicators as tabs or panels. Below each chart there is a table with the exact values and a button to download them.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="basico">
+      <h2>Antes de começar: o essencial</h2>
+      <p>Os indicadores transformam listas de óbitos e de habitantes em números que podem ser comparados entre anos, sexos, idades e países. Sozinho, um número de óbitos diz pouco: um país grande sempre terá mais óbitos do que um pequeno. Por isso, quase todos os indicadores relacionam os óbitos com a população.</p><ul><li><strong>Óbito ou morte</strong>: cada falecimento registrado na declaração de óbito, com uma causa, uma idade, um sexo e um ano.</li><li><strong>População</strong>: as pessoas que vivem na área durante o ano. É o denominador das taxas.</li><li><strong>Por 100.000 habitantes</strong>: forma de expressar uma taxa para trabalhar com números fáceis de ler. Uma taxa de 150 por 100.000 significa 150 óbitos para cada 100.000 pessoas em um ano.</li><li><strong>Causa</strong>: a doença ou grupo de doenças que originou o óbito, segundo a Classificação Internacional de Doenças (CID).</li></ul><p>Cada dashboard do REFRECA oferece esses indicadores como abas ou painéis. Abaixo de cada gráfico há uma tabela com os valores exatos e um botão para baixá-los.</p>
+    </section>
+    </template>
     <section class="prose" id="tasa-cruda">
       <h2>1. Tasa cruda de mortalidad</h2>
       <p><span class="lead">Responde a la pregunta: ¿cuántas personas mueren por cada 100 000 habitantes?</span></p><figure class="diagram" tabindex="0">
@@ -48,10 +88,52 @@
         <figcaption>De la defunción a la tasa. Se cuentan las muertes, se divide entre la población y se expresa por cada 100.000 habitantes.</figcaption>
       </figure><p class="formula">Tasa cruda = muertes ÷ población × 100 000</p><p class="read-as"><strong>Cómo se lee.</strong> Una tasa más alta indica más muertes en relación con el tamaño de la población. Sirve para saber cuánta carga representa una causa en un lugar y un año, pero no para comparar poblaciones con distinta estructura de edad.</p><p><strong>Cuidado.</strong> Es la tasa más sencilla y la más expuesta a engaño, porque depende de cuántas personas mayores haya en la población. Para comparar países o épocas, use la tasa ajustada por edad.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="tasa-cruda">
+      <h2>1. Crude mortality rate</h2>
+      <p><span class="lead">Answers the question: how many people die per 100,000 inhabitants?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 150" role="img" aria-labelledby="g1-t g1-d"><title id="g1-t">From deaths to a rate</title><desc id="g1-d">Deaths are counted, divided by the population and expressed per 100,000 inhabitants.</desc><defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<rect x="10" y="30" width="190" height="70" class="d-indigo"/><text x="105" y="60" text-anchor="middle" class="d-tw">1,200 deaths</text><text x="105" y="82" text-anchor="middle" class="d-tw">in one year</text>
+<text x="238" y="72" text-anchor="middle" class="d-tb" font-size="28">÷</text>
+<rect x="270" y="30" width="190" height="70" class="d-sky"/><text x="365" y="60" text-anchor="middle" class="d-tb">800,000 people</text><text x="365" y="82" text-anchor="middle" class="d-t">live in the area</text>
+<line x1="465" y1="65" x2="505" y2="65" class="d-line" marker-end="url(#a1)"/>
+<rect x="515" y="30" width="195" height="70" class="d-mint"/><text x="612" y="60" text-anchor="middle" class="d-tb">150 per 100,000</text><text x="612" y="82" text-anchor="middle" class="d-t">crude rate</text>
+<text x="10" y="132" class="d-ts">Illustrative example: 1,200 ÷ 800,000 = 0.0015, which multiplied by 100,000 gives 150.</text></svg>
+        <figcaption>From deaths to a rate. Deaths are counted, divided by the population and expressed per 100,000 inhabitants.</figcaption>
+      </figure><p class="formula">Crude rate = deaths ÷ population × 100,000</p><p class="read-as"><strong>How to read it.</strong> A higher rate means more deaths relative to the size of the population. It shows how much burden a cause represents in a given place and year, but it is not suitable for comparing populations with different age structures.</p><p><strong>Caution.</strong> It is the simplest rate and the easiest to be misled by, because it depends on how many older people live in the population. To compare countries or periods, use the age-adjusted rate.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="tasa-cruda">
+      <h2>1. Taxa bruta de mortalidade</h2>
+      <p><span class="lead">Responde à pergunta: quantas pessoas morrem a cada 100.000 habitantes?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 150" role="img" aria-labelledby="g1-t g1-d"><title id="g1-t">Do óbito à taxa</title><desc id="g1-d">Os óbitos são contados, divididos pela população e expressos por 100.000 habitantes.</desc><defs><marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<rect x="10" y="30" width="190" height="70" class="d-indigo"/><text x="105" y="60" text-anchor="middle" class="d-tw">1.200 óbitos</text><text x="105" y="82" text-anchor="middle" class="d-tw">em um ano</text>
+<text x="238" y="72" text-anchor="middle" class="d-tb" font-size="28">÷</text>
+<rect x="270" y="30" width="190" height="70" class="d-sky"/><text x="365" y="60" text-anchor="middle" class="d-tb">800.000 pessoas</text><text x="365" y="82" text-anchor="middle" class="d-t">vivem na área</text>
+<line x1="465" y1="65" x2="505" y2="65" class="d-line" marker-end="url(#a1)"/>
+<rect x="515" y="30" width="195" height="70" class="d-mint"/><text x="612" y="60" text-anchor="middle" class="d-tb">150 por 100.000</text><text x="612" y="82" text-anchor="middle" class="d-t">taxa bruta</text>
+<text x="10" y="132" class="d-ts">Exemplo ilustrativo: 1.200 ÷ 800.000 = 0,0015, que multiplicado por 100.000 dá 150.</text></svg>
+        <figcaption>Do óbito à taxa. Os óbitos são contados, divididos pela população e expressos por 100.000 habitantes.</figcaption>
+      </figure><p class="formula">Taxa bruta = óbitos ÷ população × 100.000</p><p class="read-as"><strong>Como ler.</strong> Uma taxa mais alta indica mais óbitos em relação ao tamanho da população. Serve para saber quanto peso uma causa representa em um lugar e em um ano, mas não para comparar populações com estruturas etárias diferentes.</p><p><strong>Atenção.</strong> É a taxa mais simples e a que mais pode enganar, porque depende de quantas pessoas idosas há na população. Para comparar países ou épocas, use a taxa ajustada por idade.</p>
+    </section>
+    </template>
     <section class="prose" id="tasa-especifica">
       <h2>2. Tasa específica por edad y sexo</h2>
       <p><span class="lead">Responde a la pregunta: ¿cómo cambia el riesgo de morir según la edad y el sexo?</span></p><p>Se calcula igual que la tasa cruda, pero solo con las muertes y la población de un grupo, por ejemplo, mujeres de 60 a 64 años. El panel muestra una línea con las tasas de cada grupo de edad.</p><p class="formula">Tasa específica = muertes del grupo ÷ población del grupo × 100 000</p><p class="read-as"><strong>Cómo se lee.</strong> En la mayoría de las enfermedades crónicas la línea sube con la edad. Si dos líneas se separan, ese grupo tiene un riesgo distinto. Observe en qué edades aparece la diferencia: a menudo indica dónde conviene actuar.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="tasa-especifica">
+      <h2>2. Age- and sex-specific rate</h2>
+      <p><span class="lead">Answers the question: how does the risk of dying change with age and sex?</span></p><p>It is calculated like the crude rate, but only with the deaths and the population of one group, for example, women aged 60 to 64. The panel shows a line with the rates for each age group.</p><p class="formula">Specific rate = deaths in the group ÷ population of the group × 100,000</p><p class="read-as"><strong>How to read it.</strong> For most chronic diseases the line rises with age. If two lines move apart, that group has a different risk. Note the ages at which the difference appears: it often shows where action is most worthwhile.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="tasa-especifica">
+      <h2>2. Taxa específica por idade e sexo</h2>
+      <p><span class="lead">Responde à pergunta: como o risco de morrer muda conforme a idade e o sexo?</span></p><p>É calculada da mesma forma que a taxa bruta, mas apenas com os óbitos e a população de um grupo, por exemplo, mulheres de 60 a 64 anos. O painel mostra uma linha com as taxas de cada faixa etária.</p><p class="formula">Taxa específica = óbitos do grupo ÷ população do grupo × 100.000</p><p class="read-as"><strong>Como ler.</strong> Na maioria das doenças crônicas, a linha sobe com a idade. Se duas linhas se afastam, esse grupo tem um risco diferente. Observe em que idades a diferença aparece: muitas vezes ela indica onde convém agir.</p>
+    </section>
+    </template>
     <section class="prose" id="tasa-ajustada">
       <h2>3. Tasa ajustada por edad</h2>
       <p><span class="lead">Responde a la pregunta: ¿cuál sería la tasa si todas las poblaciones tuvieran la misma estructura de edad?</span></p><figure class="diagram" tabindex="0">
@@ -83,6 +165,72 @@
         <figcaption>Cómo se ajusta una tasa por edad. Las tasas de cada grupo de edad se aplican a una misma población de referencia y se suman.</figcaption>
       </figure><p class="formula">Tasa ajustada = suma de (tasa específica de cada edad × peso estándar de esa edad)</p><p>El peso estándar procede de una población de referencia. REFRECA permite elegir entre dos:</p><ul><li><strong>OMS 2000-2025</strong>, la población estándar mundial que recomienda la Organización Mundial de la Salud, con más peso en edades mayores que la anterior.</li><li><strong>Segi 1960</strong>, la población estándar clásica, útil para comparar con publicaciones antiguas, con más peso en edades jóvenes.</li></ul><p class="read-as"><strong>Cómo se lee.</strong> La cifra no es una tasa real, sino una cifra para comparar. Permite decir que un país tiene una mortalidad mayor que otro con la edad ya tenida en cuenta. Los resultados cambian de nivel según la población estándar, así que compare siempre tasas calculadas con la misma.</p><p><strong>Limitación.</strong> Exige población por grupo de edad. Los conjuntos de datos sin esa información, o cuyos grupos de edad no coinciden con el estándar, no muestran este indicador y el dashboard lo explica.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="tasa-ajustada">
+      <h2>3. Age-adjusted rate</h2>
+      <p><span class="lead">Answers the question: what would the rate be if every population had the same age structure?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 252" role="img" aria-labelledby="g2-t g2-d"><title id="g2-t">Why age matters</title><desc id="g2-d">Two populations with the same risk at each age have different crude rates if one of them has more older people.</desc>
+<text x="10" y="22" class="d-tb">Population A: mostly young</text>
+<rect x="10" y="34" width="300" height="34" class="d-sky"/><rect x="10" y="34" width="200" height="34" class="d-peri"/><rect x="10" y="34" width="60" height="34" class="d-indigo"/>
+<text x="40" y="56" text-anchor="middle" class="d-tw">Older</text>
+<text x="10" y="92" class="d-ts">Few older people: low crude rate</text>
+<text x="380" y="22" class="d-tb">Population B: mostly older</text>
+<rect x="380" y="34" width="300" height="34" class="d-sky"/><rect x="380" y="34" width="200" height="34" class="d-peri"/><rect x="380" y="34" width="150" height="34" class="d-indigo"/>
+<text x="455" y="56" text-anchor="middle" class="d-tw">Older</text>
+<text x="380" y="92" class="d-ts">Many older people: high crude rate</text>
+<line x1="10" y1="112" x2="710" y2="112" class="d-dash"/>
+<text x="10" y="140" class="d-tb">If the risk of dying at each age is the same in A and B...</text>
+<text x="10" y="164" class="d-t">...population B records more deaths per inhabitant, only because it has</text><text x="10" y="184" class="d-t">more people at higher-risk ages.</text>
+<rect x="10" y="196" width="700" height="44" class="d-mint"/><text x="360" y="224" text-anchor="middle" class="d-tb">For a fair comparison, the age-adjusted rate is used</text></svg>
+        <figcaption>Why age matters. Two populations with the same risk at each age have different crude rates if one of them has more older people.</figcaption>
+      </figure><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 230" role="img" aria-labelledby="g3-t g3-d"><title id="g3-t">How a rate is adjusted for age</title><desc id="g3-d">The rates for each age group are applied to the same reference population and added up.</desc><defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<rect x="10" y="20" width="200" height="80" class="d-sky"/><text x="110" y="50" text-anchor="middle" class="d-tb">1. Rates by age</text><text x="110" y="72" text-anchor="middle" class="d-ts">0 to 4, 5 to 9, ... 85 and over</text>
+<rect x="260" y="20" width="200" height="80" class="d-peri"/><text x="360" y="50" text-anchor="middle" class="d-tb">2. Standard population</text><text x="360" y="72" text-anchor="middle" class="d-ts">same weights for every country</text>
+<rect x="510" y="20" width="200" height="80" class="d-mint"/><text x="610" y="50" text-anchor="middle" class="d-tb">3. Adjusted rate</text><text x="610" y="72" text-anchor="middle" class="d-ts">sum of rate × weight</text>
+<line x1="210" y1="60" x2="255" y2="60" class="d-line" marker-end="url(#a3)"/>
+<line x1="460" y1="60" x2="505" y2="60" class="d-line" marker-end="url(#a3)"/>
+<text x="10" y="135" class="d-tb">The standard population has the same shape for everyone</text>
+<g class="d-indigo"><rect x="10" y="150" width="30" height="12"/><rect x="10" y="166" width="42" height="12"/><rect x="10" y="182" width="55" height="12"/><rect x="10" y="198" width="60" height="12"/></g>
+<text x="90" y="160" class="d-ts">under 15 years: high weight</text><text x="90" y="192" class="d-ts">people aged 65 and over: low weight</text>
+<text x="400" y="176" class="d-t">This way, age no longer distorts the comparison.</text></svg>
+        <figcaption>How a rate is adjusted for age. The rates for each age group are applied to the same reference population and added up.</figcaption>
+      </figure><p class="formula">Adjusted rate = sum of (specific rate at each age × standard weight for that age)</p><p>The standard weight comes from a reference population. REFRECA lets you choose between two:</p><ul><li><strong>WHO 2000-2025</strong>, the world standard population recommended by the World Health Organization, which gives more weight to older ages than the earlier one.</li><li><strong>Segi 1960</strong>, the classic standard population, useful for comparing with older publications, which gives more weight to younger ages.</li></ul><p class="read-as"><strong>How to read it.</strong> The figure is not a real rate but a figure for comparison. It lets you say that one country has higher mortality than another once age has been taken into account. The level of the results changes with the standard population, so always compare rates calculated with the same one.</p><p><strong>Limitation.</strong> It requires population by age group. Datasets without that information, or whose age groups do not match the standard, do not show this indicator, and the dashboard explains why.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="tasa-ajustada">
+      <h2>3. Taxa ajustada por idade</h2>
+      <p><span class="lead">Responde à pergunta: qual seria a taxa se todas as populações tivessem a mesma estrutura etária?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 252" role="img" aria-labelledby="g2-t g2-d"><title id="g2-t">Por que a idade importa</title><desc id="g2-d">Duas populações com o mesmo risco em cada idade têm taxas brutas diferentes se uma delas tiver mais pessoas idosas.</desc>
+<text x="10" y="22" class="d-tb">População A: maioria jovem</text>
+<rect x="10" y="34" width="300" height="34" class="d-sky"/><rect x="10" y="34" width="200" height="34" class="d-peri"/><rect x="10" y="34" width="60" height="34" class="d-indigo"/>
+<text x="40" y="56" text-anchor="middle" class="d-tw">Idosos</text>
+<text x="10" y="92" class="d-ts">Poucas pessoas idosas: taxa bruta baixa</text>
+<text x="380" y="22" class="d-tb">População B: maioria mais velha</text>
+<rect x="380" y="34" width="300" height="34" class="d-sky"/><rect x="380" y="34" width="200" height="34" class="d-peri"/><rect x="380" y="34" width="150" height="34" class="d-indigo"/>
+<text x="455" y="56" text-anchor="middle" class="d-tw">Idosos</text>
+<text x="380" y="92" class="d-ts">Muitas pessoas idosas: taxa bruta alta</text>
+<line x1="10" y1="112" x2="710" y2="112" class="d-dash"/>
+<text x="10" y="140" class="d-tb">Se o risco de morrer em cada idade é igual em A e B...</text>
+<text x="10" y="164" class="d-t">...a população B registra mais óbitos por habitante, apenas porque tem</text><text x="10" y="184" class="d-t">mais pessoas nas idades de maior risco.</text>
+<rect x="10" y="196" width="700" height="44" class="d-mint"/><text x="360" y="224" text-anchor="middle" class="d-tb">Para comparar de forma justa, usa-se a taxa ajustada por idade</text></svg>
+        <figcaption>Por que a idade importa. Duas populações com o mesmo risco em cada idade têm taxas brutas diferentes se uma delas tiver mais pessoas idosas.</figcaption>
+      </figure><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 230" role="img" aria-labelledby="g3-t g3-d"><title id="g3-t">Como uma taxa é ajustada por idade</title><desc id="g3-d">As taxas de cada faixa etária são aplicadas a uma mesma população de referência e somadas.</desc><defs><marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<rect x="10" y="20" width="200" height="80" class="d-sky"/><text x="110" y="50" text-anchor="middle" class="d-tb">1. Taxas por idade</text><text x="110" y="72" text-anchor="middle" class="d-ts">de 0 a 4, de 5 a 9, ... 85 e mais</text>
+<rect x="260" y="20" width="200" height="80" class="d-peri"/><text x="360" y="50" text-anchor="middle" class="d-tb">2. População padrão</text><text x="360" y="72" text-anchor="middle" class="d-ts">pesos iguais para todos os países</text>
+<rect x="510" y="20" width="200" height="80" class="d-mint"/><text x="610" y="50" text-anchor="middle" class="d-tb">3. Taxa ajustada</text><text x="610" y="72" text-anchor="middle" class="d-ts">soma de taxa × peso</text>
+<line x1="210" y1="60" x2="255" y2="60" class="d-line" marker-end="url(#a3)"/>
+<line x1="460" y1="60" x2="505" y2="60" class="d-line" marker-end="url(#a3)"/>
+<text x="10" y="135" class="d-tb">A população padrão tem a mesma forma para todos</text>
+<g class="d-indigo"><rect x="10" y="150" width="30" height="12"/><rect x="10" y="166" width="42" height="12"/><rect x="10" y="182" width="55" height="12"/><rect x="10" y="198" width="60" height="12"/></g>
+<text x="90" y="160" class="d-ts">menores de 15 anos: peso alto</text><text x="90" y="192" class="d-ts">pessoas de 65 anos ou mais: peso baixo</text>
+<text x="400" y="176" class="d-t">Assim, a idade deixa de distorcer a comparação.</text></svg>
+        <figcaption>Como uma taxa é ajustada por idade. As taxas de cada faixa etária são aplicadas a uma mesma população de referência e somadas.</figcaption>
+      </figure><p class="formula">Taxa ajustada = soma de (taxa específica de cada idade × peso padrão dessa idade)</p><p>O peso padrão vem de uma população de referência. O REFRECA permite escolher entre duas:</p><ul><li><strong>OMS 2000-2025</strong>, a população padrão mundial recomendada pela Organização Mundial da Saúde, com mais peso nas idades mais avançadas do que a anterior.</li><li><strong>Segi 1960</strong>, a população padrão clássica, útil para comparar com publicações antigas, com mais peso nas idades jovens.</li></ul><p class="read-as"><strong>Como ler.</strong> O valor não é uma taxa real, mas um número para comparação. Permite dizer que um país tem mortalidade maior que outro, já levando a idade em conta. O nível dos resultados muda conforme a população padrão, então compare sempre taxas calculadas com a mesma.</p><p><strong>Limitação.</strong> Exige população por faixa etária. Os conjuntos de dados sem essa informação, ou cujas faixas etárias não coincidem com o padrão, não mostram este indicador, e o dashboard explica o motivo.</p>
+    </section>
+    </template>
     <section class="prose" id="intervalo">
       <h2>4. Intervalos de confianza del 95 %</h2>
       <p><span class="lead">Responde a la pregunta: ¿qué tan firme es la cifra?</span></p><figure class="diagram" tabindex="0">
@@ -97,6 +245,38 @@
         <figcaption>Intervalo de confianza del 95 %. El punto es la mejor estimación; la barra marca el rango de valores razonable dada la variación del azar.</figcaption>
       </figure><p>Las muertes se producen en parte por azar. Si un año hubiera ocurrido en otras circunstancias idénticas, el número habría variado un poco, y más cuando las cifras son pequeñas. El intervalo de confianza muestra el rango en el que probablemente se encuentra el valor real. En las tasas ajustadas y en las razones de tasas aparece como una banda alrededor de la línea.</p><p class="read-as"><strong>Cómo se lee.</strong> Una banda estrecha indica una cifra precisa, típica de países grandes y causas frecuentes. Una banda ancha indica pocas muertes, y esa cifra debe leerse con cautela.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="intervalo">
+      <h2>4. 95% confidence intervals</h2>
+      <p><span class="lead">Answers the question: how solid is the figure?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 190" role="img" aria-labelledby="g8-t g8-d"><title id="g8-t">95% confidence interval</title><desc id="g8-d">The dot is the best estimate; the bar marks the range of reasonable values given random variation.</desc>
+<line x1="40" y1="90" x2="680" y2="90" class="d-line"/>
+<g class="d-ts"><text x="40" y="122" text-anchor="middle">40</text><text x="200" y="122" text-anchor="middle">45</text><text x="360" y="122" text-anchor="middle">50</text><text x="520" y="122" text-anchor="middle">55</text><text x="680" y="122" text-anchor="middle">60</text></g>
+<line x1="264" y1="90" x2="456" y2="90" class="d-thick"/><line x1="264" y1="76" x2="264" y2="104" class="d-thick"/><line x1="456" y1="76" x2="456" y2="104" class="d-thick"/>
+<circle cx="360" cy="90" r="9" class="d-indigo"/>
+<text x="360" y="58" text-anchor="middle" class="d-tb">estimated rate: 50</text>
+<text x="264" y="146" text-anchor="middle" class="d-ts">lower limit 46</text><text x="456" y="146" text-anchor="middle" class="d-ts">upper limit 54</text>
+<text x="10" y="176" class="d-t">If two bars do not overlap, the difference is probably not due to chance.</text></svg>
+        <figcaption>95% confidence interval. The dot is the best estimate; the bar marks the range of reasonable values given random variation.</figcaption>
+      </figure><p>Deaths occur partly by chance. Had a year unfolded again under otherwise identical circumstances, the number would have varied a little, and more so when the numbers are small. The confidence interval shows the range in which the true value probably lies. For adjusted rates and rate ratios it appears as a band around the line.</p><p class="read-as"><strong>How to read it.</strong> A narrow band indicates a precise figure, typical of large countries and common causes. A wide band indicates few deaths, and that figure should be read with caution.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="intervalo">
+      <h2>4. Intervalos de confiança de 95%</h2>
+      <p><span class="lead">Responde à pergunta: quão confiável é o número?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 190" role="img" aria-labelledby="g8-t g8-d"><title id="g8-t">Intervalo de confiança de 95%</title><desc id="g8-d">O ponto é a melhor estimativa; a barra marca a faixa de valores razoáveis, dada a variação do acaso.</desc>
+<line x1="40" y1="90" x2="680" y2="90" class="d-line"/>
+<g class="d-ts"><text x="40" y="122" text-anchor="middle">40</text><text x="200" y="122" text-anchor="middle">45</text><text x="360" y="122" text-anchor="middle">50</text><text x="520" y="122" text-anchor="middle">55</text><text x="680" y="122" text-anchor="middle">60</text></g>
+<line x1="264" y1="90" x2="456" y2="90" class="d-thick"/><line x1="264" y1="76" x2="264" y2="104" class="d-thick"/><line x1="456" y1="76" x2="456" y2="104" class="d-thick"/>
+<circle cx="360" cy="90" r="9" class="d-indigo"/>
+<text x="360" y="58" text-anchor="middle" class="d-tb">taxa estimada: 50</text>
+<text x="264" y="146" text-anchor="middle" class="d-ts">limite inferior 46</text><text x="456" y="146" text-anchor="middle" class="d-ts">limite superior 54</text>
+<text x="10" y="176" class="d-t">Se duas barras não se sobrepõem, a diferença provavelmente não se deve ao acaso.</text></svg>
+        <figcaption>Intervalo de confiança de 95%. O ponto é a melhor estimativa; a barra marca a faixa de valores razoáveis, dada a variação do acaso.</figcaption>
+      </figure><p>Os óbitos ocorrem em parte por acaso. Se um ano tivesse transcorrido em outras circunstâncias idênticas, o número teria variado um pouco, e mais ainda quando os números são pequenos. O intervalo de confiança mostra a faixa em que provavelmente se encontra o valor real. Nas taxas ajustadas e nas razões de taxas, ele aparece como uma faixa ao redor da linha.</p><p class="read-as"><strong>Como ler.</strong> Uma faixa estreita indica um número preciso, típico de países grandes e causas frequentes. Uma faixa larga indica poucos óbitos, e esse número deve ser lido com cautela.</p>
+    </section>
+    </template>
     <section class="prose" id="mortalidad-proporcional">
       <h2>5. Mortalidad proporcional</h2>
       <p><span class="lead">Responde a la pregunta: de cada 100 muertes, ¿cuántas se deben a esta causa?</span></p><figure class="diagram" tabindex="0">
@@ -109,6 +289,34 @@
         <figcaption>Mortalidad proporcional. La barra completa son todas las muertes del periodo; cada tramo es el porcentaje que corresponde a una causa.</figcaption>
       </figure><p class="formula">Mortalidad proporcional = muertes por la causa ÷ muertes por todas las causas × 100</p><p class="read-as"><strong>Cómo se lee.</strong> Muestra el peso de una causa dentro del conjunto. No dice si una persona tiene más o menos riesgo de morir. Si disminuyen las muertes por otras causas, el porcentaje de esta puede subir aunque no haya más casos.</p><p><strong>Nota.</strong> En REFRECA el total incluye únicamente los grupos de causas que el repositorio sigue, y esos grupos pueden solaparse. Los porcentajes de distintas causas, por tanto, no suman 100 %. El panel lo indica.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="mortalidad-proporcional">
+      <h2>5. Proportional mortality</h2>
+      <p><span class="lead">Answers the question: out of every 100 deaths, how many are due to this cause?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 150" role="img" aria-labelledby="g4-t g4-d"><title id="g4-t">Proportional mortality</title><desc id="g4-d">The full bar is all deaths in the period; each segment is the percentage that corresponds to one cause.</desc>
+<text x="10" y="22" class="d-tb">200 deaths in total</text>
+<rect x="10" y="34" width="700" height="40" class="d-sky"/><rect x="10" y="34" width="140" height="40" class="d-indigo"/>
+<text x="80" y="60" text-anchor="middle" class="d-tw">40 deaths</text><text x="430" y="60" text-anchor="middle" class="d-t">the other 160 deaths</text>
+<text x="10" y="102" class="d-tb">Cause studied: 40 out of 200</text>
+<text x="10" y="126" class="d-t">40 ÷ 200 = 0.20, that is, 20% of the deaths in the period.</text></svg>
+        <figcaption>Proportional mortality. The full bar is all deaths in the period; each segment is the percentage that corresponds to one cause.</figcaption>
+      </figure><p class="formula">Proportional mortality = deaths from the cause ÷ deaths from all causes × 100</p><p class="read-as"><strong>How to read it.</strong> It shows the weight of a cause within the whole. It does not say whether a person has a higher or lower risk of dying. If deaths from other causes fall, the percentage for this cause can rise even when there are no more cases.</p><p><strong>Note.</strong> In REFRECA the total includes only the cause groups that the repository tracks, and those groups can overlap. The percentages of different causes therefore do not add up to 100%. The panel points this out.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="mortalidad-proporcional">
+      <h2>5. Mortalidade proporcional</h2>
+      <p><span class="lead">Responde à pergunta: a cada 100 óbitos, quantos se devem a esta causa?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 150" role="img" aria-labelledby="g4-t g4-d"><title id="g4-t">Mortalidade proporcional</title><desc id="g4-d">A barra inteira representa todos os óbitos do período; cada trecho é a porcentagem que corresponde a uma causa.</desc>
+<text x="10" y="22" class="d-tb">200 óbitos no total</text>
+<rect x="10" y="34" width="700" height="40" class="d-sky"/><rect x="10" y="34" width="140" height="40" class="d-indigo"/>
+<text x="80" y="60" text-anchor="middle" class="d-tw">40 óbitos</text><text x="430" y="60" text-anchor="middle" class="d-t">outros 160 óbitos</text>
+<text x="10" y="102" class="d-tb">Causa estudada: 40 de cada 200</text>
+<text x="10" y="126" class="d-t">40 ÷ 200 = 0,20, ou seja, 20% dos óbitos do período.</text></svg>
+        <figcaption>Mortalidade proporcional. A barra inteira representa todos os óbitos do período; cada trecho é a porcentagem que corresponde a uma causa.</figcaption>
+      </figure><p class="formula">Mortalidade proporcional = óbitos pela causa ÷ óbitos por todas as causas × 100</p><p class="read-as"><strong>Como ler.</strong> Mostra o peso de uma causa dentro do conjunto. Não diz se uma pessoa tem mais ou menos risco de morrer. Se os óbitos por outras causas diminuem, a porcentagem desta pode subir mesmo sem haver mais casos.</p><p><strong>Nota.</strong> No REFRECA, o total inclui apenas os grupos de causas que o repositório acompanha, e esses grupos podem se sobrepor. Portanto, as porcentagens de causas diferentes não somam 100%. O painel indica isso.</p>
+    </section>
+    </template>
     <section class="prose" id="razon">
       <h2>6. Razón de tasas hombre/mujer</h2>
       <p><span class="lead">Responde a la pregunta: ¿cuántas veces es mayor el riesgo en un sexo que en el otro?</span></p><figure class="diagram" tabindex="0">
@@ -122,6 +330,36 @@
         <figcaption>Razón de tasas. Se divide la tasa de un grupo entre la de otro; el valor 1 significa que no hay diferencia.</figcaption>
       </figure><p class="formula">Razón de tasas = tasa en hombres ÷ tasa en mujeres</p><p class="read-as"><strong>Cómo se lee.</strong> Un valor de 1 indica que no hay diferencia. Un valor de 2 indica que la tasa en hombres es el doble. Un valor de 0,5 indica que es la mitad. Si la banda de confianza incluye el 1, la diferencia podría deberse al azar.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="razon">
+      <h2>6. Male-to-female rate ratio</h2>
+      <p><span class="lead">Answers the question: how many times higher is the risk in one sex than in the other?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 230" role="img" aria-labelledby="g5-t g5-d"><title id="g5-t">Rate ratio</title><desc id="g5-d">The rate of one group is divided by that of another; a value of 1 means there is no difference.</desc>
+<text x="10" y="22" class="d-tb">Rate in men: 90</text><rect x="10" y="32" width="450" height="30" class="d-indigo"/>
+<text x="10" y="92" class="d-tb">Rate in women: 60</text><rect x="10" y="102" width="300" height="30" class="d-peri"/>
+<rect x="480" y="32" width="230" height="100" class="d-mint"/><text x="595" y="68" text-anchor="middle" class="d-tb">90 ÷ 60 = 1.5</text><text x="595" y="92" text-anchor="middle" class="d-t">male/female ratio</text><text x="595" y="114" text-anchor="middle" class="d-ts">1.5 times higher in men</text>
+<line x1="10" y1="160" x2="710" y2="160" class="d-line"/>
+<text x="10" y="186" class="d-ts">less than 1: lower in men</text><text x="360" y="186" text-anchor="middle" class="d-tb">1: equal</text><text x="710" y="186" text-anchor="end" class="d-ts">greater than 1: higher in men</text>
+<line x1="360" y1="154" x2="360" y2="166" class="d-line"/></svg>
+        <figcaption>Rate ratio. The rate of one group is divided by that of another; a value of 1 means there is no difference.</figcaption>
+      </figure><p class="formula">Rate ratio = rate in men ÷ rate in women</p><p class="read-as"><strong>How to read it.</strong> A value of 1 means there is no difference. A value of 2 means the rate in men is twice as high. A value of 0.5 means it is half as high. If the confidence band includes 1, the difference could be due to chance.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="razon">
+      <h2>6. Razão de taxas homem/mulher</h2>
+      <p><span class="lead">Responde à pergunta: quantas vezes o risco é maior em um sexo do que no outro?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 230" role="img" aria-labelledby="g5-t g5-d"><title id="g5-t">Razão de taxas</title><desc id="g5-d">Divide-se a taxa de um grupo pela de outro; o valor 1 significa que não há diferença.</desc>
+<text x="10" y="22" class="d-tb">Taxa em homens: 90</text><rect x="10" y="32" width="450" height="30" class="d-indigo"/>
+<text x="10" y="92" class="d-tb">Taxa em mulheres: 60</text><rect x="10" y="102" width="300" height="30" class="d-peri"/>
+<rect x="480" y="32" width="230" height="100" class="d-mint"/><text x="595" y="68" text-anchor="middle" class="d-tb">90 ÷ 60 = 1,5</text><text x="595" y="92" text-anchor="middle" class="d-t">razão homem/mulher</text><text x="595" y="114" text-anchor="middle" class="d-ts">1,5 vez maior em homens</text>
+<line x1="10" y1="160" x2="710" y2="160" class="d-line"/>
+<text x="10" y="186" class="d-ts">menor que 1: mais baixa em homens</text><text x="360" y="186" text-anchor="middle" class="d-tb">1: igual</text><text x="710" y="186" text-anchor="end" class="d-ts">maior que 1: mais alta em homens</text>
+<line x1="360" y1="154" x2="360" y2="166" class="d-line"/></svg>
+        <figcaption>Razão de taxas. Divide-se a taxa de um grupo pela de outro; o valor 1 significa que não há diferença.</figcaption>
+      </figure><p class="formula">Razão de taxas = taxa em homens ÷ taxa em mulheres</p><p class="read-as"><strong>Como ler.</strong> Um valor de 1 indica que não há diferença. Um valor de 2 indica que a taxa em homens é o dobro. Um valor de 0,5 indica que é a metade. Se a faixa de confiança inclui o 1, a diferença pode se dever ao acaso.</p>
+    </section>
+    </template>
     <section class="prose" id="avp">
       <h2>7. Años de vida potencialmente perdidos</h2>
       <p><span class="lead">Responde a la pregunta: ¿cuántos años de vida se pierden por las muertes prematuras?</span></p><figure class="diagram" tabindex="0">
@@ -137,6 +375,40 @@
         <figcaption>Años de vida potencialmente perdidos. Cada muerte antes del límite de 70 años suma los años que faltaban para llegar a esa edad.</figcaption>
       </figure><p class="formula">Años perdidos = suma de (70 − edad al morir), para quienes mueren antes de los 70 años</p><p class="read-as"><strong>Cómo se lee.</strong> Da más peso a las muertes en personas jóvenes que en personas mayores. Una causa puede causar pocas muertes pero muchos años perdidos si afecta a edades tempranas.</p><p><strong>Detalle técnico.</strong> Como los datos vienen por grupos de edad, REFRECA supone que las muertes se reparten de forma pareja dentro de cada grupo y usa la edad central. Cuando el grupo cruza el límite de 70 años, solo cuenta la parte anterior al límite.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="avp">
+      <h2>7. Potential years of life lost</h2>
+      <p><span class="lead">Answers the question: how many years of life are lost to premature deaths?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 190" role="img" aria-labelledby="g6-t g6-d"><title id="g6-t">Potential years of life lost</title><desc id="g6-d">Each death before the 70-year limit adds the years that were left to reach that age.</desc><defs><marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<line x1="30" y1="80" x2="690" y2="80" class="d-line"/>
+<g class="d-ts"><text x="30" y="106" text-anchor="middle">0</text><text x="210" y="106" text-anchor="middle">20</text><text x="390" y="106" text-anchor="middle">40</text><text x="570" y="106" text-anchor="middle">60</text></g>
+<rect x="405" y="62" width="255" height="36" class="d-mint"/><text x="532" y="85" text-anchor="middle" class="d-tb">25 years lost</text>
+<rect x="30" y="62" width="375" height="36" class="d-sky"/><text x="217" y="85" text-anchor="middle" class="d-t">life lived</text>
+<line x1="405" y1="40" x2="405" y2="120" class="d-thick"/><text x="405" y="34" text-anchor="middle" class="d-tb">death at age 45</text>
+<line x1="660" y1="40" x2="660" y2="120" class="d-dash"/><text x="660" y="34" text-anchor="middle" class="d-tb">limit: 70 years</text>
+<text x="10" y="150" class="d-t">70 − 45 = 25 years. All deaths under age 70 are added up.</text>
+<text x="10" y="172" class="d-ts">A death at age 30 contributes 40 years; one at age 75 contributes none.</text></svg>
+        <figcaption>Potential years of life lost. Each death before the 70-year limit adds the years that were left to reach that age.</figcaption>
+      </figure><p class="formula">Years lost = sum of (70 − age at death), for those who die before age 70</p><p class="read-as"><strong>How to read it.</strong> It gives more weight to deaths among young people than among older people. A cause may produce few deaths but many years lost if it affects people at early ages.</p><p><strong>Technical detail.</strong> Because the data come in age groups, REFRECA assumes that deaths are spread evenly within each group and uses the midpoint age. When a group crosses the 70-year limit, only the part below the limit counts.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="avp">
+      <h2>7. Anos potenciais de vida perdidos</h2>
+      <p><span class="lead">Responde à pergunta: quantos anos de vida são perdidos com as mortes prematuras?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 190" role="img" aria-labelledby="g6-t g6-d"><title id="g6-t">Anos potenciais de vida perdidos</title><desc id="g6-d">Cada óbito antes do limite de 70 anos soma os anos que faltavam para chegar a essa idade.</desc><defs><marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" class="d-arrow"/></marker></defs>
+<line x1="30" y1="80" x2="690" y2="80" class="d-line"/>
+<g class="d-ts"><text x="30" y="106" text-anchor="middle">0</text><text x="210" y="106" text-anchor="middle">20</text><text x="390" y="106" text-anchor="middle">40</text><text x="570" y="106" text-anchor="middle">60</text></g>
+<rect x="405" y="62" width="255" height="36" class="d-mint"/><text x="532" y="85" text-anchor="middle" class="d-tb">25 anos perdidos</text>
+<rect x="30" y="62" width="375" height="36" class="d-sky"/><text x="217" y="85" text-anchor="middle" class="d-t">vida vivida</text>
+<line x1="405" y1="40" x2="405" y2="120" class="d-thick"/><text x="405" y="34" text-anchor="middle" class="d-tb">óbito aos 45 anos</text>
+<line x1="660" y1="40" x2="660" y2="120" class="d-dash"/><text x="660" y="34" text-anchor="middle" class="d-tb">limite: 70 anos</text>
+<text x="10" y="150" class="d-t">70 − 45 = 25 anos. Somam-se todos os óbitos de menores de 70 anos.</text>
+<text x="10" y="172" class="d-ts">Um óbito aos 30 anos contribui com 40 anos; um aos 75 anos não contribui com nenhum.</text></svg>
+        <figcaption>Anos potenciais de vida perdidos. Cada óbito antes do limite de 70 anos soma os anos que faltavam para chegar a essa idade.</figcaption>
+      </figure><p class="formula">Anos perdidos = soma de (70 − idade ao morrer), para quem morre antes dos 70 anos</p><p class="read-as"><strong>Como ler.</strong> Dá mais peso aos óbitos de pessoas jovens do que aos de pessoas idosas. Uma causa pode provocar poucos óbitos, mas muitos anos perdidos, se afetar idades precoces.</p><p><strong>Detalhe técnico.</strong> Como os dados vêm por faixas etárias, o REFRECA supõe que os óbitos se distribuem de forma uniforme dentro de cada faixa e usa a idade central. Quando a faixa ultrapassa o limite de 70 anos, conta apenas a parte anterior ao limite.</p>
+    </section>
+    </template>
     <section class="prose" id="tendencia">
       <h2>8. Tendencia: cambio porcentual y cambio porcentual anual</h2>
       <p><span class="lead">Responde a la pregunta: ¿sube o baja con el tiempo, y a qué velocidad?</span></p><figure class="diagram" tabindex="0">
@@ -151,17 +423,73 @@
         <figcaption>Cambio porcentual y cambio porcentual anual. Se compara el primer y el último año, y se calcula cuánto varía la tasa en promedio cada año.</figcaption>
       </figure><ul><li><strong>Cambio porcentual</strong>: compara el último año con el primero. Es fácil de entender, pero ignora lo que ocurre entre ambos.</li><li><strong>Cambio porcentual anual</strong>: la variación promedio de cada año, calculada con todos los años del periodo. Un valor negativo indica descenso y uno positivo, aumento.</li></ul><p class="read-as"><strong>Cómo se lee.</strong> Si el intervalo de confianza del cambio anual incluye el 0, no se puede afirmar que la tendencia suba ni baje. Series de pocos años o con huecos dan resultados poco estables.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="tendencia">
+      <h2>8. Trend: percent change and annual percent change</h2>
+      <p><span class="lead">Answers the question: is it going up or down over time, and how fast?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 260" role="img" aria-labelledby="g7-t g7-d"><title id="g7-t">Percent change and annual percent change</title><desc id="g7-d">The first and last years are compared, and the average change in the rate per year is calculated.</desc>
+<line x1="60" y1="20" x2="60" y2="200" class="d-line"/><line x1="60" y1="200" x2="690" y2="200" class="d-line"/>
+<polyline points="90,50 220,72 350,60 480,100 610,98" class="d-thick"/>
+<g class="d-indigo"><circle cx="90" cy="50" r="6"/><circle cx="610" cy="98" r="6"/></g>
+<text x="90" y="38" text-anchor="middle" class="d-tb">100</text><text x="610" y="86" text-anchor="middle" class="d-tb">90</text>
+<text x="90" y="222" text-anchor="middle" class="d-ts">year 1</text><text x="610" y="222" text-anchor="middle" class="d-ts">year 6</text>
+<rect x="10" y="236" width="700" height="1" class="d-ink"/>
+<text x="10" y="256" class="d-ts">From 100 to 90: a percent change of −10%. Spread over 5 years, the annual change is about −2.1% per year.</text></svg>
+        <figcaption>Percent change and annual percent change. The first and last years are compared, and the average change in the rate per year is calculated.</figcaption>
+      </figure><ul><li><strong>Percent change</strong>: compares the last year with the first. It is easy to understand, but it ignores what happens in between.</li><li><strong>Annual percent change</strong>: the average change per year, calculated using every year in the period. A negative value indicates a decrease and a positive one, an increase.</li></ul><p class="read-as"><strong>How to read it.</strong> If the confidence interval of the annual change includes 0, you cannot say that the trend is rising or falling. Series with few years or with gaps give unstable results.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="tendencia">
+      <h2>8. Tendência: variação percentual e variação percentual anual</h2>
+      <p><span class="lead">Responde à pergunta: sobe ou desce com o tempo, e em que velocidade?</span></p><figure class="diagram" tabindex="0">
+        <svg viewBox="0 0 720 260" role="img" aria-labelledby="g7-t g7-d"><title id="g7-t">Variação percentual e variação percentual anual</title><desc id="g7-d">Compara-se o primeiro e o último ano, e calcula-se quanto a taxa varia, em média, a cada ano.</desc>
+<line x1="60" y1="20" x2="60" y2="200" class="d-line"/><line x1="60" y1="200" x2="690" y2="200" class="d-line"/>
+<polyline points="90,50 220,72 350,60 480,100 610,98" class="d-thick"/>
+<g class="d-indigo"><circle cx="90" cy="50" r="6"/><circle cx="610" cy="98" r="6"/></g>
+<text x="90" y="38" text-anchor="middle" class="d-tb">100</text><text x="610" y="86" text-anchor="middle" class="d-tb">90</text>
+<text x="90" y="222" text-anchor="middle" class="d-ts">ano 1</text><text x="610" y="222" text-anchor="middle" class="d-ts">ano 6</text>
+<rect x="10" y="236" width="700" height="1" class="d-ink"/>
+<text x="10" y="256" class="d-ts">De 100 para 90: variação percentual de −10%. Em 5 anos, a variação anual fica em cerca de −2,1% ao ano.</text></svg>
+        <figcaption>Variação percentual e variação percentual anual. Compara-se o primeiro e o último ano, e calcula-se quanto a taxa varia, em média, a cada ano.</figcaption>
+      </figure><ul><li><strong>Variação percentual</strong>: compara o último ano com o primeiro. É fácil de entender, mas ignora o que acontece entre os dois.</li><li><strong>Variação percentual anual</strong>: a variação média de cada ano, calculada com todos os anos do período. Um valor negativo indica queda e um positivo, aumento.</li></ul><p class="read-as"><strong>Como ler.</strong> Se o intervalo de confiança da variação anual inclui o 0, não é possível afirmar que a tendência sobe ou desce. Séries com poucos anos ou com lacunas dão resultados pouco estáveis.</p>
+    </section>
+    </template>
     <section class="prose" id="precauciones">
       <h2>Antes de sacar conclusiones</h2>
       <ul><li><strong>Compare lo comparable.</strong> Use la misma causa, la misma población estándar y los mismos años en ambos lados.</li><li><strong>Lea las advertencias.</strong> Cada conjunto de datos tiene una ficha con su fuente, su periodo y sus limitaciones, como años incompletos o sin población.</li><li><strong>Las tasas con población de las Naciones Unidas son aproximadas.</strong> Combinan muertes de la OMS con estimaciones de población de otra fuente y no coinciden exactamente con las estadísticas oficiales de cada país.</li><li><strong>Una asociación no es una causa.</strong> Que dos cifras se parezcan no prueba que una provoque la otra.</li><li><strong>Cifras pequeñas fluctúan.</strong> Con pocas muertes, la tasa puede variar mucho de un año a otro sin que cambie nada real.</li><li><strong>Estos indicadores no sustituyen las estadísticas oficiales</strong> ni orientan decisiones clínicas personales.</li></ul>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="precauciones">
+      <h2>Before drawing conclusions</h2>
+      <ul><li><strong>Compare like with like.</strong> Use the same cause, the same standard population and the same years on both sides.</li><li><strong>Read the caveats.</strong> Each dataset has a page with its source, its period and its limitations, such as incomplete years or missing population.</li><li><strong>Rates based on United Nations population are approximate.</strong> They combine WHO deaths with population estimates from another source and do not exactly match each country’s official statistics.</li><li><strong>Association is not causation.</strong> Two figures looking alike does not prove that one causes the other.</li><li><strong>Small numbers fluctuate.</strong> With few deaths, the rate can vary a lot from one year to the next without any real change.</li><li><strong>These indicators do not replace official statistics</strong> and are not a guide for personal clinical decisions.</li></ul>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="precauciones">
+      <h2>Antes de tirar conclusões</h2>
+      <ul><li><strong>Compare o que é comparável.</strong> Use a mesma causa, a mesma população padrão e os mesmos anos dos dois lados.</li><li><strong>Leia os avisos.</strong> Cada conjunto de dados tem uma ficha com sua fonte, seu período e suas limitações, como anos incompletos ou sem população.</li><li><strong>As taxas com população das Nações Unidas são aproximadas.</strong> Elas combinam óbitos da OMS com estimativas de população de outra fonte e não coincidem exatamente com as estatísticas oficiais de cada país.</li><li><strong>Associação não é causalidade.</strong> O fato de dois números se parecerem não prova que um provoque o outro.</li><li><strong>Números pequenos oscilam.</strong> Com poucos óbitos, a taxa pode variar muito de um ano para outro sem que nada real tenha mudado.</li><li><strong>Estes indicadores não substituem as estatísticas oficiais</strong> nem orientam decisões clínicas pessoais.</li></ul>
+    </section>
+    </template>
     <section class="prose" id="glosario">
       <h2>Glosario</h2>
       <dl class="glossary"><dt>Tasa</dt><dd>Número de eventos dividido entre la población, en un tiempo definido.</dd><dt>Numerador y denominador</dt><dd>La parte de arriba y la de abajo de una fracción. En una tasa, las muertes y la población.</dd><dt>Estándar</dt><dd>Población de referencia que se usa para ajustar por edad.</dd><dt>Intervalo de confianza</dt><dd>Rango de valores razonables para una estimación.</dd><dt>CIE</dt><dd>Clasificación Internacional de Enfermedades, que asigna un código a cada causa de muerte.</dd><dt>Prematura</dt><dd>Muerte antes del límite de edad elegido, 70 años en REFRECA.</dd></dl><p>Para ver estos indicadores con datos reales, abra el <a href="/refreca/datasets/">catálogo de conjuntos de datos</a> y elija un dashboard de mortalidad.</p>
     </section>
+    <template data-lang="en">
+    <section class="prose" id="glosario">
+      <h2>Glossary</h2>
+      <dl class="glossary"><dt>Rate</dt><dd>Number of events divided by the population, over a defined period of time.</dd><dt>Numerator and denominator</dt><dd>The top and bottom parts of a fraction. In a rate, the deaths and the population.</dd><dt>Standard</dt><dd>Reference population used to adjust for age.</dd><dt>Confidence interval</dt><dd>Range of reasonable values for an estimate.</dd><dt>ICD</dt><dd>International Classification of Diseases, which assigns a code to each cause of death.</dd><dt>Premature</dt><dd>Death before the chosen age limit, 70 years in REFRECA.</dd></dl><p>To see these indicators with real data, open the <a href="/refreca/datasets/">dataset catalog</a> and choose a mortality dashboard.</p>
+    </section>
+    </template>
+    <template data-lang="pt">
+    <section class="prose" id="glosario">
+      <h2>Glossário</h2>
+      <dl class="glossary"><dt>Taxa</dt><dd>Número de eventos dividido pela população, em um período definido.</dd><dt>Numerador e denominador</dt><dd>A parte de cima e a de baixo de uma fração. Em uma taxa, os óbitos e a população.</dd><dt>Padrão</dt><dd>População de referência usada para o ajuste por idade.</dd><dt>Intervalo de confiança</dt><dd>Faixa de valores razoáveis para uma estimativa.</dd><dt>CID</dt><dd>Classificação Internacional de Doenças, que atribui um código a cada causa de morte.</dd><dt>Prematura</dt><dd>Morte antes do limite de idade escolhido, 70 anos no REFRECA.</dd></dl><p>Para ver estes indicadores com dados reais, abra o <a href="/refreca/datasets/">catálogo de conjuntos de dados</a> e escolha um dashboard de mortalidade.</p>
+    </section>
+    </template>
   </main>
-  <footer class="site-footer" aria-label="Pie de página">
-    <p class="footer-text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
+  <footer class="site-footer" aria-label="Pie de página" data-i18n-attr="aria-label:footer.label">
+    <p class="footer-text" data-i18n="footer.text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
     <div class="footer-strip" aria-hidden="true"></div>
   </footer>
 </body>
