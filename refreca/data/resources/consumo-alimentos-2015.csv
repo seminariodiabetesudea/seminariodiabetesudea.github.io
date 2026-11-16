@@ -1,0 +1,505 @@
+﻿dimension,grupo,personas,alimento,porcentaje_consumo
+Nacional,Total nacional,28902,Leche,88.9
+Nacional,Total nacional,28902,Queso,84.2
+Nacional,Total nacional,28902,Huevos,95.8
+Nacional,Total nacional,28902,Pollo,95.3
+Nacional,Total nacional,28902,Carne de res o cerdo,93.8
+Nacional,Total nacional,28902,Pescado,63
+Nacional,Total nacional,28902,Atún,61.1
+Nacional,Total nacional,28902,Menudencias,41.1
+Nacional,Total nacional,28902,Embutidos,70
+Nacional,Total nacional,28902,Morcilla,36.8
+Nacional,Total nacional,28902,Bienestarina,17
+Nacional,Total nacional,28902,Mezclas vegetales,1.5
+Nacional,Total nacional,28902,Granos secos,94.2
+Nacional,Total nacional,28902,Arroz,99.4
+Nacional,Total nacional,28902,Pan,89.7
+Nacional,Total nacional,28902,Arepa,85
+Nacional,Total nacional,28902,Galletas,76.8
+Nacional,Total nacional,28902,Tubérculos,97.2
+Nacional,Total nacional,28902,Verduras cocidas,69.5
+Nacional,Total nacional,28902,Verduras crudas,77
+Nacional,Total nacional,28902,Frutas en jugo,89.4
+Nacional,Total nacional,28902,Frutas enteras,78.9
+Nacional,Total nacional,28902,Mantequilla,32.2
+Nacional,Total nacional,28902,Café,71.5
+Nacional,Total nacional,28902,Panela,93.8
+Nacional,Total nacional,28902,Golosinas,65.2
+Nacional,Total nacional,28902,Gaseosas,75.1
+Nacional,Total nacional,28902,Alimentos integrales,22
+Nacional,Total nacional,28902,Bebidas alcohólicas,35.9
+Nacional,Total nacional,28902,Bebidas energizantes,12.5
+Nacional,Total nacional,28902,Comidas rápidas,56.2
+Nacional,Total nacional,28902,Alimentos de paquete,61.6
+Nacional,Total nacional,28902,Alimentos bajos en calorías,7
+Nacional,Total nacional,28902,Alimentos fritos,88.4
+Nacional,Total nacional,28902,Alimentos a la parrilla,33.4
+Nacional,Total nacional,28902,Suplementos,10.6
+Región,Atlántico,5894,Leche,84.6
+Región,Atlántico,5894,Queso,91.2
+Región,Atlántico,5894,Huevos,93
+Región,Atlántico,5894,Pollo,96.3
+Región,Atlántico,5894,Carne de res o cerdo,94.3
+Región,Atlántico,5894,Pescado,77.2
+Región,Atlántico,5894,Atún,55.9
+Región,Atlántico,5894,Menudencias,40.8
+Región,Atlántico,5894,Embutidos,70.5
+Región,Atlántico,5894,Morcilla,37.5
+Región,Atlántico,5894,Bienestarina,25.4
+Región,Atlántico,5894,Mezclas vegetales,1.4
+Región,Atlántico,5894,Granos secos,90.5
+Región,Atlántico,5894,Arroz,99.3
+Región,Atlántico,5894,Pan,89.4
+Región,Atlántico,5894,Arepa,83.2
+Región,Atlántico,5894,Galletas,74
+Región,Atlántico,5894,Tubérculos,97
+Región,Atlántico,5894,Verduras cocidas,54.4
+Región,Atlántico,5894,Verduras crudas,75
+Región,Atlántico,5894,Frutas en jugo,88.4
+Región,Atlántico,5894,Frutas enteras,77.6
+Región,Atlántico,5894,Mantequilla,26.8
+Región,Atlántico,5894,Café,70.4
+Región,Atlántico,5894,Panela,93.2
+Región,Atlántico,5894,Golosinas,62.4
+Región,Atlántico,5894,Gaseosas,81.8
+Región,Atlántico,5894,Alimentos integrales,15.7
+Región,Atlántico,5894,Bebidas alcohólicas,34.3
+Región,Atlántico,5894,Bebidas energizantes,9.7
+Región,Atlántico,5894,Comidas rápidas,52.1
+Región,Atlántico,5894,Alimentos de paquete,63.9
+Región,Atlántico,5894,Alimentos bajos en calorías,4.7
+Región,Atlántico,5894,Alimentos fritos,86.8
+Región,Atlántico,5894,Alimentos a la parrilla,35.5
+Región,Atlántico,5894,Suplementos,10.2
+Región,Bogotá,1965,Leche,93.7
+Región,Bogotá,1965,Queso,88.2
+Región,Bogotá,1965,Huevos,97.1
+Región,Bogotá,1965,Pollo,97.6
+Región,Bogotá,1965,Carne de res o cerdo,95
+Región,Bogotá,1965,Pescado,60.8
+Región,Bogotá,1965,Atún,67
+Región,Bogotá,1965,Menudencias,32.9
+Región,Bogotá,1965,Embutidos,75.9
+Región,Bogotá,1965,Morcilla,36.5
+Región,Bogotá,1965,Bienestarina,11.6
+Región,Bogotá,1965,Mezclas vegetales,1.4
+Región,Bogotá,1965,Granos secos,94.7
+Región,Bogotá,1965,Arroz,100
+Región,Bogotá,1965,Pan,93.9
+Región,Bogotá,1965,Arepa,86.4
+Región,Bogotá,1965,Galletas,80.4
+Región,Bogotá,1965,Tubérculos,97.9
+Región,Bogotá,1965,Verduras cocidas,81.4
+Región,Bogotá,1965,Verduras crudas,78.1
+Región,Bogotá,1965,Frutas en jugo,92.3
+Región,Bogotá,1965,Frutas enteras,81.4
+Región,Bogotá,1965,Mantequilla,32.3
+Región,Bogotá,1965,Café,76.8
+Región,Bogotá,1965,Panela,92.7
+Región,Bogotá,1965,Golosinas,66.5
+Región,Bogotá,1965,Gaseosas,76.1
+Región,Bogotá,1965,Alimentos integrales,32.3
+Región,Bogotá,1965,Bebidas alcohólicas,41
+Región,Bogotá,1965,Bebidas energizantes,15.1
+Región,Bogotá,1965,Comidas rápidas,68
+Región,Bogotá,1965,Alimentos de paquete,62.7
+Región,Bogotá,1965,Alimentos bajos en calorías,11.1
+Región,Bogotá,1965,Alimentos fritos,88
+Región,Bogotá,1965,Alimentos a la parrilla,26.6
+Región,Bogotá,1965,Suplementos,14.4
+Región,Central,6906,Leche,89.3
+Región,Central,6906,Queso,80.7
+Región,Central,6906,Huevos,96.8
+Región,Central,6906,Pollo,92.4
+Región,Central,6906,Carne de res o cerdo,93.8
+Región,Central,6906,Pescado,51.5
+Región,Central,6906,Atún,60.7
+Región,Central,6906,Menudencias,36.4
+Región,Central,6906,Embutidos,68.5
+Región,Central,6906,Morcilla,38.4
+Región,Central,6906,Bienestarina,13
+Región,Central,6906,Mezclas vegetales,0.9
+Región,Central,6906,Granos secos,96.7
+Región,Central,6906,Arroz,99.2
+Región,Central,6906,Pan,86.4
+Región,Central,6906,Arepa,88.9
+Región,Central,6906,Galletas,78.3
+Región,Central,6906,Tubérculos,97.6
+Región,Central,6906,Verduras cocidas,69.2
+Región,Central,6906,Verduras crudas,78.7
+Región,Central,6906,Frutas en jugo,87.5
+Región,Central,6906,Frutas enteras,78.1
+Región,Central,6906,Mantequilla,42.8
+Región,Central,6906,Café,63.7
+Región,Central,6906,Panela,95.5
+Región,Central,6906,Golosinas,66.6
+Región,Central,6906,Gaseosas,72.7
+Región,Central,6906,Alimentos integrales,20.3
+Región,Central,6906,Bebidas alcohólicas,35.6
+Región,Central,6906,Bebidas energizantes,16.3
+Región,Central,6906,Comidas rápidas,55.8
+Región,Central,6906,Alimentos de paquete,61
+Región,Central,6906,Alimentos bajos en calorías,8.1
+Región,Central,6906,Alimentos fritos,90.3
+Región,Central,6906,Alimentos a la parrilla,29.3
+Región,Central,6906,Suplementos,7.7
+Región,Oriental,5140,Leche,91.8
+Región,Oriental,5140,Queso,82.5
+Región,Oriental,5140,Huevos,96.8
+Región,Oriental,5140,Pollo,96
+Región,Oriental,5140,Carne de res o cerdo,94.8
+Región,Oriental,5140,Pescado,60.1
+Región,Oriental,5140,Atún,61.8
+Región,Oriental,5140,Menudencias,45.6
+Región,Oriental,5140,Embutidos,69.4
+Región,Oriental,5140,Morcilla,40.2
+Región,Oriental,5140,Bienestarina,12.1
+Región,Oriental,5140,Mezclas vegetales,1.6
+Región,Oriental,5140,Granos secos,92.8
+Región,Oriental,5140,Arroz,98.8
+Región,Oriental,5140,Pan,92.7
+Región,Oriental,5140,Arepa,86.3
+Región,Oriental,5140,Galletas,77
+Región,Oriental,5140,Tubérculos,97.7
+Región,Oriental,5140,Verduras cocidas,79.8
+Región,Oriental,5140,Verduras crudas,77.5
+Región,Oriental,5140,Frutas en jugo,89.6
+Región,Oriental,5140,Frutas enteras,80
+Región,Oriental,5140,Mantequilla,30.8
+Región,Oriental,5140,Café,74.2
+Región,Oriental,5140,Panela,92.6
+Región,Oriental,5140,Golosinas,66.6
+Región,Oriental,5140,Gaseosas,75.4
+Región,Oriental,5140,Alimentos integrales,28.1
+Región,Oriental,5140,Bebidas alcohólicas,38.2
+Región,Oriental,5140,Bebidas energizantes,9.8
+Región,Oriental,5140,Comidas rápidas,59.8
+Región,Oriental,5140,Alimentos de paquete,60
+Región,Oriental,5140,Alimentos bajos en calorías,6.8
+Región,Oriental,5140,Alimentos fritos,88.5
+Región,Oriental,5140,Alimentos a la parrilla,43
+Región,Oriental,5140,Suplementos,8.4
+Región,Orinoquia y Amazonia,5241,Leche,87.8
+Región,Orinoquia y Amazonia,5241,Queso,73.3
+Región,Orinoquia y Amazonia,5241,Huevos,93.6
+Región,Orinoquia y Amazonia,5241,Pollo,94.2
+Región,Orinoquia y Amazonia,5241,Carne de res o cerdo,92
+Región,Orinoquia y Amazonia,5241,Pescado,75.6
+Región,Orinoquia y Amazonia,5241,Atún,62.5
+Región,Orinoquia y Amazonia,5241,Menudencias,54
+Región,Orinoquia y Amazonia,5241,Embutidos,65.2
+Región,Orinoquia y Amazonia,5241,Morcilla,40.2
+Región,Orinoquia y Amazonia,5241,Bienestarina,16.5
+Región,Orinoquia y Amazonia,5241,Mezclas vegetales,4.2
+Región,Orinoquia y Amazonia,5241,Granos secos,95
+Región,Orinoquia y Amazonia,5241,Arroz,99
+Región,Orinoquia y Amazonia,5241,Pan,87.3
+Región,Orinoquia y Amazonia,5241,Arepa,84.6
+Región,Orinoquia y Amazonia,5241,Galletas,74.8
+Región,Orinoquia y Amazonia,5241,Tubérculos,97.5
+Región,Orinoquia y Amazonia,5241,Verduras cocidas,59.9
+Región,Orinoquia y Amazonia,5241,Verduras crudas,71.5
+Región,Orinoquia y Amazonia,5241,Frutas en jugo,85.7
+Región,Orinoquia y Amazonia,5241,Frutas enteras,76.3
+Región,Orinoquia y Amazonia,5241,Mantequilla,14.5
+Región,Orinoquia y Amazonia,5241,Café,67.5
+Región,Orinoquia y Amazonia,5241,Panela,93.2
+Región,Orinoquia y Amazonia,5241,Golosinas,64.6
+Región,Orinoquia y Amazonia,5241,Gaseosas,69.2
+Región,Orinoquia y Amazonia,5241,Alimentos integrales,18.4
+Región,Orinoquia y Amazonia,5241,Bebidas alcohólicas,32.9
+Región,Orinoquia y Amazonia,5241,Bebidas energizantes,10.6
+Región,Orinoquia y Amazonia,5241,Comidas rápidas,49.3
+Región,Orinoquia y Amazonia,5241,Alimentos de paquete,56.7
+Región,Orinoquia y Amazonia,5241,Alimentos bajos en calorías,3.3
+Región,Orinoquia y Amazonia,5241,Alimentos fritos,89.5
+Región,Orinoquia y Amazonia,5241,Alimentos a la parrilla,43.6
+Región,Orinoquia y Amazonia,5241,Suplementos,15.9
+Región,Pacífica,3756,Leche,86.5
+Región,Pacífica,3756,Queso,79.7
+Región,Pacífica,3756,Huevos,96.2
+Región,Pacífica,3756,Pollo,95.3
+Región,Pacífica,3756,Carne de res o cerdo,91
+Región,Pacífica,3756,Pescado,63.5
+Región,Pacífica,3756,Atún,62.4
+Región,Pacífica,3756,Menudencias,50
+Región,Pacífica,3756,Embutidos,67.4
+Región,Pacífica,3756,Morcilla,29.4
+Región,Pacífica,3756,Bienestarina,22.3
+Región,Pacífica,3756,Mezclas vegetales,2.4
+Región,Pacífica,3756,Granos secos,96.6
+Región,Pacífica,3756,Arroz,99.6
+Región,Pacífica,3756,Pan,88
+Región,Pacífica,3756,Arepa,78.6
+Región,Pacífica,3756,Galletas,75
+Región,Pacífica,3756,Tubérculos,95.5
+Región,Pacífica,3756,Verduras cocidas,69.8
+Región,Pacífica,3756,Verduras crudas,76.3
+Región,Pacífica,3756,Frutas en jugo,91.2
+Región,Pacífica,3756,Frutas enteras,78.9
+Región,Pacífica,3756,Mantequilla,27.6
+Región,Pacífica,3756,Café,77.6
+Región,Pacífica,3756,Panela,94.4
+Región,Pacífica,3756,Golosinas,64.1
+Región,Pacífica,3756,Gaseosas,68.6
+Región,Pacífica,3756,Alimentos integrales,17.3
+Región,Pacífica,3756,Bebidas alcohólicas,31.4
+Región,Pacífica,3756,Bebidas energizantes,11.3
+Región,Pacífica,3756,Comidas rápidas,47.9
+Región,Pacífica,3756,Alimentos de paquete,60.5
+Región,Pacífica,3756,Alimentos bajos en calorías,5.3
+Región,Pacífica,3756,Alimentos fritos,87.7
+Región,Pacífica,3756,Alimentos a la parrilla,31.2
+Región,Pacífica,3756,Suplementos,13.6
+Área,Cabecera municipal,21354,Leche,89.7
+Área,Cabecera municipal,21354,Queso,86.2
+Área,Cabecera municipal,21354,Huevos,96
+Área,Cabecera municipal,21354,Pollo,96.3
+Área,Cabecera municipal,21354,Carne de res o cerdo,94.2
+Área,Cabecera municipal,21354,Pescado,64.7
+Área,Cabecera municipal,21354,Atún,63
+Área,Cabecera municipal,21354,Menudencias,38.6
+Área,Cabecera municipal,21354,Embutidos,74.8
+Área,Cabecera municipal,21354,Morcilla,38.2
+Área,Cabecera municipal,21354,Bienestarina,14.8
+Área,Cabecera municipal,21354,Mezclas vegetales,1.3
+Área,Cabecera municipal,21354,Granos secos,94.6
+Área,Cabecera municipal,21354,Arroz,99.4
+Área,Cabecera municipal,21354,Pan,90.3
+Área,Cabecera municipal,21354,Arepa,86.2
+Área,Cabecera municipal,21354,Galletas,77.4
+Área,Cabecera municipal,21354,Tubérculos,97.1
+Área,Cabecera municipal,21354,Verduras cocidas,71.1
+Área,Cabecera municipal,21354,Verduras crudas,78.8
+Área,Cabecera municipal,21354,Frutas en jugo,91
+Área,Cabecera municipal,21354,Frutas enteras,79.6
+Área,Cabecera municipal,21354,Mantequilla,35.5
+Área,Cabecera municipal,21354,Café,70.4
+Área,Cabecera municipal,21354,Panela,93.4
+Área,Cabecera municipal,21354,Golosinas,66.7
+Área,Cabecera municipal,21354,Gaseosas,77.2
+Área,Cabecera municipal,21354,Alimentos integrales,24.8
+Área,Cabecera municipal,21354,Bebidas alcohólicas,37.5
+Área,Cabecera municipal,21354,Bebidas energizantes,14.1
+Área,Cabecera municipal,21354,Comidas rápidas,64.6
+Área,Cabecera municipal,21354,Alimentos de paquete,62.5
+Área,Cabecera municipal,21354,Alimentos bajos en calorías,8.4
+Área,Cabecera municipal,21354,Alimentos fritos,88.4
+Área,Cabecera municipal,21354,Alimentos a la parrilla,29.2
+Área,Cabecera municipal,21354,Suplementos,10.8
+Área,Centro poblado,1050,Leche,81.5
+Área,Centro poblado,1050,Queso,84.2
+Área,Centro poblado,1050,Huevos,93.3
+Área,Centro poblado,1050,Pollo,93.4
+Área,Centro poblado,1050,Carne de res o cerdo,91.5
+Área,Centro poblado,1050,Pescado,65.5
+Área,Centro poblado,1050,Atún,54.9
+Área,Centro poblado,1050,Menudencias,53.9
+Área,Centro poblado,1050,Embutidos,62.1
+Área,Centro poblado,1050,Morcilla,35.3
+Área,Centro poblado,1050,Bienestarina,23
+Área,Centro poblado,1050,Mezclas vegetales,1.9
+Área,Centro poblado,1050,Granos secos,91.5
+Área,Centro poblado,1050,Arroz,99.6
+Área,Centro poblado,1050,Pan,88.3
+Área,Centro poblado,1050,Arepa,82.2
+Área,Centro poblado,1050,Galletas,72.5
+Área,Centro poblado,1050,Tubérculos,96.8
+Área,Centro poblado,1050,Verduras cocidas,60.3
+Área,Centro poblado,1050,Verduras crudas,71.6
+Área,Centro poblado,1050,Frutas en jugo,91.2
+Área,Centro poblado,1050,Frutas enteras,81.3
+Área,Centro poblado,1050,Mantequilla,20.3
+Área,Centro poblado,1050,Café,76.3
+Área,Centro poblado,1050,Panela,93.6
+Área,Centro poblado,1050,Golosinas,64.1
+Área,Centro poblado,1050,Gaseosas,71.3
+Área,Centro poblado,1050,Alimentos integrales,9.2
+Área,Centro poblado,1050,Bebidas alcohólicas,30.5
+Área,Centro poblado,1050,Bebidas energizantes,7.2
+Área,Centro poblado,1050,Comidas rápidas,41.2
+Área,Centro poblado,1050,Alimentos de paquete,62.8
+Área,Centro poblado,1050,Alimentos bajos en calorías,2.6
+Área,Centro poblado,1050,Alimentos fritos,89.2
+Área,Centro poblado,1050,Alimentos a la parrilla,40.6
+Área,Centro poblado,1050,Suplementos,12.4
+Área,Rural disperso,6498,Leche,86.7
+Área,Rural disperso,6498,Queso,76.6
+Área,Rural disperso,6498,Huevos,95.4
+Área,Rural disperso,6498,Pollo,91.8
+Área,Rural disperso,6498,Carne de res o cerdo,92.5
+Área,Rural disperso,6498,Pescado,56.1
+Área,Rural disperso,6498,Atún,54.6
+Área,Rural disperso,6498,Menudencias,48.7
+Área,Rural disperso,6498,Embutidos,52.8
+Área,Rural disperso,6498,Morcilla,31.7
+Área,Rural disperso,6498,Bienestarina,24.8
+Área,Rural disperso,6498,Mezclas vegetales,2.3
+Área,Rural disperso,6498,Granos secos,93.2
+Área,Rural disperso,6498,Arroz,99
+Área,Rural disperso,6498,Pan,87.4
+Área,Rural disperso,6498,Arepa,80.8
+Área,Rural disperso,6498,Galletas,75
+Área,Rural disperso,6498,Tubérculos,97.7
+Área,Rural disperso,6498,Verduras cocidas,64.5
+Área,Rural disperso,6498,Verduras crudas,70.9
+Área,Rural disperso,6498,Frutas en jugo,82.8
+Área,Rural disperso,6498,Frutas enteras,75.8
+Área,Rural disperso,6498,Mantequilla,21
+Área,Rural disperso,6498,Café,74.7
+Área,Rural disperso,6498,Panela,95.2
+Área,Rural disperso,6498,Golosinas,59.4
+Área,Rural disperso,6498,Gaseosas,67.1
+Área,Rural disperso,6498,Alimentos integrales,13.1
+Área,Rural disperso,6498,Bebidas alcohólicas,30.4
+Área,Rural disperso,6498,Bebidas energizantes,6.9
+Área,Rural disperso,6498,Comidas rápidas,25.7
+Área,Rural disperso,6498,Alimentos de paquete,57.8
+Área,Rural disperso,6498,Alimentos bajos en calorías,2.5
+Área,Rural disperso,6498,Alimentos fritos,88.3
+Área,Rural disperso,6498,Alimentos a la parrilla,48.7
+Área,Rural disperso,6498,Suplementos,9.6
+Grupo étnico,Afrocolombiano,2503,Leche,88.6
+Grupo étnico,Afrocolombiano,2503,Queso,84.5
+Grupo étnico,Afrocolombiano,2503,Huevos,94
+Grupo étnico,Afrocolombiano,2503,Pollo,95.2
+Grupo étnico,Afrocolombiano,2503,Carne de res o cerdo,91.2
+Grupo étnico,Afrocolombiano,2503,Pescado,79.2
+Grupo étnico,Afrocolombiano,2503,Atún,61.2
+Grupo étnico,Afrocolombiano,2503,Menudencias,45.2
+Grupo étnico,Afrocolombiano,2503,Embutidos,73.9
+Grupo étnico,Afrocolombiano,2503,Morcilla,30
+Grupo étnico,Afrocolombiano,2503,Bienestarina,31.1
+Grupo étnico,Afrocolombiano,2503,Mezclas vegetales,2.8
+Grupo étnico,Afrocolombiano,2503,Granos secos,93.8
+Grupo étnico,Afrocolombiano,2503,Arroz,99.8
+Grupo étnico,Afrocolombiano,2503,Pan,90.9
+Grupo étnico,Afrocolombiano,2503,Arepa,74.7
+Grupo étnico,Afrocolombiano,2503,Galletas,79.3
+Grupo étnico,Afrocolombiano,2503,Tubérculos,96.2
+Grupo étnico,Afrocolombiano,2503,Verduras cocidas,53.4
+Grupo étnico,Afrocolombiano,2503,Verduras crudas,72.6
+Grupo étnico,Afrocolombiano,2503,Frutas en jugo,91.8
+Grupo étnico,Afrocolombiano,2503,Frutas enteras,82.8
+Grupo étnico,Afrocolombiano,2503,Mantequilla,28.3
+Grupo étnico,Afrocolombiano,2503,Café,64.7
+Grupo étnico,Afrocolombiano,2503,Panela,94.5
+Grupo étnico,Afrocolombiano,2503,Golosinas,68.1
+Grupo étnico,Afrocolombiano,2503,Gaseosas,79.3
+Grupo étnico,Afrocolombiano,2503,Alimentos integrales,18.1
+Grupo étnico,Afrocolombiano,2503,Bebidas alcohólicas,42.2
+Grupo étnico,Afrocolombiano,2503,Bebidas energizantes,11.7
+Grupo étnico,Afrocolombiano,2503,Comidas rápidas,49.8
+Grupo étnico,Afrocolombiano,2503,Alimentos de paquete,68.6
+Grupo étnico,Afrocolombiano,2503,Alimentos bajos en calorías,3.5
+Grupo étnico,Afrocolombiano,2503,Alimentos fritos,90.6
+Grupo étnico,Afrocolombiano,2503,Alimentos a la parrilla,31.1
+Grupo étnico,Afrocolombiano,2503,Suplementos,11.7
+Grupo étnico,Indígena,2559,Leche,78.1
+Grupo étnico,Indígena,2559,Queso,73.3
+Grupo étnico,Indígena,2559,Huevos,93.2
+Grupo étnico,Indígena,2559,Pollo,92.3
+Grupo étnico,Indígena,2559,Carne de res o cerdo,87.2
+Grupo étnico,Indígena,2559,Pescado,68.8
+Grupo étnico,Indígena,2559,Atún,61.6
+Grupo étnico,Indígena,2559,Menudencias,53.3
+Grupo étnico,Indígena,2559,Embutidos,46.7
+Grupo étnico,Indígena,2559,Morcilla,26.6
+Grupo étnico,Indígena,2559,Bienestarina,37
+Grupo étnico,Indígena,2559,Mezclas vegetales,4.4
+Grupo étnico,Indígena,2559,Granos secos,90.4
+Grupo étnico,Indígena,2559,Arroz,99
+Grupo étnico,Indígena,2559,Pan,83.5
+Grupo étnico,Indígena,2559,Arepa,79.2
+Grupo étnico,Indígena,2559,Galletas,69.7
+Grupo étnico,Indígena,2559,Tubérculos,93.3
+Grupo étnico,Indígena,2559,Verduras cocidas,57.5
+Grupo étnico,Indígena,2559,Verduras crudas,62.3
+Grupo étnico,Indígena,2559,Frutas en jugo,74.8
+Grupo étnico,Indígena,2559,Frutas enteras,68.4
+Grupo étnico,Indígena,2559,Mantequilla,17.7
+Grupo étnico,Indígena,2559,Café,71
+Grupo étnico,Indígena,2559,Panela,91.1
+Grupo étnico,Indígena,2559,Golosinas,61.8
+Grupo étnico,Indígena,2559,Gaseosas,69.2
+Grupo étnico,Indígena,2559,Alimentos integrales,8.9
+Grupo étnico,Indígena,2559,Bebidas alcohólicas,28.2
+Grupo étnico,Indígena,2559,Bebidas energizantes,8.1
+Grupo étnico,Indígena,2559,Comidas rápidas,22.3
+Grupo étnico,Indígena,2559,Alimentos de paquete,58.3
+Grupo étnico,Indígena,2559,Alimentos bajos en calorías,2
+Grupo étnico,Indígena,2559,Alimentos fritos,83.4
+Grupo étnico,Indígena,2559,Alimentos a la parrilla,57.9
+Grupo étnico,Indígena,2559,Suplementos,15.6
+Grupo étnico,Sin dato,182,Leche,97.8
+Grupo étnico,Sin dato,182,Queso,85.1
+Grupo étnico,Sin dato,182,Huevos,97.2
+Grupo étnico,Sin dato,182,Pollo,89.9
+Grupo étnico,Sin dato,182,Carne de res o cerdo,96.8
+Grupo étnico,Sin dato,182,Pescado,80.2
+Grupo étnico,Sin dato,182,Atún,72.6
+Grupo étnico,Sin dato,182,Menudencias,39.6
+Grupo étnico,Sin dato,182,Embutidos,56
+Grupo étnico,Sin dato,182,Morcilla,40.4
+Grupo étnico,Sin dato,182,Bienestarina,20.5
+Grupo étnico,Sin dato,182,Mezclas vegetales,0
+Grupo étnico,Sin dato,182,Granos secos,99.9
+Grupo étnico,Sin dato,182,Arroz,99.6
+Grupo étnico,Sin dato,182,Pan,91.6
+Grupo étnico,Sin dato,182,Arepa,91.3
+Grupo étnico,Sin dato,182,Galletas,68.9
+Grupo étnico,Sin dato,182,Tubérculos,98.2
+Grupo étnico,Sin dato,182,Verduras cocidas,78.7
+Grupo étnico,Sin dato,182,Verduras crudas,71.3
+Grupo étnico,Sin dato,182,Frutas en jugo,80.5
+Grupo étnico,Sin dato,182,Frutas enteras,80.7
+Grupo étnico,Sin dato,182,Mantequilla,34.5
+Grupo étnico,Sin dato,182,Café,68.6
+Grupo étnico,Sin dato,182,Panela,97.8
+Grupo étnico,Sin dato,182,Golosinas,73.6
+Grupo étnico,Sin dato,182,Gaseosas,81.5
+Grupo étnico,Sin dato,182,Alimentos integrales,29.7
+Grupo étnico,Sin dato,182,Bebidas alcohólicas,44.9
+Grupo étnico,Sin dato,182,Bebidas energizantes,30.8
+Grupo étnico,Sin dato,182,Comidas rápidas,59.1
+Grupo étnico,Sin dato,182,Alimentos de paquete,71.7
+Grupo étnico,Sin dato,182,Alimentos bajos en calorías,16.5
+Grupo étnico,Sin dato,182,Alimentos fritos,93.7
+Grupo étnico,Sin dato,182,Alimentos a la parrilla,37.8
+Grupo étnico,Sin dato,182,Suplementos,15.9
+Grupo étnico,Sin pertenencia étnica,23658,Leche,89.3
+Grupo étnico,Sin pertenencia étnica,23658,Queso,84.6
+Grupo étnico,Sin pertenencia étnica,23658,Huevos,96.1
+Grupo étnico,Sin pertenencia étnica,23658,Pollo,95.4
+Grupo étnico,Sin pertenencia étnica,23658,Carne de res o cerdo,94.3
+Grupo étnico,Sin pertenencia étnica,23658,Pescado,61.2
+Grupo étnico,Sin pertenencia étnica,23658,Atún,61.1
+Grupo étnico,Sin pertenencia étnica,23658,Menudencias,40.3
+Grupo étnico,Sin pertenencia étnica,23658,Embutidos,70.6
+Grupo étnico,Sin pertenencia étnica,23658,Morcilla,37.8
+Grupo étnico,Sin pertenencia étnica,23658,Bienestarina,15
+Grupo étnico,Sin pertenencia étnica,23658,Mezclas vegetales,1.3
+Grupo étnico,Sin pertenencia étnica,23658,Granos secos,94.4
+Grupo étnico,Sin pertenencia étnica,23658,Arroz,99.3
+Grupo étnico,Sin pertenencia étnica,23658,Pan,89.8
+Grupo étnico,Sin pertenencia étnica,23658,Arepa,86.1
+Grupo étnico,Sin pertenencia étnica,23658,Galletas,76.9
+Grupo étnico,Sin pertenencia étnica,23658,Tubérculos,97.4
+Grupo étnico,Sin pertenencia étnica,23658,Verduras cocidas,71.4
+Grupo étnico,Sin pertenencia étnica,23658,Verduras crudas,78
+Grupo étnico,Sin pertenencia étnica,23658,Frutas en jugo,89.8
+Grupo étnico,Sin pertenencia étnica,23658,Frutas enteras,79
+Grupo étnico,Sin pertenencia étnica,23658,Mantequilla,33.1
+Grupo étnico,Sin pertenencia étnica,23658,Café,72.1
+Grupo étnico,Sin pertenencia étnica,23658,Panela,93.8
+Grupo étnico,Sin pertenencia étnica,23658,Golosinas,65
+Grupo étnico,Sin pertenencia étnica,23658,Gaseosas,74.9
+Grupo étnico,Sin pertenencia étnica,23658,Alimentos integrales,22.8
+Grupo étnico,Sin pertenencia étnica,23658,Bebidas alcohólicas,35.6
+Grupo étnico,Sin pertenencia étnica,23658,Bebidas energizantes,12.7
+Grupo étnico,Sin pertenencia étnica,23658,Comidas rápidas,58.1
+Grupo étnico,Sin pertenencia étnica,23658,Alimentos de paquete,61
+Grupo étnico,Sin pertenencia étnica,23658,Alimentos bajos en calorías,7.5
+Grupo étnico,Sin pertenencia étnica,23658,Alimentos fritos,88.3
+Grupo étnico,Sin pertenencia étnica,23658,Alimentos a la parrilla,32.6
+Grupo étnico,Sin pertenencia étnica,23658,Suplementos,10.3

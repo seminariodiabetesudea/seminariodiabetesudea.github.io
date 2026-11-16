@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "countries": [
   {
    "id": "co",
@@ -51,6 +51,10 @@
    "bytes": 828602
   },
   {
+   "file": "mortalidad-co-territorio-edad.json",
+   "bytes": 2348357
+  },
+  {
    "file": "mortalidad-ar-nacional.json",
    "bytes": 214459
   },
@@ -60,7 +64,7 @@
   },
   {
    "file": "mortalidad-cl-nacional.json",
-   "bytes": 274618
+   "bytes": 267452
   }
  ]
 }

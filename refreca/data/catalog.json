@@ -1,0 +1,556 @@
+{
+ "generated": "2026-11-16",
+ "datasets": [
+  {
+   "name": "mortalidad-colombia",
+   "title": "Mortalidad en Colombia, 1985-2020",
+   "notes": "Defunciones registradas en Colombia por año, sexo, grupo de edad, departamento de residencia y grupo de causa básica, con la población de referencia del archivo de origen. El recurso descargable es el agregado nacional (año, sexo, grupo de edad y causa); el tablero también permite consultar los departamentos.",
+   "tags": [
+    "mortalidad",
+    "defunciones",
+    "causas de muerte",
+    "CIE-10",
+    "CIE-9",
+    "Colombia",
+    "departamentos",
+    "tasas"
+   ],
+   "organization": "REFRECA",
+   "country": "Colombia",
+   "theme": "mortalidad",
+   "years": [
+    1985,
+    2020
+   ],
+   "license": null,
+   "source": "Registros de defunción de Colombia. El origen en el DANE se supone por el uso de códigos con formato del DANE; no se ha confirmado con documentación. Archivo original: colombia_mort.csv (940.319 registros), con su diccionario de variables.",
+   "caveats": [
+    "Antes de 1997 las causas se codificaron con la CIE-9 (códigos numéricos de la clasificación anterior) y varias causas, como la diabetes no insulinodependiente, aparecen sin defunciones. Compare series solo desde 1997.",
+    "Los estratos de edad, sexo, departamento y zona sin ninguna defunción registrada en las causas incluidas no aportan población, de modo que la población está subestimada y las tasas pueden estar ligeramente sobrestimadas en los departamentos pequeños.",
+    "El archivo original tiene problemas de codificación de caracteres que se corrigieron al procesarlo."
+   ],
+   "resources": [
+    {
+     "name": "Defunciones agregadas por año, sexo, grupo de edad y causa (CSV)",
+     "format": "CSV",
+     "url": "resources/mortalidad-colombia.csv",
+     "bytes": 2486782
+    }
+   ],
+   "variables": [
+    {
+     "name": "anio",
+     "label": "Año",
+     "type": "integer",
+     "description": "Año de la defunción."
+    },
+    {
+     "name": "sexo",
+     "label": "Sexo",
+     "type": "string",
+     "description": "Sexo de la persona fallecida: Mujer, Hombre o Sin dato."
+    },
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad al morir (0-4 a 85 y más)."
+    },
+    {
+     "name": "causa",
+     "label": "Causa de muerte",
+     "type": "string",
+     "description": "Grupo de causa básica de defunción (39 grupos comunes a Colombia, Argentina y Chile, agregados a partir de códigos CIE-10)."
+    },
+    {
+     "name": "defunciones",
+     "label": "Defunciones",
+     "type": "integer",
+     "description": "Número de defunciones del año, sexo, grupo de edad y causa."
+    },
+    {
+     "name": "poblacion",
+     "label": "Población",
+     "type": "integer",
+     "description": "Población del año, sexo y grupo de edad tomada del archivo de origen. Se repite en cada fila de causa del mismo estrato: no la sume entre causas."
+    }
+   ],
+   "dashboard": "mortality",
+   "dataFiles": [
+    "mortalidad-co-nacional.json",
+    "mortalidad-co-territorio.json",
+    "mortalidad-co-territorio-edad.json"
+   ]
+  },
+  {
+   "name": "mortalidad-argentina",
+   "title": "Mortalidad en Argentina, 2005-2019",
+   "notes": "Defunciones registradas en Argentina por año, sexo, grupo de edad, provincia de residencia y grupo de causa, agrupadas a partir de los códigos CIE-10 de tres caracteres con las mismas categorías de Colombia y Chile. El recurso descargable es el agregado nacional; el tablero también permite consultar las provincias.",
+   "tags": [
+    "mortalidad",
+    "defunciones",
+    "causas de muerte",
+    "CIE-10",
+    "Argentina",
+    "provincias"
+   ],
+   "organization": "REFRECA",
+   "country": "Argentina",
+   "theme": "mortalidad",
+   "years": [
+    2005,
+    2019
+   ],
+   "license": null,
+   "source": "Registros de defunción de Argentina por provincia de residencia. Archivo original: argentina_mort.csv (716.320 registros), con su diccionario de variables.",
+   "caveats": [
+    "El archivo de origen no trae población para la mayoría de los registros, por lo que este conjunto no incluye población y no se calculan tasas.",
+    "Los menores de diez años vienen en un único grupo de edad (0-9), y existe un grupo de edad Sin dato.",
+    "Solo se conservan las defunciones cuyas causas pertenecen a los grupos analizados; los demás códigos CIE-10 se excluyen."
+   ],
+   "resources": [
+    {
+     "name": "Defunciones agregadas por año, sexo, grupo de edad y causa (CSV)",
+     "format": "CSV",
+     "url": "resources/mortalidad-argentina.csv",
+     "bytes": 1033067
+    }
+   ],
+   "variables": [
+    {
+     "name": "anio",
+     "label": "Año",
+     "type": "integer",
+     "description": "Año de la defunción."
+    },
+    {
+     "name": "sexo",
+     "label": "Sexo",
+     "type": "string",
+     "description": "Sexo de la persona fallecida: Mujer, Hombre o Sin dato."
+    },
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad al morir (0-9, luego quinquenios hasta 80 y más, y Sin dato)."
+    },
+    {
+     "name": "causa",
+     "label": "Causa de muerte",
+     "type": "string",
+     "description": "Grupo de causa básica de defunción (39 grupos comunes a Colombia, Argentina y Chile, agregados a partir de códigos CIE-10)."
+    },
+    {
+     "name": "defunciones",
+     "label": "Defunciones",
+     "type": "integer",
+     "description": "Número de defunciones del año, sexo, grupo de edad y causa."
+    }
+   ],
+   "dashboard": "mortality",
+   "dataFiles": [
+    "mortalidad-ar-nacional.json",
+    "mortalidad-ar-territorio.json"
+   ]
+  },
+  {
+   "name": "mortalidad-chile",
+   "title": "Mortalidad en Chile, 1997-2019",
+   "notes": "Defunciones registradas en Chile por año, sexo, grupo de edad y grupo de causa básica (CIE-10), con la población de referencia del archivo de origen. No hay desglose territorial.",
+   "tags": [
+    "mortalidad",
+    "defunciones",
+    "causas de muerte",
+    "CIE-10",
+    "Chile",
+    "tasas"
+   ],
+   "organization": "REFRECA",
+   "country": "Chile",
+   "theme": "mortalidad",
+   "years": [
+    1997,
+    2019
+   ],
+   "license": null,
+   "source": "Registros de defunción de Chile, nivel nacional. Archivo original: chile_mort.csv (73.021 registros), con su diccionario de variables.",
+   "caveats": [
+    "No hay desglose territorial: los datos son solo nacionales.",
+    "Las tasas usan la población incluida en el archivo de origen para cada año, sexo y grupo de edad."
+   ],
+   "resources": [
+    {
+     "name": "Defunciones agregadas por año, sexo, grupo de edad y causa (CSV)",
+     "format": "CSV",
+     "url": "resources/mortalidad-chile.csv",
+     "bytes": 1345416
+    }
+   ],
+   "variables": [
+    {
+     "name": "anio",
+     "label": "Año",
+     "type": "integer",
+     "description": "Año de la defunción."
+    },
+    {
+     "name": "sexo",
+     "label": "Sexo",
+     "type": "string",
+     "description": "Sexo de la persona fallecida: Mujer, Hombre o Sin dato."
+    },
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad al morir (0-4 a 85 y más)."
+    },
+    {
+     "name": "causa",
+     "label": "Causa de muerte",
+     "type": "string",
+     "description": "Grupo de causa básica de defunción (39 grupos comunes a Colombia, Argentina y Chile, agregados a partir de códigos CIE-10)."
+    },
+    {
+     "name": "defunciones",
+     "label": "Defunciones",
+     "type": "integer",
+     "description": "Número de defunciones del año, sexo, grupo de edad y causa."
+    },
+    {
+     "name": "poblacion",
+     "label": "Población",
+     "type": "integer",
+     "description": "Población del año, sexo y grupo de edad tomada del archivo de origen. Se repite en cada fila de causa del mismo estrato: no la sume entre causas."
+    }
+   ],
+   "dashboard": "mortality",
+   "dataFiles": [
+    "mortalidad-cl-nacional.json"
+   ]
+  },
+  {
+   "name": "consumo-alimentos-2015",
+   "title": "Consumo de alimentos en Colombia, 2015",
+   "notes": "Porcentaje de personas que declaran haber consumido cada uno de 36 alimentos o grupos de alimentos, ponderado con el factor de expansión, para el total nacional y por región, área y grupo étnico. Calculado a partir de la encuesta de consumo de alimentos de 2015 (28.902 personas); no se publican los microdatos.",
+   "tags": [
+    "nutrición",
+    "consumo de alimentos",
+    "encuesta",
+    "Colombia",
+    "factor de expansión"
+   ],
+   "organization": "REFRECA",
+   "country": "Colombia",
+   "theme": "nutricion",
+   "years": [
+    2015,
+    2015
+   ],
+   "license": null,
+   "source": "Encuesta de consumo de alimentos 2015, archivo BD_ConsumoAlimentos_2015.csv (28.902 registros de personas, 102 columnas). La entidad productora de la encuesta no está documentada en los archivos recibidos.",
+   "caveats": [
+    "Las variables de frecuencia de consumo (Frec_Consumo) usan códigos numéricos del 1 al 10 sin etiquetas en los archivos recibidos, por lo que no se publican ni se interpretan.",
+    "El porcentaje se calcula sobre las personas con respuesta Sí o No; las respuestas vacías se excluyen del denominador.",
+    "Las preguntas sobre bebidas alcohólicas y energizantes tienen 9.413 respuestas vacías, que se excluyen del denominador."
+   ],
+   "resources": [
+    {
+     "name": "Porcentaje de consumo por alimento y grupo de población (CSV)",
+     "format": "CSV",
+     "url": "resources/consumo-alimentos-2015.csv",
+     "bytes": 23522
+    }
+   ],
+   "variables": [
+    {
+     "name": "dimension",
+     "label": "Dimensión",
+     "type": "string",
+     "description": "Dimensión de desagregación: Nacional, Región, Área o Grupo étnico."
+    },
+    {
+     "name": "grupo",
+     "label": "Grupo",
+     "type": "string",
+     "description": "Categoría de la dimensión (por ejemplo, Región Atlántico o Área Rural disperso)."
+    },
+    {
+     "name": "personas",
+     "label": "Personas encuestadas",
+     "type": "integer",
+     "description": "Número de personas de la muestra en el grupo, sin ponderar."
+    },
+    {
+     "name": "alimento",
+     "label": "Alimento",
+     "type": "string",
+     "description": "Alimento o grupo de alimentos de la pregunta Consumo_<alimento> de la encuesta."
+    },
+    {
+     "name": "porcentaje_consumo",
+     "label": "Porcentaje de consumo",
+     "type": "number",
+     "description": "Porcentaje ponderado de personas que declaran haber consumido el alimento, con un decimal."
+    }
+   ],
+   "dashboard": "food",
+   "dataFiles": [
+    "indicadores-alimentos.json"
+   ]
+  },
+  {
+   "name": "ponderaciones-ipm",
+   "title": "Ponderaciones del Índice de Pobreza Multidimensional",
+   "notes": "Privaciones del Índice de Pobreza Multidimensional (IPM) agrupadas por dimensión, con tres esquemas de ponderación: el del IPM de Colombia, uno con variables adicionales y uno sin ponderar, en el que todas las privaciones pesan lo mismo (1/17).",
+   "tags": [
+    "pobreza",
+    "IPM",
+    "pobreza multidimensional",
+    "ponderaciones",
+    "Colombia"
+   ],
+   "organization": "REFRECA",
+   "country": "Colombia",
+   "theme": "pobreza",
+   "years": null,
+   "license": null,
+   "source": "Libro de trabajo matrix_pesos.xlsx de la aplicación REFRECA anterior: dimensión, privación y los esquemas de peso Peso_IPMcolombia, Peso_Addvariables y Peso_Sinpeso.",
+   "caveats": [
+    "Los pesos se redondean a cuatro decimales.",
+    "El archivo no indica el año de referencia del esquema de ponderación."
+   ],
+   "resources": [
+    {
+     "name": "Ponderaciones por privación (CSV)",
+     "format": "CSV",
+     "url": "resources/ponderaciones-ipm.csv",
+     "bytes": 1545
+    }
+   ],
+   "variables": [
+    {
+     "name": "dimension",
+     "label": "Dimensión",
+     "type": "string",
+     "description": "Dimensión del IPM a la que pertenece la privación."
+    },
+    {
+     "name": "privacion",
+     "label": "Privación",
+     "type": "string",
+     "description": "Nombre de la privación."
+    },
+    {
+     "name": "peso_ipm",
+     "label": "Peso IPM Colombia",
+     "type": "number",
+     "description": "Peso de la privación en el IPM de Colombia (columna Peso_IPMcolombia)."
+    },
+    {
+     "name": "peso_adicionales",
+     "label": "Peso con variables adicionales",
+     "type": "number",
+     "description": "Peso en el esquema con variables adicionales (columna Peso_Addvariables)."
+    },
+    {
+     "name": "peso_iguales",
+     "label": "Peso sin ponderar",
+     "type": "number",
+     "description": "Peso igual para todas las privaciones, 1/17 (columna Peso_Sinpeso)."
+    }
+   ],
+   "dashboard": "table",
+   "dataFiles": [
+    "tablas-ponderaciones-ipm.json"
+   ]
+  },
+  {
+   "name": "poblacion-colombia",
+   "title": "Población de referencia de Colombia por grupo de edad y sexo",
+   "notes": "Tabla de población de Colombia por grupo quinquenal de edad, con total, hombres y mujeres. Se publica tal como aparece en el archivo de origen.",
+   "tags": [
+    "población",
+    "población de referencia",
+    "grupos de edad",
+    "Colombia"
+   ],
+   "organization": "REFRECA",
+   "country": "Colombia",
+   "theme": "poblacion",
+   "years": null,
+   "license": null,
+   "source": "Tabla colombia.csv de la aplicación REFRECA anterior. El origen en el DANE se supone; ni la fuente ni el año de referencia están documentados en el archivo.",
+   "caveats": [
+    "La fila 0-4 indica 50.911.747 personas, que es exactamente la suma de las demás filas (50.911.747): parece el total del país y no el grupo 0-4. Es probable que las etiquetas de edad estén desplazadas una fila. Los valores se conservan sin cambios.",
+    "La última fila no tiene etiqueta de grupo de edad en el archivo de origen y se publica como Sin etiqueta.",
+    "El año de referencia de la tabla no está documentado."
+   ],
+   "resources": [
+    {
+     "name": "Tabla de población (CSV)",
+     "format": "CSV",
+     "url": "resources/poblacion-colombia.csv",
+     "bytes": 594
+    }
+   ],
+   "variables": [
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad."
+    },
+    {
+     "name": "total",
+     "label": "Total",
+     "type": "integer",
+     "description": "Población total del grupo."
+    },
+    {
+     "name": "hombres",
+     "label": "Hombres",
+     "type": "integer",
+     "description": "Población de hombres del grupo."
+    },
+    {
+     "name": "mujeres",
+     "label": "Mujeres",
+     "type": "integer",
+     "description": "Población de mujeres del grupo."
+    }
+   ],
+   "dashboard": "table",
+   "dataFiles": [
+    "tablas-poblacion-colombia.json"
+   ]
+  },
+  {
+   "name": "poblacion-bolivia",
+   "title": "Proyecciones de población de Bolivia por grupo de edad",
+   "notes": "Tabla de proyecciones de población de Bolivia, ambos sexos, por grupo quinquenal de edad, tal como aparece en el archivo de origen.",
+   "tags": [
+    "población",
+    "población de referencia",
+    "grupos de edad",
+    "Bolivia"
+   ],
+   "organization": "REFRECA",
+   "country": "Bolivia",
+   "theme": "poblacion",
+   "years": null,
+   "license": null,
+   "source": "Tabla bolivia.csv de la aplicación REFRECA anterior. La entidad productora de las proyecciones no está documentada en el archivo.",
+   "caveats": [
+    "El archivo de origen no contiene cifras de población: solo trae país, nombre del indicador, sexo y grupo de edad.",
+    "El periodo en el nombre del indicador aumenta seis años en cada fila (2012-2022, 2012-2028, ...), lo que sugiere un error al copiar la hoja de cálculo; se conserva como aparece.",
+    "El archivo tenía caracteres mal codificados y encabezados con espacios sobrantes; se corrigieron al procesarlo."
+   ],
+   "resources": [
+    {
+     "name": "Tabla de población (CSV)",
+     "format": "CSV",
+     "url": "resources/poblacion-bolivia.csv",
+     "bytes": 1548
+    }
+   ],
+   "variables": [
+    {
+     "name": "pais",
+     "label": "País",
+     "type": "string",
+     "description": "País de la tabla."
+    },
+    {
+     "name": "indicador",
+     "label": "Indicador",
+     "type": "string",
+     "description": "Nombre del indicador tal como aparece en el archivo de origen."
+    },
+    {
+     "name": "sexo",
+     "label": "Sexo",
+     "type": "string",
+     "description": "Sexo al que se refiere la fila."
+    },
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad."
+    }
+   ],
+   "dashboard": "table",
+   "dataFiles": [
+    "tablas-poblacion-bolivia.json"
+   ]
+  },
+  {
+   "name": "poblacion-cuba",
+   "title": "Población de referencia de Cuba por grupo de edad y sexo",
+   "notes": "Tabla de población de Cuba por grupo quinquenal de edad, con total, hombres y mujeres. La columna de provincia solo contiene el total del país (CUBA).",
+   "tags": [
+    "población",
+    "población de referencia",
+    "grupos de edad",
+    "Cuba"
+   ],
+   "organization": "REFRECA",
+   "country": "Cuba",
+   "theme": "poblacion",
+   "years": null,
+   "license": null,
+   "source": "Tabla cuba.csv (y su versión cuba.ods) de la aplicación REFRECA anterior. La fuente y el año de referencia no están documentados en el archivo.",
+   "caveats": [
+    "La fila Total indica 371.495 personas, mientras que la suma de los grupos de edad es 10.693.357. Los valores se conservan sin cambios.",
+    "El último grupo de edad es 65 y más, de modo que la tabla no permite estandarizar con las poblaciones estándar de 18 grupos.",
+    "El año de referencia de la tabla no está documentado."
+   ],
+   "resources": [
+    {
+     "name": "Tabla de población (CSV)",
+     "format": "CSV",
+     "url": "resources/poblacion-cuba.csv",
+     "bytes": 544
+    }
+   ],
+   "variables": [
+    {
+     "name": "provincia",
+     "label": "Provincia",
+     "type": "string",
+     "description": "Provincia, o CUBA para el total del país."
+    },
+    {
+     "name": "grupo_edad",
+     "label": "Grupo de edad",
+     "type": "string",
+     "description": "Grupo quinquenal de edad."
+    },
+    {
+     "name": "total",
+     "label": "Total",
+     "type": "integer",
+     "description": "Población total del grupo."
+    },
+    {
+     "name": "hombres",
+     "label": "Hombres",
+     "type": "integer",
+     "description": "Población de hombres del grupo."
+    },
+    {
+     "name": "mujeres",
+     "label": "Mujeres",
+     "type": "integer",
+     "description": "Población de mujeres del grupo."
+    }
+   ],
+   "dashboard": "table",
+   "dataFiles": [
+    "tablas-poblacion-cuba.json"
+   ]
+  }
+ ]
+}

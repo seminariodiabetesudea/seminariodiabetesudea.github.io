@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conjuntos de datos — REFRECA</title>
+  <meta name="description" content="Catálogo de conjuntos de datos de REFRECA: búsqueda por texto, tema y país.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@600;700;800&display=swap">
+  <script type="module" crossorigin src="/refreca/assets/datasets-FIz0ZJqE.js"></script>
+  <link rel="modulepreload" crossorigin href="/refreca/assets/main-CMTQ0i60.js">
+  <link rel="modulepreload" crossorigin href="/refreca/assets/search-C_YSx5Yj.js">
+  <link rel="modulepreload" crossorigin href="/refreca/assets/data-DoYlId72.js">
+  <link rel="stylesheet" crossorigin href="/refreca/assets/main-DREby5mG.css">
+  <link rel="stylesheet" crossorigin href="/refreca/assets/search-ChJYWajo.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="/refreca/"><img class="logo" src="/refreca/assets/logo-refreca.png" alt="REFRECA — Repositorio de Salud de las Américas. Vigilando Enfermedades Crónicas" width="1215" height="225"></a>
+    <nav class="site-nav" aria-label="Principal"><a href="/refreca/">Inicio</a><a href="/refreca/datasets/" aria-current="page">Datasets</a><a href="/refreca/acerca/">Acerca</a></nav>
+  </header>
+  <main id="contenido">
+    <section class="page-title">
+      <h1>Conjuntos de datos</h1>
+      <p>Busque por enfermedad, variable, país o fuente. Cada conjunto de datos tiene una ficha con sus variables, advertencias y archivos descargables, y un dashboard para explorarlo.</p>
+    </section>
+    <div class="catalog">
+      <form class="catalog-search" role="search" action="/refreca/datasets/" method="get" aria-label="Buscar conjuntos de datos">
+        <div class="field field-query">
+          <label for="q">Buscar</label>
+          <input id="q" name="q" type="search" autocomplete="off" spellcheck="false" placeholder="Por ejemplo, diabetes o población">
+        </div>
+        <div class="field">
+          <label for="tema">Tema</label>
+          <select id="tema" name="tema"><option value="">Todos los temas</option></select>
+        </div>
+        <div class="field">
+          <label for="pais">País</label>
+          <select id="pais" name="pais"><option value="">Todos los países</option></select>
+        </div>
+        <div class="field field-submit">
+          <button type="submit">Buscar</button>
+        </div>
+      </form>
+      <p id="count" class="result-count" role="status" aria-live="polite">Cargando el catálogo.</p>
+      <ul id="results" class="results" aria-busy="true"></ul>
+    </div>
+  </main>
+  <footer class="site-footer" aria-label="Pie de página">
+    <p class="footer-text">REFRECA, Repositorio de Salud de las Américas, Vigilando Enfermedades Crónicas. Los datos se publican con fines de vigilancia y no sustituyen las estadísticas oficiales de cada país.</p>
+    <div class="footer-strip" aria-hidden="true"></div>
+  </footer>
+</body>
+</html>

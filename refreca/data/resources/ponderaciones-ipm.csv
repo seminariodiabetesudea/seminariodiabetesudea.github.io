@@ -1,0 +1,18 @@
+﻿dimension,privacion,peso_ipm,peso_adicionales,peso_iguales
+Condiciones educativas del hogar,Bajo logro educativo,0.1,0.1,0.0588
+Condiciones educativas del hogar,Analfabetismo,0.1,0.1,0.0588
+Condiciones de la niñez y juventud,Inasistencia escolar,0.05,0.05,0.0588
+Condiciones de la niñez y juventud,Rezago escolar,0.05,0.05,0.0588
+Condiciones de la niñez y juventud,Barreras de acceso a servicios para el cuidado de la primera infancia,0.05,0.05,0.0588
+Condiciones de la niñez y juventud,Trabajo infantil,0.05,0.05,0.0588
+Trabajo,Desempleo de larga duración,0.1,0.1,0.0588
+Trabajo,Empleo informal,0.1,0.1,0.0588
+Salud,Sin aseguramiento en salud,0.1,0.1,0.0588
+Salud,Barreras de acceso a servicio de salud,0.1,0.1,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Sin acceso a fuente de agua mejorada,0.04,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Inadecuada eliminación de excretas,0.04,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Pisos inadecuados,0.04,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Paredes exteriores inadecuadas,0.04,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Hacinamiento crítico,0.04,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Sin energía,0,0.0286,0.0588
+Acceso a servicios públicos domiciliarios y condiciones de la vivienda,Sin activos,0,0.0286,0.0588
