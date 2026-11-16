@@ -1,0 +1,1594 @@
+{
+ "generated": "2026-11-16",
+ "source": "https://www.who.int/data/data-collection-tools/who-mortality-database",
+ "lastUpdate": "2026-02-23",
+ "retrieved": "2026-11-16",
+ "sourceFiles": [
+  {
+   "name": "morticd10_part1.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part1.zip?sfvrsn=e2a4f93a_19&ua=1",
+   "lastUpdate": "2025-02-01"
+  },
+  {
+   "name": "morticd10_part2.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part2.zip?sfvrsn=6e55000b_6&ua=1",
+   "lastUpdate": "2025-02-01"
+  },
+  {
+   "name": "morticd10_part3.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part3.zip?sfvrsn=9f1111a2_14&ua=1",
+   "lastUpdate": "2025-02-01"
+  },
+  {
+   "name": "morticd10_part4.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part4.zip?sfvrsn=259c5c23_30&ua=1",
+   "lastUpdate": "2026-02-23"
+  },
+  {
+   "name": "morticd10_part5.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part5.zip?sfvrsn=ad970d0b_34&ua=1",
+   "lastUpdate": "2026-02-23"
+  },
+  {
+   "name": "morticd10_part6.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/morticd10_part6.zip?sfvrsn=ec801a61_4",
+   "lastUpdate": "2026-02-23"
+  },
+  {
+   "name": "mort_pop.zip",
+   "url": "https://cdn.who.int/media/docs/default-source/world-health-data-platform/mortality-raw-data/mort_pop.zip?sfvrsn=937039fc_26&ua=1",
+   "lastUpdate": "2026-02-23"
+  }
+ ],
+ "countries": [
+  {
+   "code": 2005,
+   "id": "oms-ai",
+   "iso": "ai",
+   "name": "Anguila",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 22,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 1176,
+   "deaths": 908,
+   "uncoveredDeaths": 625,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ai-nacional.json"
+  },
+  {
+   "code": 2010,
+   "id": "oms-ag",
+   "iso": "ag",
+   "name": "Antigua y Barbuda",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 22,
+   "missingYears": [],
+   "cutYears": [
+    1998,
+    1999
+   ],
+   "rows": 4540,
+   "deaths": 6746,
+   "uncoveredDeaths": 4634,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ag-nacional.json"
+  },
+  {
+   "code": 2025,
+   "id": "oms-aw",
+   "iso": "aw",
+   "name": "Aruba",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1999
+   ],
+   "rows": 5656,
+   "deaths": 8362,
+   "uncoveredDeaths": 6372,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-aw-nacional.json"
+  },
+  {
+   "code": 2030,
+   "id": "oms-bs",
+   "iso": "bs",
+   "name": "Bahamas",
+   "years": [
+    2000,
+    2016
+   ],
+   "yearCount": 17,
+   "missingYears": [],
+   "cutYears": [
+    1999
+   ],
+   "rows": 8804,
+   "deaths": 16586,
+   "uncoveredDeaths": 16820,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-bs-nacional.json"
+  },
+  {
+   "code": 2040,
+   "id": "oms-bb",
+   "iso": "bb",
+   "name": "Barbados",
+   "years": [
+    2000,
+    2013
+   ],
+   "yearCount": 14,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 6714,
+   "deaths": 18767,
+   "uncoveredDeaths": 14049,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-bb-nacional.json"
+  },
+  {
+   "code": 2045,
+   "id": "oms-bz",
+   "iso": "bz",
+   "name": "Belice",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 11564,
+   "deaths": 17789,
+   "uncoveredDeaths": 21097,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-bz-nacional.json"
+  },
+  {
+   "code": 2050,
+   "id": "oms-bm",
+   "iso": "bm",
+   "name": "Bermudas",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 22,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 4997,
+   "deaths": 6550,
+   "uncoveredDeaths": 4508,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-bm-nacional.json"
+  },
+  {
+   "code": 2060,
+   "id": "oms-bo",
+   "iso": "bo",
+   "name": "Bolivia",
+   "years": [
+    2000,
+    2003
+   ],
+   "yearCount": 4,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 3540,
+   "deaths": 16054,
+   "uncoveredDeaths": 72611,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-bo-nacional.json"
+  },
+  {
+   "code": 2070,
+   "id": "oms-br",
+   "iso": "br",
+   "name": "Brasil",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 241931,
+   "deaths": 14127419,
+   "uncoveredDeaths": 16973152,
+   "hasPopulation": false,
+   "popYears": 1,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-br-nacional.json"
+  },
+  {
+   "code": 2085,
+   "id": "oms-vg",
+   "iso": "vg",
+   "name": "Islas Vírgenes Británicas",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 20,
+   "missingYears": [
+    2005,
+    2007
+   ],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 1648,
+   "deaths": 1222,
+   "uncoveredDeaths": 1212,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-vg-nacional.json"
+  },
+  {
+   "code": 2090,
+   "id": "oms-ca",
+   "iso": "ca",
+   "name": "Canadá",
+   "years": [
+    2000,
+    2024
+   ],
+   "yearCount": 25,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 98435,
+   "deaths": 4147855,
+   "uncoveredDeaths": 2373264,
+   "hasPopulation": false,
+   "popYears": 6,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ca-nacional.json"
+  },
+  {
+   "code": 2110,
+   "id": "oms-ky",
+   "iso": "ky",
+   "name": "Islas Caimán",
+   "years": [
+    2000,
+    2019
+   ],
+   "yearCount": 18,
+   "missingYears": [
+    2011,
+    2012
+   ],
+   "cutYears": [
+    1998,
+    1999
+   ],
+   "rows": 2032,
+   "deaths": 1672,
+   "uncoveredDeaths": 1416,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ky-nacional.json"
+  },
+  {
+   "code": 2140,
+   "id": "oms-cr",
+   "iso": "cr",
+   "name": "Costa Rica",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 48099,
+   "deaths": 285168,
+   "uncoveredDeaths": 216731,
+   "hasPopulation": false,
+   "popYears": 1,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-cr-nacional.json"
+  },
+  {
+   "code": 2150,
+   "id": "oms-cu",
+   "iso": "cu",
+   "name": "Cuba",
+   "years": [
+    2001,
+    2023
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 66088,
+   "deaths": 1577823,
+   "uncoveredDeaths": 651322,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-cu-nacional.json"
+  },
+  {
+   "code": 2160,
+   "id": "oms-dm",
+   "iso": "dm",
+   "name": "Dominica",
+   "years": [
+    2001,
+    2022
+   ],
+   "yearCount": 21,
+   "missingYears": [
+    2021
+   ],
+   "cutYears": [],
+   "rows": 4814,
+   "deaths": 7533,
+   "uncoveredDeaths": 4995,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-dm-nacional.json"
+  },
+  {
+   "code": 2170,
+   "id": "oms-do",
+   "iso": "do",
+   "name": "República Dominicana",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 50615,
+   "deaths": 409289,
+   "uncoveredDeaths": 481926,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-do-nacional.json"
+  },
+  {
+   "code": 2180,
+   "id": "oms-ec",
+   "iso": "ec",
+   "name": "Ecuador",
+   "years": [
+    2000,
+    2024
+   ],
+   "yearCount": 25,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 82433,
+   "deaths": 852255,
+   "uncoveredDeaths": 955463,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ec-nacional.json"
+  },
+  {
+   "code": 2190,
+   "id": "oms-sv",
+   "iso": "sv",
+   "name": "El Salvador",
+   "years": [
+    2000,
+    2018
+   ],
+   "yearCount": 19,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 22762,
+   "deaths": 253327,
+   "uncoveredDeaths": 431678,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-sv-nacional.json"
+  },
+  {
+   "code": 2230,
+   "id": "oms-gd",
+   "iso": "gd",
+   "name": "Granada",
+   "years": [
+    2001,
+    2023
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 6487,
+   "deaths": 12550,
+   "uncoveredDeaths": 8031,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-gd-nacional.json"
+  },
+  {
+   "code": 2250,
+   "id": "oms-gt",
+   "iso": "gt",
+   "name": "Guatemala",
+   "years": [
+    2005,
+    2023
+   ],
+   "yearCount": 19,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 42656,
+   "deaths": 627245,
+   "uncoveredDeaths": 912761,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-gt-nacional.json"
+  },
+  {
+   "code": 2260,
+   "id": "oms-gy",
+   "iso": "gy",
+   "name": "Guyana",
+   "years": [
+    2001,
+    2020
+   ],
+   "yearCount": 20,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 14275,
+   "deaths": 60713,
+   "uncoveredDeaths": 43446,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-gy-nacional.json"
+  },
+  {
+   "code": 2270,
+   "id": "oms-ht",
+   "iso": "ht",
+   "name": "Haití",
+   "years": [
+    2001,
+    2004
+   ],
+   "yearCount": 4,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1999
+   ],
+   "rows": 4323,
+   "deaths": 6995,
+   "uncoveredDeaths": 31584,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ht-nacional.json"
+  },
+  {
+   "code": 2280,
+   "id": "oms-hn",
+   "iso": "hn",
+   "name": "Honduras",
+   "years": [
+    2008,
+    2013
+   ],
+   "yearCount": 6,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 6303,
+   "deaths": 14163,
+   "uncoveredDeaths": 20826,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-hn-nacional.json"
+  },
+  {
+   "code": 2290,
+   "id": "oms-jm",
+   "iso": "jm",
+   "name": "Jamaica",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 20,
+   "missingYears": [
+    2007,
+    2008
+   ],
+   "cutYears": [],
+   "rows": 25893,
+   "deaths": 210841,
+   "uncoveredDeaths": 133411,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-jm-nacional.json"
+  },
+  {
+   "code": 2310,
+   "id": "oms-mx",
+   "iso": "mx",
+   "name": "México",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1998,
+    1999
+   ],
+   "rows": 162313,
+   "deaths": 8840073,
+   "uncoveredDeaths": 6570131,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-mx-nacional.json"
+  },
+  {
+   "code": 2320,
+   "id": "oms-ms",
+   "iso": "ms",
+   "name": "Montserrat",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 1040,
+   "deaths": 780,
+   "uncoveredDeaths": 450,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ms-nacional.json"
+  },
+  {
+   "code": 2340,
+   "id": "oms-ni",
+   "iso": "ni",
+   "name": "Nicaragua",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 41990,
+   "deaths": 295891,
+   "uncoveredDeaths": 202790,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ni-nacional.json"
+  },
+  {
+   "code": 2350,
+   "id": "oms-pa",
+   "iso": "pa",
+   "name": "Panamá",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 23,
+   "missingYears": [
+    2020
+   ],
+   "cutYears": [
+    1998,
+    1999
+   ],
+   "rows": 42345,
+   "deaths": 207749,
+   "uncoveredDeaths": 193293,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-pa-nacional.json"
+  },
+  {
+   "code": 2360,
+   "id": "oms-py",
+   "iso": "py",
+   "name": "Paraguay",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 50085,
+   "deaths": 302893,
+   "uncoveredDeaths": 363882,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-py-nacional.json"
+  },
+  {
+   "code": 2370,
+   "id": "oms-pe",
+   "iso": "pe",
+   "name": "Perú",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1999
+   ],
+   "rows": 75458,
+   "deaths": 1057785,
+   "uncoveredDeaths": 1583961,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-pe-nacional.json"
+  },
+  {
+   "code": 2380,
+   "id": "oms-pr",
+   "iso": "pr",
+   "name": "Puerto Rico",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 21,
+   "missingYears": [
+    2018,
+    2019,
+    2020
+   ],
+   "cutYears": [
+    1999
+   ],
+   "rows": 34141,
+   "deaths": 356690,
+   "uncoveredDeaths": 280253,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-pr-nacional.json"
+  },
+  {
+   "code": 2385,
+   "id": "oms-kn",
+   "iso": "kn",
+   "name": "San Cristóbal y Nieves",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [
+    1998,
+    1999
+   ],
+   "rows": 4080,
+   "deaths": 5315,
+   "uncoveredDeaths": 3742,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-kn-nacional.json"
+  },
+  {
+   "code": 2400,
+   "id": "oms-lc",
+   "iso": "lc",
+   "name": "Santa Lucía",
+   "years": [
+    2000,
+    2020
+   ],
+   "yearCount": 20,
+   "missingYears": [
+    2007
+   ],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 7676,
+   "deaths": 12502,
+   "uncoveredDeaths": 10673,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-lc-nacional.json"
+  },
+  {
+   "code": 2420,
+   "id": "oms-vc",
+   "iso": "vc",
+   "name": "San Vicente y las Granadinas",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 6113,
+   "deaths": 12122,
+   "uncoveredDeaths": 7720,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-vc-nacional.json"
+  },
+  {
+   "code": 2430,
+   "id": "oms-sr",
+   "iso": "sr",
+   "name": "Surinam",
+   "years": [
+    2000,
+    2014
+   ],
+   "yearCount": 15,
+   "missingYears": [],
+   "cutYears": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 10949,
+   "deaths": 22273,
+   "uncoveredDeaths": 26101,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-sr-nacional.json"
+  },
+  {
+   "code": 2440,
+   "id": "oms-tt",
+   "iso": "tt",
+   "name": "Trinidad y Tobago",
+   "years": [
+    2000,
+    2020
+   ],
+   "yearCount": 21,
+   "missingYears": [],
+   "cutYears": [
+    1999
+   ],
+   "rows": 25538,
+   "deaths": 142275,
+   "uncoveredDeaths": 78635,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-tt-nacional.json"
+  },
+  {
+   "code": 2445,
+   "id": "oms-tc",
+   "iso": "tc",
+   "name": "Islas Turcas y Caicos",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearCount": 22,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 1359,
+   "deaths": 912,
+   "uncoveredDeaths": 1077,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-tc-nacional.json"
+  },
+  {
+   "code": 2450,
+   "id": "oms-us",
+   "iso": "us",
+   "name": "Estados Unidos",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1999
+   ],
+   "rows": 167302,
+   "deaths": 39733099,
+   "uncoveredDeaths": 25301299,
+   "hasPopulation": false,
+   "popYears": 8,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-us-nacional.json"
+  },
+  {
+   "code": 2455,
+   "id": "oms-vi",
+   "iso": "vi",
+   "name": "Islas Vírgenes de los Estados Unidos",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 19,
+   "missingYears": [
+    2013,
+    2014,
+    2018,
+    2019,
+    2020
+   ],
+   "cutYears": [
+    1999
+   ],
+   "rows": 4997,
+   "deaths": 7681,
+   "uncoveredDeaths": 5358,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-vi-nacional.json"
+  },
+  {
+   "code": 2460,
+   "id": "oms-uy",
+   "iso": "uy",
+   "name": "Uruguay",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 23,
+   "missingYears": [
+    2011
+   ],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 41977,
+   "deaths": 413202,
+   "uncoveredDeaths": 387701,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-uy-nacional.json"
+  },
+  {
+   "code": 2470,
+   "id": "oms-ve",
+   "iso": "ve",
+   "name": "Venezuela",
+   "years": [
+    2000,
+    2016
+   ],
+   "yearCount": 17,
+   "missingYears": [],
+   "cutYears": [
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 79702,
+   "deaths": 1260101,
+   "uncoveredDeaths": 1228034,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "file": "mortalidad-oms-ve-nacional.json"
+  }
+ ],
+ "skippedCountries": [
+  {
+   "code": 2200,
+   "name": "Islas Malvinas",
+   "reason": "sin datos CIE-10 nacionales"
+  },
+  {
+   "code": 2210,
+   "name": "Guayana Francesa",
+   "reason": "formato de edad no compatible (09: 9996 registros)"
+  },
+  {
+   "code": 2240,
+   "name": "Guadalupe",
+   "reason": "formato de edad no compatible (09: 17552 registros)"
+  },
+  {
+   "code": 2300,
+   "name": "Martinica",
+   "reason": "formato de edad no compatible (09: 16987 registros)"
+  },
+  {
+   "code": 2330,
+   "name": "Antillas Neerlandesas",
+   "reason": "menos de 3 años desde 2000"
+  },
+  {
+   "code": 2410,
+   "name": "San Pedro y Miquelón",
+   "reason": "formato de edad no compatible (09: 199 registros)"
+  }
+ ],
+ "files": [
+  {
+   "file": "mortalidad-oms-ai-nacional.json",
+   "bytes": 12842
+  },
+  {
+   "file": "mortalidad-oms-ag-nacional.json",
+   "bytes": 45426
+  },
+  {
+   "file": "mortalidad-oms-aw-nacional.json",
+   "bytes": 58289
+  },
+  {
+   "file": "mortalidad-oms-bs-nacional.json",
+   "bytes": 70742
+  },
+  {
+   "file": "mortalidad-oms-bb-nacional.json",
+   "bytes": 61638
+  },
+  {
+   "file": "mortalidad-oms-bz-nacional.json",
+   "bytes": 91516
+  },
+  {
+   "file": "mortalidad-oms-bm-nacional.json",
+   "bytes": 45180
+  },
+  {
+   "file": "mortalidad-oms-bo-nacional.json",
+   "bytes": 31875
+  },
+  {
+   "file": "mortalidad-oms-br-nacional.json",
+   "bytes": 413837
+  },
+  {
+   "file": "mortalidad-oms-vg-nacional.json",
+   "bytes": 15259
+  },
+  {
+   "file": "mortalidad-oms-ca-nacional.json",
+   "bytes": 318461
+  },
+  {
+   "file": "mortalidad-oms-ky-nacional.json",
+   "bytes": 18557
+  },
+  {
+   "file": "mortalidad-oms-cr-nacional.json",
+   "bytes": 234151
+  },
+  {
+   "file": "mortalidad-oms-cu-nacional.json",
+   "bytes": 275608
+  },
+  {
+   "file": "mortalidad-oms-dm-nacional.json",
+   "bytes": 47303
+  },
+  {
+   "file": "mortalidad-oms-do-nacional.json",
+   "bytes": 268578
+  },
+  {
+   "file": "mortalidad-oms-ec-nacional.json",
+   "bytes": 319027
+  },
+  {
+   "file": "mortalidad-oms-sv-nacional.json",
+   "bytes": 196679
+  },
+  {
+   "file": "mortalidad-oms-gd-nacional.json",
+   "bytes": 66303
+  },
+  {
+   "file": "mortalidad-oms-gt-nacional.json",
+   "bytes": 243636
+  },
+  {
+   "file": "mortalidad-oms-gy-nacional.json",
+   "bytes": 127560
+  },
+  {
+   "file": "mortalidad-oms-ht-nacional.json",
+   "bytes": 23268
+  },
+  {
+   "file": "mortalidad-oms-hn-nacional.json",
+   "bytes": 39432
+  },
+  {
+   "file": "mortalidad-oms-jm-nacional.json",
+   "bytes": 181725
+  },
+  {
+   "file": "mortalidad-oms-mx-nacional.json",
+   "bytes": 382242
+  },
+  {
+   "file": "mortalidad-oms-ms-nacional.json",
+   "bytes": 10532
+  },
+  {
+   "file": "mortalidad-oms-ni-nacional.json",
+   "bytes": 234337
+  },
+  {
+   "file": "mortalidad-oms-pa-nacional.json",
+   "bytes": 224005
+  },
+  {
+   "file": "mortalidad-oms-py-nacional.json",
+   "bytes": 239920
+  },
+  {
+   "file": "mortalidad-oms-pe-nacional.json",
+   "bytes": 306155
+  },
+  {
+   "file": "mortalidad-oms-pr-nacional.json",
+   "bytes": 201536
+  },
+  {
+   "file": "mortalidad-oms-kn-nacional.json",
+   "bytes": 38522
+  },
+  {
+   "file": "mortalidad-oms-lc-nacional.json",
+   "bytes": 65564
+  },
+  {
+   "file": "mortalidad-oms-vc-nacional.json",
+   "bytes": 61877
+  },
+  {
+   "file": "mortalidad-oms-sr-nacional.json",
+   "bytes": 73007
+  },
+  {
+   "file": "mortalidad-oms-tt-nacional.json",
+   "bytes": 168178
+  },
+  {
+   "file": "mortalidad-oms-tc-nacional.json",
+   "bytes": 12836
+  },
+  {
+   "file": "mortalidad-oms-us-nacional.json",
+   "bytes": 390564
+  },
+  {
+   "file": "mortalidad-oms-vi-nacional.json",
+   "bytes": 47527
+  },
+  {
+   "file": "mortalidad-oms-uy-nacional.json",
+   "bytes": 230226
+  },
+  {
+   "file": "mortalidad-oms-ve-nacional.json",
+   "bytes": 228271
+  }
+ ],
+ "skipped": {
+  "subnationalRows": 84173,
+  "listRows": {},
+  "frmatRows": {
+   "09": 44734
+  },
+  "popFrmatRows": {
+   "04": 554,
+   "09": 26,
+   "05": 20,
+   "03": 22,
+   "08": 8,
+   "07": 6,
+   "06": 2
+  }
+ },
+ "sanity": {
+  "ar": [
+   {
+    "year": 2005,
+    "who": 149990,
+    "national": 150136,
+    "diffPct": -0.1
+   },
+   {
+    "year": 2006,
+    "who": 149715,
+    "national": 149792,
+    "diffPct": -0.1
+   },
+   {
+    "year": 2007,
+    "who": 155987,
+    "national": 157004,
+    "diffPct": -0.6
+   },
+   {
+    "year": 2008,
+    "who": 148302,
+    "national": 149423,
+    "diffPct": -0.8
+   },
+   {
+    "year": 2009,
+    "who": 147381,
+    "national": 148536,
+    "diffPct": -0.8
+   },
+   {
+    "year": 2010,
+    "who": 155127,
+    "national": 156180,
+    "diffPct": -0.7
+   },
+   {
+    "year": 2011,
+    "who": 154191,
+    "national": 155326,
+    "diffPct": -0.7
+   },
+   {
+    "year": 2012,
+    "who": 154518,
+    "national": 155674,
+    "diffPct": -0.7
+   },
+   {
+    "year": 2013,
+    "who": 154902,
+    "national": 156278,
+    "diffPct": -0.9
+   },
+   {
+    "year": 2014,
+    "who": 153405,
+    "national": 154913,
+    "diffPct": -1
+   },
+   {
+    "year": 2015,
+    "who": 161925,
+    "national": 163309,
+    "diffPct": -0.8
+   },
+   {
+    "year": 2016,
+    "who": 165335,
+    "national": 166586,
+    "diffPct": -0.8
+   },
+   {
+    "year": 2017,
+    "who": 158289,
+    "national": 158289,
+    "diffPct": 0
+   },
+   {
+    "year": 2018,
+    "who": 155608,
+    "national": 155608,
+    "diffPct": 0
+   },
+   {
+    "year": 2019,
+    "who": 156756,
+    "national": 156756,
+    "diffPct": 0
+   }
+  ],
+  "cl": [
+   {
+    "year": 1997,
+    "who": 43606,
+    "national": 42715,
+    "diffPct": 2.1
+   },
+   {
+    "year": 1998,
+    "who": 45834,
+    "national": 44828,
+    "diffPct": 2.2
+   },
+   {
+    "year": 1999,
+    "who": 46643,
+    "national": 45610,
+    "diffPct": 2.3
+   },
+   {
+    "year": 2000,
+    "who": 47087,
+    "national": 45618,
+    "diffPct": 3.2
+   },
+   {
+    "year": 2001,
+    "who": 49797,
+    "national": 48176,
+    "diffPct": 3.4
+   },
+   {
+    "year": 2002,
+    "who": 50765,
+    "national": 49167,
+    "diffPct": 3.3
+   },
+   {
+    "year": 2003,
+    "who": 53374,
+    "national": 1654,
+    "diffPct": 3127
+   },
+   {
+    "year": 2004,
+    "who": 54237,
+    "national": 52503,
+    "diffPct": 3.3
+   },
+   {
+    "year": 2005,
+    "who": 54436,
+    "national": 52756,
+    "diffPct": 3.2
+   },
+   {
+    "year": 2006,
+    "who": 54188,
+    "national": 52393,
+    "diffPct": 3.4
+   },
+   {
+    "year": 2007,
+    "who": 56113,
+    "national": 56260,
+    "diffPct": -0.3
+   },
+   {
+    "year": 2008,
+    "who": 54516,
+    "national": 54352,
+    "diffPct": 0.3
+   },
+   {
+    "year": 2009,
+    "who": 57418,
+    "national": 55275,
+    "diffPct": 3.9
+   },
+   {
+    "year": 2010,
+    "who": 60970,
+    "national": 58973,
+    "diffPct": 3.4
+   },
+   {
+    "year": 2011,
+    "who": 58170,
+    "national": 56146,
+    "diffPct": 3.6
+   },
+   {
+    "year": 2012,
+    "who": 61022,
+    "national": 59180,
+    "diffPct": 3.1
+   },
+   {
+    "year": 2013,
+    "who": 61077,
+    "national": 59338,
+    "diffPct": 2.9
+   },
+   {
+    "year": 2014,
+    "who": 62322,
+    "national": 60536,
+    "diffPct": 3
+   },
+   {
+    "year": 2015,
+    "who": 64233,
+    "national": 62404,
+    "diffPct": 2.9
+   },
+   {
+    "year": 2016,
+    "who": 64593,
+    "national": 62737,
+    "diffPct": 3
+   },
+   {
+    "year": 2017,
+    "who": 65689,
+    "national": 63815,
+    "diffPct": 2.9
+   },
+   {
+    "year": 2018,
+    "who": 63775,
+    "national": 61953,
+    "diffPct": 2.9
+   },
+   {
+    "year": 2019,
+    "who": 63719,
+    "national": 61880,
+    "diffPct": 3
+   }
+  ],
+  "co": [
+   {
+    "year": 1997,
+    "who": 82270,
+    "national": 79439,
+    "diffPct": 3.6
+   },
+   {
+    "year": 1998,
+    "who": 84538,
+    "national": 80996,
+    "diffPct": 4.4
+   },
+   {
+    "year": 1999,
+    "who": 92218,
+    "national": 90551,
+    "diffPct": 1.8
+   },
+   {
+    "year": 2000,
+    "who": 93370,
+    "national": 92211,
+    "diffPct": 1.3
+   },
+   {
+    "year": 2001,
+    "who": 93690,
+    "national": 93349,
+    "diffPct": 0.4
+   },
+   {
+    "year": 2002,
+    "who": 94717,
+    "national": 93603,
+    "diffPct": 1.2
+   },
+   {
+    "year": 2003,
+    "who": 99536,
+    "national": 98194,
+    "diffPct": 1.4
+   },
+   {
+    "year": 2004,
+    "who": 99966,
+    "national": 99140,
+    "diffPct": 0.8
+   },
+   {
+    "year": 2005,
+    "who": 102009,
+    "national": 101633,
+    "diffPct": 0.4
+   },
+   {
+    "year": 2006,
+    "who": 104636,
+    "national": 104138,
+    "diffPct": 0.5
+   },
+   {
+    "year": 2007,
+    "who": 104974,
+    "national": 104725,
+    "diffPct": 0.2
+   },
+   {
+    "year": 2008,
+    "who": 108837,
+    "national": 108430,
+    "diffPct": 0.4
+   },
+   {
+    "year": 2009,
+    "who": 105056,
+    "national": 104700,
+    "diffPct": 0.3
+   },
+   {
+    "year": 2010,
+    "who": 109068,
+    "national": 108602,
+    "diffPct": 0.4
+   },
+   {
+    "year": 2011,
+    "who": 107830,
+    "national": 107715,
+    "diffPct": 0.1
+   },
+   {
+    "year": 2012,
+    "who": 111814,
+    "national": 111749,
+    "diffPct": 0.1
+   },
+   {
+    "year": 2013,
+    "who": 114741,
+    "national": 114702,
+    "diffPct": 0
+   },
+   {
+    "year": 2014,
+    "who": 121764,
+    "national": 121731,
+    "diffPct": 0
+   },
+   {
+    "year": 2015,
+    "who": 128229,
+    "national": 128183,
+    "diffPct": 0
+   },
+   {
+    "year": 2016,
+    "who": 130485,
+    "national": 130462,
+    "diffPct": 0
+   },
+   {
+    "year": 2017,
+    "who": 134431,
+    "national": 134433,
+    "diffPct": 0
+   },
+   {
+    "year": 2018,
+    "who": 139112,
+    "national": 139068,
+    "diffPct": 0
+   },
+   {
+    "year": 2019,
+    "who": 142443,
+    "national": 142407,
+    "diffPct": 0
+   },
+   {
+    "year": 2020,
+    "who": 150091,
+    "national": 150115,
+    "diffPct": 0
+   }
+  ]
+ }
+}
