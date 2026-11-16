@@ -1,766 +1,766 @@
-﻿anio,sexo,grupo_edad,causa,defunciones
-2000,Mujer,55-59,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2000,Mujer,55-59,Enfermedad hipertensiva,2
-2000,Mujer,60-64,Diabetes Mellitus no especificada,1
-2000,Mujer,65-69,Enfermedades isquémicas del corazón,1
-2000,Mujer,65-69,Tumor maligno del estómago,1
-2000,Mujer,65-69,Enfermedad hipertensiva,1
-2000,Mujer,70-74,Diabetes Mellitus no especificada,1
-2000,Mujer,75-79,Enfermedad hipertensiva,2
-2000,Mujer,80-84,Enfermedad renal crónica,1
-2000,Mujer,80-84,Enfermedad hipertensiva,2
-2000,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2000,Mujer,85 y más,Enfermedades isquémicas del corazón,1
-2000,Mujer,85 y más,Enfermedad hipertensiva,1
-2000,Mujer,40-44,Enfermedades cerebrovasculares,1
-2000,Mujer,45-49,Enfermedades cerebrovasculares,1
-2000,Hombre,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1
-2000,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2000,Hombre,55-59,Tumor maligno del hígado,1
-2000,Hombre,55-59,Enfermedad hipertensiva,1
-2000,Hombre,60-64,Enfermedades isquémicas del corazón,2
-2000,Hombre,60-64,Enfermedad hipertensiva,1
-2000,Hombre,65-69,Trastornos mentales y del comportamiento,1
-2000,Hombre,65-69,Tumor maligno de la tiroides y otras glándulas endocrinas,1
-2000,Hombre,65-69,Tumor maligno de los huesos y de los cartílagos articulares,1
-2000,Hombre,65-69,Enfermedad hipertensiva,1
-2000,Hombre,70-74,Tumor maligno del páncreas,1
-2000,Hombre,80-84,Enfermedad hipertensiva,1
-2000,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2000,Hombre,85 y más,Tumor maligno de la próstata,1
-2000,Hombre,85 y más,Enfermedad hipertensiva,1
-2000,Hombre,30-34,Enfermedad hipertensiva,1
-2000,Hombre,40-44,Tumor maligno de la tiroides y otras glándulas endocrinas,1
-2001,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2001,Mujer,65-69,Enfermedades isquémicas del corazón,1
-2001,Mujer,65-69,Diabetes Mellitus no especificada,1
-2001,Mujer,70-74,Enfermedades cerebrovasculares,2
-2001,Mujer,70-74,Paro cardiaco,1
-2001,Mujer,70-74,Tumor maligno del útero,1
-2001,Mujer,70-74,Diabetes Mellitus no especificada,1
-2001,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2001,Mujer,75-79,Tumor maligno del útero,1
-2001,Mujer,75-79,Enfermedad hipertensiva,1
-2001,Mujer,80-84,Enfermedad hipertensiva,1
-2001,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2001,Mujer,85 y más,Enfermedad hipertensiva,1
-2001,Hombre,60-64,Enfermedades isquémicas del corazón,1
-2001,Hombre,65-69,Diabetes Mellitus no especificada,1
-2001,Hombre,80-84,Insuficiencia cardíaca,1
-2001,Hombre,85 y más,Enfermedades cerebrovasculares,2
-2001,Hombre,85 y más,Enfermedad hipertensiva,1
-2001,Hombre,40-44,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2010,Mujer,50-54,Enfermedades isquémicas del corazón,1
-2010,Mujer,55-59,Enfermedades crónicas de las vías respiratorias inferiores,1
-2010,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2010,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2010,Mujer,70-74,Aneurisma aórtico,1
-2010,Mujer,70-74,Enfermedades cerebrovasculares,1
-2010,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2010,Mujer,70-74,Diabetes Mellitus no especificada,1
-2010,Mujer,75-79,Enfermedad hipertensiva,2
-2010,Mujer,80-84,Enfermedades cerebrovasculares,1
-2010,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2010,Mujer,80-84,Enfermedad hipertensiva,1
-2010,Mujer,85 y más,Enfermedades cerebrovasculares,2
-2010,Mujer,85 y más,Enfermedades isquémicas del corazón,2
-2010,Mujer,85 y más,Paro cardiaco,1
-2010,Mujer,85 y más,Diabetes no insulinodependiente,1
-2010,Mujer,85 y más,Enfermedad hipertensiva,4
-2010,Mujer,35-39,Aneurisma aórtico,1
-2010,Mujer,35-39,Enfermedades cerebrovasculares,1
-2010,Mujer,40-44,Enfermedades cerebrovasculares,1
-2010,Hombre,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1
-2010,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2010,Hombre,55-59,Lesiones autoinfligidas intencionalmente (suicidios),1
-2010,Hombre,55-59,Diabetes Mellitus no especificada,1
-2010,Hombre,60-64,Paro cardiaco,1
-2010,Hombre,60-64,Diabetes Mellitus no especificada,1
-2010,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2010,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2010,Hombre,75-79,Diabetes Mellitus no especificada,1
-2010,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2010,Hombre,85 y más,Enfermedades cerebrovasculares,1
-2010,Hombre,85 y más,Tumor maligno de la vejiga urinaria,1
-2010,Hombre,85 y más,Diabetes no insulinodependiente,1
-2010,Hombre,35-39,Enfermedades crónicas de las vías respiratorias inferiores,1
-2010,Hombre,35-39,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2010,Hombre,35-39,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2010,Hombre,35-39,Enfermedad hipertensiva,1
-2010,Hombre,45-49,Enfermedades isquémicas del corazón,1
-2010,Hombre,45-49,Trastornos mentales y del comportamiento,1
-2011,Mujer,50-54,Enfermedades isquémicas del corazón,3
-2011,Mujer,55-59,Diabetes Mellitus no especificada,1
-2011,Mujer,55-59,Enfermedad hipertensiva,1
-2011,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2011,Mujer,60-64,Tumor maligno de la mama de la mujer,1
-2011,Mujer,65-69,Enfermedades cerebrovasculares,1
-2011,Mujer,65-69,Tumor maligno del ovario,1
-2011,Mujer,70-74,Diabetes no insulinodependiente,2
-2011,Mujer,75-79,Diabetes Mellitus no especificada,2
-2011,Mujer,75-79,Diabetes no insulinodependiente,2
-2011,Mujer,75-79,Enfermedad hipertensiva,2
-2011,Mujer,80-84,Enfermedad renal crónica,1
-2011,Mujer,80-84,Enfermedades cerebrovasculares,1
-2011,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2011,Mujer,80-84,Diabetes no insulinodependiente,1
-2011,Mujer,85 y más,Enfermedades cerebrovasculares,3
-2011,Mujer,85 y más,Enfermedades isquémicas del corazón,2
-2011,Mujer,85 y más,Insuficiencia cardíaca,1
-2011,Mujer,85 y más,Enfermedad hipertensiva,2
-2011,Mujer,30-34,Enfermedad hipertensiva,1
-2011,Mujer,40-44,Enfermedades cerebrovasculares,1
-2011,Mujer,45-49,Enfermedades cerebrovasculares,1
-2011,Mujer,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2011,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2011,Hombre,55-59,Enfermedades cerebrovasculares,2
-2011,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2011,Hombre,60-64,Enfermedades cerebrovasculares,1
-2011,Hombre,60-64,Insuficiencia cardíaca,1
-2011,Hombre,60-64,Diabetes Mellitus no especificada,1
-2011,Hombre,65-69,Enfermedades cerebrovasculares,1
-2011,Hombre,65-69,Enfermedades isquémicas del corazón,1
-2011,Hombre,65-69,Tumor maligno de la próstata,1
-2011,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2011,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2011,Hombre,80-84,Enfermedades isquémicas del corazón,1
-2011,Hombre,80-84,Trastornos mentales y del comportamiento,1
-2011,Hombre,80-84,Tumor maligno de la próstata,2
-2011,Hombre,85 y más,Enfermedad hipertensiva,1
-2011,Hombre,10-14,Deficiencias nutricionales,1
-2011,Hombre,40-44,Tumor maligno de la tiroides y otras glándulas endocrinas,1
-2011,Hombre,40-44,Diabetes no insulinodependiente,1
-2011,Hombre,45-49,Enfermedades cerebrovasculares,1
-2011,Sin dato,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2011,Sin dato,Sin dato,Tumor maligno de la mama de la mujer,1
-2012,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2012,Mujer,60-64,Tumor maligno del ovario,1
-2012,Mujer,65-69,Enfermedades cerebrovasculares,2
-2012,Mujer,65-69,Tumor maligno de la mama de la mujer,1
-2012,Mujer,65-69,Tumor maligno de la vejiga urinaria,1
-2012,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2012,Mujer,75-79,Insuficiencia cardíaca,1
-2012,Mujer,80-84,Enfermedad renal crónica,1
-2012,Mujer,80-84,Enfermedades cerebrovasculares,1
-2012,Mujer,85 y más,Enfermedades cerebrovasculares,1
-2012,Mujer,85 y más,Insuficiencia cardíaca,2
-2012,Mujer,85 y más,Paro cardiaco,3
-2012,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2012,Mujer,85 y más,Enfermedad hipertensiva,2
-2012,Mujer,35-39,Enfermedades isquémicas del corazón,1
-2012,Mujer,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2012,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2012,Hombre,50-54,Enfermedades isquémicas del corazón,2
-2012,Hombre,55-59,Enfermedades isquémicas del corazón,3
-2012,Hombre,55-59,Paro cardiaco,1
-2012,Hombre,55-59,Diabetes Mellitus no especificada,1
-2012,Hombre,60-64,Enfermedades isquémicas del corazón,1
-2012,Hombre,60-64,Aterosclerosis,1
-2012,Hombre,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2012,Hombre,65-69,Aneurisma aórtico,1
-2012,Hombre,65-69,Enfermedades isquémicas del corazón,2
-2012,Hombre,65-69,Tumor maligno del estómago,1
-2012,Hombre,70-74,Enfermedades isquémicas del corazón,3
-2012,Hombre,70-74,Paro cardiaco,1
-2012,Hombre,70-74,Enfermedad hipertensiva,1
-2012,Hombre,75-79,Enfermedades cerebrovasculares,1
-2012,Hombre,75-79,Enfermedades isquémicas del corazón,2
-2012,Hombre,75-79,Tumor maligno de la próstata,1
-2012,Hombre,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2012,Hombre,80-84,Enfermedades isquémicas del corazón,3
-2012,Hombre,80-84,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2012,Hombre,80-84,Enfermedad hipertensiva,1
-2012,Hombre,85 y más,Enfermedades cerebrovasculares,1
-2012,Hombre,85 y más,Enfermedades isquémicas del corazón,1
-2012,Hombre,85 y más,Paro cardiaco,1
-2012,Hombre,85 y más,Enfermedad hipertensiva,1
-2012,Hombre,20-24,Paro cardiaco,1
-2012,Hombre,45-49,Enfermedades cerebrovasculares,1
-2012,Hombre,45-49,Enfermedades isquémicas del corazón,1
-2013,Mujer,50-54,Enfermedades isquémicas del corazón,1
-2013,Mujer,50-54,Tumor maligno de la mama de la mujer,1
-2013,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2013,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2013,Mujer,55-59,Insuficiencia cardíaca,1
-2013,Mujer,55-59,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2013,Mujer,60-64,Enfermedades cerebrovasculares,1
-2013,Mujer,65-69,Enfermedades isquémicas del corazón,1
-2013,Mujer,65-69,Melanoma y otros tumores malignos de la piel,1
-2013,Mujer,65-69,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2013,Mujer,65-69,Tumor maligno del útero,1
-2013,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2013,Mujer,70-74,Enfermedades isquémicas del corazón,1
-2013,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2013,Mujer,75-79,Tumor maligno del esófago,1
-2013,Mujer,75-79,Diabetes Mellitus no especificada,1
-2013,Mujer,75-79,Diabetes no insulinodependiente,1
-2013,Mujer,80-84,Enfermedades cerebrovasculares,1
-2013,Mujer,80-84,Trastornos mentales y del comportamiento,1
-2013,Mujer,80-84,Diabetes no insulinodependiente,1
-2013,Mujer,85 y más,Enfermedades isquémicas del corazón,1
-2013,Mujer,85 y más,Trastornos mentales y del comportamiento,1
-2013,Mujer,85 y más,Tumor maligno de la mama de la mujer,1
-2013,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2013,Mujer,85 y más,Enfermedad hipertensiva,1
-2013,Mujer,30-34,Enfermedad renal crónica,1
-2013,Mujer,40-44,Enfermedades cerebrovasculares,1
-2013,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2013,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2013,Hombre,55-59,Enfermedades isquémicas del corazón,2
-2013,Hombre,60-64,Enfermedades isquémicas del corazón,1
-2013,Hombre,60-64,Paro cardiaco,1
-2013,Hombre,60-64,Tumor maligno del hígado,1
-2013,Hombre,65-69,Enfermedades cerebrovasculares,1
-2013,Hombre,65-69,Enfermedades isquémicas del corazón,1
-2013,Hombre,65-69,Diabetes Mellitus no especificada,1
-2013,Hombre,70-74,Enfermedades isquémicas del corazón,2
-2013,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2013,Hombre,75-79,Enfermedades cerebrovasculares,1
-2013,Hombre,75-79,Enfermedades isquémicas del corazón,2
-2013,Hombre,80-84,Enfermedades isquémicas del corazón,2
-2013,Hombre,80-84,Trastornos mentales y del comportamiento,1
-2013,Hombre,80-84,Tumor maligno de la próstata,2
-2013,Hombre,80-84,Diabetes Mellitus no especificada,1
-2013,Hombre,85 y más,Enfermedades isquémicas del corazón,2
-2013,Hombre,85 y más,Paro cardiaco,1
-2013,Hombre,85 y más,Diabetes Mellitus no especificada,1
-2013,Hombre,85 y más,Enfermedad hipertensiva,1
-2013,Sin dato,Sin dato,Enfermedades cerebrovasculares,1
-2014,Mujer,50-54,Enfermedades cerebrovasculares,1
-2014,Mujer,50-54,Tumor maligno del útero,1
-2014,Mujer,50-54,Diabetes Mellitus no especificada,3
-2014,Mujer,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2014,Mujer,60-64,Enfermedades cerebrovasculares,1
-2014,Mujer,70-74,Enfermedades cerebrovasculares,1
-2014,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2014,Mujer,85 y más,Enfermedades isquémicas del corazón,3
-2014,Mujer,85 y más,Aterosclerosis,1
-2014,Mujer,85 y más,Enfermedad hipertensiva,1
-2014,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2014,Hombre,50-54,Enfermedades cerebrovasculares,1
-2014,Hombre,50-54,Enfermedad hipertensiva,1
-2014,Hombre,55-59,Enfermedades isquémicas del corazón,1
-2014,Hombre,60-64,Diabetes Mellitus no especificada,1
-2014,Hombre,65-69,Enfermedades isquémicas del corazón,2
-2014,Hombre,65-69,Diabetes Mellitus no especificada,1
-2014,Hombre,70-74,Enfermedades isquémicas del corazón,1
-2014,Hombre,75-79,Enfermedades isquémicas del corazón,2
-2014,Hombre,75-79,Paro cardiaco,1
-2014,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2014,Hombre,80-84,Enfermedades isquémicas del corazón,1
-2014,Hombre,80-84,Tumor maligno de la próstata,1
-2014,Hombre,80-84,Tumor maligno del páncreas,1
-2014,Hombre,85 y más,Enfermedades isquémicas del corazón,2
-2014,Hombre,85 y más,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2014,Hombre,85 y más,Enfermedad hipertensiva,1
-2014,Hombre,30-34,Enfermedades isquémicas del corazón,1
-2014,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1
-2014,Hombre,40-44,Enfermedades isquémicas del corazón,1
-2014,Hombre,45-49,Tumor maligno del estómago,1
-2015,Mujer,50-54,Tumor maligno de la mama de la mujer,1
-2015,Mujer,60-64,Enfermedades isquémicas del corazón,2
-2015,Mujer,60-64,Diabetes Mellitus no especificada,1
-2015,Mujer,65-69,Insuficiencia cardíaca,1
-2015,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2015,Mujer,70-74,Enfermedades isquémicas del corazón,1
-2015,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2015,Mujer,70-74,Tumor maligno de otras partes del útero,1
-2015,Mujer,70-74,Enfermedad hipertensiva,1
-2015,Mujer,75-79,Enfermedad hipertensiva,2
-2015,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2015,Mujer,80-84,Diabetes no insulinodependiente,1
-2015,Mujer,80-84,Enfermedad hipertensiva,1
-2015,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2015,Mujer,85 y más,Enfermedades isquémicas del corazón,2
-2015,Mujer,85 y más,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2015,Mujer,85 y más,Diabetes no insulinodependiente,1
-2015,Mujer,85 y más,Enfermedad hipertensiva,1
-2015,Mujer,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2015,Mujer,40-44,Enfermedades cerebrovasculares,1
-2015,Mujer,40-44,Enfermedades isquémicas del corazón,1
-2015,Mujer,40-44,Lesiones autoinfligidas intencionalmente (suicidios),1
-2015,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2015,Hombre,50-54,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2015,Hombre,55-59,Enfermedades isquémicas del corazón,1
-2015,Hombre,55-59,Tumor maligno de la próstata,1
-2015,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2015,Hombre,55-59,Tumor maligno del estómago,1
-2015,Hombre,60-64,Aterosclerosis,1
-2015,Hombre,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2015,Hombre,60-64,Tumor maligno del estómago,1
-2015,Hombre,60-64,Diabetes Mellitus no especificada,1
-2015,Hombre,60-64,Enfermedad hipertensiva,1
-2015,Hombre,65-69,Enfermedades isquémicas del corazón,1
-2015,Hombre,65-69,Diabetes no insulinodependiente,1
-2015,Hombre,65-69,Enfermedad hipertensiva,1
-2015,Hombre,70-74,Enfermedades isquémicas del corazón,2
-2015,Hombre,70-74,Diabetes Mellitus no especificada,1
-2015,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2015,Hombre,75-79,Diabetes no insulinodependiente,1
-2015,Hombre,80-84,Enfermedades cerebrovasculares,1
-2015,Hombre,80-84,Enfermedades isquémicas del corazón,2
-2015,Hombre,80-84,Trastornos mentales y del comportamiento,1
-2015,Hombre,80-84,Enfermedad hipertensiva,1
-2015,Hombre,85 y más,Enfermedades isquémicas del corazón,2
-2015,Hombre,85 y más,Enfermedad hipertensiva,1
-2015,Hombre,35-39,Enfermedades cerebrovasculares,1
-2015,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1
-2015,Hombre,35-39,Enfermedad hipertensiva,1
-2015,Hombre,45-49,Enfermedades isquémicas del corazón,2
-2015,Hombre,45-49,Enfermedad hipertensiva,1
-2016,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2016,Mujer,55-59,Tumor maligno del páncreas,1
-2016,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2016,Mujer,60-64,Tumor maligno de la mama de la mujer,1
-2016,Mujer,65-69,Enfermedades isquémicas del corazón,2
-2016,Mujer,75-79,Tumor maligno de la mama de la mujer,1
-2016,Mujer,75-79,Tumor maligno del útero,1
-2016,Mujer,75-79,Enfermedad hipertensiva,1
-2016,Mujer,80-84,Insuficiencia cardíaca,1
-2016,Mujer,80-84,Diabetes Mellitus no especificada,1
-2016,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2016,Mujer,85 y más,Enfermedades isquémicas del corazón,6
-2016,Mujer,85 y más,Diabetes Mellitus no especificada,2
-2016,Mujer,85 y más,Diabetes no insulinodependiente,1
-2016,Mujer,85 y más,Enfermedad hipertensiva,2
-2016,Mujer,15-19,Enfermedades crónicas de las vías respiratorias inferiores,1
-2016,Mujer,30-34,Tumor maligno del útero,1
-2016,Mujer,35-39,Tumor maligno de la mama de la mujer,1
-2016,Mujer,40-44,Enfermedad hipertensiva,1
-2016,Hombre,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2016,Hombre,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2016,Hombre,50-54,Tumor maligno del esófago,1
-2016,Hombre,55-59,Enfermedades isquémicas del corazón,1
-2016,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2016,Hombre,55-59,Enfermedad hipertensiva,2
-2016,Hombre,60-64,Enfermedad hipertensiva,1
-2016,Hombre,65-69,Enfermedades isquémicas del corazón,1
-2016,Hombre,65-69,Diabetes no insulinodependiente,2
-2016,Hombre,70-74,Enfermedades isquémicas del corazón,1
-2016,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2016,Hombre,70-74,Diabetes no insulinodependiente,1
-2016,Hombre,75-79,Insuficiencia cardíaca,1
-2016,Hombre,80-84,Enfermedades cerebrovasculares,1
-2016,Hombre,80-84,Enfermedades isquémicas del corazón,1
-2016,Hombre,80-84,Tumor maligno de la próstata,2
-2016,Hombre,80-84,Enfermedad hipertensiva,1
-2016,Hombre,85 y más,Enfermedades cerebrovasculares,2
-2016,Hombre,85 y más,Aterosclerosis,1
-2016,Hombre,85 y más,Tumor maligno de la próstata,1
-2016,Hombre,85 y más,Enfermedad hipertensiva,1
-2016,Hombre,35-39,Diabetes Mellitus no especificada,1
-2017,Mujer,5-9,Tumor maligno del estómago,1
-2017,Mujer,50-54,Tumor maligno de la mama de la mujer,2
-2017,Mujer,50-54,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2017,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2017,Mujer,50-54,Diabetes no insulinodependiente,1
-2017,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2017,Mujer,55-59,Tumor maligno de la mama de la mujer,1
-2017,Mujer,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",2
-2017,Mujer,65-69,Enfermedades isquémicas del corazón,3
-2017,Mujer,65-69,Tumor maligno de la mama de la mujer,2
-2017,Mujer,65-69,Diabetes Mellitus no especificada,1
-2017,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
-2017,Mujer,75-79,Diabetes no insulinodependiente,1
-2017,Mujer,85 y más,Enfermedades cerebrovasculares,1
-2017,Mujer,85 y más,Enfermedades isquémicas del corazón,1
-2017,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2017,Mujer,10-14,Paro cardiaco,1
-2017,Mujer,35-39,Tumor maligno de la mama de la mujer,1
-2017,Mujer,40-44,Enfermedades isquémicas del corazón,1
-2017,Mujer,40-44,Enfermedad hipertensiva,1
-2017,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2017,Mujer,45-49,Tumor maligno de la mama de la mujer,1
-2017,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2017,Hombre,50-54,Diabetes Mellitus no especificada,1
-2017,Hombre,55-59,Enfermedades cerebrovasculares,1
-2017,Hombre,55-59,Enfermedades isquémicas del corazón,3
-2017,Hombre,55-59,Tumor maligno de la próstata,1
-2017,Hombre,55-59,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2017,Hombre,55-59,Enfermedad hipertensiva,1
-2017,Hombre,60-64,Enfermedades cerebrovasculares,2
-2017,Hombre,60-64,Enfermedades isquémicas del corazón,2
-2017,Hombre,60-64,Tumor maligno de la próstata,1
-2017,Hombre,60-64,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2017,Hombre,60-64,Enfermedad hipertensiva,1
-2017,Hombre,65-69,Aneurisma aórtico,1
-2017,Hombre,65-69,Enfermedades isquémicas del corazón,2
-2017,Hombre,70-74,Enfermedades cerebrovasculares,3
-2017,Hombre,70-74,Diabetes Mellitus no especificada,1
-2017,Hombre,70-74,Enfermedad hipertensiva,1
-2017,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2017,Hombre,75-79,Enfermedad hipertensiva,1
-2017,Hombre,80-84,Tumor maligno de la próstata,1
-2017,Hombre,80-84,Diabetes no insulinodependiente,1
-2017,Hombre,85 y más,Enfermedades isquémicas del corazón,1
-2017,Hombre,85 y más,Insuficiencia cardíaca,1
-2017,Hombre,20-24,Tumor maligno del estómago,1
-2017,Hombre,25-29,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2017,Hombre,35-39,Enfermedad hipertensiva,1
-2017,Hombre,40-44,Enfermedades cerebrovasculares,1
-2017,Hombre,45-49,Enfermedades cerebrovasculares,1
-2017,Hombre,45-49,Enfermedades isquémicas del corazón,1
-2018,Mujer,50-54,Diabetes Mellitus no especificada,1
-2018,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2018,Mujer,50-54,Enfermedad hipertensiva,1
-2018,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2018,Mujer,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2018,Mujer,60-64,Diabetes Mellitus no especificada,1
-2018,Mujer,65-69,Tumor maligno de la mama de la mujer,1
-2018,Mujer,70-74,Tumor maligno de otras partes del útero,1
-2018,Mujer,70-74,Enfermedad hipertensiva,1
-2018,Mujer,75-79,Enfermedades cerebrovasculares,1
-2018,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2018,Mujer,80-84,Enfermedades cerebrovasculares,1
-2018,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2018,Mujer,80-84,Diabetes Mellitus no especificada,1
-2018,Mujer,85 y más,Enfermedades isquémicas del corazón,4
-2018,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2018,Mujer,20-24,Diabetes Mellitus no especificada,1
-2018,Mujer,40-44,Tumor maligno de la mama de la mujer,1
-2018,Mujer,40-44,Diabetes Mellitus no especificada,2
-2018,Hombre,50-54,Enfermedad hipertensiva,1
-2018,Hombre,55-59,Diabetes no insulinodependiente,1
-2018,Hombre,60-64,Diabetes no insulinodependiente,1
-2018,Hombre,65-69,Enfermedad hipertensiva,1
-2018,Hombre,70-74,Enfermedades isquémicas del corazón,1
-2018,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2018,Hombre,75-79,Aneurisma aórtico,1
-2018,Hombre,75-79,Enfermedades cerebrovasculares,1
-2018,Hombre,75-79,Enfermedades isquémicas del corazón,2
-2018,Hombre,75-79,Tumor maligno de la próstata,1
-2018,Hombre,75-79,Diabetes Mellitus no especificada,1
-2018,Hombre,80-84,Enfermedades isquémicas del corazón,2
-2018,Hombre,80-84,Tumor maligno de la próstata,1
-2018,Hombre,85 y más,Enfermedades cerebrovasculares,1
-2018,Hombre,85 y más,Diabetes no insulinodependiente,1
-2018,Hombre,85 y más,Enfermedad hipertensiva,1
-2018,Hombre,25-29,Trastornos mentales y del comportamiento,1
-2018,Hombre,35-39,Enfermedad hipertensiva,1
-2018,Hombre,40-44,Aneurisma aórtico,1
-2018,Hombre,40-44,Enfermedad renal crónica,1
-2018,Hombre,40-44,Enfermedades isquémicas del corazón,1
-2018,Hombre,45-49,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2018,Hombre,45-49,Enfermedad hipertensiva,1
-2019,Mujer,50-54,Tumor maligno del estómago,1
-2019,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2019,Mujer,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2019,Mujer,55-59,Tumor maligno de otras partes del útero,1
-2019,Mujer,55-59,Diabetes Mellitus no especificada,3
-2019,Mujer,60-64,Trastornos mentales y del comportamiento,1
-2019,Mujer,60-64,Tumor maligno del estómago,1
-2019,Mujer,60-64,Diabetes Mellitus no especificada,1
-2019,Mujer,60-64,Diabetes no insulinodependiente,1
-2019,Mujer,60-64,Enfermedad hipertensiva,1
-2019,Mujer,65-69,Enfermedad renal crónica,1
-2019,Mujer,70-74,Tumor maligno de otras partes del útero,1
-2019,Mujer,70-74,Tumor maligno del páncreas,1
-2019,Mujer,75-79,Enfermedad hipertensiva,1
-2019,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2019,Mujer,80-84,Enfermedad hipertensiva,1
-2019,Mujer,85 y más,Aneurisma aórtico,1
-2019,Mujer,85 y más,Enfermedades cerebrovasculares,1
-2019,Mujer,85 y más,Insuficiencia cardíaca,1
-2019,Mujer,85 y más,Trastornos mentales y del comportamiento,1
-2019,Mujer,40-44,Tumor maligno de la mama de la mujer,1
-2019,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2019,Mujer,45-49,Tumor maligno de la mama de la mujer,1
-2019,Hombre,55-59,Diabetes Mellitus no especificada,1
-2019,Hombre,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2019,Hombre,60-64,Diabetes Mellitus no especificada,1
-2019,Hombre,60-64,Enfermedad hipertensiva,1
-2019,Hombre,65-69,Enfermedad renal crónica,1
-2019,Hombre,65-69,Diabetes no insulinodependiente,1
-2019,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2019,Hombre,70-74,Tumor maligno de la próstata,1
-2019,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2019,Hombre,70-74,Tumor maligno del páncreas,1
-2019,Hombre,70-74,Diabetes Mellitus no especificada,1
-2019,Hombre,70-74,Enfermedad hipertensiva,2
-2019,Hombre,75-79,Enfermedades cerebrovasculares,1
-2019,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2019,Hombre,75-79,Tumor maligno del esófago,1
-2019,Hombre,75-79,Tumor maligno del estómago,2
-2019,Hombre,80-84,Insuficiencia cardíaca,1
-2019,Hombre,80-84,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2019,Hombre,80-84,Enfermedad hipertensiva,1
-2019,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2019,Hombre,85 y más,Enfermedades cerebrovasculares,2
-2019,Hombre,85 y más,Insuficiencia cardíaca,1
-2019,Hombre,35-39,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2019,Hombre,40-44,Enfermedad hipertensiva,1
-2019,Hombre,45-49,Enfermedades isquémicas del corazón,1
-2019,Hombre,45-49,Trastornos mentales y del comportamiento,1
-2019,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2019,Hombre,45-49,Enfermedad hipertensiva,1
-2002,Mujer,65-69,Enfermedad hipertensiva,1
-2002,Mujer,75-79,Diabetes Mellitus no especificada,1
-2002,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2002,Mujer,80-84,Enfermedad hipertensiva,1
-2002,Mujer,85 y más,Enfermedades isquémicas del corazón,1
-2002,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2002,Mujer,85 y más,Enfermedad hipertensiva,1
-2002,Mujer,30-34,Enfermedad hipertensiva,1
-2002,Mujer,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2002,Hombre,50-54,Enfermedad hipertensiva,1
-2002,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
-2002,Hombre,70-74,Enfermedad hipertensiva,1
-2002,Hombre,85 y más,Enfermedades cerebrovasculares,1
-2002,Hombre,85 y más,Enfermedad hipertensiva,1
-2020,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2020,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2020,Mujer,55-59,Enfermedades isquémicas del corazón,2
-2020,Mujer,60-64,Diabetes Mellitus no especificada,1
-2020,Mujer,65-69,Enfermedad hipertensiva,2
-2020,Mujer,75-79,Diabetes Mellitus no especificada,1
-2020,Mujer,80-84,Enfermedades isquémicas del corazón,3
-2020,Mujer,80-84,Trastornos mentales y del comportamiento,1
-2020,Mujer,85 y más,Enfermedades cerebrovasculares,1
-2020,Mujer,85 y más,Enfermedades isquémicas del corazón,2
-2020,Mujer,85 y más,Trastornos mentales y del comportamiento,1
-2020,Mujer,85 y más,Tumor maligno de la mama de la mujer,3
-2020,Mujer,85 y más,Tumor maligno de la vesícula biliar y de las vías biliares,1
-2020,Mujer,85 y más,Tumor maligno del hígado,1
-2020,Mujer,85 y más,Tumor maligno del ovario,1
-2020,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2020,Mujer,85 y más,Enfermedad hipertensiva,3
-2020,Mujer,40-44,Tumor maligno de la mama de la mujer,1
-2020,Mujer,40-44,Diabetes Mellitus no especificada,1
-2020,Mujer,45-49,Enfermedades isquémicas del corazón,2
-2020,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2020,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2020,Hombre,50-54,Diabetes Mellitus no especificada,1
-2020,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,2
-2020,Hombre,50-54,Enfermedad hipertensiva,1
-2020,Hombre,55-59,Aneurisma aórtico,1
-2020,Hombre,55-59,Diabetes Mellitus no especificada,1
-2020,Hombre,60-64,Aneurisma aórtico,1
-2020,Hombre,60-64,Enfermedades isquémicas del corazón,1
-2020,Hombre,60-64,Tumor maligno del páncreas,1
-2020,Hombre,65-69,Enfermedades isquémicas del corazón,5
-2020,Hombre,65-69,Diabetes Mellitus no especificada,1
-2020,Hombre,65-69,Enfermedad hipertensiva,1
-2020,Hombre,70-74,Enfermedades isquémicas del corazón,2
-2020,Hombre,70-74,Diabetes Mellitus no especificada,1
-2020,Hombre,70-74,Enfermedad hipertensiva,1
-2020,Hombre,75-79,Enfermedades cerebrovasculares,1
-2020,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2020,Hombre,80-84,Enfermedades isquémicas del corazón,2
-2020,Hombre,80-84,Diabetes Mellitus no especificada,2
-2020,Hombre,85 y más,Enfermedades isquémicas del corazón,2
-2020,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2020,Hombre,85 y más,Enfermedad hipertensiva,2
-2020,Hombre,35-39,Enfermedades isquémicas del corazón,1
-2020,Hombre,40-44,Aterosclerosis,1
-2020,Hombre,40-44,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2020,Hombre,45-49,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2020,Hombre,45-49,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2021,Mujer,50-54,Tumor maligno de otras partes del útero,1
-2021,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2021,Mujer,60-64,Enfermedades isquémicas del corazón,1
-2021,Mujer,60-64,Diabetes Mellitus no especificada,1
-2021,Mujer,65-69,Enfermedades isquémicas del corazón,1
-2021,Mujer,65-69,Tumor maligno del útero,1
-2021,Mujer,65-69,Diabetes Mellitus no especificada,2
-2021,Mujer,70-74,Tumor maligno de otras partes del útero,1
-2021,Mujer,75-79,Enfermedades cerebrovasculares,1
-2021,Mujer,75-79,Diabetes no insulinodependiente,1
-2021,Mujer,80-84,Enfermedades cerebrovasculares,1
-2021,Mujer,80-84,Enfermedades isquémicas del corazón,2
-2021,Mujer,80-84,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2021,Mujer,85 y más,Enfermedades cerebrovasculares,3
-2021,Mujer,85 y más,Enfermedades isquémicas del corazón,1
-2021,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2021,Mujer,85 y más,Enfermedad hipertensiva,2
-2021,Mujer,35-39,Enfermedades cerebrovasculares,1
-2021,Mujer,45-49,Tumor maligno de la mama de la mujer,1
-2021,Mujer,45-49,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2021,Mujer,45-49,Enfermedad hipertensiva,1
-2021,Hombre,55-59,Enfermedad renal crónica,1
-2021,Hombre,55-59,Enfermedades isquémicas del corazón,1
-2021,Hombre,55-59,Tumor maligno de la laringe,1
-2021,Hombre,55-59,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2021,Hombre,60-64,Enfermedades isquémicas del corazón,2
-2021,Hombre,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
-2021,Hombre,60-64,Enfermedad hipertensiva,2
-2021,Hombre,65-69,Enfermedades cerebrovasculares,1
-2021,Hombre,65-69,Enfermedades isquémicas del corazón,1
-2021,Hombre,65-69,Tumor maligno del esófago,1
-2021,Hombre,70-74,Enfermedades cerebrovasculares,2
-2021,Hombre,70-74,Enfermedades isquémicas del corazón,1
-2021,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2021,Hombre,70-74,Diabetes no insulinodependiente,1
-2021,Hombre,75-79,Tumor maligno de la próstata,1
-2021,Hombre,75-79,Diabetes Mellitus no especificada,1
-2021,Hombre,75-79,Enfermedad hipertensiva,1
-2021,Hombre,85 y más,Enfermedades cerebrovasculares,1
-2021,Hombre,85 y más,Insuficiencia cardíaca,2
-2021,Hombre,85 y más,Trastornos mentales y del comportamiento,1
-2021,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2021,Hombre,85 y más,Enfermedad hipertensiva,1
-2021,Hombre,10-14,Tumor maligno de la tiroides y otras glándulas endocrinas,1
-2021,Hombre,45-49,Diabetes no insulinodependiente,1
-2003,Mujer,50-54,Diabetes insulinodependiente,1
-2003,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2003,Mujer,65-69,Tumor maligno de la mama de la mujer,1
-2003,Mujer,65-69,Enfermedad hipertensiva,1
-2003,Mujer,70-74,Paro cardiaco,1
-2003,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2003,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2003,Mujer,75-79,Enfermedad hipertensiva,2
-2003,Mujer,80-84,Paro cardiaco,1
-2003,Mujer,80-84,Diabetes Mellitus no especificada,1
-2003,Mujer,80-84,Enfermedad hipertensiva,1
-2003,Mujer,85 y más,Paro cardiaco,4
-2003,Mujer,85 y más,Tumor maligno del útero,1
-2003,Mujer,30-34,Paro cardiaco,1
-2003,Mujer,40-44,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2003,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2003,Mujer,45-49,Tumor maligno del útero,1
-2003,Hombre,55-59,Enfermedades isquémicas del corazón,2
-2003,Hombre,55-59,Diabetes Mellitus no especificada,1
-2003,Hombre,60-64,Paro cardiaco,1
-2003,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2003,Hombre,80-84,Diabetes Mellitus no especificada,1
-2003,Hombre,85 y más,Insuficiencia cardíaca,1
-2003,Hombre,85 y más,Paro cardiaco,1
-2003,Hombre,85 y más,Diabetes no insulinodependiente,1
-2003,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1
-2004,Mujer,50-54,Diabetes insulinodependiente,1
-2004,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2004,Mujer,65-69,Tumor maligno de la mama de la mujer,1
-2004,Mujer,65-69,Enfermedad hipertensiva,1
-2004,Mujer,70-74,Paro cardiaco,1
-2004,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2004,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2004,Mujer,75-79,Enfermedad hipertensiva,2
-2004,Mujer,80-84,Paro cardiaco,1
-2004,Mujer,80-84,Diabetes Mellitus no especificada,1
-2004,Mujer,80-84,Enfermedad hipertensiva,1
-2004,Mujer,85 y más,Paro cardiaco,4
-2004,Mujer,85 y más,Tumor maligno del útero,1
-2004,Mujer,30-34,Paro cardiaco,1
-2004,Mujer,40-44,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2004,Mujer,45-49,Enfermedades isquémicas del corazón,1
-2004,Mujer,45-49,Tumor maligno del útero,1
-2004,Hombre,55-59,Enfermedades isquémicas del corazón,2
-2004,Hombre,55-59,Diabetes Mellitus no especificada,1
-2004,Hombre,60-64,Paro cardiaco,1
-2004,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2004,Hombre,80-84,Diabetes Mellitus no especificada,1
-2004,Hombre,85 y más,Insuficiencia cardíaca,1
-2004,Hombre,85 y más,Paro cardiaco,1
-2004,Hombre,85 y más,Diabetes no insulinodependiente,1
-2004,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1
-2005,Mujer,50-54,Enfermedad renal crónica,1
-2005,Mujer,50-54,Paro cardiaco,1
-2005,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
-2005,Mujer,75-79,Tumor maligno del útero,1
-2005,Mujer,75-79,Diabetes insulinodependiente,1
-2005,Mujer,80-84,Enfermedad hipertensiva,1
-2005,Mujer,85 y más,Paro cardiaco,3
-2005,Mujer,30-34,Enfermedad hipertensiva,1
-2005,Hombre,60-64,Enfermedad hipertensiva,1
-2005,Hombre,70-74,Paro cardiaco,1
-2005,Hombre,80-84,Tumor maligno de la próstata,1
-2005,Hombre,80-84,Enfermedad hipertensiva,1
-2005,Hombre,85 y más,Insuficiencia cardíaca,1
-2005,Hombre,85 y más,Paro cardiaco,2
-2005,Hombre,85 y más,Tumor maligno de la próstata,1
-2005,Hombre,40-44,Enfermedad hipertensiva,1
-2006,Mujer,0-4,Insuficiencia cardíaca,1
-2006,Mujer,65-69,Diabetes no insulinodependiente,1
-2006,Mujer,70-74,Enfermedades crónicas de las vías respiratorias inferiores,1
-2006,Mujer,70-74,Tumor maligno de la mama de la mujer,1
-2006,Mujer,75-79,Enfermedades isquémicas del corazón,1
-2006,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
-2006,Mujer,75-79,Diabetes Mellitus no especificada,2
-2006,Mujer,80-84,Paro cardiaco,1
-2006,Mujer,80-84,Diabetes Mellitus no especificada,1
-2006,Mujer,80-84,Diabetes no insulinodependiente,1
-2006,Mujer,80-84,Enfermedad hipertensiva,1
-2006,Mujer,85 y más,Paro cardiaco,2
-2006,Mujer,85 y más,Diabetes no insulinodependiente,1
-2006,Mujer,85 y más,Enfermedad hipertensiva,1
-2006,Mujer,35-39,Tumor maligno de otras partes del útero,2
-2006,Hombre,0-4,Paro cardiaco,1
-2006,Hombre,65-69,Diabetes Mellitus no especificada,1
-2006,Hombre,70-74,Tumor maligno de la próstata,1
-2006,Hombre,70-74,Enfermedad hipertensiva,1
-2006,Hombre,75-79,Diabetes Mellitus no especificada,1
-2006,Hombre,80-84,Enfermedades cerebrovasculares,1
-2006,Hombre,80-84,Enfermedad hipertensiva,1
-2006,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2006,Hombre,85 y más,Diabetes Mellitus no especificada,1
-2006,Hombre,20-24,Enfermedades cerebrovasculares,1
-2006,Hombre,35-39,Enfermedad hipertensiva,1
-2006,Hombre,40-44,Enfermedades isquémicas del corazón,1
-2006,Hombre,40-44,Tumor maligno del estómago,1
-2006,Hombre,40-44,Enfermedad hipertensiva,1
-2006,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1
-2006,Hombre,45-49,Enfermedad hipertensiva,1
-2007,Mujer,70-74,Enfermedad hipertensiva,1
-2007,Mujer,80-84,Enfermedad hipertensiva,2
-2007,Mujer,85 y más,Paro cardiaco,1
-2007,Hombre,50-54,Enfermedad renal crónica,1
-2007,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2007,Hombre,50-54,Enfermedad hipertensiva,1
-2007,Hombre,55-59,Enfermedad hipertensiva,1
-2007,Hombre,60-64,Enfermedades isquémicas del corazón,1
-2007,Hombre,65-69,Ciertas enfermedades crónicas del hígado y cirrosis,1
-2007,Hombre,70-74,Enfermedad hipertensiva,1
-2007,Hombre,75-79,Tumor maligno del esófago,1
-2007,Hombre,75-79,Enfermedad hipertensiva,1
-2007,Hombre,80-84,Enfermedad hipertensiva,1
-2007,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
-2007,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
-2007,Hombre,85 y más,Enfermedad hipertensiva,1
-2008,Mujer,55-59,Enfermedades isquémicas del corazón,1
-2008,Mujer,55-59,Diabetes no insulinodependiente,1
-2008,Mujer,60-64,Paro cardiaco,1
-2008,Mujer,70-74,Paro cardiaco,1
-2008,Mujer,70-74,Tumor maligno de otras partes del útero,1
-2008,Mujer,70-74,Enfermedad hipertensiva,1
-2008,Mujer,75-79,Enfermedad hipertensiva,1
-2008,Mujer,80-84,Tumor maligno del estómago,1
-2008,Mujer,85 y más,Enfermedades isquémicas del corazón,2
-2008,Mujer,85 y más,Paro cardiaco,3
-2008,Mujer,85 y más,Deficiencias nutricionales,1
-2008,Mujer,85 y más,Enfermedad hipertensiva,2
-2008,Hombre,55-59,Enfermedades isquémicas del corazón,1
-2008,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2008,Hombre,65-69,Enfermedades crónicas de las vías respiratorias inferiores,1
-2008,Hombre,65-69,Tumor maligno del hígado,1
-2008,Hombre,75-79,Enfermedades isquémicas del corazón,1
-2008,Hombre,75-79,Paro cardiaco,2
-2008,Hombre,85 y más,Enfermedad renal crónica,1
-2008,Hombre,85 y más,Paro cardiaco,1
-2008,Hombre,85 y más,Tumor maligno del estómago,1
-2008,Hombre,85 y más,Enfermedad hipertensiva,1
-2008,Hombre,45-49,Aneurisma aórtico,1
-2009,Mujer,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1
-2009,Mujer,50-54,Tumor maligno del ovario,1
-2009,Mujer,55-59,Tumor maligno del estómago,1
-2009,Mujer,65-69,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2009,Mujer,65-69,Enfermedad hipertensiva,1
-2009,Mujer,80-84,Enfermedades isquémicas del corazón,1
-2009,Mujer,85 y más,Paro cardiaco,1
-2009,Mujer,85 y más,Tumor maligno de otras partes del útero,1
-2009,Mujer,85 y más,Diabetes Mellitus no especificada,1
-2009,Mujer,25-29,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
-2009,Mujer,35-39,Enfermedad hipertensiva,1
-2009,Hombre,50-54,Enfermedades isquémicas del corazón,1
-2009,Hombre,50-54,Aterosclerosis,1
-2009,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1
-2009,Hombre,60-64,Enfermedad hipertensiva,1
-2009,Hombre,75-79,Tumor maligno de la próstata,1
-2009,Hombre,75-79,Enfermedad hipertensiva,1
-2009,Hombre,80-84,Enfermedades isquémicas del corazón,1
-2009,Hombre,80-84,Paro cardiaco,1
-2009,Hombre,80-84,Tumor maligno de la vejiga urinaria,1
-2009,Hombre,85 y más,Enfermedad hipertensiva,1
-2009,Hombre,15-19,Aneurisma aórtico,1
-2009,Hombre,20-24,Lesiones autoinfligidas intencionalmente (suicidios),1
-2009,Hombre,25-29,Enfermedades isquémicas del corazón,1
-2009,Hombre,40-44,Enfermedad hipertensiva,1
-2009,Hombre,45-49,Enfermedad hipertensiva,1
+﻿anio,sexo,grupo_edad,causa,defunciones,poblacion
+2000,Mujer,55-59,Ciertas enfermedades crónicas del hígado y cirrosis,1,208
+2000,Mujer,55-59,Enfermedad hipertensiva,2,208
+2000,Mujer,60-64,Diabetes Mellitus no especificada,1,147
+2000,Mujer,65-69,Enfermedades isquémicas del corazón,1,131
+2000,Mujer,65-69,Tumor maligno del estómago,1,131
+2000,Mujer,65-69,Enfermedad hipertensiva,1,131
+2000,Mujer,70-74,Diabetes Mellitus no especificada,1,97
+2000,Mujer,75-79,Enfermedad hipertensiva,2,93
+2000,Mujer,80-84,Enfermedad renal crónica,1,51
+2000,Mujer,80-84,Enfermedad hipertensiva,2,51
+2000,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,26
+2000,Mujer,85 y más,Enfermedades isquémicas del corazón,1,26
+2000,Mujer,85 y más,Enfermedad hipertensiva,1,26
+2000,Mujer,40-44,Enfermedades cerebrovasculares,1,663
+2000,Mujer,45-49,Enfermedades cerebrovasculares,1,500
+2000,Hombre,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1,403
+2000,Hombre,50-54,Enfermedades isquémicas del corazón,1,403
+2000,Hombre,55-59,Tumor maligno del hígado,1,267
+2000,Hombre,55-59,Enfermedad hipertensiva,1,267
+2000,Hombre,60-64,Enfermedades isquémicas del corazón,2,155
+2000,Hombre,60-64,Enfermedad hipertensiva,1,155
+2000,Hombre,65-69,Trastornos mentales y del comportamiento,1,130
+2000,Hombre,65-69,Tumor maligno de la tiroides y otras glándulas endocrinas,1,130
+2000,Hombre,65-69,Tumor maligno de los huesos y de los cartílagos articulares,1,130
+2000,Hombre,65-69,Enfermedad hipertensiva,1,130
+2000,Hombre,70-74,Tumor maligno del páncreas,1,81
+2000,Hombre,80-84,Enfermedad hipertensiva,1,49
+2000,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,29
+2000,Hombre,85 y más,Tumor maligno de la próstata,1,29
+2000,Hombre,85 y más,Enfermedad hipertensiva,1,29
+2000,Hombre,30-34,Enfermedad hipertensiva,1,1107
+2000,Hombre,40-44,Tumor maligno de la tiroides y otras glándulas endocrinas,1,735
+2001,Mujer,60-64,Enfermedades isquémicas del corazón,1,159
+2001,Mujer,65-69,Enfermedades isquémicas del corazón,1,127
+2001,Mujer,65-69,Diabetes Mellitus no especificada,1,127
+2001,Mujer,70-74,Enfermedades cerebrovasculares,2,106
+2001,Mujer,70-74,Paro cardiaco,1,106
+2001,Mujer,70-74,Tumor maligno del útero,1,106
+2001,Mujer,70-74,Diabetes Mellitus no especificada,1,106
+2001,Mujer,75-79,Enfermedades isquémicas del corazón,1,94
+2001,Mujer,75-79,Tumor maligno del útero,1,94
+2001,Mujer,75-79,Enfermedad hipertensiva,1,94
+2001,Mujer,80-84,Enfermedad hipertensiva,1,55
+2001,Mujer,85 y más,Diabetes Mellitus no especificada,1,28
+2001,Mujer,85 y más,Enfermedad hipertensiva,1,28
+2001,Hombre,60-64,Enfermedades isquémicas del corazón,1,165
+2001,Hombre,65-69,Diabetes Mellitus no especificada,1,130
+2001,Hombre,80-84,Insuficiencia cardíaca,1,52
+2001,Hombre,85 y más,Enfermedades cerebrovasculares,2,35
+2001,Hombre,85 y más,Enfermedad hipertensiva,1,35
+2001,Hombre,40-44,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,803
+2010,Mujer,50-54,Enfermedades isquémicas del corazón,1,860
+2010,Mujer,55-59,Enfermedades crónicas de las vías respiratorias inferiores,1,700
+2010,Mujer,55-59,Enfermedades isquémicas del corazón,1,700
+2010,Mujer,60-64,Enfermedades isquémicas del corazón,1,443
+2010,Mujer,70-74,Aneurisma aórtico,1,230
+2010,Mujer,70-74,Enfermedades cerebrovasculares,1,230
+2010,Mujer,70-74,Tumor maligno de la mama de la mujer,1,230
+2010,Mujer,70-74,Diabetes Mellitus no especificada,1,230
+2010,Mujer,75-79,Enfermedad hipertensiva,2,187
+2010,Mujer,80-84,Enfermedades cerebrovasculares,1,175
+2010,Mujer,80-84,Enfermedades isquémicas del corazón,1,175
+2010,Mujer,80-84,Enfermedad hipertensiva,1,175
+2010,Mujer,85 y más,Enfermedades cerebrovasculares,2,132
+2010,Mujer,85 y más,Enfermedades isquémicas del corazón,2,132
+2010,Mujer,85 y más,Paro cardiaco,1,132
+2010,Mujer,85 y más,Diabetes no insulinodependiente,1,132
+2010,Mujer,85 y más,Enfermedad hipertensiva,4,132
+2010,Mujer,35-39,Aneurisma aórtico,1,1424
+2010,Mujer,35-39,Enfermedades cerebrovasculares,1,1424
+2010,Mujer,40-44,Enfermedades cerebrovasculares,1,1234
+2010,Hombre,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1,927
+2010,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1,927
+2010,Hombre,55-59,Lesiones autoinfligidas intencionalmente (suicidios),1,689
+2010,Hombre,55-59,Diabetes Mellitus no especificada,1,689
+2010,Hombre,60-64,Paro cardiaco,1,465
+2010,Hombre,60-64,Diabetes Mellitus no especificada,1,465
+2010,Hombre,75-79,Enfermedades isquémicas del corazón,1,210
+2010,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1,210
+2010,Hombre,75-79,Diabetes Mellitus no especificada,1,210
+2010,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,77
+2010,Hombre,85 y más,Enfermedades cerebrovasculares,1,77
+2010,Hombre,85 y más,Tumor maligno de la vejiga urinaria,1,77
+2010,Hombre,85 y más,Diabetes no insulinodependiente,1,77
+2010,Hombre,35-39,Enfermedades crónicas de las vías respiratorias inferiores,1,1609
+2010,Hombre,35-39,"Tumor maligno de la tráquea, bronquios y pulmón",1,1609
+2010,Hombre,35-39,Ciertas enfermedades crónicas del hígado y cirrosis,1,1609
+2010,Hombre,35-39,Enfermedad hipertensiva,1,1609
+2010,Hombre,45-49,Enfermedades isquémicas del corazón,1,1212
+2010,Hombre,45-49,Trastornos mentales y del comportamiento,1,1212
+2011,Mujer,50-54,Enfermedades isquémicas del corazón,3,929
+2011,Mujer,55-59,Diabetes Mellitus no especificada,1,747
+2011,Mujer,55-59,Enfermedad hipertensiva,1,747
+2011,Mujer,60-64,Enfermedades isquémicas del corazón,1,524
+2011,Mujer,60-64,Tumor maligno de la mama de la mujer,1,524
+2011,Mujer,65-69,Enfermedades cerebrovasculares,1,322
+2011,Mujer,65-69,Tumor maligno del ovario,1,322
+2011,Mujer,70-74,Diabetes no insulinodependiente,2,253
+2011,Mujer,75-79,Diabetes Mellitus no especificada,2,199
+2011,Mujer,75-79,Diabetes no insulinodependiente,2,199
+2011,Mujer,75-79,Enfermedad hipertensiva,2,199
+2011,Mujer,80-84,Enfermedad renal crónica,1,183
+2011,Mujer,80-84,Enfermedades cerebrovasculares,1,183
+2011,Mujer,80-84,Enfermedades isquémicas del corazón,1,183
+2011,Mujer,80-84,Diabetes no insulinodependiente,1,183
+2011,Mujer,85 y más,Enfermedades cerebrovasculares,3,164
+2011,Mujer,85 y más,Enfermedades isquémicas del corazón,2,164
+2011,Mujer,85 y más,Insuficiencia cardíaca,1,164
+2011,Mujer,85 y más,Enfermedad hipertensiva,2,164
+2011,Mujer,30-34,Enfermedad hipertensiva,1,1479
+2011,Mujer,40-44,Enfermedades cerebrovasculares,1,1293
+2011,Mujer,45-49,Enfermedades cerebrovasculares,1,1156
+2011,Mujer,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1156
+2011,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1,1034
+2011,Hombre,55-59,Enfermedades cerebrovasculares,2,722
+2011,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,722
+2011,Hombre,60-64,Enfermedades cerebrovasculares,1,513
+2011,Hombre,60-64,Insuficiencia cardíaca,1,513
+2011,Hombre,60-64,Diabetes Mellitus no especificada,1,513
+2011,Hombre,65-69,Enfermedades cerebrovasculares,1,339
+2011,Hombre,65-69,Enfermedades isquémicas del corazón,1,339
+2011,Hombre,65-69,Tumor maligno de la próstata,1,339
+2011,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,198
+2011,Hombre,75-79,Enfermedades isquémicas del corazón,1,216
+2011,Hombre,80-84,Enfermedades isquémicas del corazón,1,146
+2011,Hombre,80-84,Trastornos mentales y del comportamiento,1,146
+2011,Hombre,80-84,Tumor maligno de la próstata,2,146
+2011,Hombre,85 y más,Enfermedad hipertensiva,1,95
+2011,Hombre,10-14,Deficiencias nutricionales,1,1128
+2011,Hombre,40-44,Tumor maligno de la tiroides y otras glándulas endocrinas,1,1553
+2011,Hombre,40-44,Diabetes no insulinodependiente,1,1553
+2011,Hombre,45-49,Enfermedades cerebrovasculares,1,1235
+2011,Sin dato,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,
+2011,Sin dato,Sin dato,Tumor maligno de la mama de la mujer,1,
+2012,Mujer,60-64,Enfermedades isquémicas del corazón,1,611
+2012,Mujer,60-64,Tumor maligno del ovario,1,611
+2012,Mujer,65-69,Enfermedades cerebrovasculares,2,349
+2012,Mujer,65-69,Tumor maligno de la mama de la mujer,1,349
+2012,Mujer,65-69,Tumor maligno de la vejiga urinaria,1,349
+2012,Mujer,70-74,Tumor maligno de la mama de la mujer,1,282
+2012,Mujer,75-79,Insuficiencia cardíaca,1,219
+2012,Mujer,80-84,Enfermedad renal crónica,1,187
+2012,Mujer,80-84,Enfermedades cerebrovasculares,1,187
+2012,Mujer,85 y más,Enfermedades cerebrovasculares,1,195
+2012,Mujer,85 y más,Insuficiencia cardíaca,2,195
+2012,Mujer,85 y más,Paro cardiaco,3,195
+2012,Mujer,85 y más,Diabetes Mellitus no especificada,1,195
+2012,Mujer,85 y más,Enfermedad hipertensiva,2,195
+2012,Mujer,35-39,Enfermedades isquémicas del corazón,1,1502
+2012,Mujer,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1376
+2012,Mujer,45-49,Enfermedades isquémicas del corazón,1,1210
+2012,Hombre,50-54,Enfermedades isquémicas del corazón,2,1144
+2012,Hombre,55-59,Enfermedades isquémicas del corazón,3,758
+2012,Hombre,55-59,Paro cardiaco,1,758
+2012,Hombre,55-59,Diabetes Mellitus no especificada,1,758
+2012,Hombre,60-64,Enfermedades isquémicas del corazón,1,572
+2012,Hombre,60-64,Aterosclerosis,1,572
+2012,Hombre,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",1,572
+2012,Hombre,65-69,Aneurisma aórtico,1,376
+2012,Hombre,65-69,Enfermedades isquémicas del corazón,2,376
+2012,Hombre,65-69,Tumor maligno del estómago,1,376
+2012,Hombre,70-74,Enfermedades isquémicas del corazón,3,228
+2012,Hombre,70-74,Paro cardiaco,1,228
+2012,Hombre,70-74,Enfermedad hipertensiva,1,228
+2012,Hombre,75-79,Enfermedades cerebrovasculares,1,211
+2012,Hombre,75-79,Enfermedades isquémicas del corazón,2,211
+2012,Hombre,75-79,Tumor maligno de la próstata,1,211
+2012,Hombre,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,170
+2012,Hombre,80-84,Enfermedades isquémicas del corazón,3,170
+2012,Hombre,80-84,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,170
+2012,Hombre,80-84,Enfermedad hipertensiva,1,170
+2012,Hombre,85 y más,Enfermedades cerebrovasculares,1,109
+2012,Hombre,85 y más,Enfermedades isquémicas del corazón,1,109
+2012,Hombre,85 y más,Paro cardiaco,1,109
+2012,Hombre,85 y más,Enfermedad hipertensiva,1,109
+2012,Hombre,20-24,Paro cardiaco,1,860
+2012,Hombre,45-49,Enfermedades cerebrovasculares,1,1279
+2012,Hombre,45-49,Enfermedades isquémicas del corazón,1,1279
+2013,Mujer,50-54,Enfermedades isquémicas del corazón,1,1079
+2013,Mujer,50-54,Tumor maligno de la mama de la mujer,1,1079
+2013,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,1079
+2013,Mujer,55-59,Enfermedades isquémicas del corazón,1,854
+2013,Mujer,55-59,Insuficiencia cardíaca,1,854
+2013,Mujer,55-59,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,854
+2013,Mujer,60-64,Enfermedades cerebrovasculares,1,688
+2013,Mujer,65-69,Enfermedades isquémicas del corazón,1,388
+2013,Mujer,65-69,Melanoma y otros tumores malignos de la piel,1,388
+2013,Mujer,65-69,"Tumor maligno de la tráquea, bronquios y pulmón",1,388
+2013,Mujer,65-69,Tumor maligno del útero,1,388
+2013,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,309
+2013,Mujer,70-74,Enfermedades isquémicas del corazón,1,309
+2013,Mujer,75-79,Enfermedades isquémicas del corazón,1,243
+2013,Mujer,75-79,Tumor maligno del esófago,1,243
+2013,Mujer,75-79,Diabetes Mellitus no especificada,1,243
+2013,Mujer,75-79,Diabetes no insulinodependiente,1,243
+2013,Mujer,80-84,Enfermedades cerebrovasculares,1,194
+2013,Mujer,80-84,Trastornos mentales y del comportamiento,1,194
+2013,Mujer,80-84,Diabetes no insulinodependiente,1,194
+2013,Mujer,85 y más,Enfermedades isquémicas del corazón,1,215
+2013,Mujer,85 y más,Trastornos mentales y del comportamiento,1,215
+2013,Mujer,85 y más,Tumor maligno de la mama de la mujer,1,215
+2013,Mujer,85 y más,Diabetes Mellitus no especificada,1,215
+2013,Mujer,85 y más,Enfermedad hipertensiva,1,215
+2013,Mujer,30-34,Enfermedad renal crónica,1,1568
+2013,Mujer,40-44,Enfermedades cerebrovasculares,1,1467
+2013,Hombre,50-54,Enfermedades isquémicas del corazón,1,1237
+2013,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,813
+2013,Hombre,55-59,Enfermedades isquémicas del corazón,2,813
+2013,Hombre,60-64,Enfermedades isquémicas del corazón,1,637
+2013,Hombre,60-64,Paro cardiaco,1,637
+2013,Hombre,60-64,Tumor maligno del hígado,1,637
+2013,Hombre,65-69,Enfermedades cerebrovasculares,1,411
+2013,Hombre,65-69,Enfermedades isquémicas del corazón,1,411
+2013,Hombre,65-69,Diabetes Mellitus no especificada,1,411
+2013,Hombre,70-74,Enfermedades isquémicas del corazón,2,265
+2013,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1,265
+2013,Hombre,75-79,Enfermedades cerebrovasculares,1,207
+2013,Hombre,75-79,Enfermedades isquémicas del corazón,2,207
+2013,Hombre,80-84,Enfermedades isquémicas del corazón,2,191
+2013,Hombre,80-84,Trastornos mentales y del comportamiento,1,191
+2013,Hombre,80-84,Tumor maligno de la próstata,2,191
+2013,Hombre,80-84,Diabetes Mellitus no especificada,1,191
+2013,Hombre,85 y más,Enfermedades isquémicas del corazón,2,119
+2013,Hombre,85 y más,Paro cardiaco,1,119
+2013,Hombre,85 y más,Diabetes Mellitus no especificada,1,119
+2013,Hombre,85 y más,Enfermedad hipertensiva,1,119
+2013,Sin dato,Sin dato,Enfermedades cerebrovasculares,1,
+2014,Mujer,50-54,Enfermedades cerebrovasculares,1,1158
+2014,Mujer,50-54,Tumor maligno del útero,1,1158
+2014,Mujer,50-54,Diabetes Mellitus no especificada,3,1158
+2014,Mujer,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,912
+2014,Mujer,60-64,Enfermedades cerebrovasculares,1,748
+2014,Mujer,70-74,Enfermedades cerebrovasculares,1,329
+2014,Mujer,75-79,Enfermedades isquémicas del corazón,1,263
+2014,Mujer,85 y más,Enfermedades isquémicas del corazón,3,233
+2014,Mujer,85 y más,Aterosclerosis,1,233
+2014,Mujer,85 y más,Enfermedad hipertensiva,1,233
+2014,Mujer,45-49,Enfermedades isquémicas del corazón,1,1317
+2014,Hombre,50-54,Enfermedades cerebrovasculares,1,1293
+2014,Hombre,50-54,Enfermedad hipertensiva,1,1293
+2014,Hombre,55-59,Enfermedades isquémicas del corazón,1,894
+2014,Hombre,60-64,Diabetes Mellitus no especificada,1,693
+2014,Hombre,65-69,Enfermedades isquémicas del corazón,2,448
+2014,Hombre,65-69,Diabetes Mellitus no especificada,1,448
+2014,Hombre,70-74,Enfermedades isquémicas del corazón,1,295
+2014,Hombre,75-79,Enfermedades isquémicas del corazón,2,211
+2014,Hombre,75-79,Paro cardiaco,1,211
+2014,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1,211
+2014,Hombre,80-84,Enfermedades isquémicas del corazón,1,206
+2014,Hombre,80-84,Tumor maligno de la próstata,1,206
+2014,Hombre,80-84,Tumor maligno del páncreas,1,206
+2014,Hombre,85 y más,Enfermedades isquémicas del corazón,2,129
+2014,Hombre,85 y más,"Tumor maligno de la tráquea, bronquios y pulmón",1,129
+2014,Hombre,85 y más,Enfermedad hipertensiva,1,129
+2014,Hombre,30-34,Enfermedades isquémicas del corazón,1,1713
+2014,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1,1882
+2014,Hombre,40-44,Enfermedades isquémicas del corazón,1,1780
+2014,Hombre,45-49,Tumor maligno del estómago,1,1472
+2015,Mujer,50-54,Tumor maligno de la mama de la mujer,1,1241
+2015,Mujer,60-64,Enfermedades isquémicas del corazón,2,796
+2015,Mujer,60-64,Diabetes Mellitus no especificada,1,796
+2015,Mujer,65-69,Insuficiencia cardíaca,1,512
+2015,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,1,512
+2015,Mujer,70-74,Enfermedades isquémicas del corazón,1,358
+2015,Mujer,70-74,Tumor maligno de la mama de la mujer,1,358
+2015,Mujer,70-74,Tumor maligno de otras partes del útero,1,358
+2015,Mujer,70-74,Enfermedad hipertensiva,1,358
+2015,Mujer,75-79,Enfermedad hipertensiva,2,282
+2015,Mujer,80-84,Enfermedades isquémicas del corazón,1,221
+2015,Mujer,80-84,Diabetes no insulinodependiente,1,221
+2015,Mujer,80-84,Enfermedad hipertensiva,1,221
+2015,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,249
+2015,Mujer,85 y más,Enfermedades isquémicas del corazón,2,249
+2015,Mujer,85 y más,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,249
+2015,Mujer,85 y más,Diabetes no insulinodependiente,1,249
+2015,Mujer,85 y más,Enfermedad hipertensiva,1,249
+2015,Mujer,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1702
+2015,Mujer,40-44,Enfermedades cerebrovasculares,1,1605
+2015,Mujer,40-44,Enfermedades isquémicas del corazón,1,1605
+2015,Mujer,40-44,Lesiones autoinfligidas intencionalmente (suicidios),1,1605
+2015,Hombre,50-54,Enfermedades isquémicas del corazón,1,1331
+2015,Hombre,50-54,"Tumor maligno de la tráquea, bronquios y pulmón",1,1331
+2015,Hombre,55-59,Enfermedades isquémicas del corazón,1,1002
+2015,Hombre,55-59,Tumor maligno de la próstata,1,1002
+2015,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,1002
+2015,Hombre,55-59,Tumor maligno del estómago,1,1002
+2015,Hombre,60-64,Aterosclerosis,1,733
+2015,Hombre,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,733
+2015,Hombre,60-64,Tumor maligno del estómago,1,733
+2015,Hombre,60-64,Diabetes Mellitus no especificada,1,733
+2015,Hombre,60-64,Enfermedad hipertensiva,1,733
+2015,Hombre,65-69,Enfermedades isquémicas del corazón,1,488
+2015,Hombre,65-69,Diabetes no insulinodependiente,1,488
+2015,Hombre,65-69,Enfermedad hipertensiva,1,488
+2015,Hombre,70-74,Enfermedades isquémicas del corazón,2,331
+2015,Hombre,70-74,Diabetes Mellitus no especificada,1,331
+2015,Hombre,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",1,226
+2015,Hombre,75-79,Diabetes no insulinodependiente,1,226
+2015,Hombre,80-84,Enfermedades cerebrovasculares,1,213
+2015,Hombre,80-84,Enfermedades isquémicas del corazón,2,213
+2015,Hombre,80-84,Trastornos mentales y del comportamiento,1,213
+2015,Hombre,80-84,Enfermedad hipertensiva,1,213
+2015,Hombre,85 y más,Enfermedades isquémicas del corazón,2,142
+2015,Hombre,85 y más,Enfermedad hipertensiva,1,142
+2015,Hombre,35-39,Enfermedades cerebrovasculares,1,1943
+2015,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1,1943
+2015,Hombre,35-39,Enfermedad hipertensiva,1,1943
+2015,Hombre,45-49,Enfermedades isquémicas del corazón,2,1597
+2015,Hombre,45-49,Enfermedad hipertensiva,1,1597
+2016,Mujer,55-59,Enfermedades isquémicas del corazón,1,1071
+2016,Mujer,55-59,Tumor maligno del páncreas,1,1071
+2016,Mujer,60-64,Enfermedades isquémicas del corazón,1,848
+2016,Mujer,60-64,Tumor maligno de la mama de la mujer,1,848
+2016,Mujer,65-69,Enfermedades isquémicas del corazón,2,595
+2016,Mujer,75-79,Tumor maligno de la mama de la mujer,1,308
+2016,Mujer,75-79,Tumor maligno del útero,1,308
+2016,Mujer,75-79,Enfermedad hipertensiva,1,308
+2016,Mujer,80-84,Insuficiencia cardíaca,1,237
+2016,Mujer,80-84,Diabetes Mellitus no especificada,1,237
+2016,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,1,237
+2016,Mujer,85 y más,Enfermedades isquémicas del corazón,6,261
+2016,Mujer,85 y más,Diabetes Mellitus no especificada,2,261
+2016,Mujer,85 y más,Diabetes no insulinodependiente,1,261
+2016,Mujer,85 y más,Enfermedad hipertensiva,2,261
+2016,Mujer,15-19,Enfermedades crónicas de las vías respiratorias inferiores,1,1359
+2016,Mujer,30-34,Tumor maligno del útero,1,1627
+2016,Mujer,35-39,Tumor maligno de la mama de la mujer,1,1781
+2016,Mujer,40-44,Enfermedad hipertensiva,1,1653
+2016,Hombre,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,1129
+2016,Hombre,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,1365
+2016,Hombre,50-54,Tumor maligno del esófago,1,1365
+2016,Hombre,55-59,Enfermedades isquémicas del corazón,1,1115
+2016,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,1115
+2016,Hombre,55-59,Enfermedad hipertensiva,2,1115
+2016,Hombre,60-64,Enfermedad hipertensiva,1,768
+2016,Hombre,65-69,Enfermedades isquémicas del corazón,1,536
+2016,Hombre,65-69,Diabetes no insulinodependiente,2,536
+2016,Hombre,70-74,Enfermedades isquémicas del corazón,1,374
+2016,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,374
+2016,Hombre,70-74,Diabetes no insulinodependiente,1,374
+2016,Hombre,75-79,Insuficiencia cardíaca,1,250
+2016,Hombre,80-84,Enfermedades cerebrovasculares,1,216
+2016,Hombre,80-84,Enfermedades isquémicas del corazón,1,216
+2016,Hombre,80-84,Tumor maligno de la próstata,2,216
+2016,Hombre,80-84,Enfermedad hipertensiva,1,216
+2016,Hombre,85 y más,Enfermedades cerebrovasculares,2,160
+2016,Hombre,85 y más,Aterosclerosis,1,160
+2016,Hombre,85 y más,Tumor maligno de la próstata,1,160
+2016,Hombre,85 y más,Enfermedad hipertensiva,1,160
+2016,Hombre,35-39,Diabetes Mellitus no especificada,1,2013
+2017,Mujer,5-9,Tumor maligno del estómago,1,1219
+2017,Mujer,50-54,Tumor maligno de la mama de la mujer,2,1375
+2017,Mujer,50-54,"Tumor maligno de la tráquea, bronquios y pulmón",1,1375
+2017,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,1375
+2017,Mujer,50-54,Diabetes no insulinodependiente,1,1375
+2017,Mujer,55-59,Enfermedades isquémicas del corazón,1,1148
+2017,Mujer,55-59,Tumor maligno de la mama de la mujer,1,1148
+2017,Mujer,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",2,904
+2017,Mujer,65-69,Enfermedades isquémicas del corazón,3,678
+2017,Mujer,65-69,Tumor maligno de la mama de la mujer,2,678
+2017,Mujer,65-69,Diabetes Mellitus no especificada,1,678
+2017,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2,336
+2017,Mujer,75-79,Diabetes no insulinodependiente,1,336
+2017,Mujer,85 y más,Enfermedades cerebrovasculares,1,273
+2017,Mujer,85 y más,Enfermedades isquémicas del corazón,1,273
+2017,Mujer,85 y más,Diabetes Mellitus no especificada,1,273
+2017,Mujer,10-14,Paro cardiaco,1,1283
+2017,Mujer,35-39,Tumor maligno de la mama de la mujer,1,1839
+2017,Mujer,40-44,Enfermedades isquémicas del corazón,1,1693
+2017,Mujer,40-44,Enfermedad hipertensiva,1,1693
+2017,Mujer,45-49,Enfermedades isquémicas del corazón,1,1540
+2017,Mujer,45-49,Tumor maligno de la mama de la mujer,1,1540
+2017,Hombre,50-54,Enfermedades isquémicas del corazón,1,1416
+2017,Hombre,50-54,Diabetes Mellitus no especificada,1,1416
+2017,Hombre,55-59,Enfermedades cerebrovasculares,1,1225
+2017,Hombre,55-59,Enfermedades isquémicas del corazón,3,1225
+2017,Hombre,55-59,Tumor maligno de la próstata,1,1225
+2017,Hombre,55-59,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,1225
+2017,Hombre,55-59,Enfermedad hipertensiva,1,1225
+2017,Hombre,60-64,Enfermedades cerebrovasculares,2,805
+2017,Hombre,60-64,Enfermedades isquémicas del corazón,2,805
+2017,Hombre,60-64,Tumor maligno de la próstata,1,805
+2017,Hombre,60-64,Ciertas enfermedades crónicas del hígado y cirrosis,1,805
+2017,Hombre,60-64,Enfermedad hipertensiva,1,805
+2017,Hombre,65-69,Aneurisma aórtico,1,591
+2017,Hombre,65-69,Enfermedades isquémicas del corazón,2,591
+2017,Hombre,70-74,Enfermedades cerebrovasculares,3,410
+2017,Hombre,70-74,Diabetes Mellitus no especificada,1,410
+2017,Hombre,70-74,Enfermedad hipertensiva,1,410
+2017,Hombre,75-79,Enfermedades isquémicas del corazón,1,279
+2017,Hombre,75-79,Enfermedad hipertensiva,1,279
+2017,Hombre,80-84,Tumor maligno de la próstata,1,214
+2017,Hombre,80-84,Diabetes no insulinodependiente,1,214
+2017,Hombre,85 y más,Enfermedades isquémicas del corazón,1,177
+2017,Hombre,85 y más,Insuficiencia cardíaca,1,177
+2017,Hombre,20-24,Tumor maligno del estómago,1,1218
+2017,Hombre,25-29,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,1422
+2017,Hombre,35-39,Enfermedad hipertensiva,1,2074
+2017,Hombre,40-44,Enfermedades cerebrovasculares,1,1999
+2017,Hombre,45-49,Enfermedades cerebrovasculares,1,1818
+2017,Hombre,45-49,Enfermedades isquémicas del corazón,1,1818
+2018,Mujer,50-54,Diabetes Mellitus no especificada,1,1437
+2018,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1437
+2018,Mujer,50-54,Enfermedad hipertensiva,1,1437
+2018,Mujer,60-64,Enfermedades isquémicas del corazón,1,961
+2018,Mujer,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,961
+2018,Mujer,60-64,Diabetes Mellitus no especificada,1,961
+2018,Mujer,65-69,Tumor maligno de la mama de la mujer,1,752
+2018,Mujer,70-74,Tumor maligno de otras partes del útero,1,452
+2018,Mujer,70-74,Enfermedad hipertensiva,1,452
+2018,Mujer,75-79,Enfermedades cerebrovasculares,1,360
+2018,Mujer,75-79,Enfermedades isquémicas del corazón,1,360
+2018,Mujer,80-84,Enfermedades cerebrovasculares,1,274
+2018,Mujer,80-84,Enfermedades isquémicas del corazón,1,274
+2018,Mujer,80-84,Diabetes Mellitus no especificada,1,274
+2018,Mujer,85 y más,Enfermedades isquémicas del corazón,4,292
+2018,Mujer,85 y más,Diabetes Mellitus no especificada,1,292
+2018,Mujer,20-24,Diabetes Mellitus no especificada,1,1467
+2018,Mujer,40-44,Tumor maligno de la mama de la mujer,1,1743
+2018,Mujer,40-44,Diabetes Mellitus no especificada,2,1743
+2018,Hombre,50-54,Enfermedad hipertensiva,1,1502
+2018,Hombre,55-59,Diabetes no insulinodependiente,1,1317
+2018,Hombre,60-64,Diabetes no insulinodependiente,1,858
+2018,Hombre,65-69,Enfermedad hipertensiva,1,652
+2018,Hombre,70-74,Enfermedades isquémicas del corazón,1,443
+2018,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1,443
+2018,Hombre,75-79,Aneurisma aórtico,1,311
+2018,Hombre,75-79,Enfermedades cerebrovasculares,1,311
+2018,Hombre,75-79,Enfermedades isquémicas del corazón,2,311
+2018,Hombre,75-79,Tumor maligno de la próstata,1,311
+2018,Hombre,75-79,Diabetes Mellitus no especificada,1,311
+2018,Hombre,80-84,Enfermedades isquémicas del corazón,2,213
+2018,Hombre,80-84,Tumor maligno de la próstata,1,213
+2018,Hombre,85 y más,Enfermedades cerebrovasculares,1,190
+2018,Hombre,85 y más,Diabetes no insulinodependiente,1,190
+2018,Hombre,85 y más,Enfermedad hipertensiva,1,190
+2018,Hombre,25-29,Trastornos mentales y del comportamiento,1,1467
+2018,Hombre,35-39,Enfermedad hipertensiva,1,2128
+2018,Hombre,40-44,Aneurisma aórtico,1,2078
+2018,Hombre,40-44,Enfermedad renal crónica,1,2078
+2018,Hombre,40-44,Enfermedades isquémicas del corazón,1,2078
+2018,Hombre,45-49,Ciertas enfermedades crónicas del hígado y cirrosis,1,1894
+2018,Hombre,45-49,Enfermedad hipertensiva,1,1894
+2019,Mujer,50-54,Tumor maligno del estómago,1,1492
+2019,Mujer,55-59,Enfermedades isquémicas del corazón,1,1310
+2019,Mujer,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,1310
+2019,Mujer,55-59,Tumor maligno de otras partes del útero,1,1310
+2019,Mujer,55-59,Diabetes Mellitus no especificada,3,1310
+2019,Mujer,60-64,Trastornos mentales y del comportamiento,1,1020
+2019,Mujer,60-64,Tumor maligno del estómago,1,1020
+2019,Mujer,60-64,Diabetes Mellitus no especificada,1,1020
+2019,Mujer,60-64,Diabetes no insulinodependiente,1,1020
+2019,Mujer,60-64,Enfermedad hipertensiva,1,1020
+2019,Mujer,65-69,Enfermedad renal crónica,1,812
+2019,Mujer,70-74,Tumor maligno de otras partes del útero,1,504
+2019,Mujer,70-74,Tumor maligno del páncreas,1,504
+2019,Mujer,75-79,Enfermedad hipertensiva,1,380
+2019,Mujer,80-84,Enfermedades isquémicas del corazón,1,293
+2019,Mujer,80-84,Enfermedad hipertensiva,1,293
+2019,Mujer,85 y más,Aneurisma aórtico,1,309
+2019,Mujer,85 y más,Enfermedades cerebrovasculares,1,309
+2019,Mujer,85 y más,Insuficiencia cardíaca,1,309
+2019,Mujer,85 y más,Trastornos mentales y del comportamiento,1,309
+2019,Mujer,40-44,Tumor maligno de la mama de la mujer,1,1818
+2019,Mujer,45-49,Enfermedades isquémicas del corazón,1,1723
+2019,Mujer,45-49,Tumor maligno de la mama de la mujer,1,1723
+2019,Hombre,55-59,Diabetes Mellitus no especificada,1,1375
+2019,Hombre,60-64,"Tumor maligno de la tráquea, bronquios y pulmón",1,939
+2019,Hombre,60-64,Diabetes Mellitus no especificada,1,939
+2019,Hombre,60-64,Enfermedad hipertensiva,1,939
+2019,Hombre,65-69,Enfermedad renal crónica,1,705
+2019,Hombre,65-69,Diabetes no insulinodependiente,1,705
+2019,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,1,705
+2019,Hombre,70-74,Tumor maligno de la próstata,1,477
+2019,Hombre,70-74,"Tumor maligno de la tráquea, bronquios y pulmón",1,477
+2019,Hombre,70-74,Tumor maligno del páncreas,1,477
+2019,Hombre,70-74,Diabetes Mellitus no especificada,1,477
+2019,Hombre,70-74,Enfermedad hipertensiva,2,477
+2019,Hombre,75-79,Enfermedades cerebrovasculares,1,339
+2019,Hombre,75-79,Enfermedades isquémicas del corazón,1,339
+2019,Hombre,75-79,Tumor maligno del esófago,1,339
+2019,Hombre,75-79,Tumor maligno del estómago,2,339
+2019,Hombre,80-84,Insuficiencia cardíaca,1,218
+2019,Hombre,80-84,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,218
+2019,Hombre,80-84,Enfermedad hipertensiva,1,218
+2019,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,201
+2019,Hombre,85 y más,Enfermedades cerebrovasculares,2,201
+2019,Hombre,85 y más,Insuficiencia cardíaca,1,201
+2019,Hombre,35-39,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,2178
+2019,Hombre,40-44,Enfermedad hipertensiva,1,2147
+2019,Hombre,45-49,Enfermedades isquémicas del corazón,1,1964
+2019,Hombre,45-49,Trastornos mentales y del comportamiento,1,1964
+2019,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1964
+2019,Hombre,45-49,Enfermedad hipertensiva,1,1964
+2002,Mujer,65-69,Enfermedad hipertensiva,1,130
+2002,Mujer,75-79,Diabetes Mellitus no especificada,1,97
+2002,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,64
+2002,Mujer,80-84,Enfermedad hipertensiva,1,64
+2002,Mujer,85 y más,Enfermedades isquémicas del corazón,1,29
+2002,Mujer,85 y más,Diabetes Mellitus no especificada,1,29
+2002,Mujer,85 y más,Enfermedad hipertensiva,1,29
+2002,Mujer,30-34,Enfermedad hipertensiva,1,1133
+2002,Mujer,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1023
+2002,Hombre,50-54,Enfermedad hipertensiva,1,465
+2002,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,186
+2002,Hombre,70-74,Enfermedad hipertensiva,1,114
+2002,Hombre,85 y más,Enfermedades cerebrovasculares,1,38
+2002,Hombre,85 y más,Enfermedad hipertensiva,1,38
+2020,Mujer,50-54,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,1538
+2020,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1538
+2020,Mujer,55-59,Enfermedades isquémicas del corazón,2,1384
+2020,Mujer,60-64,Diabetes Mellitus no especificada,1,1087
+2020,Mujer,65-69,Enfermedad hipertensiva,2,854
+2020,Mujer,75-79,Diabetes Mellitus no especificada,1,400
+2020,Mujer,80-84,Enfermedades isquémicas del corazón,3,302
+2020,Mujer,80-84,Trastornos mentales y del comportamiento,1,302
+2020,Mujer,85 y más,Enfermedades cerebrovasculares,1,317
+2020,Mujer,85 y más,Enfermedades isquémicas del corazón,2,317
+2020,Mujer,85 y más,Trastornos mentales y del comportamiento,1,317
+2020,Mujer,85 y más,Tumor maligno de la mama de la mujer,3,317
+2020,Mujer,85 y más,Tumor maligno de la vesícula biliar y de las vías biliares,1,317
+2020,Mujer,85 y más,Tumor maligno del hígado,1,317
+2020,Mujer,85 y más,Tumor maligno del ovario,1,317
+2020,Mujer,85 y más,Diabetes Mellitus no especificada,1,317
+2020,Mujer,85 y más,Enfermedad hipertensiva,3,317
+2020,Mujer,40-44,Tumor maligno de la mama de la mujer,1,1897
+2020,Mujer,40-44,Diabetes Mellitus no especificada,1,1897
+2020,Mujer,45-49,Enfermedades isquémicas del corazón,2,1776
+2020,Hombre,50-54,Enfermedades isquémicas del corazón,1,1731
+2020,Hombre,50-54,Ciertas enfermedades crónicas del hígado y cirrosis,1,1731
+2020,Hombre,50-54,Diabetes Mellitus no especificada,1,1731
+2020,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,2,1731
+2020,Hombre,50-54,Enfermedad hipertensiva,1,1731
+2020,Hombre,55-59,Aneurisma aórtico,1,1407
+2020,Hombre,55-59,Diabetes Mellitus no especificada,1,1407
+2020,Hombre,60-64,Aneurisma aórtico,1,1038
+2020,Hombre,60-64,Enfermedades isquémicas del corazón,1,1038
+2020,Hombre,60-64,Tumor maligno del páncreas,1,1038
+2020,Hombre,65-69,Enfermedades isquémicas del corazón,5,738
+2020,Hombre,65-69,Diabetes Mellitus no especificada,1,738
+2020,Hombre,65-69,Enfermedad hipertensiva,1,738
+2020,Hombre,70-74,Enfermedades isquémicas del corazón,2,505
+2020,Hombre,70-74,Diabetes Mellitus no especificada,1,505
+2020,Hombre,70-74,Enfermedad hipertensiva,1,505
+2020,Hombre,75-79,Enfermedades cerebrovasculares,1,363
+2020,Hombre,75-79,Enfermedades isquémicas del corazón,1,363
+2020,Hombre,80-84,Enfermedades isquémicas del corazón,2,226
+2020,Hombre,80-84,Diabetes Mellitus no especificada,2,226
+2020,Hombre,85 y más,Enfermedades isquémicas del corazón,2,206
+2020,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1,206
+2020,Hombre,85 y más,Enfermedad hipertensiva,2,206
+2020,Hombre,35-39,Enfermedades isquémicas del corazón,1,2205
+2020,Hombre,40-44,Aterosclerosis,1,2197
+2020,Hombre,40-44,Ciertas enfermedades crónicas del hígado y cirrosis,1,2197
+2020,Hombre,45-49,"Tumor maligno de la tráquea, bronquios y pulmón",1,2023
+2020,Hombre,45-49,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,2023
+2021,Mujer,50-54,Tumor maligno de otras partes del útero,1,1596
+2021,Mujer,55-59,Enfermedades isquémicas del corazón,1,1436
+2021,Mujer,60-64,Enfermedades isquémicas del corazón,1,1155
+2021,Mujer,60-64,Diabetes Mellitus no especificada,1,1155
+2021,Mujer,65-69,Enfermedades isquémicas del corazón,1,892
+2021,Mujer,65-69,Tumor maligno del útero,1,892
+2021,Mujer,65-69,Diabetes Mellitus no especificada,2,892
+2021,Mujer,70-74,Tumor maligno de otras partes del útero,1,628
+2021,Mujer,75-79,Enfermedades cerebrovasculares,1,415
+2021,Mujer,75-79,Diabetes no insulinodependiente,1,415
+2021,Mujer,80-84,Enfermedades cerebrovasculares,1,310
+2021,Mujer,80-84,Enfermedades isquémicas del corazón,2,310
+2021,Mujer,80-84,"Tumor maligno de la tráquea, bronquios y pulmón",1,310
+2021,Mujer,85 y más,Enfermedades cerebrovasculares,3,318
+2021,Mujer,85 y más,Enfermedades isquémicas del corazón,1,318
+2021,Mujer,85 y más,Diabetes Mellitus no especificada,1,318
+2021,Mujer,85 y más,Enfermedad hipertensiva,2,318
+2021,Mujer,35-39,Enfermedades cerebrovasculares,1,1905
+2021,Mujer,45-49,Tumor maligno de la mama de la mujer,1,1802
+2021,Mujer,45-49,Ciertas enfermedades crónicas del hígado y cirrosis,1,1802
+2021,Mujer,45-49,Enfermedad hipertensiva,1,1802
+2021,Hombre,55-59,Enfermedad renal crónica,1,1425
+2021,Hombre,55-59,Enfermedades isquémicas del corazón,1,1425
+2021,Hombre,55-59,Tumor maligno de la laringe,1,1425
+2021,Hombre,55-59,Ciertas enfermedades crónicas del hígado y cirrosis,1,1425
+2021,Hombre,60-64,Enfermedades isquémicas del corazón,2,1133
+2021,Hombre,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2,1133
+2021,Hombre,60-64,Enfermedad hipertensiva,2,1133
+2021,Hombre,65-69,Enfermedades cerebrovasculares,1,759
+2021,Hombre,65-69,Enfermedades isquémicas del corazón,1,759
+2021,Hombre,65-69,Tumor maligno del esófago,1,759
+2021,Hombre,70-74,Enfermedades cerebrovasculares,2,535
+2021,Hombre,70-74,Enfermedades isquémicas del corazón,1,535
+2021,Hombre,70-74,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,535
+2021,Hombre,70-74,Diabetes no insulinodependiente,1,535
+2021,Hombre,75-79,Tumor maligno de la próstata,1,382
+2021,Hombre,75-79,Diabetes Mellitus no especificada,1,382
+2021,Hombre,75-79,Enfermedad hipertensiva,1,382
+2021,Hombre,85 y más,Enfermedades cerebrovasculares,1,204
+2021,Hombre,85 y más,Insuficiencia cardíaca,2,204
+2021,Hombre,85 y más,Trastornos mentales y del comportamiento,1,204
+2021,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1,204
+2021,Hombre,85 y más,Enfermedad hipertensiva,1,204
+2021,Hombre,10-14,Tumor maligno de la tiroides y otras glándulas endocrinas,1,1164
+2021,Hombre,45-49,Diabetes no insulinodependiente,1,2074
+2003,Mujer,50-54,Diabetes insulinodependiente,1,472
+2003,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,203
+2003,Mujer,65-69,Tumor maligno de la mama de la mujer,1,144
+2003,Mujer,65-69,Enfermedad hipertensiva,1,144
+2003,Mujer,70-74,Paro cardiaco,1,133
+2003,Mujer,70-74,Tumor maligno de la mama de la mujer,1,133
+2003,Mujer,75-79,Enfermedades isquémicas del corazón,1,102
+2003,Mujer,75-79,Enfermedad hipertensiva,2,102
+2003,Mujer,80-84,Paro cardiaco,1,75
+2003,Mujer,80-84,Diabetes Mellitus no especificada,1,75
+2003,Mujer,80-84,Enfermedad hipertensiva,1,75
+2003,Mujer,85 y más,Paro cardiaco,4,32
+2003,Mujer,85 y más,Tumor maligno del útero,1,32
+2003,Mujer,30-34,Paro cardiaco,1,1168
+2003,Mujer,40-44,"Tumor maligno de la tráquea, bronquios y pulmón",1,862
+2003,Mujer,45-49,Enfermedades isquémicas del corazón,1,645
+2003,Mujer,45-49,Tumor maligno del útero,1,645
+2003,Hombre,55-59,Enfermedades isquémicas del corazón,2,365
+2003,Hombre,55-59,Diabetes Mellitus no especificada,1,365
+2003,Hombre,60-64,Paro cardiaco,1,216
+2003,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,138
+2003,Hombre,80-84,Diabetes Mellitus no especificada,1,52
+2003,Hombre,85 y más,Insuficiencia cardíaca,1,39
+2003,Hombre,85 y más,Paro cardiaco,1,39
+2003,Hombre,85 y más,Diabetes no insulinodependiente,1,39
+2003,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1,1156
+2004,Mujer,50-54,Diabetes insulinodependiente,1,536
+2004,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,221
+2004,Mujer,65-69,Tumor maligno de la mama de la mujer,1,161
+2004,Mujer,65-69,Enfermedad hipertensiva,1,161
+2004,Mujer,70-74,Paro cardiaco,1,147
+2004,Mujer,70-74,Tumor maligno de la mama de la mujer,1,147
+2004,Mujer,75-79,Enfermedades isquémicas del corazón,1,116
+2004,Mujer,75-79,Enfermedad hipertensiva,2,116
+2004,Mujer,80-84,Paro cardiaco,1,82
+2004,Mujer,80-84,Diabetes Mellitus no especificada,1,82
+2004,Mujer,80-84,Enfermedad hipertensiva,1,82
+2004,Mujer,85 y más,Paro cardiaco,4,40
+2004,Mujer,85 y más,Tumor maligno del útero,1,40
+2004,Mujer,30-34,Paro cardiaco,1,1199
+2004,Mujer,40-44,"Tumor maligno de la tráquea, bronquios y pulmón",1,933
+2004,Mujer,45-49,Enfermedades isquémicas del corazón,1,699
+2004,Mujer,45-49,Tumor maligno del útero,1,699
+2004,Hombre,55-59,Enfermedades isquémicas del corazón,2,396
+2004,Hombre,55-59,Diabetes Mellitus no especificada,1,396
+2004,Hombre,60-64,Paro cardiaco,1,243
+2004,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,146
+2004,Hombre,80-84,Diabetes Mellitus no especificada,1,53
+2004,Hombre,85 y más,Insuficiencia cardíaca,1,40
+2004,Hombre,85 y más,Paro cardiaco,1,40
+2004,Hombre,85 y más,Diabetes no insulinodependiente,1,40
+2004,Hombre,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1,1212
+2005,Mujer,50-54,Enfermedad renal crónica,1,593
+2005,Mujer,50-54,Paro cardiaco,1,593
+2005,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2,136
+2005,Mujer,75-79,Tumor maligno del útero,1,136
+2005,Mujer,75-79,Diabetes insulinodependiente,1,136
+2005,Mujer,80-84,Enfermedad hipertensiva,1,89
+2005,Mujer,85 y más,Paro cardiaco,3,50
+2005,Mujer,30-34,Enfermedad hipertensiva,1,1219
+2005,Hombre,60-64,Enfermedad hipertensiva,1,277
+2005,Hombre,70-74,Paro cardiaco,1,164
+2005,Hombre,80-84,Tumor maligno de la próstata,1,57
+2005,Hombre,80-84,Enfermedad hipertensiva,1,57
+2005,Hombre,85 y más,Insuficiencia cardíaca,1,41
+2005,Hombre,85 y más,Paro cardiaco,2,41
+2005,Hombre,85 y más,Tumor maligno de la próstata,1,41
+2005,Hombre,40-44,Enfermedad hipertensiva,1,1110
+2006,Mujer,0-4,Insuficiencia cardíaca,1,1095
+2006,Mujer,65-69,Diabetes no insulinodependiente,1,205
+2006,Mujer,70-74,Enfermedades crónicas de las vías respiratorias inferiores,1,161
+2006,Mujer,70-74,Tumor maligno de la mama de la mujer,1,161
+2006,Mujer,75-79,Enfermedades isquémicas del corazón,1,148
+2006,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,148
+2006,Mujer,75-79,Diabetes Mellitus no especificada,2,148
+2006,Mujer,80-84,Paro cardiaco,1,102
+2006,Mujer,80-84,Diabetes Mellitus no especificada,1,102
+2006,Mujer,80-84,Diabetes no insulinodependiente,1,102
+2006,Mujer,80-84,Enfermedad hipertensiva,1,102
+2006,Mujer,85 y más,Paro cardiaco,2,61
+2006,Mujer,85 y más,Diabetes no insulinodependiente,1,61
+2006,Mujer,85 y más,Enfermedad hipertensiva,1,61
+2006,Mujer,35-39,Tumor maligno de otras partes del útero,2,1195
+2006,Hombre,0-4,Paro cardiaco,1,1098
+2006,Hombre,65-69,Diabetes Mellitus no especificada,1,177
+2006,Hombre,70-74,Tumor maligno de la próstata,1,172
+2006,Hombre,70-74,Enfermedad hipertensiva,1,172
+2006,Hombre,75-79,Diabetes Mellitus no especificada,1,121
+2006,Hombre,80-84,Enfermedades cerebrovasculares,1,63
+2006,Hombre,80-84,Enfermedad hipertensiva,1,63
+2006,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,45
+2006,Hombre,85 y más,Diabetes Mellitus no especificada,1,45
+2006,Hombre,20-24,Enfermedades cerebrovasculares,1,933
+2006,Hombre,35-39,Enfermedad hipertensiva,1,1369
+2006,Hombre,40-44,Enfermedades isquémicas del corazón,1,1153
+2006,Hombre,40-44,Tumor maligno del estómago,1,1153
+2006,Hombre,40-44,Enfermedad hipertensiva,1,1153
+2006,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,1,921
+2006,Hombre,45-49,Enfermedad hipertensiva,1,921
+2007,Mujer,70-74,Enfermedad hipertensiva,1,174
+2007,Mujer,80-84,Enfermedad hipertensiva,2,118
+2007,Mujer,85 y más,Paro cardiaco,1,75
+2007,Hombre,50-54,Enfermedad renal crónica,1,702
+2007,Hombre,50-54,Enfermedades isquémicas del corazón,1,702
+2007,Hombre,50-54,Enfermedad hipertensiva,1,702
+2007,Hombre,55-59,Enfermedad hipertensiva,1,521
+2007,Hombre,60-64,Enfermedades isquémicas del corazón,1,359
+2007,Hombre,65-69,Ciertas enfermedades crónicas del hígado y cirrosis,1,205
+2007,Hombre,70-74,Enfermedad hipertensiva,1,174
+2007,Hombre,75-79,Tumor maligno del esófago,1,145
+2007,Hombre,75-79,Enfermedad hipertensiva,1,145
+2007,Hombre,80-84,Enfermedad hipertensiva,1,72
+2007,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,50
+2007,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,50
+2007,Hombre,85 y más,Enfermedad hipertensiva,1,50
+2008,Mujer,55-59,Enfermedades isquémicas del corazón,1,584
+2008,Mujer,55-59,Diabetes no insulinodependiente,1,584
+2008,Mujer,60-64,Paro cardiaco,1,325
+2008,Mujer,70-74,Paro cardiaco,1,194
+2008,Mujer,70-74,Tumor maligno de otras partes del útero,1,194
+2008,Mujer,70-74,Enfermedad hipertensiva,1,194
+2008,Mujer,75-79,Enfermedad hipertensiva,1,167
+2008,Mujer,80-84,Tumor maligno del estómago,1,135
+2008,Mujer,85 y más,Enfermedades isquémicas del corazón,2,93
+2008,Mujer,85 y más,Paro cardiaco,3,93
+2008,Mujer,85 y más,Deficiencias nutricionales,1,93
+2008,Mujer,85 y más,Enfermedad hipertensiva,2,93
+2008,Hombre,55-59,Enfermedades isquémicas del corazón,1,584
+2008,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,584
+2008,Hombre,65-69,Enfermedades crónicas de las vías respiratorias inferiores,1,238
+2008,Hombre,65-69,Tumor maligno del hígado,1,238
+2008,Hombre,75-79,Enfermedades isquémicas del corazón,1,171
+2008,Hombre,75-79,Paro cardiaco,2,171
+2008,Hombre,85 y más,Enfermedad renal crónica,1,54
+2008,Hombre,85 y más,Paro cardiaco,1,54
+2008,Hombre,85 y más,Tumor maligno del estómago,1,54
+2008,Hombre,85 y más,Enfermedad hipertensiva,1,54
+2008,Hombre,45-49,Aneurisma aórtico,1,1112
+2009,Mujer,50-54,Enfermedades crónicas de las vías respiratorias inferiores,1,797
+2009,Mujer,50-54,Tumor maligno del ovario,1,797
+2009,Mujer,55-59,Tumor maligno del estómago,1,648
+2009,Mujer,65-69,"Tumor maligno de la tráquea, bronquios y pulmón",1,274
+2009,Mujer,65-69,Enfermedad hipertensiva,1,274
+2009,Mujer,80-84,Enfermedades isquémicas del corazón,1,156
+2009,Mujer,85 y más,Paro cardiaco,1,111
+2009,Mujer,85 y más,Tumor maligno de otras partes del útero,1,111
+2009,Mujer,85 y más,Diabetes Mellitus no especificada,1,111
+2009,Mujer,25-29,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,1197
+2009,Mujer,35-39,Enfermedad hipertensiva,1,1377
+2009,Hombre,50-54,Enfermedades isquémicas del corazón,1,827
+2009,Hombre,50-54,Aterosclerosis,1,827
+2009,Hombre,55-59,"Tumor maligno de la tráquea, bronquios y pulmón",1,646
+2009,Hombre,60-64,Enfermedad hipertensiva,1,426
+2009,Hombre,75-79,Tumor maligno de la próstata,1,194
+2009,Hombre,75-79,Enfermedad hipertensiva,1,194
+2009,Hombre,80-84,Enfermedades isquémicas del corazón,1,101
+2009,Hombre,80-84,Paro cardiaco,1,101
+2009,Hombre,80-84,Tumor maligno de la vejiga urinaria,1,101
+2009,Hombre,85 y más,Enfermedad hipertensiva,1,63
+2009,Hombre,15-19,Aneurisma aórtico,1,810
+2009,Hombre,20-24,Lesiones autoinfligidas intencionalmente (suicidios),1,947
+2009,Hombre,25-29,Enfermedades isquémicas del corazón,1,1235
+2009,Hombre,40-44,Enfermedad hipertensiva,1,1337
+2009,Hombre,45-49,Enfermedad hipertensiva,1,1174

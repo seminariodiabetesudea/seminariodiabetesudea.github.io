@@ -1,0 +1,658 @@
+{
+ "source": "https://population.un.org/dataportalapi/api/v1",
+ "portal": "https://population.un.org/dataportal/",
+ "wpp": "https://population.un.org/wpp/",
+ "indicator": {
+  "id": 46,
+  "name": "Population by 5-year age groups and sex",
+  "shortName": "PopByAge5AndSex"
+ },
+ "sourceName": "World Population Prospects",
+ "sourceYear": 2024,
+ "citation": "United Nations, Department of Economic and Social Affairs, Population Division (2024). World Population Prospects: The 2024 Revision, custom data acquired via website.",
+ "variant": {
+  "id": 4,
+  "name": "Median"
+ },
+ "lastEstimateYear": 2023,
+ "retrieved": "2026-11-16",
+ "countries": [
+  {
+   "iso": "ai",
+   "id": "oms-ai",
+   "name": "Anguila",
+   "file": "mortalidad-oms-ai-nacional.json",
+   "locationId": 660,
+   "location": "Anguilla",
+   "iso3": "AIA",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/660/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ag",
+   "id": "oms-ag",
+   "name": "Antigua y Barbuda",
+   "file": "mortalidad-oms-ag-nacional.json",
+   "locationId": 28,
+   "location": "Antigua and Barbuda",
+   "iso3": "ATG",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/28/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "aw",
+   "id": "oms-aw",
+   "name": "Aruba",
+   "file": "mortalidad-oms-aw-nacional.json",
+   "locationId": 533,
+   "location": "Aruba",
+   "iso3": "ABW",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/533/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "bs",
+   "id": "oms-bs",
+   "name": "Bahamas",
+   "file": "mortalidad-oms-bs-nacional.json",
+   "locationId": 44,
+   "location": "Bahamas",
+   "iso3": "BHS",
+   "years": [
+    2000,
+    2016
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/44/start/2000/end/2016?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "bb",
+   "id": "oms-bb",
+   "name": "Barbados",
+   "file": "mortalidad-oms-bb-nacional.json",
+   "locationId": 52,
+   "location": "Barbados",
+   "iso3": "BRB",
+   "years": [
+    2000,
+    2013
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/52/start/2000/end/2013?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "bz",
+   "id": "oms-bz",
+   "name": "Belice",
+   "file": "mortalidad-oms-bz-nacional.json",
+   "locationId": 84,
+   "location": "Belize",
+   "iso3": "BLZ",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/84/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "bm",
+   "id": "oms-bm",
+   "name": "Bermudas",
+   "file": "mortalidad-oms-bm-nacional.json",
+   "locationId": 60,
+   "location": "Bermuda",
+   "iso3": "BMU",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/60/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "bo",
+   "id": "oms-bo",
+   "name": "Bolivia",
+   "file": "mortalidad-oms-bo-nacional.json",
+   "locationId": 68,
+   "location": "Bolivia (Plurinational State of)",
+   "iso3": "BOL",
+   "years": [
+    2000,
+    2003
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/68/start/2000/end/2003?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "br",
+   "id": "oms-br",
+   "name": "Brasil",
+   "file": "mortalidad-oms-br-nacional.json",
+   "locationId": 76,
+   "location": "Brazil",
+   "iso3": "BRA",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/76/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "vg",
+   "id": "oms-vg",
+   "name": "Islas Vírgenes Británicas",
+   "file": "mortalidad-oms-vg-nacional.json",
+   "locationId": 92,
+   "location": "British Virgin Islands",
+   "iso3": "VGB",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/92/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ca",
+   "id": "oms-ca",
+   "name": "Canadá",
+   "file": "mortalidad-oms-ca-nacional.json",
+   "locationId": 124,
+   "location": "Canada",
+   "iso3": "CAN",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [
+    2024
+   ],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/124/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ky",
+   "id": "oms-ky",
+   "name": "Islas Caimán",
+   "file": "mortalidad-oms-ky-nacional.json",
+   "locationId": 136,
+   "location": "Cayman Islands",
+   "iso3": "CYM",
+   "years": [
+    2000,
+    2019
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/136/start/2000/end/2019?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "cr",
+   "id": "oms-cr",
+   "name": "Costa Rica",
+   "file": "mortalidad-oms-cr-nacional.json",
+   "locationId": 188,
+   "location": "Costa Rica",
+   "iso3": "CRI",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/188/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "cu",
+   "id": "oms-cu",
+   "name": "Cuba",
+   "file": "mortalidad-oms-cu-nacional.json",
+   "locationId": 192,
+   "location": "Cuba",
+   "iso3": "CUB",
+   "years": [
+    2001,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/192/start/2001/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "dm",
+   "id": "oms-dm",
+   "name": "Dominica",
+   "file": "mortalidad-oms-dm-nacional.json",
+   "locationId": 212,
+   "location": "Dominica",
+   "iso3": "DMA",
+   "years": [
+    2001,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/212/start/2001/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "do",
+   "id": "oms-do",
+   "name": "República Dominicana",
+   "file": "mortalidad-oms-do-nacional.json",
+   "locationId": 214,
+   "location": "Dominican Republic",
+   "iso3": "DOM",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/214/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ec",
+   "id": "oms-ec",
+   "name": "Ecuador",
+   "file": "mortalidad-oms-ec-nacional.json",
+   "locationId": 218,
+   "location": "Ecuador",
+   "iso3": "ECU",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [
+    2024
+   ],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/218/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "sv",
+   "id": "oms-sv",
+   "name": "El Salvador",
+   "file": "mortalidad-oms-sv-nacional.json",
+   "locationId": 222,
+   "location": "El Salvador",
+   "iso3": "SLV",
+   "years": [
+    2000,
+    2018
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/222/start/2000/end/2018?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "gd",
+   "id": "oms-gd",
+   "name": "Granada",
+   "file": "mortalidad-oms-gd-nacional.json",
+   "locationId": 308,
+   "location": "Grenada",
+   "iso3": "GRD",
+   "years": [
+    2001,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/308/start/2001/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "gt",
+   "id": "oms-gt",
+   "name": "Guatemala",
+   "file": "mortalidad-oms-gt-nacional.json",
+   "locationId": 320,
+   "location": "Guatemala",
+   "iso3": "GTM",
+   "years": [
+    2005,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/320/start/2005/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "gy",
+   "id": "oms-gy",
+   "name": "Guyana",
+   "file": "mortalidad-oms-gy-nacional.json",
+   "locationId": 328,
+   "location": "Guyana",
+   "iso3": "GUY",
+   "years": [
+    2001,
+    2020
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/328/start/2001/end/2020?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ht",
+   "id": "oms-ht",
+   "name": "Haití",
+   "file": "mortalidad-oms-ht-nacional.json",
+   "locationId": 332,
+   "location": "Haiti",
+   "iso3": "HTI",
+   "years": [
+    2001,
+    2004
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/332/start/2001/end/2004?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "hn",
+   "id": "oms-hn",
+   "name": "Honduras",
+   "file": "mortalidad-oms-hn-nacional.json",
+   "locationId": 340,
+   "location": "Honduras",
+   "iso3": "HND",
+   "years": [
+    2008,
+    2013
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/340/start/2008/end/2013?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "jm",
+   "id": "oms-jm",
+   "name": "Jamaica",
+   "file": "mortalidad-oms-jm-nacional.json",
+   "locationId": 388,
+   "location": "Jamaica",
+   "iso3": "JAM",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/388/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "mx",
+   "id": "oms-mx",
+   "name": "México",
+   "file": "mortalidad-oms-mx-nacional.json",
+   "locationId": 484,
+   "location": "Mexico",
+   "iso3": "MEX",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/484/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ms",
+   "id": "oms-ms",
+   "name": "Montserrat",
+   "file": "mortalidad-oms-ms-nacional.json",
+   "locationId": 500,
+   "location": "Montserrat",
+   "iso3": "MSR",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/500/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ni",
+   "id": "oms-ni",
+   "name": "Nicaragua",
+   "file": "mortalidad-oms-ni-nacional.json",
+   "locationId": 558,
+   "location": "Nicaragua",
+   "iso3": "NIC",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/558/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "pa",
+   "id": "oms-pa",
+   "name": "Panamá",
+   "file": "mortalidad-oms-pa-nacional.json",
+   "locationId": 591,
+   "location": "Panama",
+   "iso3": "PAN",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/591/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "py",
+   "id": "oms-py",
+   "name": "Paraguay",
+   "file": "mortalidad-oms-py-nacional.json",
+   "locationId": 600,
+   "location": "Paraguay",
+   "iso3": "PRY",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/600/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "pe",
+   "id": "oms-pe",
+   "name": "Perú",
+   "file": "mortalidad-oms-pe-nacional.json",
+   "locationId": 604,
+   "location": "Peru",
+   "iso3": "PER",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/604/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "pr",
+   "id": "oms-pr",
+   "name": "Puerto Rico",
+   "file": "mortalidad-oms-pr-nacional.json",
+   "locationId": 630,
+   "location": "Puerto Rico",
+   "iso3": "PRI",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/630/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "kn",
+   "id": "oms-kn",
+   "name": "San Cristóbal y Nieves",
+   "file": "mortalidad-oms-kn-nacional.json",
+   "locationId": 659,
+   "location": "Saint Kitts and Nevis",
+   "iso3": "KNA",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/659/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "lc",
+   "id": "oms-lc",
+   "name": "Santa Lucía",
+   "file": "mortalidad-oms-lc-nacional.json",
+   "locationId": 662,
+   "location": "Saint Lucia",
+   "iso3": "LCA",
+   "years": [
+    2000,
+    2020
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/662/start/2000/end/2020?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "vc",
+   "id": "oms-vc",
+   "name": "San Vicente y las Granadinas",
+   "file": "mortalidad-oms-vc-nacional.json",
+   "locationId": 670,
+   "location": "Saint Vincent and the Grenadines",
+   "iso3": "VCT",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/670/start/2000/end/2022?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "sr",
+   "id": "oms-sr",
+   "name": "Surinam",
+   "file": "mortalidad-oms-sr-nacional.json",
+   "locationId": 740,
+   "location": "Suriname",
+   "iso3": "SUR",
+   "years": [
+    2000,
+    2014
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/740/start/2000/end/2014?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "tt",
+   "id": "oms-tt",
+   "name": "Trinidad y Tobago",
+   "file": "mortalidad-oms-tt-nacional.json",
+   "locationId": 780,
+   "location": "Trinidad and Tobago",
+   "iso3": "TTO",
+   "years": [
+    2000,
+    2020
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/780/start/2000/end/2020?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "tc",
+   "id": "oms-tc",
+   "name": "Islas Turcas y Caicos",
+   "file": "mortalidad-oms-tc-nacional.json",
+   "locationId": 796,
+   "location": "Turks and Caicos Islands",
+   "iso3": "TCA",
+   "years": [
+    2000,
+    2021
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/796/start/2000/end/2021?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "us",
+   "id": "oms-us",
+   "name": "Estados Unidos",
+   "file": "mortalidad-oms-us-nacional.json",
+   "locationId": 840,
+   "location": "United States of America",
+   "iso3": "USA",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/840/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "vi",
+   "id": "oms-vi",
+   "name": "Islas Vírgenes de los Estados Unidos",
+   "file": "mortalidad-oms-vi-nacional.json",
+   "locationId": 850,
+   "location": "United States Virgin Islands",
+   "iso3": "VIR",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/850/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "uy",
+   "id": "oms-uy",
+   "name": "Uruguay",
+   "file": "mortalidad-oms-uy-nacional.json",
+   "locationId": 858,
+   "location": "Uruguay",
+   "iso3": "URY",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/858/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ve",
+   "id": "oms-ve",
+   "name": "Venezuela",
+   "file": "mortalidad-oms-ve-nacional.json",
+   "locationId": 862,
+   "location": "Venezuela (Bolivarian Republic of)",
+   "iso3": "VEN",
+   "years": [
+    2000,
+    2016
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/862/start/2000/end/2016?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "ar",
+   "id": "ar",
+   "name": "Argentina",
+   "file": "mortalidad-ar-nacional.json",
+   "locationId": 32,
+   "location": "Argentina",
+   "iso3": "ARG",
+   "years": [
+    2005,
+    2019
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/32/start/2005/end/2019?variants=4&sexes=1,2"
+  }
+ ],
+ "kept": [],
+ "noEstimates": [],
+ "unmatched": []
+}
