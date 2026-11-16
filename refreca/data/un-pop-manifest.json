@@ -48,6 +48,21 @@
    "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/28/start/2000/end/2021?variants=4&sexes=1,2"
   },
   {
+   "iso": "ar",
+   "id": "oms-ar",
+   "name": "Argentina",
+   "file": "mortalidad-oms-ar-nacional.json",
+   "locationId": 32,
+   "location": "Argentina",
+   "iso3": "ARG",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/32/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
    "iso": "aw",
    "id": "oms-aw",
    "name": "Aruba",
@@ -198,6 +213,36 @@
    ],
    "yearsWithoutPopulation": [],
    "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/136/start/2000/end/2019?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "cl",
+   "id": "oms-cl",
+   "name": "Chile",
+   "file": "mortalidad-oms-cl-nacional.json",
+   "locationId": 152,
+   "location": "Chile",
+   "iso3": "CHL",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/152/start/2000/end/2023?variants=4&sexes=1,2"
+  },
+  {
+   "iso": "co",
+   "id": "oms-co",
+   "name": "Colombia",
+   "file": "mortalidad-oms-co-nacional.json",
+   "locationId": 170,
+   "location": "Colombia",
+   "iso3": "COL",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearsWithoutPopulation": [],
+   "url": "https://population.un.org/dataportalapi/api/v1/data/indicators/46/locations/170/start/2000/end/2023?variants=4&sexes=1,2"
   },
   {
    "iso": "cr",
@@ -654,5 +699,34 @@
  ],
  "kept": [],
  "noEstimates": [],
- "unmatched": []
+ "unmatched": [
+  {
+   "iso": "an",
+   "name": "Antillas Neerlandesas",
+   "reason": "no UN location with ISO2 AN"
+  }
+ ],
+ "noAgeBreakdown": [
+  {
+   "iso": "gf",
+   "name": "Guayana Francesa",
+   "locationId": 254
+  },
+  {
+   "iso": "gp",
+   "name": "Guadalupe",
+   "locationId": 312
+  },
+  {
+   "iso": "mq",
+   "name": "Martinica",
+   "locationId": 474
+  },
+  {
+   "iso": "pm",
+   "name": "San Pedro y Miquelón",
+   "locationId": 666
+  }
+ ],
+ "notCached": []
 }

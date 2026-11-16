@@ -7,6 +7,8 @@
    "rawRows": 940319,
    "dropped": 0,
    "rawDeaths": 3454206,
+   "rawTotalDeaths": 3454206,
+   "droppedDeaths": 0,
    "years": [
     1985,
     2020
@@ -18,14 +20,88 @@
    "id": "ar",
    "name": "Argentina",
    "rawRows": 716320,
-   "dropped": 465348,
-   "rawDeaths": 2333810,
+   "dropped": 465230,
+   "rawDeaths": 2333929,
+   "rawTotalDeaths": 4823926,
+   "droppedDeaths": 2489997,
    "years": [
     2005,
     2019
    ],
    "hasPopulation": false,
-   "subdivisionLabel": "Provincia"
+   "subdivisionLabel": "Provincia",
+   "populationMissing": {
+    "rows": 245135,
+    "allMissingYears": [
+     2005,
+     2006,
+     2007,
+     2008,
+     2009
+    ],
+    "byYear": {
+     "2005": {
+      "missing": 45153,
+      "rows": 45153
+     },
+     "2006": {
+      "missing": 45234,
+      "rows": 45234
+     },
+     "2007": {
+      "missing": 46633,
+      "rows": 46633
+     },
+     "2008": {
+      "missing": 46585,
+      "rows": 46585
+     },
+     "2009": {
+      "missing": 47227,
+      "rows": 47227
+     },
+     "2010": {
+      "missing": 1486,
+      "rows": 47378
+     },
+     "2011": {
+      "missing": 1343,
+      "rows": 46777
+     },
+     "2012": {
+      "missing": 1228,
+      "rows": 47058
+     },
+     "2013": {
+      "missing": 1166,
+      "rows": 48155
+     },
+     "2014": {
+      "missing": 1192,
+      "rows": 48014
+     },
+     "2015": {
+      "missing": 1373,
+      "rows": 48565
+     },
+     "2016": {
+      "missing": 1784,
+      "rows": 50871
+     },
+     "2017": {
+      "missing": 1533,
+      "rows": 49542
+     },
+     "2018": {
+      "missing": 1447,
+      "rows": 49570
+     },
+     "2019": {
+      "missing": 1751,
+      "rows": 49558
+     }
+    }
+   }
   },
   {
    "id": "cl",
@@ -33,6 +109,8 @@
    "rawRows": 73021,
    "dropped": 0,
    "rawDeaths": 1208269,
+   "rawTotalDeaths": 1208269,
+   "droppedDeaths": 0,
    "years": [
     1997,
     2019
@@ -56,11 +134,11 @@
   },
   {
    "file": "mortalidad-ar-nacional.json",
-   "bytes": 214459
+   "bytes": 214460
   },
   {
    "file": "mortalidad-ar-territorio.json",
-   "bytes": 331824
+   "bytes": 331872
   },
   {
    "file": "mortalidad-cl-nacional.json",

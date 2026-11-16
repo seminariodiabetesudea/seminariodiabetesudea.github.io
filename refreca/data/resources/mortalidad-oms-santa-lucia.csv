@@ -788,6 +788,7 @@
 2012,Mujer,85 y más,Tumor maligno del páncreas,1,540
 2012,Mujer,85 y más,Tumor maligno del útero,2,540
 2012,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,540
+2012,Mujer,85 y más,Deficiencias nutricionales,2,540
 2012,Mujer,85 y más,Diabetes Mellitus no especificada,12,540
 2012,Mujer,85 y más,Diabetes no insulinodependiente,5,540
 2012,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1,540
@@ -1281,6 +1282,7 @@
 2014,Mujer,75-79,Tumor maligno del estómago,2,1418
 2014,Mujer,75-79,Tumor maligno del ovario,2,1418
 2014,Mujer,75-79,Tumor maligno del páncreas,1,1418
+2014,Mujer,75-79,Deficiencias nutricionales,1,1418
 2014,Mujer,75-79,Diabetes Mellitus no especificada,12,1418
 2014,Mujer,75-79,Diabetes no insulinodependiente,3,1418
 2014,Mujer,75-79,Enfermedad hipertensiva,4,1418
@@ -1315,7 +1317,7 @@
 2014,Mujer,85 y más,Tumor maligno del estómago,2,581
 2014,Mujer,85 y más,Tumor maligno del ovario,1,581
 2014,Mujer,85 y más,Tumor maligno del páncreas,2,581
-2014,Mujer,85 y más,Deficiencias nutricionales,1,581
+2014,Mujer,85 y más,Deficiencias nutricionales,2,581
 2014,Mujer,85 y más,Diabetes Mellitus no especificada,15,581
 2014,Mujer,85 y más,Diabetes no insulinodependiente,2,581
 2014,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,1,581
@@ -1600,6 +1602,7 @@
 2015,Mujer,85 y más,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,620
 2015,Mujer,85 y más,Tumor maligno del páncreas,1,620
 2015,Mujer,85 y más,Tumor maligno del útero,2,620
+2015,Mujer,85 y más,Deficiencias nutricionales,2,620
 2015,Mujer,85 y más,Diabetes Mellitus no especificada,15,620
 2015,Mujer,85 y más,Diabetes no insulinodependiente,2,620
 2015,Mujer,85 y más,Enfermedad hipertensiva,14,620
@@ -2464,6 +2467,7 @@
 2018,Hombre,60-64,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2,3543
 2018,Hombre,60-64,Tumor maligno del esófago,2,3543
 2018,Hombre,60-64,Tumor maligno del estómago,1,3543
+2018,Hombre,60-64,Deficiencias nutricionales,1,3543
 2018,Hombre,60-64,Diabetes Mellitus no especificada,5,3543
 2018,Hombre,60-64,Diabetes no insulinodependiente,1,3543
 2018,Hombre,60-64,Enfermedad hipertensiva,6,3543
@@ -5151,6 +5155,6 @@
 2010,Hombre,45-49,Tumor maligno del estómago,1,5680
 2010,Hombre,45-49,Tumor maligno del páncreas,1,5680
 2010,Hombre,45-49,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,5680
-2010,Hombre,45-49,Deficiencias nutricionales,1,5680
+2010,Hombre,45-49,Deficiencias nutricionales,2,5680
 2010,Hombre,45-49,Diabetes insulinodependiente,1,5680
 2010,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,3,5680

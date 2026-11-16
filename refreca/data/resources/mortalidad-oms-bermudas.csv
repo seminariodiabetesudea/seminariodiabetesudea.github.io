@@ -1825,7 +1825,7 @@
 2019,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,1344
 2019,Hombre,70-74,Diabetes Mellitus no especificada,1,1344
 2019,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,1,1344
-2019,Hombre,70-74,Enfermedad hipertensiva,1,1344
+2019,Hombre,70-74,Enfermedad hipertensiva,2,1344
 2019,Hombre,75-79,Aneurisma aórtico,1,898
 2019,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),5,898
 2019,Hombre,75-79,Enfermedad renal crónica,1,898
@@ -2557,6 +2557,7 @@
 2004,Mujer,75-79,"Tumor maligno de la tráquea, bronquios y pulmón",5,877
 2004,Mujer,75-79,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2,877
 2004,Mujer,75-79,Tumor maligno del ovario,3,877
+2004,Mujer,75-79,Deficiencias nutricionales,1,877
 2004,Mujer,75-79,Diabetes Mellitus no especificada,2,877
 2004,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,1,877
 2004,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,599

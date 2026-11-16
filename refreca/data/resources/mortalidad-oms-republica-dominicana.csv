@@ -101,7 +101,7 @@
 2000,Mujer,60-64,Tumor maligno del páncreas,4,89488
 2000,Mujer,60-64,Tumor maligno del útero,15,89488
 2000,Mujer,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,89488
-2000,Mujer,60-64,Deficiencias nutricionales,2,89488
+2000,Mujer,60-64,Deficiencias nutricionales,3,89488
 2000,Mujer,60-64,Diabetes Mellitus no especificada,26,89488
 2000,Mujer,60-64,Diabetes no insulinodependiente,13,89488
 2000,Mujer,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,3,89488
@@ -489,6 +489,7 @@
 2000,Hombre,50-54,Tumor maligno del hígado,10,133916
 2000,Hombre,50-54,Tumor maligno del páncreas,2,133916
 2000,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,133916
+2000,Hombre,50-54,Deficiencias nutricionales,2,133916
 2000,Hombre,50-54,Diabetes insulinodependiente,1,133916
 2000,Hombre,50-54,Diabetes Mellitus no especificada,21,133916
 2000,Hombre,50-54,Diabetes no insulinodependiente,2,133916
@@ -549,7 +550,7 @@
 2000,Hombre,60-64,Tumor maligno del hígado,19,81873
 2000,Hombre,60-64,Tumor maligno del páncreas,7,81873
 2000,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12,81873
-2000,Hombre,60-64,Deficiencias nutricionales,3,81873
+2000,Hombre,60-64,Deficiencias nutricionales,4,81873
 2000,Hombre,60-64,Diabetes Mellitus no especificada,43,81873
 2000,Hombre,60-64,Diabetes no insulinodependiente,10,81873
 2000,Hombre,60-64,Enfermedad hipertensiva,32,81873
@@ -798,7 +799,7 @@
 2000,Hombre,30-34,Tumor maligno del hígado,1,322221
 2000,Hombre,30-34,Tumor maligno del páncreas,1,322221
 2000,Hombre,30-34,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,322221
-2000,Hombre,30-34,Deficiencias nutricionales,1,322221
+2000,Hombre,30-34,Deficiencias nutricionales,2,322221
 2000,Hombre,30-34,Diabetes insulinodependiente,2,322221
 2000,Hombre,30-34,Diabetes Mellitus no especificada,6,322221
 2000,Hombre,30-34,Enfermedad cardiopulmonar y de la circulación pulmonar,2,322221
@@ -1436,7 +1437,7 @@
 2001,Hombre,60-64,Tumor maligno del hígado,20,83129
 2001,Hombre,60-64,Tumor maligno del páncreas,4,83129
 2001,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",8,83129
-2001,Hombre,60-64,Deficiencias nutricionales,2,83129
+2001,Hombre,60-64,Deficiencias nutricionales,3,83129
 2001,Hombre,60-64,Diabetes insulinodependiente,1,83129
 2001,Hombre,60-64,Diabetes Mellitus no especificada,45,83129
 2001,Hombre,60-64,Diabetes no insulinodependiente,11,83129
@@ -1500,7 +1501,7 @@
 2001,Hombre,70-74,Tumor maligno del hígado,26,45611
 2001,Hombre,70-74,Tumor maligno del páncreas,9,45611
 2001,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",10,45611
-2001,Hombre,70-74,Deficiencias nutricionales,2,45611
+2001,Hombre,70-74,Deficiencias nutricionales,3,45611
 2001,Hombre,70-74,Diabetes insulinodependiente,1,45611
 2001,Hombre,70-74,Diabetes Mellitus no especificada,29,45611
 2001,Hombre,70-74,Diabetes no insulinodependiente,18,45611
@@ -1618,7 +1619,7 @@
 2001,Hombre,Sin dato,Tumor maligno del estómago,1,
 2001,Hombre,Sin dato,Tumor maligno del páncreas,2,
 2001,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,
-2001,Hombre,Sin dato,Deficiencias nutricionales,2,
+2001,Hombre,Sin dato,Deficiencias nutricionales,3,
 2001,Hombre,Sin dato,Diabetes insulinodependiente,1,
 2001,Hombre,Sin dato,Diabetes Mellitus no especificada,4,
 2001,Hombre,Sin dato,Diabetes no insulinodependiente,1,
@@ -1667,7 +1668,7 @@
 2001,Hombre,20-24,Tumor maligno del hígado,1,420944
 2001,Hombre,20-24,Tumor maligno del páncreas,1,420944
 2001,Hombre,20-24,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,420944
-2001,Hombre,20-24,Deficiencias nutricionales,1,420944
+2001,Hombre,20-24,Deficiencias nutricionales,2,420944
 2001,Hombre,20-24,Diabetes insulinodependiente,1,420944
 2001,Hombre,20-24,Diabetes Mellitus no especificada,3,420944
 2001,Hombre,20-24,Diabetes no insulinodependiente,3,420944
@@ -2338,6 +2339,7 @@
 2010,Hombre,50-54,Tumor maligno del hígado,10,217494
 2010,Hombre,50-54,Tumor maligno del páncreas,3,217494
 2010,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",9,217494
+2010,Hombre,50-54,Deficiencias nutricionales,1,217494
 2010,Hombre,50-54,Diabetes insulinodependiente,1,217494
 2010,Hombre,50-54,Diabetes Mellitus no especificada,23,217494
 2010,Hombre,50-54,Diabetes no insulinodependiente,28,217494
@@ -2370,7 +2372,7 @@
 2010,Hombre,55-59,Tumor maligno del hígado,18,165396
 2010,Hombre,55-59,Tumor maligno del páncreas,10,165396
 2010,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12,165396
-2010,Hombre,55-59,Deficiencias nutricionales,2,165396
+2010,Hombre,55-59,Deficiencias nutricionales,3,165396
 2010,Hombre,55-59,Diabetes insulinodependiente,4,165396
 2010,Hombre,55-59,Diabetes Mellitus no especificada,31,165396
 2010,Hombre,55-59,Diabetes no insulinodependiente,31,165396
@@ -2536,7 +2538,7 @@
 2010,Hombre,80-84,Tumor maligno del hígado,20,22713
 2010,Hombre,80-84,Tumor maligno del páncreas,8,22713
 2010,Hombre,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",16,22713
-2010,Hombre,80-84,Deficiencias nutricionales,6,22713
+2010,Hombre,80-84,Deficiencias nutricionales,7,22713
 2010,Hombre,80-84,Diabetes insulinodependiente,4,22713
 2010,Hombre,80-84,Diabetes Mellitus no especificada,26,22713
 2010,Hombre,80-84,Diabetes no insulinodependiente,28,22713
@@ -2809,6 +2811,7 @@
 2011,Mujer,50-54,Tumor maligno del páncreas,4,235905
 2011,Mujer,50-54,Tumor maligno del útero,13,235905
 2011,Mujer,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,235905
+2011,Mujer,50-54,Deficiencias nutricionales,1,235905
 2011,Mujer,50-54,Diabetes insulinodependiente,3,235905
 2011,Mujer,50-54,Diabetes Mellitus no especificada,20,235905
 2011,Mujer,50-54,Diabetes no insulinodependiente,21,235905
@@ -3044,7 +3047,7 @@
 2011,Mujer,85 y más,Tumor maligno del páncreas,7,31835
 2011,Mujer,85 y más,Tumor maligno del útero,14,31835
 2011,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",8,31835
-2011,Mujer,85 y más,Deficiencias nutricionales,11,31835
+2011,Mujer,85 y más,Deficiencias nutricionales,12,31835
 2011,Mujer,85 y más,Diabetes insulinodependiente,4,31835
 2011,Mujer,85 y más,Diabetes Mellitus no especificada,53,31835
 2011,Mujer,85 y más,Diabetes no insulinodependiente,37,31835
@@ -3341,7 +3344,7 @@
 2011,Hombre,60-64,Tumor maligno del hígado,25,122933
 2011,Hombre,60-64,Tumor maligno del páncreas,12,122933
 2011,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",17,122933
-2011,Hombre,60-64,Deficiencias nutricionales,1,122933
+2011,Hombre,60-64,Deficiencias nutricionales,2,122933
 2011,Hombre,60-64,Diabetes insulinodependiente,4,122933
 2011,Hombre,60-64,Diabetes Mellitus no especificada,27,122933
 2011,Hombre,60-64,Diabetes no insulinodependiente,42,122933
@@ -3374,7 +3377,7 @@
 2011,Hombre,65-69,Tumor maligno del hígado,23,82551
 2011,Hombre,65-69,Tumor maligno del páncreas,11,82551
 2011,Hombre,65-69,"Tumores malignos del labio, de la cavidad bucal y de la faringe",25,82551
-2011,Hombre,65-69,Deficiencias nutricionales,1,82551
+2011,Hombre,65-69,Deficiencias nutricionales,2,82551
 2011,Hombre,65-69,Diabetes insulinodependiente,3,82551
 2011,Hombre,65-69,Diabetes Mellitus no especificada,31,82551
 2011,Hombre,65-69,Diabetes no insulinodependiente,40,82551
@@ -3669,6 +3672,7 @@
 2011,Hombre,40-44,Tumor maligno del hígado,8,295002
 2011,Hombre,40-44,Tumor maligno del páncreas,4,295002
 2011,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,295002
+2011,Hombre,40-44,Deficiencias nutricionales,1,295002
 2011,Hombre,40-44,Diabetes insulinodependiente,3,295002
 2011,Hombre,40-44,Diabetes Mellitus no especificada,13,295002
 2011,Hombre,40-44,Diabetes no insulinodependiente,14,295002
@@ -3948,7 +3952,7 @@
 2012,Mujer,80-84,Tumor maligno del páncreas,8,36846
 2012,Mujer,80-84,Tumor maligno del útero,16,36846
 2012,Mujer,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",10,36846
-2012,Mujer,80-84,Deficiencias nutricionales,1,36846
+2012,Mujer,80-84,Deficiencias nutricionales,2,36846
 2012,Mujer,80-84,Diabetes insulinodependiente,3,36846
 2012,Mujer,80-84,Diabetes Mellitus no especificada,43,36846
 2012,Mujer,80-84,Diabetes no insulinodependiente,41,36846
@@ -3984,7 +3988,7 @@
 2012,Mujer,85 y más,Tumor maligno del páncreas,7,33542
 2012,Mujer,85 y más,Tumor maligno del útero,12,33542
 2012,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",18,33542
-2012,Mujer,85 y más,Deficiencias nutricionales,12,33542
+2012,Mujer,85 y más,Deficiencias nutricionales,13,33542
 2012,Mujer,85 y más,Diabetes insulinodependiente,5,33542
 2012,Mujer,85 y más,Diabetes Mellitus no especificada,50,33542
 2012,Mujer,85 y más,Diabetes no insulinodependiente,60,33542
@@ -4229,7 +4233,7 @@
 2012,Hombre,50-54,Tumor maligno del hígado,10,231172
 2012,Hombre,50-54,Tumor maligno del páncreas,6,231172
 2012,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",8,231172
-2012,Hombre,50-54,Deficiencias nutricionales,1,231172
+2012,Hombre,50-54,Deficiencias nutricionales,2,231172
 2012,Hombre,50-54,Diabetes insulinodependiente,1,231172
 2012,Hombre,50-54,Diabetes Mellitus no especificada,32,231172
 2012,Hombre,50-54,Diabetes no insulinodependiente,27,231172
@@ -4326,7 +4330,7 @@
 2012,Hombre,65-69,Tumor maligno del hígado,27,86913
 2012,Hombre,65-69,Tumor maligno del páncreas,9,86913
 2012,Hombre,65-69,"Tumores malignos del labio, de la cavidad bucal y de la faringe",20,86913
-2012,Hombre,65-69,Deficiencias nutricionales,2,86913
+2012,Hombre,65-69,Deficiencias nutricionales,3,86913
 2012,Hombre,65-69,Diabetes insulinodependiente,4,86913
 2012,Hombre,65-69,Diabetes Mellitus no especificada,39,86913
 2012,Hombre,65-69,Diabetes no insulinodependiente,42,86913
@@ -4361,7 +4365,7 @@
 2012,Hombre,70-74,Tumor maligno del hígado,18,62245
 2012,Hombre,70-74,Tumor maligno del páncreas,12,62245
 2012,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13,62245
-2012,Hombre,70-74,Deficiencias nutricionales,2,62245
+2012,Hombre,70-74,Deficiencias nutricionales,3,62245
 2012,Hombre,70-74,Diabetes insulinodependiente,3,62245
 2012,Hombre,70-74,Diabetes Mellitus no especificada,35,62245
 2012,Hombre,70-74,Diabetes no insulinodependiente,29,62245
@@ -4868,11 +4872,12 @@
 2013,Mujer,75-79,Tumor maligno del páncreas,8,58679
 2013,Mujer,75-79,Tumor maligno del útero,14,58679
 2013,Mujer,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,58679
+2013,Mujer,75-79,Deficiencias nutricionales,1,58679
 2013,Mujer,75-79,Diabetes insulinodependiente,8,58679
 2013,Mujer,75-79,Diabetes Mellitus no especificada,60,58679
 2013,Mujer,75-79,Diabetes no insulinodependiente,64,58679
 2013,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,16,58679
-2013,Mujer,75-79,Enfermedad hipertensiva,122,58679
+2013,Mujer,75-79,Enfermedad hipertensiva,123,58679
 2013,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4,38358
 2013,Mujer,80-84,Aneurisma aórtico,4,38358
 2013,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),33,38358
@@ -5181,7 +5186,7 @@
 2013,Hombre,50-54,Tumor maligno del hígado,14,237221
 2013,Hombre,50-54,Tumor maligno del páncreas,9,237221
 2013,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,237221
-2013,Hombre,50-54,Deficiencias nutricionales,2,237221
+2013,Hombre,50-54,Deficiencias nutricionales,3,237221
 2013,Hombre,50-54,Diabetes insulinodependiente,2,237221
 2013,Hombre,50-54,Diabetes Mellitus no especificada,27,237221
 2013,Hombre,50-54,Diabetes no insulinodependiente,43,237221
@@ -5346,6 +5351,7 @@
 2013,Hombre,75-79,Tumor maligno del hígado,19,44362
 2013,Hombre,75-79,Tumor maligno del páncreas,16,44362
 2013,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",19,44362
+2013,Hombre,75-79,Deficiencias nutricionales,1,44362
 2013,Hombre,75-79,Diabetes insulinodependiente,4,44362
 2013,Hombre,75-79,Diabetes Mellitus no especificada,48,44362
 2013,Hombre,75-79,Diabetes no insulinodependiente,47,44362
@@ -5565,7 +5571,7 @@
 2013,Hombre,40-44,Tumor maligno del hígado,8,304693
 2013,Hombre,40-44,Tumor maligno del páncreas,7,304693
 2013,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,304693
-2013,Hombre,40-44,Deficiencias nutricionales,1,304693
+2013,Hombre,40-44,Deficiencias nutricionales,2,304693
 2013,Hombre,40-44,Diabetes insulinodependiente,1,304693
 2013,Hombre,40-44,Diabetes Mellitus no especificada,8,304693
 2013,Hombre,40-44,Diabetes no insulinodependiente,13,304693
@@ -5618,6 +5624,7 @@
 2014,Mujer,0-4,Diabetes Mellitus no especificada,2,510600
 2014,Mujer,0-4,Diabetes no insulinodependiente,1,510600
 2014,Mujer,0-4,Enfermedad cardiopulmonar y de la circulación pulmonar,7,510600
+2014,Mujer,0-4,Enfermedad hipertensiva,1,510600
 2014,Mujer,5-9,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2,484897
 2014,Mujer,5-9,Enfermedades cerebrovasculares,2,484897
 2014,Mujer,5-9,Lesiones autoinfligidas intencionalmente (suicidios),2,484897
@@ -5660,7 +5667,7 @@
 2014,Mujer,50-54,Diabetes Mellitus no especificada,32,255578
 2014,Mujer,50-54,Diabetes no insulinodependiente,43,255578
 2014,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,5,255578
-2014,Mujer,50-54,Enfermedad hipertensiva,47,255578
+2014,Mujer,50-54,Enfermedad hipertensiva,48,255578
 2014,Mujer,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",9,212907
 2014,Mujer,55-59,Aneurisma aórtico,1,212907
 2014,Mujer,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),7,212907
@@ -5728,7 +5735,7 @@
 2014,Mujer,60-64,Diabetes Mellitus no especificada,64,158650
 2014,Mujer,60-64,Diabetes no insulinodependiente,93,158650
 2014,Mujer,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,7,158650
-2014,Mujer,60-64,Enfermedad hipertensiva,76,158650
+2014,Mujer,60-64,Enfermedad hipertensiva,77,158650
 2014,Mujer,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",12,109685
 2014,Mujer,65-69,Aneurisma aórtico,1,109685
 2014,Mujer,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),16,109685
@@ -5831,7 +5838,7 @@
 2014,Mujer,75-79,Diabetes Mellitus no especificada,111,60230
 2014,Mujer,75-79,Diabetes no insulinodependiente,146,60230
 2014,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,6,60230
-2014,Mujer,75-79,Enfermedad hipertensiva,179,60230
+2014,Mujer,75-79,Enfermedad hipertensiva,180,60230
 2014,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",13,39850
 2014,Mujer,80-84,Aneurisma aórtico,1,39850
 2014,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),35,39850
@@ -5864,7 +5871,7 @@
 2014,Mujer,80-84,Diabetes Mellitus no especificada,103,39850
 2014,Mujer,80-84,Diabetes no insulinodependiente,130,39850
 2014,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,12,39850
-2014,Mujer,80-84,Enfermedad hipertensiva,231,39850
+2014,Mujer,80-84,Enfermedad hipertensiva,235,39850
 2014,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",18,37003
 2014,Mujer,85 y más,Aneurisma aórtico,1,37003
 2014,Mujer,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),64,37003
@@ -5899,7 +5906,7 @@
 2014,Mujer,85 y más,Diabetes Mellitus no especificada,111,37003
 2014,Mujer,85 y más,Diabetes no insulinodependiente,166,37003
 2014,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,17,37003
-2014,Mujer,85 y más,Enfermedad hipertensiva,405,37003
+2014,Mujer,85 y más,Enfermedad hipertensiva,411,37003
 2014,Mujer,Sin dato,Enfermedad renal crónica,2,
 2014,Mujer,Sin dato,Enfermedades cerebrovasculares,3,
 2014,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,3,
@@ -6211,7 +6218,7 @@
 2014,Hombre,60-64,Diabetes Mellitus no especificada,81,145213
 2014,Hombre,60-64,Diabetes no insulinodependiente,111,145213
 2014,Hombre,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,6,145213
-2014,Hombre,60-64,Enfermedad hipertensiva,91,145213
+2014,Hombre,60-64,Enfermedad hipertensiva,93,145213
 2014,Hombre,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",9,97786
 2014,Hombre,65-69,Aneurisma aórtico,4,97786
 2014,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),23,97786
@@ -6245,7 +6252,7 @@
 2014,Hombre,65-69,Diabetes Mellitus no especificada,81,97786
 2014,Hombre,65-69,Diabetes no insulinodependiente,143,97786
 2014,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,11,97786
-2014,Hombre,65-69,Enfermedad hipertensiva,122,97786
+2014,Hombre,65-69,Enfermedad hipertensiva,123,97786
 2014,Hombre,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",12,64367
 2014,Hombre,70-74,Aneurisma aórtico,7,64367
 2014,Hombre,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),50,64367
@@ -6279,7 +6286,7 @@
 2014,Hombre,70-74,Diabetes Mellitus no especificada,95,64367
 2014,Hombre,70-74,Diabetes no insulinodependiente,147,64367
 2014,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,12,64367
-2014,Hombre,70-74,Enfermedad hipertensiva,160,64367
+2014,Hombre,70-74,Enfermedad hipertensiva,163,64367
 2014,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",14,45595
 2014,Hombre,75-79,Aneurisma aórtico,5,45595
 2014,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),44,45595
@@ -6379,7 +6386,7 @@
 2014,Hombre,85 y más,Diabetes Mellitus no especificada,87,18223
 2014,Hombre,85 y más,Diabetes no insulinodependiente,101,18223
 2014,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,13,18223
-2014,Hombre,85 y más,Enfermedad hipertensiva,300,18223
+2014,Hombre,85 y más,Enfermedad hipertensiva,301,18223
 2014,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,
 2014,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2,
 2014,Hombre,Sin dato,Enfermedades cerebrovasculares,8,
@@ -6430,6 +6437,7 @@
 2014,Hombre,20-24,Lesiones autoinfligidas intencionalmente (suicidios),52,489022
 2014,Hombre,20-24,Leucemia,1,489022
 2014,Hombre,20-24,Tumor maligno de los huesos y de los cartílagos articulares,1,489022
+2014,Hombre,20-24,Deficiencias nutricionales,1,489022
 2014,Hombre,20-24,Diabetes insulinodependiente,2,489022
 2014,Hombre,20-24,Diabetes Mellitus no especificada,1,489022
 2014,Hombre,20-24,Enfermedad cardiopulmonar y de la circulación pulmonar,5,489022
@@ -6554,6 +6562,7 @@
 2014,Hombre,45-49,Tumor maligno del hígado,10,275622
 2014,Hombre,45-49,Tumor maligno del páncreas,7,275622
 2014,Hombre,45-49,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,275622
+2014,Hombre,45-49,Deficiencias nutricionales,1,275622
 2014,Hombre,45-49,Diabetes insulinodependiente,9,275622
 2014,Hombre,45-49,Diabetes Mellitus no especificada,39,275622
 2014,Hombre,45-49,Diabetes no insulinodependiente,45,275622
@@ -6636,7 +6645,7 @@
 2015,Mujer,55-59,Tumor maligno del páncreas,5,221173
 2015,Mujer,55-59,Tumor maligno del útero,17,221173
 2015,Mujer,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,221173
-2015,Mujer,55-59,Deficiencias nutricionales,1,221173
+2015,Mujer,55-59,Deficiencias nutricionales,2,221173
 2015,Mujer,55-59,Diabetes insulinodependiente,15,221173
 2015,Mujer,55-59,Diabetes Mellitus no especificada,34,221173
 2015,Mujer,55-59,Diabetes no insulinodependiente,50,221173
@@ -6670,12 +6679,12 @@
 2015,Mujer,60-64,Tumor maligno del páncreas,16,168198
 2015,Mujer,60-64,Tumor maligno del útero,19,168198
 2015,Mujer,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,168198
-2015,Mujer,60-64,Deficiencias nutricionales,1,168198
+2015,Mujer,60-64,Deficiencias nutricionales,2,168198
 2015,Mujer,60-64,Diabetes insulinodependiente,29,168198
 2015,Mujer,60-64,Diabetes Mellitus no especificada,51,168198
 2015,Mujer,60-64,Diabetes no insulinodependiente,66,168198
 2015,Mujer,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,7,168198
-2015,Mujer,60-64,Enfermedad hipertensiva,111,168198
+2015,Mujer,60-64,Enfermedad hipertensiva,112,168198
 2015,Mujer,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,116473
 2015,Mujer,65-69,Aneurisma aórtico,1,116473
 2015,Mujer,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),11,116473
@@ -6709,7 +6718,7 @@
 2015,Mujer,65-69,Diabetes Mellitus no especificada,58,116473
 2015,Mujer,65-69,Diabetes no insulinodependiente,100,116473
 2015,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,11,116473
-2015,Mujer,65-69,Enfermedad hipertensiva,121,116473
+2015,Mujer,65-69,Enfermedad hipertensiva,124,116473
 2015,Mujer,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7,79234
 2015,Mujer,70-74,Aneurisma aórtico,3,79234
 2015,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),15,79234
@@ -6841,7 +6850,7 @@
 2015,Mujer,85 y más,Diabetes Mellitus no especificada,95,38638
 2015,Mujer,85 y más,Diabetes no insulinodependiente,123,38638
 2015,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,19,38638
-2015,Mujer,85 y más,Enfermedad hipertensiva,465,38638
+2015,Mujer,85 y más,Enfermedad hipertensiva,468,38638
 2015,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2,
 2015,Mujer,Sin dato,Enfermedad renal crónica,1,
 2015,Mujer,Sin dato,Enfermedades cerebrovasculares,4,
@@ -7068,12 +7077,12 @@
 2015,Hombre,50-54,Tumor maligno del hígado,9,247635
 2015,Hombre,50-54,Tumor maligno del páncreas,6,247635
 2015,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,247635
-2015,Hombre,50-54,Deficiencias nutricionales,3,247635
+2015,Hombre,50-54,Deficiencias nutricionales,4,247635
 2015,Hombre,50-54,Diabetes insulinodependiente,15,247635
 2015,Hombre,50-54,Diabetes Mellitus no especificada,44,247635
 2015,Hombre,50-54,Diabetes no insulinodependiente,41,247635
 2015,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,4,247635
-2015,Hombre,50-54,Enfermedad hipertensiva,101,247635
+2015,Hombre,50-54,Enfermedad hipertensiva,102,247635
 2015,Hombre,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,205912
 2015,Hombre,55-59,Aneurisma aórtico,1,205912
 2015,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),7,205912
@@ -7203,7 +7212,7 @@
 2015,Hombre,70-74,Diabetes Mellitus no especificada,67,66497
 2015,Hombre,70-74,Diabetes no insulinodependiente,89,66497
 2015,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,11,66497
-2015,Hombre,70-74,Enfermedad hipertensiva,193,66497
+2015,Hombre,70-74,Enfermedad hipertensiva,194,66497
 2015,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,46552
 2015,Hombre,75-79,Aneurisma aórtico,4,46552
 2015,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),32,46552
@@ -7269,7 +7278,7 @@
 2015,Hombre,80-84,Diabetes Mellitus no especificada,38,27007
 2015,Hombre,80-84,Diabetes no insulinodependiente,78,27007
 2015,Hombre,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,5,27007
-2015,Hombre,80-84,Enfermedad hipertensiva,239,27007
+2015,Hombre,80-84,Enfermedad hipertensiva,240,27007
 2015,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",22,18797
 2015,Hombre,85 y más,Aneurisma aórtico,2,18797
 2015,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),56,18797
@@ -7301,7 +7310,7 @@
 2015,Hombre,85 y más,Diabetes Mellitus no especificada,54,18797
 2015,Hombre,85 y más,Diabetes no insulinodependiente,92,18797
 2015,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,10,18797
-2015,Hombre,85 y más,Enfermedad hipertensiva,337,18797
+2015,Hombre,85 y más,Enfermedad hipertensiva,338,18797
 2015,Hombre,Sin dato,Enfermedades cerebrovasculares,4,
 2015,Hombre,Sin dato,Enfermedades isquémicas del corazón,7,
 2015,Hombre,Sin dato,Insuficiencia cardíaca,1,
@@ -7351,7 +7360,7 @@
 2015,Hombre,20-24,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,491249
 2015,Hombre,20-24,Diabetes Mellitus no especificada,2,491249
 2015,Hombre,20-24,Enfermedad cardiopulmonar y de la circulación pulmonar,3,491249
-2015,Hombre,20-24,Enfermedad hipertensiva,2,491249
+2015,Hombre,20-24,Enfermedad hipertensiva,3,491249
 2015,Hombre,25-29,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5,440576
 2015,Hombre,25-29,Enfermedad renal crónica,6,440576
 2015,Hombre,25-29,Enfermedades cerebrovasculares,5,440576
@@ -7440,7 +7449,7 @@
 2015,Hombre,40-44,Diabetes Mellitus no especificada,15,316485
 2015,Hombre,40-44,Diabetes no insulinodependiente,28,316485
 2015,Hombre,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,1,316485
-2015,Hombre,40-44,Enfermedad hipertensiva,34,316485
+2015,Hombre,40-44,Enfermedad hipertensiva,35,316485
 2015,Hombre,45-49,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6,279076
 2015,Hombre,45-49,Aneurisma aórtico,4,279076
 2015,Hombre,45-49,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,279076
@@ -7471,7 +7480,7 @@
 2015,Hombre,45-49,Diabetes Mellitus no especificada,32,279076
 2015,Hombre,45-49,Diabetes no insulinodependiente,36,279076
 2015,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,4,279076
-2015,Hombre,45-49,Enfermedad hipertensiva,71,279076
+2015,Hombre,45-49,Enfermedad hipertensiva,72,279076
 2016,Mujer,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5,508088
 2016,Mujer,0-4,Enfermedad renal crónica,2,508088
 2016,Mujer,0-4,Enfermedades cerebrovasculares,11,508088
@@ -7556,7 +7565,7 @@
 2016,Mujer,55-59,Tumor maligno del páncreas,12,228849
 2016,Mujer,55-59,Tumor maligno del útero,13,228849
 2016,Mujer,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,228849
-2016,Mujer,55-59,Deficiencias nutricionales,1,228849
+2016,Mujer,55-59,Deficiencias nutricionales,2,228849
 2016,Mujer,55-59,Diabetes insulinodependiente,16,228849
 2016,Mujer,55-59,Diabetes Mellitus no especificada,30,228849
 2016,Mujer,55-59,Diabetes no insulinodependiente,45,228849
@@ -7630,7 +7639,7 @@
 2016,Mujer,65-69,Diabetes Mellitus no especificada,63,123765
 2016,Mujer,65-69,Diabetes no insulinodependiente,63,123765
 2016,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,7,123765
-2016,Mujer,65-69,Enfermedad hipertensiva,145,123765
+2016,Mujer,65-69,Enfermedad hipertensiva,148,123765
 2016,Mujer,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5,82725
 2016,Mujer,70-74,Aneurisma aórtico,6,82725
 2016,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),24,82725
@@ -7666,7 +7675,7 @@
 2016,Mujer,70-74,Diabetes Mellitus no especificada,49,82725
 2016,Mujer,70-74,Diabetes no insulinodependiente,80,82725
 2016,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,7,82725
-2016,Mujer,70-74,Enfermedad hipertensiva,154,82725
+2016,Mujer,70-74,Enfermedad hipertensiva,155,82725
 2016,Mujer,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",13,62260
 2016,Mujer,75-79,Aneurisma aórtico,1,62260
 2016,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),33,62260
@@ -7700,7 +7709,7 @@
 2016,Mujer,75-79,Diabetes Mellitus no especificada,63,62260
 2016,Mujer,75-79,Diabetes no insulinodependiente,82,62260
 2016,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,8,62260
-2016,Mujer,75-79,Enfermedad hipertensiva,193,62260
+2016,Mujer,75-79,Enfermedad hipertensiva,195,62260
 2016,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",9,42592
 2016,Mujer,80-84,Aneurisma aórtico,1,42592
 2016,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),33,42592
@@ -7731,12 +7740,12 @@
 2016,Mujer,80-84,Tumor maligno del páncreas,6,42592
 2016,Mujer,80-84,Tumor maligno del útero,13,42592
 2016,Mujer,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,42592
-2016,Mujer,80-84,Deficiencias nutricionales,3,42592
+2016,Mujer,80-84,Deficiencias nutricionales,4,42592
 2016,Mujer,80-84,Diabetes insulinodependiente,21,42592
 2016,Mujer,80-84,Diabetes Mellitus no especificada,70,42592
 2016,Mujer,80-84,Diabetes no insulinodependiente,105,42592
 2016,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,12,42592
-2016,Mujer,80-84,Enfermedad hipertensiva,261,42592
+2016,Mujer,80-84,Enfermedad hipertensiva,262,42592
 2016,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",17,40277
 2016,Mujer,85 y más,Aneurisma aórtico,1,40277
 2016,Mujer,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),76,40277
@@ -7771,7 +7780,7 @@
 2016,Mujer,85 y más,Diabetes Mellitus no especificada,97,40277
 2016,Mujer,85 y más,Diabetes no insulinodependiente,107,40277
 2016,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,18,40277
-2016,Mujer,85 y más,Enfermedad hipertensiva,428,40277
+2016,Mujer,85 y más,Enfermedad hipertensiva,429,40277
 2016,Mujer,Sin dato,Enfermedades cerebrovasculares,2,
 2016,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,1,
 2016,Mujer,Sin dato,Enfermedades isquémicas del corazón,3,
@@ -7861,7 +7870,7 @@
 2016,Mujer,30-34,Tumor maligno del hígado,2,393931
 2016,Mujer,30-34,Tumor maligno del ovario,1,393931
 2016,Mujer,30-34,Tumor maligno del útero,6,393931
-2016,Mujer,30-34,Deficiencias nutricionales,1,393931
+2016,Mujer,30-34,Deficiencias nutricionales,2,393931
 2016,Mujer,30-34,Diabetes insulinodependiente,2,393931
 2016,Mujer,30-34,Diabetes Mellitus no especificada,6,393931
 2016,Mujer,30-34,Diabetes no insulinodependiente,1,393931
@@ -8000,11 +8009,12 @@
 2016,Hombre,50-54,Tumor maligno del hígado,26,252176
 2016,Hombre,50-54,Tumor maligno del páncreas,8,252176
 2016,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6,252176
+2016,Hombre,50-54,Deficiencias nutricionales,1,252176
 2016,Hombre,50-54,Diabetes insulinodependiente,19,252176
 2016,Hombre,50-54,Diabetes Mellitus no especificada,36,252176
 2016,Hombre,50-54,Diabetes no insulinodependiente,36,252176
 2016,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,3,252176
-2016,Hombre,50-54,Enfermedad hipertensiva,103,252176
+2016,Hombre,50-54,Enfermedad hipertensiva,108,252176
 2016,Hombre,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7,212903
 2016,Hombre,55-59,Aneurisma aórtico,3,212903
 2016,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),11,212903
@@ -8030,7 +8040,7 @@
 2016,Hombre,55-59,Tumor maligno del hígado,22,212903
 2016,Hombre,55-59,Tumor maligno del páncreas,16,212903
 2016,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6,212903
-2016,Hombre,55-59,Deficiencias nutricionales,1,212903
+2016,Hombre,55-59,Deficiencias nutricionales,3,212903
 2016,Hombre,55-59,Diabetes insulinodependiente,20,212903
 2016,Hombre,55-59,Diabetes Mellitus no especificada,56,212903
 2016,Hombre,55-59,Diabetes no insulinodependiente,46,212903
@@ -8101,7 +8111,7 @@
 2016,Hombre,65-69,Diabetes Mellitus no especificada,53,109897
 2016,Hombre,65-69,Diabetes no insulinodependiente,82,109897
 2016,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,12,109897
-2016,Hombre,65-69,Enfermedad hipertensiva,207,109897
+2016,Hombre,65-69,Enfermedad hipertensiva,209,109897
 2016,Hombre,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",14,69452
 2016,Hombre,70-74,Aneurisma aórtico,2,69452
 2016,Hombre,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),31,69452
@@ -8134,7 +8144,7 @@
 2016,Hombre,70-74,Diabetes Mellitus no especificada,76,69452
 2016,Hombre,70-74,Diabetes no insulinodependiente,74,69452
 2016,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,11,69452
-2016,Hombre,70-74,Enfermedad hipertensiva,218,69452
+2016,Hombre,70-74,Enfermedad hipertensiva,219,69452
 2016,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",22,47307
 2016,Hombre,75-79,Aneurisma aórtico,4,47307
 2016,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),37,47307
@@ -8198,7 +8208,7 @@
 2016,Hombre,80-84,Diabetes Mellitus no especificada,33,27947
 2016,Hombre,80-84,Diabetes no insulinodependiente,64,27947
 2016,Hombre,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,6,27947
-2016,Hombre,80-84,Enfermedad hipertensiva,206,27947
+2016,Hombre,80-84,Enfermedad hipertensiva,209,27947
 2016,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",22,19402
 2016,Hombre,85 y más,Aneurisma aórtico,1,19402
 2016,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),75,19402
@@ -8231,7 +8241,7 @@
 2016,Hombre,85 y más,Diabetes Mellitus no especificada,57,19402
 2016,Hombre,85 y más,Diabetes no insulinodependiente,61,19402
 2016,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,15,19402
-2016,Hombre,85 y más,Enfermedad hipertensiva,361,19402
+2016,Hombre,85 y más,Enfermedad hipertensiva,365,19402
 2016,Hombre,Sin dato,Enfermedad renal crónica,1,
 2016,Hombre,Sin dato,Enfermedades cerebrovasculares,1,
 2016,Hombre,Sin dato,Enfermedades isquémicas del corazón,9,
@@ -8379,6 +8389,7 @@
 2016,Hombre,40-44,Tumor maligno del estómago,1,322023
 2016,Hombre,40-44,Tumor maligno del hígado,3,322023
 2016,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,322023
+2016,Hombre,40-44,Deficiencias nutricionales,1,322023
 2016,Hombre,40-44,Diabetes insulinodependiente,5,322023
 2016,Hombre,40-44,Diabetes Mellitus no especificada,14,322023
 2016,Hombre,40-44,Diabetes no insulinodependiente,13,322023
@@ -8469,6 +8480,7 @@
 2017,Mujer,50-54,Tumor maligno del ovario,6,269745
 2017,Mujer,50-54,Tumor maligno del páncreas,8,269745
 2017,Mujer,50-54,Tumor maligno del útero,13,269745
+2017,Mujer,50-54,Deficiencias nutricionales,1,269745
 2017,Mujer,50-54,Diabetes insulinodependiente,5,269745
 2017,Mujer,50-54,Diabetes Mellitus no especificada,21,269745
 2017,Mujer,50-54,Diabetes no insulinodependiente,32,269745
@@ -8537,6 +8549,7 @@
 2017,Mujer,60-64,Tumor maligno del páncreas,4,186778
 2017,Mujer,60-64,Tumor maligno del útero,27,186778
 2017,Mujer,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,186778
+2017,Mujer,60-64,Deficiencias nutricionales,1,186778
 2017,Mujer,60-64,Diabetes insulinodependiente,14,186778
 2017,Mujer,60-64,Diabetes Mellitus no especificada,46,186778
 2017,Mujer,60-64,Diabetes no insulinodependiente,67,186778
@@ -8636,7 +8649,7 @@
 2017,Mujer,75-79,Tumor maligno del páncreas,13,62963
 2017,Mujer,75-79,Tumor maligno del útero,18,62963
 2017,Mujer,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,62963
-2017,Mujer,75-79,Deficiencias nutricionales,3,62963
+2017,Mujer,75-79,Deficiencias nutricionales,4,62963
 2017,Mujer,75-79,Diabetes insulinodependiente,12,62963
 2017,Mujer,75-79,Diabetes Mellitus no especificada,70,62963
 2017,Mujer,75-79,Diabetes no insulinodependiente,86,62963
@@ -8707,7 +8720,7 @@
 2017,Mujer,85 y más,Tumor maligno del páncreas,13,41927
 2017,Mujer,85 y más,Tumor maligno del útero,12,41927
 2017,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,41927
-2017,Mujer,85 y más,Deficiencias nutricionales,7,41927
+2017,Mujer,85 y más,Deficiencias nutricionales,8,41927
 2017,Mujer,85 y más,Diabetes insulinodependiente,13,41927
 2017,Mujer,85 y más,Diabetes Mellitus no especificada,70,41927
 2017,Mujer,85 y más,Diabetes no insulinodependiente,145,41927
@@ -8906,7 +8919,7 @@
 2017,Hombre,0-4,Aterosclerosis,2,526519
 2017,Hombre,0-4,Trastornos mentales y del comportamiento,1,526519
 2017,Hombre,0-4,"Tumor maligno de la tráquea, bronquios y pulmón",1,526519
-2017,Hombre,0-4,Deficiencias nutricionales,8,526519
+2017,Hombre,0-4,Deficiencias nutricionales,9,526519
 2017,Hombre,0-4,Diabetes no insulinodependiente,1,526519
 2017,Hombre,0-4,Enfermedad cardiopulmonar y de la circulación pulmonar,1,526519
 2017,Hombre,0-4,Enfermedad hipertensiva,3,526519
@@ -8979,7 +8992,7 @@
 2017,Hombre,55-59,Tumor maligno del hígado,23,219363
 2017,Hombre,55-59,Tumor maligno del páncreas,13,219363
 2017,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13,219363
-2017,Hombre,55-59,Deficiencias nutricionales,3,219363
+2017,Hombre,55-59,Deficiencias nutricionales,5,219363
 2017,Hombre,55-59,Diabetes insulinodependiente,8,219363
 2017,Hombre,55-59,Diabetes Mellitus no especificada,58,219363
 2017,Hombre,55-59,Diabetes no insulinodependiente,62,219363
@@ -9174,7 +9187,7 @@
 2017,Hombre,85 y más,Tumor maligno del hígado,13,20025
 2017,Hombre,85 y más,Tumor maligno del páncreas,9,20025
 2017,Hombre,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",9,20025
-2017,Hombre,85 y más,Deficiencias nutricionales,5,20025
+2017,Hombre,85 y más,Deficiencias nutricionales,6,20025
 2017,Hombre,85 y más,Diabetes insulinodependiente,14,20025
 2017,Hombre,85 y más,Diabetes Mellitus no especificada,56,20025
 2017,Hombre,85 y más,Diabetes no insulinodependiente,74,20025
@@ -9188,6 +9201,7 @@
 2017,Hombre,Sin dato,Tumor maligno de la próstata,1,
 2017,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1,
 2017,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,1,
+2017,Hombre,Sin dato,Deficiencias nutricionales,1,
 2017,Hombre,Sin dato,Enfermedad hipertensiva,1,
 2017,Hombre,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4,503192
 2017,Hombre,10-14,Enfermedad renal crónica,1,503192
@@ -9327,7 +9341,7 @@
 2017,Hombre,40-44,Tumor maligno del hígado,5,327205
 2017,Hombre,40-44,Tumor maligno del páncreas,4,327205
 2017,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,327205
-2017,Hombre,40-44,Deficiencias nutricionales,5,327205
+2017,Hombre,40-44,Deficiencias nutricionales,6,327205
 2017,Hombre,40-44,Diabetes insulinodependiente,5,327205
 2017,Hombre,40-44,Diabetes Mellitus no especificada,11,327205
 2017,Hombre,40-44,Diabetes no insulinodependiente,16,327205
@@ -9408,7 +9422,7 @@
 2018,Mujer,50-54,Diabetes Mellitus no especificada,32,273431
 2018,Mujer,50-54,Diabetes no insulinodependiente,25,273431
 2018,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,7,273431
-2018,Mujer,50-54,Enfermedad hipertensiva,54,273431
+2018,Mujer,50-54,Enfermedad hipertensiva,55,273431
 2018,Mujer,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,242287
 2018,Mujer,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2,242287
 2018,Mujer,55-59,Enfermedad renal crónica,30,242287
@@ -9538,7 +9552,7 @@
 2018,Mujer,70-74,Diabetes Mellitus no especificada,53,92723
 2018,Mujer,70-74,Diabetes no insulinodependiente,85,92723
 2018,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,11,92723
-2018,Mujer,70-74,Enfermedad hipertensiva,152,92723
+2018,Mujer,70-74,Enfermedad hipertensiva,153,92723
 2018,Mujer,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",23,63739
 2018,Mujer,75-79,Aneurisma aórtico,1,63739
 2018,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),19,63739
@@ -9645,7 +9659,7 @@
 2018,Mujer,85 y más,Diabetes Mellitus no especificada,96,43412
 2018,Mujer,85 y más,Diabetes no insulinodependiente,132,43412
 2018,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,30,43412
-2018,Mujer,85 y más,Enfermedad hipertensiva,587,43412
+2018,Mujer,85 y más,Enfermedad hipertensiva,591,43412
 2018,Mujer,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,480976
 2018,Mujer,10-14,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,480976
 2018,Mujer,10-14,Enfermedad renal crónica,1,480976
@@ -9870,12 +9884,12 @@
 2018,Hombre,50-54,Tumor maligno del hígado,10,259812
 2018,Hombre,50-54,Tumor maligno del páncreas,14,259812
 2018,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,259812
-2018,Hombre,50-54,Deficiencias nutricionales,2,259812
+2018,Hombre,50-54,Deficiencias nutricionales,4,259812
 2018,Hombre,50-54,Diabetes insulinodependiente,8,259812
 2018,Hombre,50-54,Diabetes Mellitus no especificada,39,259812
 2018,Hombre,50-54,Diabetes no insulinodependiente,63,259812
 2018,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,10,259812
-2018,Hombre,50-54,Enfermedad hipertensiva,95,259812
+2018,Hombre,50-54,Enfermedad hipertensiva,97,259812
 2018,Hombre,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",14,225237
 2018,Hombre,55-59,Aneurisma aórtico,5,225237
 2018,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),11,225237
@@ -9904,12 +9918,12 @@
 2018,Hombre,55-59,Tumor maligno del hígado,24,225237
 2018,Hombre,55-59,Tumor maligno del páncreas,11,225237
 2018,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,225237
-2018,Hombre,55-59,Deficiencias nutricionales,1,225237
+2018,Hombre,55-59,Deficiencias nutricionales,2,225237
 2018,Hombre,55-59,Diabetes insulinodependiente,14,225237
 2018,Hombre,55-59,Diabetes Mellitus no especificada,57,225237
 2018,Hombre,55-59,Diabetes no insulinodependiente,58,225237
 2018,Hombre,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,4,225237
-2018,Hombre,55-59,Enfermedad hipertensiva,134,225237
+2018,Hombre,55-59,Enfermedad hipertensiva,135,225237
 2018,Hombre,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",20,177702
 2018,Hombre,60-64,Aneurisma aórtico,2,177702
 2018,Hombre,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),16,177702
@@ -9941,7 +9955,7 @@
 2018,Hombre,60-64,Diabetes Mellitus no especificada,42,177702
 2018,Hombre,60-64,Diabetes no insulinodependiente,90,177702
 2018,Hombre,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,9,177702
-2018,Hombre,60-64,Enfermedad hipertensiva,162,177702
+2018,Hombre,60-64,Enfermedad hipertensiva,163,177702
 2018,Hombre,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",21,123161
 2018,Hombre,65-69,Aneurisma aórtico,6,123161
 2018,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),23,123161
@@ -10007,7 +10021,7 @@
 2018,Hombre,70-74,Diabetes Mellitus no especificada,49,77895
 2018,Hombre,70-74,Diabetes no insulinodependiente,80,77895
 2018,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,11,77895
-2018,Hombre,70-74,Enfermedad hipertensiva,208,77895
+2018,Hombre,70-74,Enfermedad hipertensiva,209,77895
 2018,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",19,48618
 2018,Hombre,75-79,Aneurisma aórtico,6,48618
 2018,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),36,48618
@@ -10070,6 +10084,7 @@
 2018,Hombre,80-84,Tumor maligno del hígado,21,29943
 2018,Hombre,80-84,Tumor maligno del páncreas,12,29943
 2018,Hombre,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,29943
+2018,Hombre,80-84,Deficiencias nutricionales,1,29943
 2018,Hombre,80-84,Diabetes insulinodependiente,7,29943
 2018,Hombre,80-84,Diabetes Mellitus no especificada,44,29943
 2018,Hombre,80-84,Diabetes no insulinodependiente,61,29943
@@ -10105,7 +10120,7 @@
 2018,Hombre,85 y más,Diabetes Mellitus no especificada,54,20551
 2018,Hombre,85 y más,Diabetes no insulinodependiente,82,20551
 2018,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,20,20551
-2018,Hombre,85 y más,Enfermedad hipertensiva,391,20551
+2018,Hombre,85 y más,Enfermedad hipertensiva,395,20551
 2018,Hombre,Sin dato,Enfermedades cerebrovasculares,1,
 2018,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),3,
 2018,Hombre,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2,501348
@@ -10192,7 +10207,7 @@
 2018,Hombre,30-34,Tumor maligno del hígado,3,407318
 2018,Hombre,30-34,Tumor maligno del páncreas,1,407318
 2018,Hombre,30-34,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,407318
-2018,Hombre,30-34,Deficiencias nutricionales,2,407318
+2018,Hombre,30-34,Deficiencias nutricionales,3,407318
 2018,Hombre,30-34,Diabetes insulinodependiente,1,407318
 2018,Hombre,30-34,Diabetes Mellitus no especificada,6,407318
 2018,Hombre,30-34,Diabetes no insulinodependiente,7,407318
@@ -10823,7 +10838,7 @@
 2019,Hombre,50-54,Tumor maligno del hígado,16,262985
 2019,Hombre,50-54,Tumor maligno del páncreas,11,262985
 2019,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,262985
-2019,Hombre,50-54,Deficiencias nutricionales,2,262985
+2019,Hombre,50-54,Deficiencias nutricionales,3,262985
 2019,Hombre,50-54,Diabetes insulinodependiente,5,262985
 2019,Hombre,50-54,Diabetes Mellitus no especificada,44,262985
 2019,Hombre,50-54,Diabetes no insulinodependiente,56,262985
@@ -11056,7 +11071,7 @@
 2019,Hombre,85 y más,Diabetes Mellitus no especificada,69,20905
 2019,Hombre,85 y más,Diabetes no insulinodependiente,79,20905
 2019,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,22,20905
-2019,Hombre,85 y más,Enfermedad hipertensiva,410,20905
+2019,Hombre,85 y más,Enfermedad hipertensiva,412,20905
 2019,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,
 2019,Hombre,Sin dato,Enfermedades cerebrovasculares,2,
 2019,Hombre,Sin dato,Enfermedades isquémicas del corazón,8,
@@ -11456,7 +11471,7 @@
 2002,Mujer,75-79,Tumor maligno del páncreas,2,40106
 2002,Mujer,75-79,Tumor maligno del útero,5,40106
 2002,Mujer,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,40106
-2002,Mujer,75-79,Deficiencias nutricionales,4,40106
+2002,Mujer,75-79,Deficiencias nutricionales,5,40106
 2002,Mujer,75-79,Diabetes insulinodependiente,2,40106
 2002,Mujer,75-79,Diabetes Mellitus no especificada,46,40106
 2002,Mujer,75-79,Diabetes no insulinodependiente,15,40106
@@ -12099,7 +12114,7 @@
 2002,Hombre,35-39,Tumor maligno del hígado,5,294638
 2002,Hombre,35-39,Tumor maligno del páncreas,3,294638
 2002,Hombre,35-39,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,294638
-2002,Hombre,35-39,Deficiencias nutricionales,1,294638
+2002,Hombre,35-39,Deficiencias nutricionales,2,294638
 2002,Hombre,35-39,Diabetes insulinodependiente,5,294638
 2002,Hombre,35-39,Diabetes Mellitus no especificada,3,294638
 2002,Hombre,35-39,Diabetes no insulinodependiente,1,294638
@@ -12125,7 +12140,7 @@
 2002,Hombre,40-44,Tumor maligno del estómago,10,255164
 2002,Hombre,40-44,Tumor maligno del hígado,7,255164
 2002,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,255164
-2002,Hombre,40-44,Deficiencias nutricionales,1,255164
+2002,Hombre,40-44,Deficiencias nutricionales,2,255164
 2002,Hombre,40-44,Diabetes insulinodependiente,2,255164
 2002,Hombre,40-44,Diabetes Mellitus no especificada,4,255164
 2002,Hombre,40-44,Diabetes no insulinodependiente,5,255164
@@ -12231,7 +12246,7 @@
 2020,Mujer,50-54,Diabetes Mellitus no especificada,35,280226
 2020,Mujer,50-54,Diabetes no insulinodependiente,29,280226
 2020,Mujer,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,4,280226
-2020,Mujer,50-54,Enfermedad hipertensiva,71,280226
+2020,Mujer,50-54,Enfermedad hipertensiva,72,280226
 2020,Mujer,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",10,252824
 2020,Mujer,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4,252824
 2020,Mujer,55-59,Enfermedad renal crónica,20,252824
@@ -12264,7 +12279,7 @@
 2020,Mujer,55-59,Diabetes Mellitus no especificada,44,252824
 2020,Mujer,55-59,Diabetes no insulinodependiente,60,252824
 2020,Mujer,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,7,252824
-2020,Mujer,55-59,Enfermedad hipertensiva,102,252824
+2020,Mujer,55-59,Enfermedad hipertensiva,103,252824
 2020,Mujer,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,212495
 2020,Mujer,60-64,Aneurisma aórtico,2,212495
 2020,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),8,212495
@@ -12296,7 +12311,7 @@
 2020,Mujer,60-64,Diabetes Mellitus no especificada,59,212495
 2020,Mujer,60-64,Diabetes no insulinodependiente,52,212495
 2020,Mujer,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,9,212495
-2020,Mujer,60-64,Enfermedad hipertensiva,124,212495
+2020,Mujer,60-64,Enfermedad hipertensiva,132,212495
 2020,Mujer,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3,157348
 2020,Mujer,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),16,157348
 2020,Mujer,65-69,Enfermedad renal crónica,37,157348
@@ -12328,7 +12343,7 @@
 2020,Mujer,65-69,Diabetes Mellitus no especificada,82,157348
 2020,Mujer,65-69,Diabetes no insulinodependiente,87,157348
 2020,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,4,157348
-2020,Mujer,65-69,Enfermedad hipertensiva,174,157348
+2020,Mujer,65-69,Enfermedad hipertensiva,178,157348
 2020,Mujer,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",11,104657
 2020,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),15,104657
 2020,Mujer,70-74,Enfermedad renal crónica,27,104657
@@ -12362,7 +12377,7 @@
 2020,Mujer,70-74,Diabetes Mellitus no especificada,72,104657
 2020,Mujer,70-74,Diabetes no insulinodependiente,95,104657
 2020,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,6,104657
-2020,Mujer,70-74,Enfermedad hipertensiva,244,104657
+2020,Mujer,70-74,Enfermedad hipertensiva,250,104657
 2020,Mujer,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7,66985
 2020,Mujer,75-79,Aneurisma aórtico,3,66985
 2020,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),16,66985
@@ -12395,7 +12410,7 @@
 2020,Mujer,75-79,Diabetes Mellitus no especificada,70,66985
 2020,Mujer,75-79,Diabetes no insulinodependiente,94,66985
 2020,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,9,66985
-2020,Mujer,75-79,Enfermedad hipertensiva,238,66985
+2020,Mujer,75-79,Enfermedad hipertensiva,242,66985
 2020,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,47198
 2020,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),22,47198
 2020,Mujer,80-84,Enfermedad renal crónica,32,47198
@@ -12428,7 +12443,7 @@
 2020,Mujer,80-84,Diabetes Mellitus no especificada,92,47198
 2020,Mujer,80-84,Diabetes no insulinodependiente,87,47198
 2020,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,9,47198
-2020,Mujer,80-84,Enfermedad hipertensiva,328,47198
+2020,Mujer,80-84,Enfermedad hipertensiva,342,47198
 2020,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,45680
 2020,Mujer,85 y más,Aneurisma aórtico,1,45680
 2020,Mujer,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),36,45680
@@ -12458,12 +12473,12 @@
 2020,Mujer,85 y más,Tumor maligno del páncreas,9,45680
 2020,Mujer,85 y más,Tumor maligno del útero,8,45680
 2020,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,45680
-2020,Mujer,85 y más,Deficiencias nutricionales,7,45680
+2020,Mujer,85 y más,Deficiencias nutricionales,8,45680
 2020,Mujer,85 y más,Diabetes insulinodependiente,15,45680
 2020,Mujer,85 y más,Diabetes Mellitus no especificada,130,45680
 2020,Mujer,85 y más,Diabetes no insulinodependiente,146,45680
 2020,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,33,45680
-2020,Mujer,85 y más,Enfermedad hipertensiva,658,45680
+2020,Mujer,85 y más,Enfermedad hipertensiva,672,45680
 2020,Mujer,10-14,Enfermedades cerebrovasculares,2,486742
 2020,Mujer,10-14,Enfermedades isquémicas del corazón,1,486742
 2020,Mujer,10-14,Insuficiencia cardíaca,2,486742
@@ -12580,7 +12595,7 @@
 2020,Mujer,35-39,Diabetes Mellitus no especificada,6,377116
 2020,Mujer,35-39,Diabetes no insulinodependiente,6,377116
 2020,Mujer,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,2,377116
-2020,Mujer,35-39,Enfermedad hipertensiva,21,377116
+2020,Mujer,35-39,Enfermedad hipertensiva,22,377116
 2020,Mujer,40-44,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5,344617
 2020,Mujer,40-44,Enfermedad renal crónica,4,344617
 2020,Mujer,40-44,Enfermedades cerebrovasculares,25,344617
@@ -12607,7 +12622,7 @@
 2020,Mujer,40-44,Diabetes Mellitus no especificada,14,344617
 2020,Mujer,40-44,Diabetes no insulinodependiente,10,344617
 2020,Mujer,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,3,344617
-2020,Mujer,40-44,Enfermedad hipertensiva,28,344617
+2020,Mujer,40-44,Enfermedad hipertensiva,29,344617
 2020,Mujer,45-49,"Anemias: nutricionales, hemolíticas, aplásticas y otras",11,312685
 2020,Mujer,45-49,Aneurisma aórtico,1,312685
 2020,Mujer,45-49,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4,312685
@@ -12653,7 +12668,7 @@
 2020,Hombre,0-4,Diabetes Mellitus no especificada,2,522034
 2020,Hombre,0-4,Diabetes no insulinodependiente,1,522034
 2020,Hombre,0-4,Enfermedad cardiopulmonar y de la circulación pulmonar,14,522034
-2020,Hombre,0-4,Enfermedad hipertensiva,10,522034
+2020,Hombre,0-4,Enfermedad hipertensiva,11,522034
 2020,Hombre,5-9,Enfermedades isquémicas del corazón,1,524436
 2020,Hombre,5-9,Lesiones autoinfligidas intencionalmente (suicidios),2,524436
 2020,Hombre,5-9,Leucemia,1,524436
@@ -12686,12 +12701,12 @@
 2020,Hombre,50-54,Tumor maligno del hígado,10,266366
 2020,Hombre,50-54,Tumor maligno del páncreas,8,266366
 2020,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6,266366
-2020,Hombre,50-54,Deficiencias nutricionales,1,266366
+2020,Hombre,50-54,Deficiencias nutricionales,2,266366
 2020,Hombre,50-54,Diabetes insulinodependiente,19,266366
 2020,Hombre,50-54,Diabetes Mellitus no especificada,38,266366
 2020,Hombre,50-54,Diabetes no insulinodependiente,50,266366
 2020,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,4,266366
-2020,Hombre,50-54,Enfermedad hipertensiva,147,266366
+2020,Hombre,50-54,Enfermedad hipertensiva,152,266366
 2020,Hombre,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",19,234857
 2020,Hombre,55-59,Aneurisma aórtico,1,234857
 2020,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),12,234857
@@ -12724,7 +12739,7 @@
 2020,Hombre,55-59,Diabetes Mellitus no especificada,65,234857
 2020,Hombre,55-59,Diabetes no insulinodependiente,78,234857
 2020,Hombre,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,9,234857
-2020,Hombre,55-59,Enfermedad hipertensiva,180,234857
+2020,Hombre,55-59,Enfermedad hipertensiva,186,234857
 2020,Hombre,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,191894
 2020,Hombre,60-64,Aneurisma aórtico,2,191894
 2020,Hombre,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),14,191894
@@ -12755,7 +12770,7 @@
 2020,Hombre,60-64,Diabetes Mellitus no especificada,87,191894
 2020,Hombre,60-64,Diabetes no insulinodependiente,93,191894
 2020,Hombre,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,9,191894
-2020,Hombre,60-64,Enfermedad hipertensiva,227,191894
+2020,Hombre,60-64,Enfermedad hipertensiva,233,191894
 2020,Hombre,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,137830
 2020,Hombre,65-69,Aneurisma aórtico,5,137830
 2020,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),18,137830
@@ -12783,12 +12798,12 @@
 2020,Hombre,65-69,Tumor maligno del hígado,11,137830
 2020,Hombre,65-69,Tumor maligno del páncreas,13,137830
 2020,Hombre,65-69,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12,137830
-2020,Hombre,65-69,Deficiencias nutricionales,1,137830
+2020,Hombre,65-69,Deficiencias nutricionales,2,137830
 2020,Hombre,65-69,Diabetes insulinodependiente,29,137830
 2020,Hombre,65-69,Diabetes Mellitus no especificada,89,137830
 2020,Hombre,65-69,Diabetes no insulinodependiente,118,137830
 2020,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,9,137830
-2020,Hombre,65-69,Enfermedad hipertensiva,260,137830
+2020,Hombre,65-69,Enfermedad hipertensiva,268,137830
 2020,Hombre,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6,87323
 2020,Hombre,70-74,Aneurisma aórtico,6,87323
 2020,Hombre,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),27,87323
@@ -12822,7 +12837,7 @@
 2020,Hombre,70-74,Diabetes Mellitus no especificada,88,87323
 2020,Hombre,70-74,Diabetes no insulinodependiente,101,87323
 2020,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,7,87323
-2020,Hombre,70-74,Enfermedad hipertensiva,328,87323
+2020,Hombre,70-74,Enfermedad hipertensiva,336,87323
 2020,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",14,50894
 2020,Hombre,75-79,Aneurisma aórtico,3,50894
 2020,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),34,50894
@@ -12854,7 +12869,7 @@
 2020,Hombre,75-79,Diabetes Mellitus no especificada,73,50894
 2020,Hombre,75-79,Diabetes no insulinodependiente,90,50894
 2020,Hombre,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,10,50894
-2020,Hombre,75-79,Enfermedad hipertensiva,286,50894
+2020,Hombre,75-79,Enfermedad hipertensiva,295,50894
 2020,Hombre,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,30798
 2020,Hombre,80-84,Aneurisma aórtico,1,30798
 2020,Hombre,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),25,30798
@@ -12886,7 +12901,7 @@
 2020,Hombre,80-84,Diabetes Mellitus no especificada,63,30798
 2020,Hombre,80-84,Diabetes no insulinodependiente,78,30798
 2020,Hombre,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,12,30798
-2020,Hombre,80-84,Enfermedad hipertensiva,350,30798
+2020,Hombre,80-84,Enfermedad hipertensiva,355,30798
 2020,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,20951
 2020,Hombre,85 y más,Aneurisma aórtico,3,20951
 2020,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),64,20951
@@ -12919,7 +12934,7 @@
 2020,Hombre,85 y más,Diabetes Mellitus no especificada,82,20951
 2020,Hombre,85 y más,Diabetes no insulinodependiente,75,20951
 2020,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,16,20951
-2020,Hombre,85 y más,Enfermedad hipertensiva,470,20951
+2020,Hombre,85 y más,Enfermedad hipertensiva,479,20951
 2020,Hombre,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,507440
 2020,Hombre,10-14,Enfermedad renal crónica,2,507440
 2020,Hombre,10-14,Enfermedades cerebrovasculares,2,507440
@@ -12957,7 +12972,7 @@
 2020,Hombre,20-24,Diabetes Mellitus no especificada,2,486159
 2020,Hombre,20-24,Diabetes no insulinodependiente,2,486159
 2020,Hombre,20-24,Enfermedad cardiopulmonar y de la circulación pulmonar,5,486159
-2020,Hombre,20-24,Enfermedad hipertensiva,6,486159
+2020,Hombre,20-24,Enfermedad hipertensiva,7,486159
 2020,Hombre,25-29,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7,468378
 2020,Hombre,25-29,Aneurisma aórtico,2,468378
 2020,Hombre,25-29,Enfermedad renal crónica,9,468378
@@ -13001,7 +13016,7 @@
 2020,Hombre,30-34,Diabetes Mellitus no especificada,4,421152
 2020,Hombre,30-34,Diabetes no insulinodependiente,2,421152
 2020,Hombre,30-34,Enfermedad cardiopulmonar y de la circulación pulmonar,1,421152
-2020,Hombre,30-34,Enfermedad hipertensiva,10,421152
+2020,Hombre,30-34,Enfermedad hipertensiva,11,421152
 2020,Hombre,35-39,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6,378089
 2020,Hombre,35-39,Aneurisma aórtico,2,378089
 2020,Hombre,35-39,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,378089
@@ -13025,7 +13040,7 @@
 2020,Hombre,35-39,Diabetes Mellitus no especificada,10,378089
 2020,Hombre,35-39,Diabetes no insulinodependiente,8,378089
 2020,Hombre,35-39,Enfermedad cardiopulmonar y de la circulación pulmonar,8,378089
-2020,Hombre,35-39,Enfermedad hipertensiva,23,378089
+2020,Hombre,35-39,Enfermedad hipertensiva,24,378089
 2020,Hombre,40-44,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4,341615
 2020,Hombre,40-44,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,341615
 2020,Hombre,40-44,Enfermedad renal crónica,16,341615
@@ -13046,11 +13061,12 @@
 2020,Hombre,40-44,Tumor maligno del hígado,6,341615
 2020,Hombre,40-44,Tumor maligno del páncreas,4,341615
 2020,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,341615
+2020,Hombre,40-44,Deficiencias nutricionales,1,341615
 2020,Hombre,40-44,Diabetes insulinodependiente,7,341615
 2020,Hombre,40-44,Diabetes Mellitus no especificada,19,341615
 2020,Hombre,40-44,Diabetes no insulinodependiente,19,341615
 2020,Hombre,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,6,341615
-2020,Hombre,40-44,Enfermedad hipertensiva,43,341615
+2020,Hombre,40-44,Enfermedad hipertensiva,44,341615
 2020,Hombre,45-49,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4,304370
 2020,Hombre,45-49,Aneurisma aórtico,2,304370
 2020,Hombre,45-49,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4,304370
@@ -13078,11 +13094,12 @@
 2020,Hombre,45-49,Tumor maligno del hígado,3,304370
 2020,Hombre,45-49,Tumor maligno del páncreas,3,304370
 2020,Hombre,45-49,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,304370
+2020,Hombre,45-49,Deficiencias nutricionales,1,304370
 2020,Hombre,45-49,Diabetes insulinodependiente,11,304370
 2020,Hombre,45-49,Diabetes Mellitus no especificada,41,304370
 2020,Hombre,45-49,Diabetes no insulinodependiente,43,304370
 2020,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,7,304370
-2020,Hombre,45-49,Enfermedad hipertensiva,97,304370
+2020,Hombre,45-49,Enfermedad hipertensiva,101,304370
 2021,Mujer,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6,500270
 2021,Mujer,0-4,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2,500270
 2021,Mujer,0-4,Enfermedad renal crónica,4,500270
@@ -13280,12 +13297,12 @@
 2021,Mujer,70-74,Tumor maligno del páncreas,14,111090
 2021,Mujer,70-74,Tumor maligno del útero,21,111090
 2021,Mujer,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,111090
-2021,Mujer,70-74,Deficiencias nutricionales,3,111090
+2021,Mujer,70-74,Deficiencias nutricionales,4,111090
 2021,Mujer,70-74,Diabetes insulinodependiente,30,111090
 2021,Mujer,70-74,Diabetes Mellitus no especificada,112,111090
 2021,Mujer,70-74,Diabetes no insulinodependiente,97,111090
 2021,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,14,111090
-2021,Mujer,70-74,Enfermedad hipertensiva,238,111090
+2021,Mujer,70-74,Enfermedad hipertensiva,239,111090
 2021,Mujer,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",13,69794
 2021,Mujer,75-79,Aneurisma aórtico,2,69794
 2021,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),25,69794
@@ -13320,7 +13337,7 @@
 2021,Mujer,75-79,Diabetes Mellitus no especificada,107,69794
 2021,Mujer,75-79,Diabetes no insulinodependiente,125,69794
 2021,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,13,69794
-2021,Mujer,75-79,Enfermedad hipertensiva,309,69794
+2021,Mujer,75-79,Enfermedad hipertensiva,310,69794
 2021,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",16,47570
 2021,Mujer,80-84,Aneurisma aórtico,2,47570
 2021,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),34,47570
@@ -13356,7 +13373,7 @@
 2021,Mujer,80-84,Diabetes Mellitus no especificada,115,47570
 2021,Mujer,80-84,Diabetes no insulinodependiente,105,47570
 2021,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,19,47570
-2021,Mujer,80-84,Enfermedad hipertensiva,345,47570
+2021,Mujer,80-84,Enfermedad hipertensiva,346,47570
 2021,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",30,46516
 2021,Mujer,85 y más,Aneurisma aórtico,2,46516
 2021,Mujer,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),45,46516
@@ -13386,12 +13403,12 @@
 2021,Mujer,85 y más,Tumor maligno del páncreas,9,46516
 2021,Mujer,85 y más,Tumor maligno del útero,9,46516
 2021,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",8,46516
-2021,Mujer,85 y más,Deficiencias nutricionales,11,46516
+2021,Mujer,85 y más,Deficiencias nutricionales,12,46516
 2021,Mujer,85 y más,Diabetes insulinodependiente,20,46516
 2021,Mujer,85 y más,Diabetes Mellitus no especificada,176,46516
 2021,Mujer,85 y más,Diabetes no insulinodependiente,149,46516
 2021,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,25,46516
-2021,Mujer,85 y más,Enfermedad hipertensiva,760,46516
+2021,Mujer,85 y más,Enfermedad hipertensiva,762,46516
 2021,Mujer,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3,492728
 2021,Mujer,10-14,Enfermedades crónicas de las vías respiratorias inferiores,1,492728
 2021,Mujer,10-14,Enfermedades isquémicas del corazón,2,492728
@@ -13461,7 +13478,7 @@
 2021,Mujer,25-29,Diabetes Mellitus no especificada,6,460489
 2021,Mujer,25-29,Diabetes no insulinodependiente,5,460489
 2021,Mujer,25-29,Enfermedad cardiopulmonar y de la circulación pulmonar,2,460489
-2021,Mujer,25-29,Enfermedad hipertensiva,15,460489
+2021,Mujer,25-29,Enfermedad hipertensiva,16,460489
 2021,Mujer,30-34,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6,425107
 2021,Mujer,30-34,Aneurisma aórtico,1,425107
 2021,Mujer,30-34,Enfermedad renal crónica,8,425107
@@ -13544,7 +13561,7 @@
 2021,Mujer,40-44,Tumor maligno del páncreas,3,349383
 2021,Mujer,40-44,Tumor maligno del útero,17,349383
 2021,Mujer,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,349383
-2021,Mujer,40-44,Deficiencias nutricionales,1,349383
+2021,Mujer,40-44,Deficiencias nutricionales,2,349383
 2021,Mujer,40-44,Diabetes insulinodependiente,1,349383
 2021,Mujer,40-44,Diabetes Mellitus no especificada,6,349383
 2021,Mujer,40-44,Diabetes no insulinodependiente,14,349383
@@ -13674,7 +13691,7 @@
 2021,Hombre,55-59,Diabetes Mellitus no especificada,79,238608
 2021,Hombre,55-59,Diabetes no insulinodependiente,101,238608
 2021,Hombre,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,6,238608
-2021,Hombre,55-59,Enfermedad hipertensiva,176,238608
+2021,Hombre,55-59,Enfermedad hipertensiva,178,238608
 2021,Hombre,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,197831
 2021,Hombre,60-64,Aneurisma aórtico,3,197831
 2021,Hombre,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),19,197831
@@ -13767,7 +13784,7 @@
 2021,Hombre,70-74,Tumor maligno del hígado,11,92078
 2021,Hombre,70-74,Tumor maligno del páncreas,22,92078
 2021,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",11,92078
-2021,Hombre,70-74,Deficiencias nutricionales,5,92078
+2021,Hombre,70-74,Deficiencias nutricionales,6,92078
 2021,Hombre,70-74,Diabetes insulinodependiente,18,92078
 2021,Hombre,70-74,Diabetes Mellitus no especificada,113,92078
 2021,Hombre,70-74,Diabetes no insulinodependiente,118,92078
@@ -13804,7 +13821,7 @@
 2021,Hombre,75-79,Diabetes Mellitus no especificada,95,52593
 2021,Hombre,75-79,Diabetes no insulinodependiente,94,52593
 2021,Hombre,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,9,52593
-2021,Hombre,75-79,Enfermedad hipertensiva,311,52593
+2021,Hombre,75-79,Enfermedad hipertensiva,312,52593
 2021,Hombre,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",28,30664
 2021,Hombre,80-84,Aneurisma aórtico,4,30664
 2021,Hombre,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),55,30664
@@ -13869,7 +13886,7 @@
 2021,Hombre,85 y más,Diabetes Mellitus no especificada,99,20808
 2021,Hombre,85 y más,Diabetes no insulinodependiente,92,20808
 2021,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,22,20808
-2021,Hombre,85 y más,Enfermedad hipertensiva,572,20808
+2021,Hombre,85 y más,Enfermedad hipertensiva,573,20808
 2021,Hombre,Sin dato,Aterosclerosis,1,
 2021,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,
 2021,Hombre,10-14,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,513521
@@ -14021,7 +14038,7 @@
 2021,Hombre,40-44,Diabetes Mellitus no especificada,20,346695
 2021,Hombre,40-44,Diabetes no insulinodependiente,27,346695
 2021,Hombre,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,5,346695
-2021,Hombre,40-44,Enfermedad hipertensiva,54,346695
+2021,Hombre,40-44,Enfermedad hipertensiva,56,346695
 2021,Hombre,45-49,"Anemias: nutricionales, hemolíticas, aplásticas y otras",12,310172
 2021,Hombre,45-49,Aneurisma aórtico,1,310172
 2021,Hombre,45-49,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,310172
@@ -14133,11 +14150,12 @@
 2022,Mujer,55-59,Tumor maligno del páncreas,7,261539
 2022,Mujer,55-59,Tumor maligno del útero,23,261539
 2022,Mujer,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,261539
+2022,Mujer,55-59,Deficiencias nutricionales,1,261539
 2022,Mujer,55-59,Diabetes insulinodependiente,24,261539
 2022,Mujer,55-59,Diabetes Mellitus no especificada,43,261539
 2022,Mujer,55-59,Diabetes no insulinodependiente,76,261539
 2022,Mujer,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,7,261539
-2022,Mujer,55-59,Enfermedad hipertensiva,104,261539
+2022,Mujer,55-59,Enfermedad hipertensiva,110,261539
 2022,Mujer,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",18,226560
 2022,Mujer,60-64,Aneurisma aórtico,1,226560
 2022,Mujer,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),8,226560
@@ -14173,7 +14191,7 @@
 2022,Mujer,60-64,Diabetes Mellitus no especificada,52,226560
 2022,Mujer,60-64,Diabetes no insulinodependiente,86,226560
 2022,Mujer,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,8,226560
-2022,Mujer,60-64,Enfermedad hipertensiva,129,226560
+2022,Mujer,60-64,Enfermedad hipertensiva,134,226560
 2022,Mujer,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",18,175037
 2022,Mujer,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),14,175037
 2022,Mujer,65-69,Enfermedad renal crónica,30,175037
@@ -14207,7 +14225,7 @@
 2022,Mujer,65-69,Diabetes Mellitus no especificada,74,175037
 2022,Mujer,65-69,Diabetes no insulinodependiente,98,175037
 2022,Mujer,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,11,175037
-2022,Mujer,65-69,Enfermedad hipertensiva,186,175037
+2022,Mujer,65-69,Enfermedad hipertensiva,188,175037
 2022,Mujer,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",16,118036
 2022,Mujer,70-74,Aneurisma aórtico,3,118036
 2022,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),20,118036
@@ -14242,7 +14260,7 @@
 2022,Mujer,70-74,Diabetes Mellitus no especificada,70,118036
 2022,Mujer,70-74,Diabetes no insulinodependiente,112,118036
 2022,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,11,118036
-2022,Mujer,70-74,Enfermedad hipertensiva,252,118036
+2022,Mujer,70-74,Enfermedad hipertensiva,257,118036
 2022,Mujer,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",20,73633
 2022,Mujer,75-79,Aneurisma aórtico,6,73633
 2022,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),23,73633
@@ -14276,7 +14294,7 @@
 2022,Mujer,75-79,Diabetes Mellitus no especificada,76,73633
 2022,Mujer,75-79,Diabetes no insulinodependiente,125,73633
 2022,Mujer,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,18,73633
-2022,Mujer,75-79,Enfermedad hipertensiva,296,73633
+2022,Mujer,75-79,Enfermedad hipertensiva,303,73633
 2022,Mujer,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",21,47962
 2022,Mujer,80-84,Aneurisma aórtico,2,47962
 2022,Mujer,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),29,47962
@@ -14311,7 +14329,7 @@
 2022,Mujer,80-84,Diabetes Mellitus no especificada,67,47962
 2022,Mujer,80-84,Diabetes no insulinodependiente,99,47962
 2022,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,7,47962
-2022,Mujer,80-84,Enfermedad hipertensiva,339,47962
+2022,Mujer,80-84,Enfermedad hipertensiva,348,47962
 2022,Mujer,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",42,47557
 2022,Mujer,85 y más,Aneurisma aórtico,1,47557
 2022,Mujer,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),60,47557
@@ -14347,7 +14365,7 @@
 2022,Mujer,85 y más,Diabetes Mellitus no especificada,107,47557
 2022,Mujer,85 y más,Diabetes no insulinodependiente,181,47557
 2022,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,31,47557
-2022,Mujer,85 y más,Enfermedad hipertensiva,812,47557
+2022,Mujer,85 y más,Enfermedad hipertensiva,822,47557
 2022,Mujer,Sin dato,Enfermedades cerebrovasculares,1,
 2022,Mujer,Sin dato,Enfermedades isquémicas del corazón,2,
 2022,Mujer,Sin dato,Tumor maligno de la mama de la mujer,1,
@@ -14530,7 +14548,7 @@
 2022,Mujer,45-49,Diabetes Mellitus no especificada,21,323401
 2022,Mujer,45-49,Diabetes no insulinodependiente,26,323401
 2022,Mujer,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,11,323401
-2022,Mujer,45-49,Enfermedad hipertensiva,36,323401
+2022,Mujer,45-49,Enfermedad hipertensiva,37,323401
 2022,Hombre,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",11,516098
 2022,Hombre,0-4,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,516098
 2022,Hombre,0-4,Enfermedad renal crónica,2,516098
@@ -14545,7 +14563,7 @@
 2022,Hombre,0-4,Tumor maligno de los huesos y de los cartílagos articulares,1,516098
 2022,Hombre,0-4,Tumor maligno del estómago,2,516098
 2022,Hombre,0-4,Tumor maligno del hígado,2,516098
-2022,Hombre,0-4,Deficiencias nutricionales,10,516098
+2022,Hombre,0-4,Deficiencias nutricionales,11,516098
 2022,Hombre,0-4,Diabetes Mellitus no especificada,1,516098
 2022,Hombre,0-4,Diabetes no insulinodependiente,1,516098
 2022,Hombre,0-4,Enfermedad cardiopulmonar y de la circulación pulmonar,14,516098
@@ -14592,7 +14610,7 @@
 2022,Hombre,50-54,Diabetes Mellitus no especificada,51,274346
 2022,Hombre,50-54,Diabetes no insulinodependiente,67,274346
 2022,Hombre,50-54,Enfermedad cardiopulmonar y de la circulación pulmonar,9,274346
-2022,Hombre,50-54,Enfermedad hipertensiva,117,274346
+2022,Hombre,50-54,Enfermedad hipertensiva,120,274346
 2022,Hombre,55-59,"Anemias: nutricionales, hemolíticas, aplásticas y otras",15,242305
 2022,Hombre,55-59,Aneurisma aórtico,4,242305
 2022,Hombre,55-59,Enfermedad Pulmonar Obstructiva Crónica (EPOC),10,242305
@@ -14624,7 +14642,7 @@
 2022,Hombre,55-59,Diabetes Mellitus no especificada,66,242305
 2022,Hombre,55-59,Diabetes no insulinodependiente,83,242305
 2022,Hombre,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,2,242305
-2022,Hombre,55-59,Enfermedad hipertensiva,165,242305
+2022,Hombre,55-59,Enfermedad hipertensiva,167,242305
 2022,Hombre,60-64,"Anemias: nutricionales, hemolíticas, aplásticas y otras",20,203640
 2022,Hombre,60-64,Aneurisma aórtico,6,203640
 2022,Hombre,60-64,Enfermedad Pulmonar Obstructiva Crónica (EPOC),20,203640
@@ -14655,7 +14673,7 @@
 2022,Hombre,60-64,Diabetes Mellitus no especificada,61,203640
 2022,Hombre,60-64,Diabetes no insulinodependiente,110,203640
 2022,Hombre,60-64,Enfermedad cardiopulmonar y de la circulación pulmonar,9,203640
-2022,Hombre,60-64,Enfermedad hipertensiva,233,203640
+2022,Hombre,60-64,Enfermedad hipertensiva,240,203640
 2022,Hombre,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",30,151815
 2022,Hombre,65-69,Aneurisma aórtico,6,151815
 2022,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),24,151815
@@ -14688,7 +14706,7 @@
 2022,Hombre,65-69,Diabetes Mellitus no especificada,68,151815
 2022,Hombre,65-69,Diabetes no insulinodependiente,143,151815
 2022,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,9,151815
-2022,Hombre,65-69,Enfermedad hipertensiva,270,151815
+2022,Hombre,65-69,Enfermedad hipertensiva,280,151815
 2022,Hombre,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",35,97413
 2022,Hombre,70-74,Aneurisma aórtico,3,97413
 2022,Hombre,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),30,97413
@@ -14721,7 +14739,7 @@
 2022,Hombre,70-74,Diabetes Mellitus no especificada,80,97413
 2022,Hombre,70-74,Diabetes no insulinodependiente,121,97413
 2022,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,9,97413
-2022,Hombre,70-74,Enfermedad hipertensiva,277,97413
+2022,Hombre,70-74,Enfermedad hipertensiva,284,97413
 2022,Hombre,75-79,"Anemias: nutricionales, hemolíticas, aplásticas y otras",20,55273
 2022,Hombre,75-79,Aneurisma aórtico,2,55273
 2022,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),39,55273
@@ -14754,7 +14772,7 @@
 2022,Hombre,75-79,Diabetes Mellitus no especificada,84,55273
 2022,Hombre,75-79,Diabetes no insulinodependiente,97,55273
 2022,Hombre,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,9,55273
-2022,Hombre,75-79,Enfermedad hipertensiva,320,55273
+2022,Hombre,75-79,Enfermedad hipertensiva,332,55273
 2022,Hombre,80-84,"Anemias: nutricionales, hemolíticas, aplásticas y otras",17,30728
 2022,Hombre,80-84,Aneurisma aórtico,1,30728
 2022,Hombre,80-84,Enfermedad Pulmonar Obstructiva Crónica (EPOC),44,30728
@@ -14782,12 +14800,12 @@
 2022,Hombre,80-84,Tumor maligno del hígado,15,30728
 2022,Hombre,80-84,Tumor maligno del páncreas,12,30728
 2022,Hombre,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6,30728
-2022,Hombre,80-84,Deficiencias nutricionales,2,30728
+2022,Hombre,80-84,Deficiencias nutricionales,4,30728
 2022,Hombre,80-84,Diabetes insulinodependiente,9,30728
 2022,Hombre,80-84,Diabetes Mellitus no especificada,62,30728
 2022,Hombre,80-84,Diabetes no insulinodependiente,81,30728
 2022,Hombre,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,11,30728
-2022,Hombre,80-84,Enfermedad hipertensiva,298,30728
+2022,Hombre,80-84,Enfermedad hipertensiva,304,30728
 2022,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",40,20947
 2022,Hombre,85 y más,Aneurisma aórtico,4,20947
 2022,Hombre,85 y más,Enfermedad Pulmonar Obstructiva Crónica (EPOC),62,20947
@@ -14820,7 +14838,7 @@
 2022,Hombre,85 y más,Diabetes Mellitus no especificada,85,20947
 2022,Hombre,85 y más,Diabetes no insulinodependiente,96,20947
 2022,Hombre,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,13,20947
-2022,Hombre,85 y más,Enfermedad hipertensiva,558,20947
+2022,Hombre,85 y más,Enfermedad hipertensiva,565,20947
 2022,Hombre,Sin dato,Enfermedades cerebrovasculares,2,
 2022,Hombre,Sin dato,Enfermedades isquémicas del corazón,5,
 2022,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1,
@@ -14852,7 +14870,7 @@
 2022,Hombre,15-19,Diabetes Mellitus no especificada,2,497292
 2022,Hombre,15-19,Diabetes no insulinodependiente,1,497292
 2022,Hombre,15-19,Enfermedad cardiopulmonar y de la circulación pulmonar,2,497292
-2022,Hombre,15-19,Enfermedad hipertensiva,4,497292
+2022,Hombre,15-19,Enfermedad hipertensiva,5,497292
 2022,Hombre,20-24,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7,490515
 2022,Hombre,20-24,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2,490515
 2022,Hombre,20-24,Enfermedad renal crónica,5,490515
@@ -14967,7 +14985,7 @@
 2022,Hombre,40-44,Diabetes Mellitus no especificada,15,351322
 2022,Hombre,40-44,Diabetes no insulinodependiente,22,351322
 2022,Hombre,40-44,Enfermedad cardiopulmonar y de la circulación pulmonar,4,351322
-2022,Hombre,40-44,Enfermedad hipertensiva,42,351322
+2022,Hombre,40-44,Enfermedad hipertensiva,43,351322
 2022,Hombre,45-49,"Anemias: nutricionales, hemolíticas, aplásticas y otras",16,315651
 2022,Hombre,45-49,Aneurisma aórtico,4,315651
 2022,Hombre,45-49,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,315651
@@ -14997,7 +15015,7 @@
 2022,Hombre,45-49,Diabetes Mellitus no especificada,33,315651
 2022,Hombre,45-49,Diabetes no insulinodependiente,37,315651
 2022,Hombre,45-49,Enfermedad cardiopulmonar y de la circulación pulmonar,5,315651
-2022,Hombre,45-49,Enfermedad hipertensiva,77,315651
+2022,Hombre,45-49,Enfermedad hipertensiva,80,315651
 2003,Mujer,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8,506234
 2003,Mujer,0-4,Enfermedad renal crónica,1,506234
 2003,Mujer,0-4,Enfermedades crónicas de las vías respiratorias inferiores,5,506234
@@ -15075,7 +15093,7 @@
 2003,Mujer,55-59,Tumor maligno del páncreas,4,117652
 2003,Mujer,55-59,Tumor maligno del útero,17,117652
 2003,Mujer,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,117652
-2003,Mujer,55-59,Deficiencias nutricionales,1,117652
+2003,Mujer,55-59,Deficiencias nutricionales,2,117652
 2003,Mujer,55-59,Diabetes Mellitus no especificada,26,117652
 2003,Mujer,55-59,Diabetes no insulinodependiente,17,117652
 2003,Mujer,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,2,117652
@@ -15566,7 +15584,7 @@
 2003,Hombre,60-64,Tumor maligno del hígado,19,85057
 2003,Hombre,60-64,Tumor maligno del páncreas,4,85057
 2003,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",10,85057
-2003,Hombre,60-64,Deficiencias nutricionales,4,85057
+2003,Hombre,60-64,Deficiencias nutricionales,5,85057
 2003,Hombre,60-64,Diabetes insulinodependiente,1,85057
 2003,Hombre,60-64,Diabetes Mellitus no especificada,35,85057
 2003,Hombre,60-64,Diabetes no insulinodependiente,23,85057
@@ -15628,7 +15646,7 @@
 2003,Hombre,70-74,Tumor maligno del hígado,24,49040
 2003,Hombre,70-74,Tumor maligno del páncreas,6,49040
 2003,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",17,49040
-2003,Hombre,70-74,Deficiencias nutricionales,2,49040
+2003,Hombre,70-74,Deficiencias nutricionales,3,49040
 2003,Hombre,70-74,Diabetes insulinodependiente,3,49040
 2003,Hombre,70-74,Diabetes Mellitus no especificada,39,49040
 2003,Hombre,70-74,Diabetes no insulinodependiente,18,49040
@@ -15892,6 +15910,7 @@
 2003,Hombre,40-44,Tumor maligno del hígado,11,261339
 2003,Hombre,40-44,Tumor maligno del páncreas,1,261339
 2003,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,261339
+2003,Hombre,40-44,Deficiencias nutricionales,1,261339
 2003,Hombre,40-44,Diabetes insulinodependiente,5,261339
 2003,Hombre,40-44,Diabetes Mellitus no especificada,18,261339
 2003,Hombre,40-44,Diabetes no insulinodependiente,5,261339
@@ -16570,7 +16589,7 @@
 2004,Hombre,75-79,Tumor maligno del hígado,13,32738
 2004,Hombre,75-79,Tumor maligno del páncreas,7,32738
 2004,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12,32738
-2004,Hombre,75-79,Deficiencias nutricionales,3,32738
+2004,Hombre,75-79,Deficiencias nutricionales,4,32738
 2004,Hombre,75-79,Diabetes insulinodependiente,4,32738
 2004,Hombre,75-79,Diabetes Mellitus no especificada,40,32738
 2004,Hombre,75-79,Diabetes no insulinodependiente,18,32738
@@ -16698,7 +16717,7 @@
 2004,Hombre,20-24,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1,434192
 2004,Hombre,20-24,Tumor maligno del páncreas,1,434192
 2004,Hombre,20-24,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,434192
-2004,Hombre,20-24,Deficiencias nutricionales,1,434192
+2004,Hombre,20-24,Deficiencias nutricionales,2,434192
 2004,Hombre,20-24,Diabetes insulinodependiente,4,434192
 2004,Hombre,20-24,Diabetes Mellitus no especificada,5,434192
 2004,Hombre,25-29,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5,387545
@@ -16767,7 +16786,7 @@
 2004,Hombre,35-39,Tumor maligno del hígado,12,301504
 2004,Hombre,35-39,Tumor maligno del páncreas,2,301504
 2004,Hombre,35-39,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,301504
-2004,Hombre,35-39,Deficiencias nutricionales,2,301504
+2004,Hombre,35-39,Deficiencias nutricionales,3,301504
 2004,Hombre,35-39,Diabetes insulinodependiente,6,301504
 2004,Hombre,35-39,Diabetes Mellitus no especificada,12,301504
 2004,Hombre,35-39,Diabetes no insulinodependiente,3,301504
@@ -17750,7 +17769,7 @@
 2005,Hombre,45-49,Tumor maligno del hígado,11,229040
 2005,Hombre,45-49,Tumor maligno del páncreas,5,229040
 2005,Hombre,45-49,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6,229040
-2005,Hombre,45-49,Deficiencias nutricionales,3,229040
+2005,Hombre,45-49,Deficiencias nutricionales,4,229040
 2005,Hombre,45-49,Diabetes insulinodependiente,3,229040
 2005,Hombre,45-49,Diabetes Mellitus no especificada,33,229040
 2005,Hombre,45-49,Diabetes no insulinodependiente,16,229040
@@ -17879,7 +17898,7 @@
 2006,Mujer,60-64,Tumor maligno del páncreas,10,99966
 2006,Mujer,60-64,Tumor maligno del útero,12,99966
 2006,Mujer,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,99966
-2006,Mujer,60-64,Deficiencias nutricionales,2,99966
+2006,Mujer,60-64,Deficiencias nutricionales,3,99966
 2006,Mujer,60-64,Diabetes insulinodependiente,7,99966
 2006,Mujer,60-64,Diabetes Mellitus no especificada,39,99966
 2006,Mujer,60-64,Diabetes no insulinodependiente,32,99966
@@ -18640,6 +18659,7 @@
 2006,Hombre,35-39,Tumor maligno del estómago,2,308648
 2006,Hombre,35-39,Tumor maligno del hígado,4,308648
 2006,Hombre,35-39,Tumor maligno del páncreas,1,308648
+2006,Hombre,35-39,Deficiencias nutricionales,1,308648
 2006,Hombre,35-39,Diabetes insulinodependiente,4,308648
 2006,Hombre,35-39,Diabetes Mellitus no especificada,9,308648
 2006,Hombre,35-39,Diabetes no insulinodependiente,6,308648
@@ -19365,6 +19385,7 @@
 2007,Hombre,70-74,Tumor maligno del hígado,20,56236
 2007,Hombre,70-74,Tumor maligno del páncreas,7,56236
 2007,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",10,56236
+2007,Hombre,70-74,Deficiencias nutricionales,1,56236
 2007,Hombre,70-74,Diabetes insulinodependiente,6,56236
 2007,Hombre,70-74,Diabetes Mellitus no especificada,38,56236
 2007,Hombre,70-74,Diabetes no insulinodependiente,25,56236
@@ -19622,6 +19643,7 @@
 2007,Hombre,40-44,Tumor maligno del hígado,7,280734
 2007,Hombre,40-44,Tumor maligno del páncreas,4,280734
 2007,Hombre,40-44,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,280734
+2007,Hombre,40-44,Deficiencias nutricionales,1,280734
 2007,Hombre,40-44,Diabetes Mellitus no especificada,17,280734
 2007,Hombre,40-44,Diabetes no insulinodependiente,5,280734
 2007,Hombre,40-44,Enfermedad hipertensiva,7,280734
@@ -19649,6 +19671,7 @@
 2007,Hombre,45-49,Tumor maligno del hígado,6,243035
 2007,Hombre,45-49,Tumor maligno del páncreas,1,243035
 2007,Hombre,45-49,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,243035
+2007,Hombre,45-49,Deficiencias nutricionales,1,243035
 2007,Hombre,45-49,Diabetes insulinodependiente,1,243035
 2007,Hombre,45-49,Diabetes Mellitus no especificada,12,243035
 2007,Hombre,45-49,Diabetes no insulinodependiente,18,243035
@@ -21163,6 +21186,7 @@
 2009,Hombre,50-54,Tumor maligno del hígado,22,209877
 2009,Hombre,50-54,Tumor maligno del páncreas,5,209877
 2009,Hombre,50-54,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,209877
+2009,Hombre,50-54,Deficiencias nutricionales,3,209877
 2009,Hombre,50-54,Diabetes insulinodependiente,6,209877
 2009,Hombre,50-54,Diabetes Mellitus no especificada,24,209877
 2009,Hombre,50-54,Diabetes no insulinodependiente,24,209877
@@ -21289,7 +21313,7 @@
 2009,Hombre,70-74,Tumor maligno del hígado,28,59570
 2009,Hombre,70-74,Tumor maligno del páncreas,7,59570
 2009,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",21,59570
-2009,Hombre,70-74,Deficiencias nutricionales,2,59570
+2009,Hombre,70-74,Deficiencias nutricionales,3,59570
 2009,Hombre,70-74,Diabetes insulinodependiente,4,59570
 2009,Hombre,70-74,Diabetes Mellitus no especificada,32,59570
 2009,Hombre,70-74,Diabetes no insulinodependiente,30,59570

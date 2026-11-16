@@ -2200,7 +2200,7 @@
 2015,Mujer,65-69,Tumor maligno del estómago,1,2680
 2015,Mujer,65-69,Diabetes Mellitus no especificada,6,2680
 2015,Mujer,65-69,Diabetes no insulinodependiente,5,2680
-2015,Mujer,65-69,Enfermedad hipertensiva,4,2680
+2015,Mujer,65-69,Enfermedad hipertensiva,5,2680
 2015,Mujer,70-74,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,1781
 2015,Mujer,70-74,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,1781
 2015,Mujer,70-74,Enfermedad renal crónica,1,1781
@@ -3140,7 +3140,7 @@
 2017,Hombre,85 y más,Diabetes insulinodependiente,1,527
 2017,Hombre,85 y más,Diabetes Mellitus no especificada,7,527
 2017,Hombre,85 y más,Diabetes no insulinodependiente,2,527
-2017,Hombre,85 y más,Enfermedad hipertensiva,15,527
+2017,Hombre,85 y más,Enfermedad hipertensiva,16,527
 2017,Hombre,10-14,Enfermedad renal crónica,1,19593
 2017,Hombre,10-14,Enfermedad cardiopulmonar y de la circulación pulmonar,1,19593
 2017,Hombre,15-19,Enfermedades isquémicas del corazón,1,19787
@@ -4319,6 +4319,7 @@
 2020,Mujer,35-39,Lesiones autoinfligidas intencionalmente (suicidios),1,14143
 2020,Mujer,35-39,Tumor maligno del ovario,1,14143
 2020,Mujer,35-39,Tumor maligno del útero,1,14143
+2020,Mujer,35-39,Deficiencias nutricionales,1,14143
 2020,Mujer,35-39,Enfermedad hipertensiva,1,14143
 2020,Mujer,40-44,Enfermedades isquémicas del corazón,3,11966
 2020,Mujer,40-44,Insuficiencia cardíaca,1,11966
@@ -4381,7 +4382,7 @@
 2020,Hombre,60-64,Tumor maligno del páncreas,2,5117
 2020,Hombre,60-64,Diabetes Mellitus no especificada,1,5117
 2020,Hombre,60-64,Diabetes no insulinodependiente,2,5117
-2020,Hombre,60-64,Enfermedad hipertensiva,1,5117
+2020,Hombre,60-64,Enfermedad hipertensiva,2,5117
 2020,Hombre,65-69,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,3551
 2020,Hombre,65-69,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,3551
 2020,Hombre,65-69,Enfermedad renal crónica,1,3551
@@ -4876,7 +4877,7 @@
 2022,Mujer,50-54,Diabetes insulinodependiente,1,9368
 2022,Mujer,50-54,Diabetes Mellitus no especificada,2,9368
 2022,Mujer,50-54,Diabetes no insulinodependiente,4,9368
-2022,Mujer,50-54,Enfermedad hipertensiva,1,9368
+2022,Mujer,50-54,Enfermedad hipertensiva,2,9368
 2022,Mujer,55-59,Aneurisma aórtico,1,7403
 2022,Mujer,55-59,Enfermedad renal crónica,1,7403
 2022,Mujer,55-59,Enfermedades cerebrovasculares,2,7403
@@ -7172,7 +7173,7 @@
 2009,Mujer,45-49,Enfermedad hipertensiva,3,7037
 2009,Hombre,0-4,Insuficiencia cardíaca,1,19307
 2009,Hombre,0-4,Leucemia,3,19307
-2009,Hombre,0-4,Deficiencias nutricionales,2,19307
+2009,Hombre,0-4,Deficiencias nutricionales,3,19307
 2009,Hombre,5-9,Enfermedades cerebrovasculares,1,19550
 2009,Hombre,50-54,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2,5609
 2009,Hombre,50-54,Enfermedad renal crónica,1,5609

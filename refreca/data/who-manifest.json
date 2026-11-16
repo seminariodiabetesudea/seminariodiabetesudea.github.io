@@ -59,6 +59,12 @@
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 1533,
+    "trackedDeaths": 908,
+    "uncoveredDeaths": 625,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ai-nacional.json"
   },
   {
@@ -77,12 +83,48 @@
     1999
    ],
    "rows": 4540,
-   "deaths": 6746,
-   "uncoveredDeaths": 4634,
+   "deaths": 6747,
+   "uncoveredDeaths": 4633,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 11054,
+    "trackedDeaths": 6747,
+    "uncoveredDeaths": 4307,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ag-nacional.json"
+  },
+  {
+   "code": 2020,
+   "id": "oms-ar",
+   "iso": "ar",
+   "name": "Argentina",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 125001,
+   "deaths": 3714370,
+   "uncoveredDeaths": 4476014,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 7810823,
+    "trackedDeaths": 3714370,
+    "uncoveredDeaths": 4096453,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-ar-nacional.json"
   },
   {
    "code": 2025,
@@ -99,11 +141,17 @@
     1999
    ],
    "rows": 5656,
-   "deaths": 8362,
-   "uncoveredDeaths": 6372,
+   "deaths": 8364,
+   "uncoveredDeaths": 6370,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 14493,
+    "trackedDeaths": 8364,
+    "uncoveredDeaths": 6129,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-aw-nacional.json"
   },
   {
@@ -121,11 +169,17 @@
     1999
    ],
    "rows": 8804,
-   "deaths": 16586,
-   "uncoveredDeaths": 16820,
+   "deaths": 16590,
+   "uncoveredDeaths": 16815,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 32603,
+    "trackedDeaths": 16590,
+    "uncoveredDeaths": 16013,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-bs-nacional.json"
   },
   {
@@ -141,11 +195,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 6714,
-   "deaths": 18767,
-   "uncoveredDeaths": 14049,
+   "deaths": 18779,
+   "uncoveredDeaths": 14037,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 32816,
+    "trackedDeaths": 18779,
+    "uncoveredDeaths": 14037,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-bb-nacional.json"
   },
   {
@@ -165,11 +225,17 @@
     1999
    ],
    "rows": 11564,
-   "deaths": 17789,
-   "uncoveredDeaths": 21097,
+   "deaths": 17795,
+   "uncoveredDeaths": 21091,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 36894,
+    "trackedDeaths": 17795,
+    "uncoveredDeaths": 19099,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-bz-nacional.json"
   },
   {
@@ -190,11 +256,17 @@
     1999
    ],
    "rows": 4997,
-   "deaths": 6550,
-   "uncoveredDeaths": 4508,
+   "deaths": 6552,
+   "uncoveredDeaths": 4506,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 10469,
+    "trackedDeaths": 6552,
+    "uncoveredDeaths": 3917,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-bm-nacional.json"
   },
   {
@@ -215,6 +287,12 @@
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 88665,
+    "trackedDeaths": 16054,
+    "uncoveredDeaths": 72611,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-bo-nacional.json"
   },
   {
@@ -235,11 +313,17 @@
     1999
    ],
    "rows": 241931,
-   "deaths": 14127419,
-   "uncoveredDeaths": 16973152,
+   "deaths": 14130287,
+   "uncoveredDeaths": 16970055,
    "hasPopulation": false,
    "popYears": 1,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 29060232,
+    "trackedDeaths": 14130287,
+    "uncoveredDeaths": 14929945,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-br-nacional.json"
   },
   {
@@ -263,11 +347,17 @@
     1999
    ],
    "rows": 1648,
-   "deaths": 1222,
-   "uncoveredDeaths": 1212,
+   "deaths": 1223,
+   "uncoveredDeaths": 1211,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2304,
+    "trackedDeaths": 1223,
+    "uncoveredDeaths": 1081,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-vg-nacional.json"
   },
   {
@@ -283,11 +373,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 98435,
-   "deaths": 4147855,
-   "uncoveredDeaths": 2373264,
+   "deaths": 4148621,
+   "uncoveredDeaths": 2372498,
    "hasPopulation": false,
    "popYears": 6,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 6521119,
+    "trackedDeaths": 4148621,
+    "uncoveredDeaths": 2372498,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ca-nacional.json"
   },
   {
@@ -309,12 +405,78 @@
     1999
    ],
    "rows": 2032,
-   "deaths": 1672,
-   "uncoveredDeaths": 1416,
+   "deaths": 1673,
+   "uncoveredDeaths": 1415,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2995,
+    "trackedDeaths": 1673,
+    "uncoveredDeaths": 1322,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ky-nacional.json"
+  },
+  {
+   "code": 2120,
+   "id": "oms-cl",
+   "iso": "cl",
+   "name": "Chile",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 80776,
+   "deaths": 1434328,
+   "uncoveredDeaths": 1068250,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2397963,
+    "trackedDeaths": 1434328,
+    "uncoveredDeaths": 963635,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-cl-nacional.json"
+  },
+  {
+   "code": 2130,
+   "id": "oms-co",
+   "iso": "co",
+   "name": "Colombia",
+   "years": [
+    2000,
+    2023
+   ],
+   "yearCount": 24,
+   "missingYears": [],
+   "cutYears": [
+    1997,
+    1998,
+    1999
+   ],
+   "rows": 127894,
+   "deaths": 2869484,
+   "uncoveredDeaths": 2697251,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 5296336,
+    "trackedDeaths": 2869484,
+    "uncoveredDeaths": 2426852,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-co-nacional.json"
   },
   {
    "code": 2140,
@@ -333,11 +495,17 @@
     1999
    ],
    "rows": 48099,
-   "deaths": 285168,
-   "uncoveredDeaths": 216731,
+   "deaths": 285194,
+   "uncoveredDeaths": 216704,
    "hasPopulation": false,
    "popYears": 1,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 483607,
+    "trackedDeaths": 285194,
+    "uncoveredDeaths": 198413,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-cr-nacional.json"
   },
   {
@@ -353,11 +521,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 66088,
-   "deaths": 1577823,
-   "uncoveredDeaths": 651322,
+   "deaths": 1577883,
+   "uncoveredDeaths": 651262,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2229145,
+    "trackedDeaths": 1577883,
+    "uncoveredDeaths": 651262,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-cu-nacional.json"
   },
   {
@@ -375,11 +549,17 @@
    ],
    "cutYears": [],
    "rows": 4814,
-   "deaths": 7533,
-   "uncoveredDeaths": 4995,
+   "deaths": 7539,
+   "uncoveredDeaths": 4989,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 12528,
+    "trackedDeaths": 7539,
+    "uncoveredDeaths": 4989,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-dm-nacional.json"
   },
   {
@@ -400,11 +580,17 @@
     1999
    ],
    "rows": 50615,
-   "deaths": 409289,
-   "uncoveredDeaths": 481926,
+   "deaths": 409687,
+   "uncoveredDeaths": 481509,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 838696,
+    "trackedDeaths": 409687,
+    "uncoveredDeaths": 429009,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-do-nacional.json"
   },
   {
@@ -424,11 +610,17 @@
     1999
    ],
    "rows": 82433,
-   "deaths": 852255,
-   "uncoveredDeaths": 955463,
+   "deaths": 852616,
+   "uncoveredDeaths": 955093,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 1715940,
+    "trackedDeaths": 852616,
+    "uncoveredDeaths": 863324,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ec-nacional.json"
   },
   {
@@ -448,12 +640,46 @@
     1999
    ],
    "rows": 22762,
-   "deaths": 253327,
-   "uncoveredDeaths": 431678,
+   "deaths": 253719,
+   "uncoveredDeaths": 431281,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 629566,
+    "trackedDeaths": 253719,
+    "uncoveredDeaths": 375847,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-sv-nacional.json"
+  },
+  {
+   "code": 2210,
+   "id": "oms-gf",
+   "iso": "gf",
+   "name": "Guayana Francesa",
+   "years": [
+    2001,
+    2022
+   ],
+   "yearCount": 22,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 9996,
+   "deaths": 7333,
+   "uncoveredDeaths": 11128,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "ageBreakdown": false,
+   "ageFormat": "09",
+   "reconciliation": {
+    "rawDeaths": 18461,
+    "trackedDeaths": 7333,
+    "uncoveredDeaths": 11128,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-gf-nacional.json"
   },
   {
    "code": 2230,
@@ -468,12 +694,46 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 6487,
-   "deaths": 12550,
-   "uncoveredDeaths": 8031,
+   "deaths": 12552,
+   "uncoveredDeaths": 8029,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 20581,
+    "trackedDeaths": 12552,
+    "uncoveredDeaths": 8029,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-gd-nacional.json"
+  },
+  {
+   "code": 2240,
+   "id": "oms-gp",
+   "iso": "gp",
+   "name": "Guadalupe",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 23,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 17552,
+   "deaths": 35088,
+   "uncoveredDeaths": 35968,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "ageBreakdown": false,
+   "ageFormat": "09",
+   "reconciliation": {
+    "rawDeaths": 71056,
+    "trackedDeaths": 35088,
+    "uncoveredDeaths": 35968,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-gp-nacional.json"
   },
   {
    "code": 2250,
@@ -488,11 +748,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 42656,
-   "deaths": 627245,
-   "uncoveredDeaths": 912761,
+   "deaths": 627342,
+   "uncoveredDeaths": 912664,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 1540006,
+    "trackedDeaths": 627342,
+    "uncoveredDeaths": 912664,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-gt-nacional.json"
   },
   {
@@ -508,11 +774,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 14275,
-   "deaths": 60713,
-   "uncoveredDeaths": 43446,
+   "deaths": 60735,
+   "uncoveredDeaths": 43424,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 104159,
+    "trackedDeaths": 60735,
+    "uncoveredDeaths": 43424,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-gy-nacional.json"
   },
   {
@@ -531,11 +803,17 @@
     1999
    ],
    "rows": 4323,
-   "deaths": 6995,
-   "uncoveredDeaths": 31584,
+   "deaths": 6996,
+   "uncoveredDeaths": 31583,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 27576,
+    "trackedDeaths": 6996,
+    "uncoveredDeaths": 20580,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ht-nacional.json"
   },
   {
@@ -551,11 +829,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 6303,
-   "deaths": 14163,
-   "uncoveredDeaths": 20826,
+   "deaths": 14164,
+   "uncoveredDeaths": 20825,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 34989,
+    "trackedDeaths": 14164,
+    "uncoveredDeaths": 20825,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-hn-nacional.json"
   },
   {
@@ -574,12 +858,48 @@
    ],
    "cutYears": [],
    "rows": 25893,
-   "deaths": 210841,
-   "uncoveredDeaths": 133411,
+   "deaths": 210902,
+   "uncoveredDeaths": 133350,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 344252,
+    "trackedDeaths": 210902,
+    "uncoveredDeaths": 133350,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-jm-nacional.json"
+  },
+  {
+   "code": 2300,
+   "id": "oms-mq",
+   "iso": "mq",
+   "name": "Martinica",
+   "years": [
+    2000,
+    2022
+   ],
+   "yearCount": 22,
+   "missingYears": [
+    2012
+   ],
+   "cutYears": [],
+   "rows": 16987,
+   "deaths": 33659,
+   "uncoveredDeaths": 34024,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "ageBreakdown": false,
+   "ageFormat": "09",
+   "reconciliation": {
+    "rawDeaths": 67683,
+    "trackedDeaths": 33659,
+    "uncoveredDeaths": 34024,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-mq-nacional.json"
   },
   {
    "code": 2310,
@@ -597,11 +917,17 @@
     1999
    ],
    "rows": 162313,
-   "deaths": 8840073,
-   "uncoveredDeaths": 6570131,
+   "deaths": 8843409,
+   "uncoveredDeaths": 6566698,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 15021045,
+    "trackedDeaths": 8843409,
+    "uncoveredDeaths": 6177636,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-mx-nacional.json"
   },
   {
@@ -628,7 +954,45 @@
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 1085,
+    "trackedDeaths": 780,
+    "uncoveredDeaths": 305,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ms-nacional.json"
+  },
+  {
+   "code": 2330,
+   "id": "oms-an",
+   "iso": "an",
+   "name": "Antillas Neerlandesas",
+   "years": [
+    1988,
+    2000
+   ],
+   "yearCount": 13,
+   "missingYears": [],
+   "cutYears": [],
+   "rows": 3937,
+   "deaths": 7089,
+   "uncoveredDeaths": 5906,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 12995,
+    "trackedDeaths": 7089,
+    "uncoveredDeaths": 5906,
+    "ageColumnGap": 0
+   },
+   "lowerCut": {
+    "fromYear": 2000,
+    "yearsSince": [
+     2000
+    ]
+   },
+   "file": "mortalidad-oms-an-nacional.json"
   },
   {
    "code": 2340,
@@ -647,11 +1011,17 @@
     1999
    ],
    "rows": 41990,
-   "deaths": 295891,
-   "uncoveredDeaths": 202790,
+   "deaths": 295921,
+   "uncoveredDeaths": 202760,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 476886,
+    "trackedDeaths": 295921,
+    "uncoveredDeaths": 180965,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ni-nacional.json"
   },
   {
@@ -672,11 +1042,17 @@
     1999
    ],
    "rows": 42345,
-   "deaths": 207749,
-   "uncoveredDeaths": 193293,
+   "deaths": 207773,
+   "uncoveredDeaths": 193268,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 389160,
+    "trackedDeaths": 207773,
+    "uncoveredDeaths": 181387,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-pa-nacional.json"
   },
   {
@@ -697,11 +1073,17 @@
     1999
    ],
    "rows": 50085,
-   "deaths": 302893,
-   "uncoveredDeaths": 363882,
+   "deaths": 302913,
+   "uncoveredDeaths": 363862,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 627529,
+    "trackedDeaths": 302913,
+    "uncoveredDeaths": 324616,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-py-nacional.json"
   },
   {
@@ -719,11 +1101,17 @@
     1999
    ],
    "rows": 75458,
-   "deaths": 1057785,
-   "uncoveredDeaths": 1583961,
+   "deaths": 1058741,
+   "uncoveredDeaths": 1582998,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2584358,
+    "trackedDeaths": 1058741,
+    "uncoveredDeaths": 1525617,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-pe-nacional.json"
   },
   {
@@ -745,11 +1133,17 @@
     1999
    ],
    "rows": 34141,
-   "deaths": 356690,
-   "uncoveredDeaths": 280253,
+   "deaths": 356721,
+   "uncoveredDeaths": 280221,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 625257,
+    "trackedDeaths": 356721,
+    "uncoveredDeaths": 268536,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-pr-nacional.json"
   },
   {
@@ -768,11 +1162,17 @@
     1999
    ],
    "rows": 4080,
-   "deaths": 5315,
-   "uncoveredDeaths": 3742,
+   "deaths": 5316,
+   "uncoveredDeaths": 3741,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 8686,
+    "trackedDeaths": 5316,
+    "uncoveredDeaths": 3370,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-kn-nacional.json"
   },
   {
@@ -795,12 +1195,48 @@
     1999
    ],
    "rows": 7676,
-   "deaths": 12502,
-   "uncoveredDeaths": 10673,
+   "deaths": 12510,
+   "uncoveredDeaths": 10662,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 21694,
+    "trackedDeaths": 12510,
+    "uncoveredDeaths": 9184,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-lc-nacional.json"
+  },
+  {
+   "code": 2410,
+   "id": "oms-pm",
+   "iso": "pm",
+   "name": "San Pedro y Miquelón",
+   "years": [
+    2005,
+    2010
+   ],
+   "yearCount": 5,
+   "missingYears": [
+    2007
+   ],
+   "cutYears": [],
+   "rows": 199,
+   "deaths": 145,
+   "uncoveredDeaths": 88,
+   "hasPopulation": false,
+   "popYears": 0,
+   "frmatSkipped": {},
+   "ageBreakdown": false,
+   "ageFormat": "09",
+   "reconciliation": {
+    "rawDeaths": 233,
+    "trackedDeaths": 145,
+    "uncoveredDeaths": 88,
+    "ageColumnGap": 0
+   },
+   "file": "mortalidad-oms-pm-nacional.json"
   },
   {
    "code": 2420,
@@ -815,11 +1251,17 @@
    "missingYears": [],
    "cutYears": [],
    "rows": 6113,
-   "deaths": 12122,
-   "uncoveredDeaths": 7720,
+   "deaths": 12124,
+   "uncoveredDeaths": 7718,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 19842,
+    "trackedDeaths": 12124,
+    "uncoveredDeaths": 7718,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-vc-nacional.json"
   },
   {
@@ -841,11 +1283,17 @@
     1999
    ],
    "rows": 10949,
-   "deaths": 22273,
-   "uncoveredDeaths": 26101,
+   "deaths": 22279,
+   "uncoveredDeaths": 26094,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 42835,
+    "trackedDeaths": 22279,
+    "uncoveredDeaths": 20556,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-sr-nacional.json"
   },
   {
@@ -863,11 +1311,17 @@
     1999
    ],
    "rows": 25538,
-   "deaths": 142275,
-   "uncoveredDeaths": 78635,
+   "deaths": 142293,
+   "uncoveredDeaths": 78614,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 217622,
+    "trackedDeaths": 142293,
+    "uncoveredDeaths": 75329,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-tt-nacional.json"
   },
   {
@@ -893,6 +1347,12 @@
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 1870,
+    "trackedDeaths": 912,
+    "uncoveredDeaths": 958,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-tc-nacional.json"
   },
   {
@@ -910,11 +1370,17 @@
     1999
    ],
    "rows": 167302,
-   "deaths": 39733099,
-   "uncoveredDeaths": 25301299,
+   "deaths": 39739327,
+   "uncoveredDeaths": 25294767,
    "hasPopulation": false,
    "popYears": 8,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 64251846,
+    "trackedDeaths": 39739327,
+    "uncoveredDeaths": 24512519,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-us-nacional.json"
   },
   {
@@ -943,6 +1409,12 @@
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 12779,
+    "trackedDeaths": 7681,
+    "uncoveredDeaths": 5098,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-vi-nacional.json"
   },
   {
@@ -964,11 +1436,17 @@
     1999
    ],
    "rows": 41977,
-   "deaths": 413202,
-   "uncoveredDeaths": 387701,
+   "deaths": 413249,
+   "uncoveredDeaths": 387651,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 763636,
+    "trackedDeaths": 413249,
+    "uncoveredDeaths": 350387,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-uy-nacional.json"
   },
   {
@@ -989,11 +1467,17 @@
     1999
    ],
    "rows": 79702,
-   "deaths": 1260101,
-   "uncoveredDeaths": 1228034,
+   "deaths": 1260188,
+   "uncoveredDeaths": 1227921,
    "hasPopulation": false,
    "popYears": 0,
    "frmatSkipped": {},
+   "reconciliation": {
+    "rawDeaths": 2301499,
+    "trackedDeaths": 1260188,
+    "uncoveredDeaths": 1041311,
+    "ageColumnGap": 0
+   },
    "file": "mortalidad-oms-ve-nacional.json"
   }
  ],
@@ -1002,31 +1486,6 @@
    "code": 2200,
    "name": "Islas Malvinas",
    "reason": "sin datos CIE-10 nacionales"
-  },
-  {
-   "code": 2210,
-   "name": "Guayana Francesa",
-   "reason": "formato de edad no compatible (09: 9996 registros)"
-  },
-  {
-   "code": 2240,
-   "name": "Guadalupe",
-   "reason": "formato de edad no compatible (09: 17552 registros)"
-  },
-  {
-   "code": 2300,
-   "name": "Martinica",
-   "reason": "formato de edad no compatible (09: 16987 registros)"
-  },
-  {
-   "code": 2330,
-   "name": "Antillas Neerlandesas",
-   "reason": "menos de 3 años desde 2000"
-  },
-  {
-   "code": 2410,
-   "name": "San Pedro y Miquelón",
-   "reason": "formato de edad no compatible (09: 199 registros)"
   }
  ],
  "files": [
@@ -1036,27 +1495,31 @@
   },
   {
    "file": "mortalidad-oms-ag-nacional.json",
-   "bytes": 45426
+   "bytes": 45438
+  },
+  {
+   "file": "mortalidad-oms-ar-nacional.json",
+   "bytes": 379260
   },
   {
    "file": "mortalidad-oms-aw-nacional.json",
-   "bytes": 58289
+   "bytes": 58313
   },
   {
    "file": "mortalidad-oms-bs-nacional.json",
-   "bytes": 70742
+   "bytes": 70777
   },
   {
    "file": "mortalidad-oms-bb-nacional.json",
-   "bytes": 61638
+   "bytes": 61752
   },
   {
    "file": "mortalidad-oms-bz-nacional.json",
-   "bytes": 91516
+   "bytes": 91527
   },
   {
    "file": "mortalidad-oms-bm-nacional.json",
-   "bytes": 45180
+   "bytes": 45191
   },
   {
    "file": "mortalidad-oms-bo-nacional.json",
@@ -1064,55 +1527,71 @@
   },
   {
    "file": "mortalidad-oms-br-nacional.json",
-   "bytes": 413837
+   "bytes": 413861
   },
   {
    "file": "mortalidad-oms-vg-nacional.json",
-   "bytes": 15259
+   "bytes": 15270
   },
   {
    "file": "mortalidad-oms-ca-nacional.json",
-   "bytes": 318461
+   "bytes": 318652
   },
   {
    "file": "mortalidad-oms-ky-nacional.json",
-   "bytes": 18557
+   "bytes": 18569
+  },
+  {
+   "file": "mortalidad-oms-cl-nacional.json",
+   "bytes": 287909
+  },
+  {
+   "file": "mortalidad-oms-co-nacional.json",
+   "bytes": 343575
   },
   {
    "file": "mortalidad-oms-cr-nacional.json",
-   "bytes": 234151
+   "bytes": 234217
   },
   {
    "file": "mortalidad-oms-cu-nacional.json",
-   "bytes": 275608
+   "bytes": 275762
   },
   {
    "file": "mortalidad-oms-dm-nacional.json",
-   "bytes": 47303
+   "bytes": 47369
   },
   {
    "file": "mortalidad-oms-do-nacional.json",
-   "bytes": 268578
+   "bytes": 268849
   },
   {
    "file": "mortalidad-oms-ec-nacional.json",
-   "bytes": 319027
+   "bytes": 319042
   },
   {
    "file": "mortalidad-oms-sv-nacional.json",
-   "bytes": 196679
+   "bytes": 196684
+  },
+  {
+   "file": "mortalidad-oms-gf-nacional.json",
+   "bytes": 17966
   },
   {
    "file": "mortalidad-oms-gd-nacional.json",
-   "bytes": 66303
+   "bytes": 66326
+  },
+  {
+   "file": "mortalidad-oms-gp-nacional.json",
+   "bytes": 22339
   },
   {
    "file": "mortalidad-oms-gt-nacional.json",
-   "bytes": 243636
+   "bytes": 243648
   },
   {
    "file": "mortalidad-oms-gy-nacional.json",
-   "bytes": 127560
+   "bytes": 127664
   },
   {
    "file": "mortalidad-oms-ht-nacional.json",
@@ -1124,55 +1603,67 @@
   },
   {
    "file": "mortalidad-oms-jm-nacional.json",
-   "bytes": 181725
+   "bytes": 181870
+  },
+  {
+   "file": "mortalidad-oms-mq-nacional.json",
+   "bytes": 21475
   },
   {
    "file": "mortalidad-oms-mx-nacional.json",
-   "bytes": 382242
+   "bytes": 382254
   },
   {
    "file": "mortalidad-oms-ms-nacional.json",
    "bytes": 10532
   },
   {
+   "file": "mortalidad-oms-an-nacional.json",
+   "bytes": 40179
+  },
+  {
    "file": "mortalidad-oms-ni-nacional.json",
-   "bytes": 234337
+   "bytes": 234349
   },
   {
    "file": "mortalidad-oms-pa-nacional.json",
-   "bytes": 224005
+   "bytes": 224050
   },
   {
    "file": "mortalidad-oms-py-nacional.json",
-   "bytes": 239920
+   "bytes": 239942
   },
   {
    "file": "mortalidad-oms-pe-nacional.json",
-   "bytes": 306155
+   "bytes": 306236
   },
   {
    "file": "mortalidad-oms-pr-nacional.json",
-   "bytes": 201536
+   "bytes": 201603
   },
   {
    "file": "mortalidad-oms-kn-nacional.json",
-   "bytes": 38522
+   "bytes": 38533
   },
   {
    "file": "mortalidad-oms-lc-nacional.json",
-   "bytes": 65564
+   "bytes": 65612
+  },
+  {
+   "file": "mortalidad-oms-pm-nacional.json",
+   "bytes": 3772
   },
   {
    "file": "mortalidad-oms-vc-nacional.json",
-   "bytes": 61877
+   "bytes": 61888
   },
   {
    "file": "mortalidad-oms-sr-nacional.json",
-   "bytes": 73007
+   "bytes": 73049
   },
   {
    "file": "mortalidad-oms-tt-nacional.json",
-   "bytes": 168178
+   "bytes": 168327
   },
   {
    "file": "mortalidad-oms-tc-nacional.json",
@@ -1180,7 +1671,7 @@
   },
   {
    "file": "mortalidad-oms-us-nacional.json",
-   "bytes": 390564
+   "bytes": 390799
   },
   {
    "file": "mortalidad-oms-vi-nacional.json",
@@ -1188,11 +1679,11 @@
   },
   {
    "file": "mortalidad-oms-uy-nacional.json",
-   "bytes": 230226
+   "bytes": 230340
   },
   {
    "file": "mortalidad-oms-ve-nacional.json",
-   "bytes": 228271
+   "bytes": 228281
   }
  ],
  "skipped": {
@@ -1215,141 +1706,141 @@
   "ar": [
    {
     "year": 2005,
-    "who": 149990,
-    "national": 150136,
+    "who": 149995,
+    "national": 150141,
     "diffPct": -0.1
    },
    {
     "year": 2006,
-    "who": 149715,
-    "national": 149792,
+    "who": 149721,
+    "national": 149798,
     "diffPct": -0.1
    },
    {
     "year": 2007,
-    "who": 155987,
-    "national": 157004,
+    "who": 155996,
+    "national": 157013,
     "diffPct": -0.6
    },
    {
     "year": 2008,
-    "who": 148302,
-    "national": 149423,
+    "who": 148305,
+    "national": 149426,
     "diffPct": -0.8
    },
    {
     "year": 2009,
-    "who": 147381,
-    "national": 148536,
+    "who": 147385,
+    "national": 148540,
     "diffPct": -0.8
    },
    {
     "year": 2010,
-    "who": 155127,
-    "national": 156180,
+    "who": 155133,
+    "national": 156187,
     "diffPct": -0.7
    },
    {
     "year": 2011,
-    "who": 154191,
-    "national": 155326,
+    "who": 154194,
+    "national": 155329,
     "diffPct": -0.7
    },
    {
     "year": 2012,
-    "who": 154518,
-    "national": 155674,
+    "who": 154526,
+    "national": 155682,
     "diffPct": -0.7
    },
    {
     "year": 2013,
-    "who": 154902,
-    "national": 156278,
+    "who": 154911,
+    "national": 156288,
     "diffPct": -0.9
    },
    {
     "year": 2014,
-    "who": 153405,
-    "national": 154913,
+    "who": 153411,
+    "national": 154919,
     "diffPct": -1
    },
    {
     "year": 2015,
-    "who": 161925,
-    "national": 163309,
+    "who": 161932,
+    "national": 163316,
     "diffPct": -0.8
    },
    {
     "year": 2016,
-    "who": 165335,
-    "national": 166586,
+    "who": 165348,
+    "national": 166599,
     "diffPct": -0.8
    },
    {
     "year": 2017,
-    "who": 158289,
-    "national": 158289,
+    "who": 158295,
+    "national": 158295,
     "diffPct": 0
    },
    {
     "year": 2018,
-    "who": 155608,
-    "national": 155608,
+    "who": 155624,
+    "national": 155624,
     "diffPct": 0
    },
    {
     "year": 2019,
-    "who": 156756,
-    "national": 156756,
+    "who": 156772,
+    "national": 156772,
     "diffPct": 0
    }
   ],
   "cl": [
    {
     "year": 1997,
-    "who": 43606,
+    "who": 43611,
     "national": 42715,
     "diffPct": 2.1
    },
    {
     "year": 1998,
-    "who": 45834,
+    "who": 45838,
     "national": 44828,
-    "diffPct": 2.2
+    "diffPct": 2.3
    },
    {
     "year": 1999,
-    "who": 46643,
+    "who": 46649,
     "national": 45610,
     "diffPct": 2.3
    },
    {
     "year": 2000,
-    "who": 47087,
+    "who": 47089,
     "national": 45618,
     "diffPct": 3.2
    },
    {
     "year": 2001,
-    "who": 49797,
+    "who": 49800,
     "national": 48176,
     "diffPct": 3.4
    },
    {
     "year": 2002,
-    "who": 50765,
+    "who": 50769,
     "national": 49167,
     "diffPct": 3.3
    },
    {
     "year": 2003,
-    "who": 53374,
+    "who": 53376,
     "national": 1654,
-    "diffPct": 3127
+    "diffPct": 3127.1
    },
    {
     "year": 2004,
-    "who": 54237,
+    "who": 54238,
     "national": 52503,
     "diffPct": 3.3
    },
@@ -1361,13 +1852,13 @@
    },
    {
     "year": 2006,
-    "who": 54188,
+    "who": 54189,
     "national": 52393,
     "diffPct": 3.4
    },
    {
     "year": 2007,
-    "who": 56113,
+    "who": 56115,
     "national": 56260,
     "diffPct": -0.3
    },
@@ -1379,25 +1870,25 @@
    },
    {
     "year": 2009,
-    "who": 57418,
+    "who": 57422,
     "national": 55275,
     "diffPct": 3.9
    },
    {
     "year": 2010,
-    "who": 60970,
+    "who": 60973,
     "national": 58973,
     "diffPct": 3.4
    },
    {
     "year": 2011,
-    "who": 58170,
+    "who": 58175,
     "national": 56146,
     "diffPct": 3.6
    },
    {
     "year": 2012,
-    "who": 61022,
+    "who": 61023,
     "national": 59180,
     "diffPct": 3.1
    },
@@ -1409,37 +1900,37 @@
    },
    {
     "year": 2014,
-    "who": 62322,
+    "who": 62326,
     "national": 60536,
     "diffPct": 3
    },
    {
     "year": 2015,
-    "who": 64233,
+    "who": 64239,
     "national": 62404,
     "diffPct": 2.9
    },
    {
     "year": 2016,
-    "who": 64593,
+    "who": 64595,
     "national": 62737,
     "diffPct": 3
    },
    {
     "year": 2017,
-    "who": 65689,
+    "who": 65692,
     "national": 63815,
     "diffPct": 2.9
    },
    {
     "year": 2018,
-    "who": 63775,
+    "who": 63776,
     "national": 61953,
     "diffPct": 2.9
    },
    {
     "year": 2019,
-    "who": 63719,
+    "who": 63724,
     "national": 61880,
     "diffPct": 3
    }
@@ -1447,109 +1938,109 @@
   "co": [
    {
     "year": 1997,
-    "who": 82270,
+    "who": 82277,
     "national": 79439,
     "diffPct": 3.6
    },
    {
     "year": 1998,
-    "who": 84538,
+    "who": 84548,
     "national": 80996,
     "diffPct": 4.4
    },
    {
     "year": 1999,
-    "who": 92218,
+    "who": 92224,
     "national": 90551,
     "diffPct": 1.8
    },
    {
     "year": 2000,
-    "who": 93370,
+    "who": 93379,
     "national": 92211,
     "diffPct": 1.3
    },
    {
     "year": 2001,
-    "who": 93690,
+    "who": 93693,
     "national": 93349,
     "diffPct": 0.4
    },
    {
     "year": 2002,
-    "who": 94717,
+    "who": 94721,
     "national": 93603,
     "diffPct": 1.2
    },
    {
     "year": 2003,
-    "who": 99536,
+    "who": 99541,
     "national": 98194,
     "diffPct": 1.4
    },
    {
     "year": 2004,
-    "who": 99966,
+    "who": 99970,
     "national": 99140,
     "diffPct": 0.8
    },
    {
     "year": 2005,
-    "who": 102009,
+    "who": 102016,
     "national": 101633,
     "diffPct": 0.4
    },
    {
     "year": 2006,
-    "who": 104636,
+    "who": 104641,
     "national": 104138,
     "diffPct": 0.5
    },
    {
     "year": 2007,
-    "who": 104974,
+    "who": 104980,
     "national": 104725,
     "diffPct": 0.2
    },
    {
     "year": 2008,
-    "who": 108837,
+    "who": 108852,
     "national": 108430,
     "diffPct": 0.4
    },
    {
     "year": 2009,
-    "who": 105056,
+    "who": 105064,
     "national": 104700,
     "diffPct": 0.3
    },
    {
     "year": 2010,
-    "who": 109068,
+    "who": 109076,
     "national": 108602,
     "diffPct": 0.4
    },
    {
     "year": 2011,
-    "who": 107830,
+    "who": 107831,
     "national": 107715,
     "diffPct": 0.1
    },
    {
     "year": 2012,
-    "who": 111814,
+    "who": 111820,
     "national": 111749,
     "diffPct": 0.1
    },
    {
     "year": 2013,
-    "who": 114741,
+    "who": 114751,
     "national": 114702,
     "diffPct": 0
    },
    {
     "year": 2014,
-    "who": 121764,
+    "who": 121766,
     "national": 121731,
     "diffPct": 0
    },
@@ -1561,31 +2052,31 @@
    },
    {
     "year": 2016,
-    "who": 130485,
+    "who": 130494,
     "national": 130462,
     "diffPct": 0
    },
    {
     "year": 2017,
-    "who": 134431,
+    "who": 134435,
     "national": 134433,
     "diffPct": 0
    },
    {
     "year": 2018,
-    "who": 139112,
+    "who": 139118,
     "national": 139068,
     "diffPct": 0
    },
    {
     "year": 2019,
-    "who": 142443,
+    "who": 142455,
     "national": 142407,
     "diffPct": 0
    },
    {
     "year": 2020,
-    "who": 150091,
+    "who": 150146,
     "national": 150115,
     "diffPct": 0
    }

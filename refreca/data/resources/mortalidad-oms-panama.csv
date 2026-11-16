@@ -3,7 +3,7 @@
 2000,Mujer,0-4,Enfermedades crónicas de las vías respiratorias inferiores,5,165767
 2000,Mujer,0-4,Leucemia,2,165767
 2000,Mujer,0-4,Ciertas enfermedades crónicas del hígado y cirrosis,1,165767
-2000,Mujer,0-4,Deficiencias nutricionales,70,165767
+2000,Mujer,0-4,Deficiencias nutricionales,71,165767
 2000,Mujer,5-9,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,158166
 2000,Mujer,5-9,Leucemia,2,158166
 2000,Mujer,5-9,Tumor maligno de la tiroides y otras glándulas endocrinas,1,158166
@@ -2851,7 +2851,7 @@
 2011,Hombre,75-79,Tumor maligno del hígado,14,19582
 2011,Hombre,75-79,Tumor maligno del páncreas,12,19582
 2011,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,19582
-2011,Hombre,75-79,Deficiencias nutricionales,1,19582
+2011,Hombre,75-79,Deficiencias nutricionales,3,19582
 2011,Hombre,75-79,Diabetes insulinodependiente,1,19582
 2011,Hombre,75-79,Diabetes Mellitus no especificada,37,19582
 2011,Hombre,75-79,Diabetes no insulinodependiente,22,19582
@@ -2884,6 +2884,7 @@
 2011,Hombre,80-84,Tumor maligno del hígado,13,11022
 2011,Hombre,80-84,Tumor maligno del páncreas,1,11022
 2011,Hombre,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,11022
+2011,Hombre,80-84,Deficiencias nutricionales,1,11022
 2011,Hombre,80-84,Diabetes Mellitus no especificada,21,11022
 2011,Hombre,80-84,Diabetes no insulinodependiente,15,11022
 2011,Hombre,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,6,11022
@@ -3300,7 +3301,7 @@
 2012,Mujer,85 y más,Tumor maligno del páncreas,13,13119
 2012,Mujer,85 y más,Tumor maligno del útero,13,13119
 2012,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,13119
-2012,Mujer,85 y más,Deficiencias nutricionales,10,13119
+2012,Mujer,85 y más,Deficiencias nutricionales,11,13119
 2012,Mujer,85 y más,Diabetes Mellitus no especificada,91,13119
 2012,Mujer,85 y más,Diabetes no insulinodependiente,47,13119
 2012,Mujer,85 y más,Enfermedad cardiopulmonar y de la circulación pulmonar,13,13119
@@ -4432,7 +4433,7 @@
 2013,Hombre,70-74,Tumor maligno del hígado,9,32755
 2013,Hombre,70-74,Tumor maligno del páncreas,9,32755
 2013,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,32755
-2013,Hombre,70-74,Deficiencias nutricionales,1,32755
+2013,Hombre,70-74,Deficiencias nutricionales,2,32755
 2013,Hombre,70-74,Diabetes insulinodependiente,2,32755
 2013,Hombre,70-74,Diabetes Mellitus no especificada,40,32755
 2013,Hombre,70-74,Diabetes no insulinodependiente,23,32755
@@ -5261,7 +5262,7 @@
 2014,Hombre,75-79,Tumor maligno del hígado,12,22760
 2014,Hombre,75-79,Tumor maligno del páncreas,8,22760
 2014,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,22760
-2014,Hombre,75-79,Deficiencias nutricionales,3,22760
+2014,Hombre,75-79,Deficiencias nutricionales,4,22760
 2014,Hombre,75-79,Diabetes Mellitus no especificada,42,22760
 2014,Hombre,75-79,Diabetes no insulinodependiente,27,22760
 2014,Hombre,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,2,22760
@@ -5762,6 +5763,7 @@
 2015,Mujer,25-29,Tumor maligno del hígado,1,156715
 2015,Mujer,25-29,Tumor maligno del ovario,2,156715
 2015,Mujer,25-29,Tumor maligno del útero,1,156715
+2015,Mujer,25-29,Deficiencias nutricionales,1,156715
 2015,Mujer,25-29,Diabetes insulinodependiente,1,156715
 2015,Mujer,25-29,Enfermedad cardiopulmonar y de la circulación pulmonar,1,156715
 2015,Mujer,30-34,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,149321
@@ -6739,7 +6741,7 @@
 2016,Hombre,55-59,Tumor maligno del hígado,6,84372
 2016,Hombre,55-59,Tumor maligno del páncreas,8,84372
 2016,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,84372
-2016,Hombre,55-59,Deficiencias nutricionales,1,84372
+2016,Hombre,55-59,Deficiencias nutricionales,2,84372
 2016,Hombre,55-59,Diabetes Mellitus no especificada,24,84372
 2016,Hombre,55-59,Diabetes no insulinodependiente,18,84372
 2016,Hombre,55-59,Enfermedad cardiopulmonar y de la circulación pulmonar,1,84372
@@ -6838,7 +6840,7 @@
 2016,Hombre,70-74,Tumor maligno del hígado,15,36702
 2016,Hombre,70-74,Tumor maligno del páncreas,9,36702
 2016,Hombre,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,36702
-2016,Hombre,70-74,Deficiencias nutricionales,2,36702
+2016,Hombre,70-74,Deficiencias nutricionales,3,36702
 2016,Hombre,70-74,Diabetes Mellitus no especificada,48,36702
 2016,Hombre,70-74,Diabetes no insulinodependiente,27,36702
 2016,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,2,36702
@@ -7078,7 +7080,7 @@
 2017,Mujer,0-4,Enfermedad renal crónica,1,188647
 2017,Mujer,0-4,Enfermedades crónicas de las vías respiratorias inferiores,5,188647
 2017,Mujer,0-4,Leucemia,2,188647
-2017,Mujer,0-4,Deficiencias nutricionales,14,188647
+2017,Mujer,0-4,Deficiencias nutricionales,15,188647
 2017,Mujer,5-9,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,183391
 2017,Mujer,5-9,Enfermedades crónicas de las vías respiratorias inferiores,2,183391
 2017,Mujer,5-9,Leucemia,1,183391
@@ -9740,7 +9742,7 @@
 2002,Mujer,85 y más,Tumor maligno del páncreas,3,6609
 2002,Mujer,85 y más,Tumor maligno del útero,8,6609
 2002,Mujer,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,6609
-2002,Mujer,85 y más,Deficiencias nutricionales,14,6609
+2002,Mujer,85 y más,Deficiencias nutricionales,15,6609
 2002,Mujer,85 y más,Diabetes insulinodependiente,2,6609
 2002,Mujer,85 y más,Diabetes Mellitus no especificada,61,6609
 2002,Mujer,85 y más,Diabetes no insulinodependiente,23,6609
@@ -10638,7 +10640,7 @@
 2021,Hombre,0-4,Leucemia,3,191625
 2021,Hombre,0-4,Tumor maligno de la tiroides y otras glándulas endocrinas,1,191625
 2021,Hombre,0-4,Tumor maligno de los huesos y de los cartílagos articulares,1,191625
-2021,Hombre,0-4,Deficiencias nutricionales,14,191625
+2021,Hombre,0-4,Deficiencias nutricionales,15,191625
 2021,Hombre,5-9,Leucemia,3,198491
 2021,Hombre,5-9,Tumor maligno del estómago,1,198491
 2021,Hombre,5-9,Tumor maligno del hígado,1,198491
@@ -11629,7 +11631,7 @@
 2022,Hombre,75-79,Tumor maligno del hígado,7,31141
 2022,Hombre,75-79,Tumor maligno del páncreas,8,31141
 2022,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,31141
-2022,Hombre,75-79,Deficiencias nutricionales,4,31141
+2022,Hombre,75-79,Deficiencias nutricionales,5,31141
 2022,Hombre,75-79,Diabetes insulinodependiente,1,31141
 2022,Hombre,75-79,Diabetes Mellitus no especificada,66,31141
 2022,Hombre,75-79,Diabetes no insulinodependiente,47,31141
@@ -11659,7 +11661,7 @@
 2022,Hombre,80-84,Tumor maligno del hígado,6,19070
 2022,Hombre,80-84,Tumor maligno del páncreas,10,19070
 2022,Hombre,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,19070
-2022,Hombre,80-84,Deficiencias nutricionales,5,19070
+2022,Hombre,80-84,Deficiencias nutricionales,6,19070
 2022,Hombre,80-84,Diabetes insulinodependiente,1,19070
 2022,Hombre,80-84,Diabetes Mellitus no especificada,60,19070
 2022,Hombre,80-84,Diabetes no insulinodependiente,40,19070
@@ -11693,7 +11695,7 @@
 2022,Hombre,85 y más,Tumor maligno del hígado,15,12658
 2022,Hombre,85 y más,Tumor maligno del páncreas,8,12658
 2022,Hombre,85 y más,"Tumores malignos del labio, de la cavidad bucal y de la faringe",7,12658
-2022,Hombre,85 y más,Deficiencias nutricionales,12,12658
+2022,Hombre,85 y más,Deficiencias nutricionales,13,12658
 2022,Hombre,85 y más,Diabetes insulinodependiente,2,12658
 2022,Hombre,85 y más,Diabetes Mellitus no especificada,67,12658
 2022,Hombre,85 y más,Diabetes no insulinodependiente,63,12658
@@ -12148,6 +12150,7 @@
 2023,Mujer,25-29,Tumor maligno del ovario,2,169722
 2023,Mujer,25-29,Tumor maligno del útero,6,169722
 2023,Mujer,25-29,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,169722
+2023,Mujer,25-29,Deficiencias nutricionales,1,169722
 2023,Mujer,25-29,Diabetes no insulinodependiente,1,169722
 2023,Mujer,25-29,Enfermedad cardiopulmonar y de la circulación pulmonar,3,169722
 2023,Mujer,25-29,Enfermedad hipertensiva,1,169722
@@ -12437,7 +12440,7 @@
 2023,Hombre,75-79,Tumor maligno del hígado,17,32554
 2023,Hombre,75-79,Tumor maligno del páncreas,9,32554
 2023,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4,32554
-2023,Hombre,75-79,Deficiencias nutricionales,7,32554
+2023,Hombre,75-79,Deficiencias nutricionales,8,32554
 2023,Hombre,75-79,Diabetes insulinodependiente,1,32554
 2023,Hombre,75-79,Diabetes Mellitus no especificada,51,32554
 2023,Hombre,75-79,Diabetes no insulinodependiente,35,32554
@@ -13764,7 +13767,7 @@
 2004,Hombre,0-4,Paro cardiaco,1,179622
 2004,Hombre,0-4,Ciertas enfermedades crónicas del hígado y cirrosis,1,179622
 2004,Hombre,0-4,Tumor maligno del hígado,1,179622
-2004,Hombre,0-4,Deficiencias nutricionales,28,179622
+2004,Hombre,0-4,Deficiencias nutricionales,29,179622
 2004,Hombre,0-4,Diabetes Mellitus no especificada,1,179622
 2004,Hombre,0-4,Diabetes no insulinodependiente,1,179622
 2004,Hombre,5-9,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,171491
@@ -13824,6 +13827,7 @@
 2004,Hombre,55-59,Tumor maligno del hígado,2,52805
 2004,Hombre,55-59,Tumor maligno del páncreas,5,52805
 2004,Hombre,55-59,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,52805
+2004,Hombre,55-59,Deficiencias nutricionales,1,52805
 2004,Hombre,55-59,Diabetes insulinodependiente,3,52805
 2004,Hombre,55-59,Diabetes Mellitus no especificada,18,52805
 2004,Hombre,55-59,Diabetes no insulinodependiente,5,52805
@@ -13949,7 +13953,7 @@
 2004,Hombre,75-79,Tumor maligno del hígado,3,14577
 2004,Hombre,75-79,Tumor maligno del páncreas,3,14577
 2004,Hombre,75-79,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5,14577
-2004,Hombre,75-79,Deficiencias nutricionales,2,14577
+2004,Hombre,75-79,Deficiencias nutricionales,3,14577
 2004,Hombre,75-79,Diabetes Mellitus no especificada,33,14577
 2004,Hombre,75-79,Diabetes no insulinodependiente,12,14577
 2004,Hombre,75-79,Enfermedad cardiopulmonar y de la circulación pulmonar,4,14577
@@ -14651,7 +14655,7 @@
 2005,Hombre,65-69,Tumor maligno del hígado,4,32855
 2005,Hombre,65-69,Tumor maligno del páncreas,5,32855
 2005,Hombre,65-69,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3,32855
-2005,Hombre,65-69,Deficiencias nutricionales,1,32855
+2005,Hombre,65-69,Deficiencias nutricionales,2,32855
 2005,Hombre,65-69,Diabetes Mellitus no especificada,21,32855
 2005,Hombre,65-69,Diabetes no insulinodependiente,9,32855
 2005,Hombre,65-69,Enfermedad cardiopulmonar y de la circulación pulmonar,3,32855
@@ -17239,7 +17243,7 @@
 2009,Mujer,0-4,Leucemia,3,178158
 2009,Mujer,0-4,Ciertas enfermedades crónicas del hígado y cirrosis,1,178158
 2009,Mujer,0-4,Tumor maligno del hígado,1,178158
-2009,Mujer,0-4,Deficiencias nutricionales,17,178158
+2009,Mujer,0-4,Deficiencias nutricionales,18,178158
 2009,Mujer,5-9,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2,171113
 2009,Mujer,5-9,Ciertas enfermedades crónicas del hígado y cirrosis,1,171113
 2009,Mujer,50-54,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,82226
@@ -17722,7 +17726,7 @@
 2009,Hombre,60-64,Tumor maligno del hígado,11,50019
 2009,Hombre,60-64,Tumor maligno del páncreas,5,50019
 2009,Hombre,60-64,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,50019
-2009,Hombre,60-64,Deficiencias nutricionales,1,50019
+2009,Hombre,60-64,Deficiencias nutricionales,2,50019
 2009,Hombre,60-64,Diabetes insulinodependiente,2,50019
 2009,Hombre,60-64,Diabetes Mellitus no especificada,21,50019
 2009,Hombre,60-64,Diabetes no insulinodependiente,14,50019

@@ -1,0 +1,1517 @@
+﻿anio,sexo,grupo_edad,causa,defunciones
+2000,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2000,Mujer,Sin dato,Aneurisma aórtico,5
+2000,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2000,Mujer,Sin dato,Enfermedad renal crónica,5
+2000,Mujer,Sin dato,Enfermedades cerebrovasculares,161
+2000,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,11
+2000,Mujer,Sin dato,Enfermedades isquémicas del corazón,43
+2000,Mujer,Sin dato,Insuficiencia cardíaca,57
+2000,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),4
+2000,Mujer,Sin dato,Leucemia,7
+2000,Mujer,Sin dato,Paro cardiaco,11
+2000,Mujer,Sin dato,Aterosclerosis,1
+2000,Mujer,Sin dato,Trastornos mentales y del comportamiento,22
+2000,Mujer,Sin dato,Tumor maligno de la laringe,2
+2000,Mujer,Sin dato,Tumor maligno de la mama de la mujer,32
+2000,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",12
+2000,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,8
+2000,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,8
+2000,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,3
+2000,Mujer,Sin dato,Tumor maligno de otras partes del útero,10
+2000,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,5
+2000,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",23
+2000,Mujer,Sin dato,Tumor maligno del esófago,3
+2000,Mujer,Sin dato,Tumor maligno del estómago,15
+2000,Mujer,Sin dato,Tumor maligno del hígado,9
+2000,Mujer,Sin dato,Tumor maligno del ovario,9
+2000,Mujer,Sin dato,Tumor maligno del páncreas,19
+2000,Mujer,Sin dato,Tumor maligno del útero,14
+2000,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3
+2000,Mujer,Sin dato,Deficiencias nutricionales,6
+2000,Mujer,Sin dato,Diabetes insulinodependiente,20
+2000,Mujer,Sin dato,Diabetes Mellitus no especificada,45
+2000,Mujer,Sin dato,Diabetes no insulinodependiente,14
+2000,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,23
+2000,Mujer,Sin dato,Enfermedad hipertensiva,70
+2000,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2000,Hombre,Sin dato,Aneurisma aórtico,6
+2000,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2000,Hombre,Sin dato,Enfermedad renal crónica,11
+2000,Hombre,Sin dato,Enfermedades cerebrovasculares,147
+2000,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2000,Hombre,Sin dato,Enfermedades isquémicas del corazón,62
+2000,Hombre,Sin dato,Insuficiencia cardíaca,31
+2000,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),29
+2000,Hombre,Sin dato,Leucemia,5
+2000,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2000,Hombre,Sin dato,Paro cardiaco,13
+2000,Hombre,Sin dato,Trastornos mentales y del comportamiento,42
+2000,Hombre,Sin dato,Tumor maligno de la laringe,7
+2000,Hombre,Sin dato,Tumor maligno de la próstata,106
+2000,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2000,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",28
+2000,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,6
+2000,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2000,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2000,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,16
+2000,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",28
+2000,Hombre,Sin dato,Tumor maligno del esófago,16
+2000,Hombre,Sin dato,Tumor maligno del estómago,34
+2000,Hombre,Sin dato,Tumor maligno del hígado,9
+2000,Hombre,Sin dato,Tumor maligno del páncreas,15
+2000,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",18
+2000,Hombre,Sin dato,Deficiencias nutricionales,8
+2000,Hombre,Sin dato,Diabetes insulinodependiente,12
+2000,Hombre,Sin dato,Diabetes Mellitus no especificada,29
+2000,Hombre,Sin dato,Diabetes no insulinodependiente,8
+2000,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,18
+2000,Hombre,Sin dato,Enfermedad hipertensiva,43
+2001,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2001,Mujer,Sin dato,Aneurisma aórtico,7
+2001,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2001,Mujer,Sin dato,Enfermedad renal crónica,8
+2001,Mujer,Sin dato,Enfermedades cerebrovasculares,172
+2001,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2001,Mujer,Sin dato,Enfermedades isquémicas del corazón,40
+2001,Mujer,Sin dato,Insuficiencia cardíaca,54
+2001,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),9
+2001,Mujer,Sin dato,Leucemia,15
+2001,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2001,Mujer,Sin dato,Paro cardiaco,9
+2001,Mujer,Sin dato,Trastornos mentales y del comportamiento,18
+2001,Mujer,Sin dato,Tumor maligno de la mama de la mujer,40
+2001,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,3
+2001,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",11
+2001,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,2
+2001,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,8
+2001,Mujer,Sin dato,Tumor maligno de otras partes del útero,24
+2001,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,11
+2001,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",21
+2001,Mujer,Sin dato,Tumor maligno del esófago,2
+2001,Mujer,Sin dato,Tumor maligno del estómago,23
+2001,Mujer,Sin dato,Tumor maligno del hígado,11
+2001,Mujer,Sin dato,Tumor maligno del ovario,7
+2001,Mujer,Sin dato,Tumor maligno del páncreas,9
+2001,Mujer,Sin dato,Tumor maligno del útero,7
+2001,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4
+2001,Mujer,Sin dato,Deficiencias nutricionales,3
+2001,Mujer,Sin dato,Diabetes insulinodependiente,16
+2001,Mujer,Sin dato,Diabetes Mellitus no especificada,41
+2001,Mujer,Sin dato,Diabetes no insulinodependiente,11
+2001,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,23
+2001,Mujer,Sin dato,Enfermedad hipertensiva,70
+2001,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2
+2001,Hombre,Sin dato,Aneurisma aórtico,6
+2001,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2001,Hombre,Sin dato,Enfermedad renal crónica,10
+2001,Hombre,Sin dato,Enfermedades cerebrovasculares,131
+2001,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,13
+2001,Hombre,Sin dato,Enfermedades isquémicas del corazón,51
+2001,Hombre,Sin dato,Insuficiencia cardíaca,34
+2001,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),31
+2001,Hombre,Sin dato,Leucemia,13
+2001,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2001,Hombre,Sin dato,Paro cardiaco,9
+2001,Hombre,Sin dato,Aterosclerosis,1
+2001,Hombre,Sin dato,Trastornos mentales y del comportamiento,50
+2001,Hombre,Sin dato,Tumor maligno de la laringe,3
+2001,Hombre,Sin dato,Tumor maligno de la próstata,94
+2001,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2001,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",25
+2001,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,7
+2001,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2001,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,26
+2001,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",16
+2001,Hombre,Sin dato,Tumor maligno del esófago,12
+2001,Hombre,Sin dato,Tumor maligno del estómago,33
+2001,Hombre,Sin dato,Tumor maligno del hígado,7
+2001,Hombre,Sin dato,Tumor maligno del páncreas,15
+2001,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",23
+2001,Hombre,Sin dato,Deficiencias nutricionales,5
+2001,Hombre,Sin dato,Diabetes insulinodependiente,15
+2001,Hombre,Sin dato,Diabetes Mellitus no especificada,39
+2001,Hombre,Sin dato,Diabetes no insulinodependiente,4
+2001,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,8
+2001,Hombre,Sin dato,Enfermedad hipertensiva,38
+2010,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2010,Mujer,Sin dato,Aneurisma aórtico,3
+2010,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2010,Mujer,Sin dato,Enfermedad renal crónica,10
+2010,Mujer,Sin dato,Enfermedades cerebrovasculares,126
+2010,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2010,Mujer,Sin dato,Enfermedades isquémicas del corazón,44
+2010,Mujer,Sin dato,Insuficiencia cardíaca,48
+2010,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),5
+2010,Mujer,Sin dato,Leucemia,14
+2010,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2010,Mujer,Sin dato,Paro cardiaco,11
+2010,Mujer,Sin dato,Aterosclerosis,3
+2010,Mujer,Sin dato,Trastornos mentales y del comportamiento,27
+2010,Mujer,Sin dato,Tumor maligno de la mama de la mujer,38
+2010,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2010,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",31
+2010,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,4
+2010,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2010,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,4
+2010,Mujer,Sin dato,Tumor maligno de otras partes del útero,18
+2010,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2010,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",56
+2010,Mujer,Sin dato,Tumor maligno del esófago,1
+2010,Mujer,Sin dato,Tumor maligno del estómago,26
+2010,Mujer,Sin dato,Tumor maligno del hígado,12
+2010,Mujer,Sin dato,Tumor maligno del ovario,7
+2010,Mujer,Sin dato,Tumor maligno del páncreas,24
+2010,Mujer,Sin dato,Tumor maligno del útero,9
+2010,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2010,Mujer,Sin dato,Deficiencias nutricionales,9
+2010,Mujer,Sin dato,Diabetes insulinodependiente,19
+2010,Mujer,Sin dato,Diabetes Mellitus no especificada,33
+2010,Mujer,Sin dato,Diabetes no insulinodependiente,12
+2010,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,32
+2010,Mujer,Sin dato,Enfermedad hipertensiva,51
+2010,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
+2010,Hombre,Sin dato,Aneurisma aórtico,7
+2010,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2010,Hombre,Sin dato,Enfermedad renal crónica,7
+2010,Hombre,Sin dato,Enfermedades cerebrovasculares,119
+2010,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2010,Hombre,Sin dato,Enfermedades isquémicas del corazón,53
+2010,Hombre,Sin dato,Insuficiencia cardíaca,36
+2010,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),21
+2010,Hombre,Sin dato,Leucemia,26
+2010,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2010,Hombre,Sin dato,Paro cardiaco,10
+2010,Hombre,Sin dato,Aterosclerosis,1
+2010,Hombre,Sin dato,Trastornos mentales y del comportamiento,50
+2010,Hombre,Sin dato,Tumor maligno de la laringe,2
+2010,Hombre,Sin dato,Tumor maligno de la próstata,120
+2010,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2010,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",41
+2010,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,13
+2010,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2010,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2010,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,21
+2010,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",39
+2010,Hombre,Sin dato,Tumor maligno del esófago,12
+2010,Hombre,Sin dato,Tumor maligno del estómago,38
+2010,Hombre,Sin dato,Tumor maligno del hígado,18
+2010,Hombre,Sin dato,Tumor maligno del páncreas,27
+2010,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",19
+2010,Hombre,Sin dato,Diabetes insulinodependiente,12
+2010,Hombre,Sin dato,Diabetes Mellitus no especificada,40
+2010,Hombre,Sin dato,Diabetes no insulinodependiente,11
+2010,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,18
+2010,Hombre,Sin dato,Enfermedad hipertensiva,34
+2011,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2011,Mujer,Sin dato,Aneurisma aórtico,3
+2011,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2011,Mujer,Sin dato,Enfermedad renal crónica,7
+2011,Mujer,Sin dato,Enfermedades cerebrovasculares,111
+2011,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2011,Mujer,Sin dato,Enfermedades isquémicas del corazón,36
+2011,Mujer,Sin dato,Insuficiencia cardíaca,45
+2011,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),5
+2011,Mujer,Sin dato,Leucemia,10
+2011,Mujer,Sin dato,Paro cardiaco,3
+2011,Mujer,Sin dato,Aterosclerosis,8
+2011,Mujer,Sin dato,Trastornos mentales y del comportamiento,31
+2011,Mujer,Sin dato,Tumor maligno de la laringe,1
+2011,Mujer,Sin dato,Tumor maligno de la mama de la mujer,48
+2011,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2011,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",20
+2011,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,14
+2011,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,8
+2011,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2011,Mujer,Sin dato,Tumor maligno de otras partes del útero,26
+2011,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2011,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",41
+2011,Mujer,Sin dato,Tumor maligno del esófago,2
+2011,Mujer,Sin dato,Tumor maligno del estómago,19
+2011,Mujer,Sin dato,Tumor maligno del hígado,9
+2011,Mujer,Sin dato,Tumor maligno del ovario,18
+2011,Mujer,Sin dato,Tumor maligno del páncreas,23
+2011,Mujer,Sin dato,Tumor maligno del útero,13
+2011,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2011,Mujer,Sin dato,Deficiencias nutricionales,9
+2011,Mujer,Sin dato,Diabetes insulinodependiente,18
+2011,Mujer,Sin dato,Diabetes Mellitus no especificada,47
+2011,Mujer,Sin dato,Diabetes no insulinodependiente,16
+2011,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,20
+2011,Mujer,Sin dato,Enfermedad hipertensiva,47
+2011,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3
+2011,Hombre,Sin dato,Aneurisma aórtico,5
+2011,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),6
+2011,Hombre,Sin dato,Enfermedad renal crónica,7
+2011,Hombre,Sin dato,Enfermedades cerebrovasculares,120
+2011,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,5
+2011,Hombre,Sin dato,Enfermedades isquémicas del corazón,51
+2011,Hombre,Sin dato,Insuficiencia cardíaca,34
+2011,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),32
+2011,Hombre,Sin dato,Leucemia,17
+2011,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,5
+2011,Hombre,Sin dato,Paro cardiaco,10
+2011,Hombre,Sin dato,Aterosclerosis,7
+2011,Hombre,Sin dato,Trastornos mentales y del comportamiento,43
+2011,Hombre,Sin dato,Tumor maligno de la laringe,1
+2011,Hombre,Sin dato,Tumor maligno de la próstata,101
+2011,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2011,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",38
+2011,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2011,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2011,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2011,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,22
+2011,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",43
+2011,Hombre,Sin dato,Tumor maligno del esófago,9
+2011,Hombre,Sin dato,Tumor maligno del estómago,32
+2011,Hombre,Sin dato,Tumor maligno del hígado,22
+2011,Hombre,Sin dato,Tumor maligno del páncreas,22
+2011,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",16
+2011,Hombre,Sin dato,Deficiencias nutricionales,6
+2011,Hombre,Sin dato,Diabetes insulinodependiente,11
+2011,Hombre,Sin dato,Diabetes Mellitus no especificada,31
+2011,Hombre,Sin dato,Diabetes no insulinodependiente,16
+2011,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,17
+2011,Hombre,Sin dato,Enfermedad hipertensiva,36
+2013,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2013,Mujer,Sin dato,Aneurisma aórtico,2
+2013,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),5
+2013,Mujer,Sin dato,Enfermedad renal crónica,7
+2013,Mujer,Sin dato,Enfermedades cerebrovasculares,116
+2013,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,5
+2013,Mujer,Sin dato,Enfermedades isquémicas del corazón,35
+2013,Mujer,Sin dato,Insuficiencia cardíaca,29
+2013,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),9
+2013,Mujer,Sin dato,Leucemia,7
+2013,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2013,Mujer,Sin dato,Paro cardiaco,17
+2013,Mujer,Sin dato,Aterosclerosis,6
+2013,Mujer,Sin dato,Trastornos mentales y del comportamiento,27
+2013,Mujer,Sin dato,Tumor maligno de la mama de la mujer,65
+2013,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2013,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",30
+2013,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,6
+2013,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,4
+2013,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2013,Mujer,Sin dato,Tumor maligno de otras partes del útero,30
+2013,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,8
+2013,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",48
+2013,Mujer,Sin dato,Tumor maligno del esófago,5
+2013,Mujer,Sin dato,Tumor maligno del estómago,15
+2013,Mujer,Sin dato,Tumor maligno del hígado,10
+2013,Mujer,Sin dato,Tumor maligno del ovario,10
+2013,Mujer,Sin dato,Tumor maligno del páncreas,31
+2013,Mujer,Sin dato,Tumor maligno del útero,3
+2013,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2013,Mujer,Sin dato,Deficiencias nutricionales,14
+2013,Mujer,Sin dato,Diabetes insulinodependiente,16
+2013,Mujer,Sin dato,Diabetes Mellitus no especificada,52
+2013,Mujer,Sin dato,Diabetes no insulinodependiente,11
+2013,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,32
+2013,Mujer,Sin dato,Enfermedad hipertensiva,49
+2013,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2013,Hombre,Sin dato,Aneurisma aórtico,7
+2013,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),12
+2013,Hombre,Sin dato,Enfermedad renal crónica,4
+2013,Hombre,Sin dato,Enfermedades cerebrovasculares,100
+2013,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2013,Hombre,Sin dato,Enfermedades isquémicas del corazón,59
+2013,Hombre,Sin dato,Insuficiencia cardíaca,21
+2013,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),18
+2013,Hombre,Sin dato,Leucemia,15
+2013,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2013,Hombre,Sin dato,Paro cardiaco,17
+2013,Hombre,Sin dato,Aterosclerosis,1
+2013,Hombre,Sin dato,Trastornos mentales y del comportamiento,48
+2013,Hombre,Sin dato,Tumor maligno de la laringe,1
+2013,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2013,Hombre,Sin dato,Tumor maligno de la próstata,123
+2013,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",41
+2013,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,12
+2013,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2013,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,14
+2013,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",49
+2013,Hombre,Sin dato,Tumor maligno del esófago,8
+2013,Hombre,Sin dato,Tumor maligno del estómago,38
+2013,Hombre,Sin dato,Tumor maligno del hígado,19
+2013,Hombre,Sin dato,Tumor maligno del páncreas,32
+2013,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13
+2013,Hombre,Sin dato,Deficiencias nutricionales,12
+2013,Hombre,Sin dato,Diabetes insulinodependiente,9
+2013,Hombre,Sin dato,Diabetes Mellitus no especificada,34
+2013,Hombre,Sin dato,Diabetes no insulinodependiente,13
+2013,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,15
+2013,Hombre,Sin dato,Enfermedad hipertensiva,39
+2014,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",10
+2014,Mujer,Sin dato,Aneurisma aórtico,5
+2014,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2014,Mujer,Sin dato,Enfermedad renal crónica,13
+2014,Mujer,Sin dato,Enfermedades cerebrovasculares,131
+2014,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2014,Mujer,Sin dato,Enfermedades isquémicas del corazón,40
+2014,Mujer,Sin dato,Insuficiencia cardíaca,51
+2014,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),7
+2014,Mujer,Sin dato,Leucemia,20
+2014,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2014,Mujer,Sin dato,Paro cardiaco,14
+2014,Mujer,Sin dato,Aterosclerosis,1
+2014,Mujer,Sin dato,Trastornos mentales y del comportamiento,27
+2014,Mujer,Sin dato,Tumor maligno de la mama de la mujer,62
+2014,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,3
+2014,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",24
+2014,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,6
+2014,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,4
+2014,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2014,Mujer,Sin dato,Tumor maligno de otras partes del útero,29
+2014,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,5
+2014,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",39
+2014,Mujer,Sin dato,Tumor maligno del esófago,1
+2014,Mujer,Sin dato,Tumor maligno del estómago,32
+2014,Mujer,Sin dato,Tumor maligno del hígado,18
+2014,Mujer,Sin dato,Tumor maligno del ovario,8
+2014,Mujer,Sin dato,Tumor maligno del páncreas,22
+2014,Mujer,Sin dato,Tumor maligno del útero,6
+2014,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2014,Mujer,Sin dato,Deficiencias nutricionales,11
+2014,Mujer,Sin dato,Diabetes insulinodependiente,18
+2014,Mujer,Sin dato,Diabetes Mellitus no especificada,56
+2014,Mujer,Sin dato,Diabetes no insulinodependiente,20
+2014,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,27
+2014,Mujer,Sin dato,Enfermedad hipertensiva,68
+2014,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3
+2014,Hombre,Sin dato,Aneurisma aórtico,6
+2014,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),8
+2014,Hombre,Sin dato,Enfermedad renal crónica,14
+2014,Hombre,Sin dato,Enfermedades cerebrovasculares,115
+2014,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2014,Hombre,Sin dato,Enfermedades isquémicas del corazón,62
+2014,Hombre,Sin dato,Insuficiencia cardíaca,28
+2014,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),25
+2014,Hombre,Sin dato,Leucemia,16
+2014,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,7
+2014,Hombre,Sin dato,Paro cardiaco,13
+2014,Hombre,Sin dato,Aterosclerosis,3
+2014,Hombre,Sin dato,Trastornos mentales y del comportamiento,50
+2014,Hombre,Sin dato,Tumor maligno de la laringe,3
+2014,Hombre,Sin dato,Tumor maligno de la mama de la mujer,3
+2014,Hombre,Sin dato,Tumor maligno de la próstata,111
+2014,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",32
+2014,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,6
+2014,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2014,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2014,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,14
+2014,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",50
+2014,Hombre,Sin dato,Tumor maligno del esófago,11
+2014,Hombre,Sin dato,Tumor maligno del estómago,35
+2014,Hombre,Sin dato,Tumor maligno del hígado,16
+2014,Hombre,Sin dato,Tumor maligno del páncreas,26
+2014,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",18
+2014,Hombre,Sin dato,Deficiencias nutricionales,13
+2014,Hombre,Sin dato,Diabetes insulinodependiente,15
+2014,Hombre,Sin dato,Diabetes Mellitus no especificada,37
+2014,Hombre,Sin dato,Diabetes no insulinodependiente,13
+2014,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,12
+2014,Hombre,Sin dato,Enfermedad hipertensiva,34
+2015,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",10
+2015,Mujer,Sin dato,Aneurisma aórtico,2
+2015,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2015,Mujer,Sin dato,Enfermedad renal crónica,8
+2015,Mujer,Sin dato,Enfermedades cerebrovasculares,138
+2015,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,5
+2015,Mujer,Sin dato,Enfermedades isquémicas del corazón,44
+2015,Mujer,Sin dato,Insuficiencia cardíaca,51
+2015,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),2
+2015,Mujer,Sin dato,Leucemia,18
+2015,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,9
+2015,Mujer,Sin dato,Paro cardiaco,10
+2015,Mujer,Sin dato,Aterosclerosis,1
+2015,Mujer,Sin dato,Trastornos mentales y del comportamiento,31
+2015,Mujer,Sin dato,Tumor maligno de la laringe,1
+2015,Mujer,Sin dato,Tumor maligno de la mama de la mujer,54
+2015,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2015,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",23
+2015,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,8
+2015,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,6
+2015,Mujer,Sin dato,Tumor maligno de otras partes del útero,23
+2015,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2015,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",59
+2015,Mujer,Sin dato,Tumor maligno del esófago,4
+2015,Mujer,Sin dato,Tumor maligno del estómago,30
+2015,Mujer,Sin dato,Tumor maligno del hígado,13
+2015,Mujer,Sin dato,Tumor maligno del ovario,12
+2015,Mujer,Sin dato,Tumor maligno del páncreas,25
+2015,Mujer,Sin dato,Tumor maligno del útero,9
+2015,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2015,Mujer,Sin dato,Deficiencias nutricionales,19
+2015,Mujer,Sin dato,Diabetes insulinodependiente,13
+2015,Mujer,Sin dato,Diabetes Mellitus no especificada,52
+2015,Mujer,Sin dato,Diabetes no insulinodependiente,12
+2015,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,25
+2015,Mujer,Sin dato,Enfermedad hipertensiva,43
+2015,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7
+2015,Hombre,Sin dato,Aneurisma aórtico,5
+2015,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2015,Hombre,Sin dato,Enfermedad renal crónica,9
+2015,Hombre,Sin dato,Enfermedades cerebrovasculares,103
+2015,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2015,Hombre,Sin dato,Enfermedades isquémicas del corazón,63
+2015,Hombre,Sin dato,Insuficiencia cardíaca,34
+2015,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),18
+2015,Hombre,Sin dato,Leucemia,10
+2015,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2015,Hombre,Sin dato,Paro cardiaco,13
+2015,Hombre,Sin dato,Aterosclerosis,4
+2015,Hombre,Sin dato,Trastornos mentales y del comportamiento,37
+2015,Hombre,Sin dato,Tumor maligno de la laringe,1
+2015,Hombre,Sin dato,Tumor maligno de la próstata,96
+2015,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2015,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",44
+2015,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2015,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2015,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,18
+2015,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",37
+2015,Hombre,Sin dato,Tumor maligno del esófago,11
+2015,Hombre,Sin dato,Tumor maligno del estómago,48
+2015,Hombre,Sin dato,Tumor maligno del hígado,16
+2015,Hombre,Sin dato,Tumor maligno del páncreas,23
+2015,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",16
+2015,Hombre,Sin dato,Deficiencias nutricionales,12
+2015,Hombre,Sin dato,Diabetes insulinodependiente,11
+2015,Hombre,Sin dato,Diabetes Mellitus no especificada,36
+2015,Hombre,Sin dato,Diabetes no insulinodependiente,11
+2015,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,19
+2015,Hombre,Sin dato,Enfermedad hipertensiva,38
+2016,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2016,Mujer,Sin dato,Aneurisma aórtico,3
+2016,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2016,Mujer,Sin dato,Enfermedad renal crónica,7
+2016,Mujer,Sin dato,Enfermedades cerebrovasculares,147
+2016,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,1
+2016,Mujer,Sin dato,Enfermedades isquémicas del corazón,47
+2016,Mujer,Sin dato,Insuficiencia cardíaca,54
+2016,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),6
+2016,Mujer,Sin dato,Leucemia,12
+2016,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2016,Mujer,Sin dato,Paro cardiaco,8
+2016,Mujer,Sin dato,Aterosclerosis,5
+2016,Mujer,Sin dato,Trastornos mentales y del comportamiento,35
+2016,Mujer,Sin dato,Tumor maligno de la laringe,1
+2016,Mujer,Sin dato,Tumor maligno de la mama de la mujer,72
+2016,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",24
+2016,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,5
+2016,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2016,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,4
+2016,Mujer,Sin dato,Tumor maligno de otras partes del útero,25
+2016,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2016,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",44
+2016,Mujer,Sin dato,Tumor maligno del esófago,3
+2016,Mujer,Sin dato,Tumor maligno del estómago,26
+2016,Mujer,Sin dato,Tumor maligno del hígado,9
+2016,Mujer,Sin dato,Tumor maligno del ovario,13
+2016,Mujer,Sin dato,Tumor maligno del páncreas,35
+2016,Mujer,Sin dato,Tumor maligno del útero,10
+2016,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2016,Mujer,Sin dato,Deficiencias nutricionales,17
+2016,Mujer,Sin dato,Diabetes insulinodependiente,6
+2016,Mujer,Sin dato,Diabetes Mellitus no especificada,40
+2016,Mujer,Sin dato,Diabetes no insulinodependiente,19
+2016,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,26
+2016,Mujer,Sin dato,Enfermedad hipertensiva,54
+2016,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1
+2016,Hombre,Sin dato,Aneurisma aórtico,6
+2016,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4
+2016,Hombre,Sin dato,Enfermedad renal crónica,6
+2016,Hombre,Sin dato,Enfermedades cerebrovasculares,130
+2016,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2016,Hombre,Sin dato,Enfermedades isquémicas del corazón,75
+2016,Hombre,Sin dato,Insuficiencia cardíaca,34
+2016,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),20
+2016,Hombre,Sin dato,Leucemia,14
+2016,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,7
+2016,Hombre,Sin dato,Paro cardiaco,10
+2016,Hombre,Sin dato,Aterosclerosis,4
+2016,Hombre,Sin dato,Trastornos mentales y del comportamiento,53
+2016,Hombre,Sin dato,Tumor maligno de la laringe,3
+2016,Hombre,Sin dato,Tumor maligno de la próstata,106
+2016,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2016,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",44
+2016,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2016,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2016,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2016,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,19
+2016,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",51
+2016,Hombre,Sin dato,Tumor maligno del esófago,4
+2016,Hombre,Sin dato,Tumor maligno del estómago,40
+2016,Hombre,Sin dato,Tumor maligno del hígado,14
+2016,Hombre,Sin dato,Tumor maligno del páncreas,29
+2016,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",15
+2016,Hombre,Sin dato,Deficiencias nutricionales,14
+2016,Hombre,Sin dato,Diabetes insulinodependiente,6
+2016,Hombre,Sin dato,Diabetes Mellitus no especificada,36
+2016,Hombre,Sin dato,Diabetes no insulinodependiente,16
+2016,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,18
+2016,Hombre,Sin dato,Enfermedad hipertensiva,34
+2017,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2017,Mujer,Sin dato,Aneurisma aórtico,2
+2017,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4
+2017,Mujer,Sin dato,Enfermedad renal crónica,2
+2017,Mujer,Sin dato,Enfermedades cerebrovasculares,125
+2017,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,13
+2017,Mujer,Sin dato,Enfermedades isquémicas del corazón,40
+2017,Mujer,Sin dato,Insuficiencia cardíaca,32
+2017,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),4
+2017,Mujer,Sin dato,Leucemia,12
+2017,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2017,Mujer,Sin dato,Paro cardiaco,12
+2017,Mujer,Sin dato,Aterosclerosis,6
+2017,Mujer,Sin dato,Trastornos mentales y del comportamiento,42
+2017,Mujer,Sin dato,Tumor maligno de la mama de la mujer,75
+2017,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2017,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",29
+2017,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,8
+2017,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,6
+2017,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2017,Mujer,Sin dato,Tumor maligno de otras partes del útero,30
+2017,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,3
+2017,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",55
+2017,Mujer,Sin dato,Tumor maligno del esófago,1
+2017,Mujer,Sin dato,Tumor maligno del estómago,24
+2017,Mujer,Sin dato,Tumor maligno del hígado,9
+2017,Mujer,Sin dato,Tumor maligno del ovario,15
+2017,Mujer,Sin dato,Tumor maligno del páncreas,27
+2017,Mujer,Sin dato,Tumor maligno del útero,8
+2017,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",3
+2017,Mujer,Sin dato,Deficiencias nutricionales,13
+2017,Mujer,Sin dato,Diabetes insulinodependiente,8
+2017,Mujer,Sin dato,Diabetes Mellitus no especificada,45
+2017,Mujer,Sin dato,Diabetes no insulinodependiente,16
+2017,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,27
+2017,Mujer,Sin dato,Enfermedad hipertensiva,40
+2017,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2017,Hombre,Sin dato,Aneurisma aórtico,5
+2017,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),5
+2017,Hombre,Sin dato,Enfermedad renal crónica,14
+2017,Hombre,Sin dato,Enfermedades cerebrovasculares,145
+2017,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2017,Hombre,Sin dato,Enfermedades isquémicas del corazón,76
+2017,Hombre,Sin dato,Insuficiencia cardíaca,28
+2017,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),22
+2017,Hombre,Sin dato,Leucemia,16
+2017,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,7
+2017,Hombre,Sin dato,Paro cardiaco,9
+2017,Hombre,Sin dato,Aterosclerosis,6
+2017,Hombre,Sin dato,Trastornos mentales y del comportamiento,49
+2017,Hombre,Sin dato,Tumor maligno de la laringe,3
+2017,Hombre,Sin dato,Tumor maligno de la mama de la mujer,3
+2017,Hombre,Sin dato,Tumor maligno de la próstata,109
+2017,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2017,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",48
+2017,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,6
+2017,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,4
+2017,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,16
+2017,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",65
+2017,Hombre,Sin dato,Tumor maligno del esófago,11
+2017,Hombre,Sin dato,Tumor maligno del estómago,45
+2017,Hombre,Sin dato,Tumor maligno del hígado,19
+2017,Hombre,Sin dato,Tumor maligno del páncreas,32
+2017,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",11
+2017,Hombre,Sin dato,Deficiencias nutricionales,13
+2017,Hombre,Sin dato,Diabetes insulinodependiente,11
+2017,Hombre,Sin dato,Diabetes Mellitus no especificada,37
+2017,Hombre,Sin dato,Diabetes no insulinodependiente,11
+2017,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,15
+2017,Hombre,Sin dato,Enfermedad hipertensiva,32
+2018,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",9
+2018,Mujer,Sin dato,Aneurisma aórtico,4
+2018,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2018,Mujer,Sin dato,Enfermedad renal crónica,13
+2018,Mujer,Sin dato,Enfermedades cerebrovasculares,131
+2018,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,9
+2018,Mujer,Sin dato,Enfermedades isquémicas del corazón,34
+2018,Mujer,Sin dato,Insuficiencia cardíaca,37
+2018,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),8
+2018,Mujer,Sin dato,Leucemia,11
+2018,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2018,Mujer,Sin dato,Paro cardiaco,14
+2018,Mujer,Sin dato,Aterosclerosis,6
+2018,Mujer,Sin dato,Trastornos mentales y del comportamiento,42
+2018,Mujer,Sin dato,Tumor maligno de la laringe,1
+2018,Mujer,Sin dato,Tumor maligno de la mama de la mujer,66
+2018,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2018,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",23
+2018,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,4
+2018,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,1
+2018,Mujer,Sin dato,Tumor maligno de otras partes del útero,31
+2018,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,2
+2018,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",49
+2018,Mujer,Sin dato,Tumor maligno del esófago,3
+2018,Mujer,Sin dato,Tumor maligno del estómago,18
+2018,Mujer,Sin dato,Tumor maligno del hígado,14
+2018,Mujer,Sin dato,Tumor maligno del ovario,14
+2018,Mujer,Sin dato,Tumor maligno del páncreas,31
+2018,Mujer,Sin dato,Tumor maligno del útero,9
+2018,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5
+2018,Mujer,Sin dato,Deficiencias nutricionales,14
+2018,Mujer,Sin dato,Diabetes insulinodependiente,8
+2018,Mujer,Sin dato,Diabetes Mellitus no especificada,38
+2018,Mujer,Sin dato,Diabetes no insulinodependiente,13
+2018,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,26
+2018,Mujer,Sin dato,Enfermedad hipertensiva,48
+2018,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",9
+2018,Hombre,Sin dato,Aneurisma aórtico,5
+2018,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4
+2018,Hombre,Sin dato,Enfermedad renal crónica,12
+2018,Hombre,Sin dato,Enfermedades cerebrovasculares,123
+2018,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2018,Hombre,Sin dato,Enfermedades isquémicas del corazón,63
+2018,Hombre,Sin dato,Insuficiencia cardíaca,30
+2018,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),17
+2018,Hombre,Sin dato,Leucemia,21
+2018,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,6
+2018,Hombre,Sin dato,Paro cardiaco,13
+2018,Hombre,Sin dato,Aterosclerosis,1
+2018,Hombre,Sin dato,Trastornos mentales y del comportamiento,49
+2018,Hombre,Sin dato,Tumor maligno de la laringe,5
+2018,Hombre,Sin dato,Tumor maligno de la próstata,115
+2018,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2018,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",33
+2018,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,10
+2018,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,1
+2018,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2018,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,23
+2018,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",39
+2018,Hombre,Sin dato,Tumor maligno del esófago,16
+2018,Hombre,Sin dato,Tumor maligno del estómago,38
+2018,Hombre,Sin dato,Tumor maligno del hígado,16
+2018,Hombre,Sin dato,Tumor maligno del páncreas,23
+2018,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",17
+2018,Hombre,Sin dato,Deficiencias nutricionales,14
+2018,Hombre,Sin dato,Diabetes insulinodependiente,11
+2018,Hombre,Sin dato,Diabetes Mellitus no especificada,50
+2018,Hombre,Sin dato,Diabetes no insulinodependiente,10
+2018,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,10
+2018,Hombre,Sin dato,Enfermedad hipertensiva,42
+2019,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8
+2019,Mujer,Sin dato,Aneurisma aórtico,6
+2019,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),6
+2019,Mujer,Sin dato,Enfermedad renal crónica,12
+2019,Mujer,Sin dato,Enfermedades cerebrovasculares,140
+2019,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2019,Mujer,Sin dato,Enfermedades isquémicas del corazón,51
+2019,Mujer,Sin dato,Insuficiencia cardíaca,65
+2019,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),9
+2019,Mujer,Sin dato,Leucemia,15
+2019,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2019,Mujer,Sin dato,Aterosclerosis,5
+2019,Mujer,Sin dato,Trastornos mentales y del comportamiento,46
+2019,Mujer,Sin dato,Tumor maligno de la mama de la mujer,69
+2019,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2019,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",35
+2019,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,7
+2019,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2019,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2019,Mujer,Sin dato,Tumor maligno de otras partes del útero,36
+2019,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,5
+2019,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",49
+2019,Mujer,Sin dato,Tumor maligno del esófago,1
+2019,Mujer,Sin dato,Tumor maligno del estómago,18
+2019,Mujer,Sin dato,Tumor maligno del hígado,6
+2019,Mujer,Sin dato,Tumor maligno del ovario,12
+2019,Mujer,Sin dato,Tumor maligno del páncreas,37
+2019,Mujer,Sin dato,Tumor maligno del útero,3
+2019,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2019,Mujer,Sin dato,Deficiencias nutricionales,25
+2019,Mujer,Sin dato,Diabetes insulinodependiente,8
+2019,Mujer,Sin dato,Diabetes Mellitus no especificada,48
+2019,Mujer,Sin dato,Diabetes no insulinodependiente,25
+2019,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,32
+2019,Mujer,Sin dato,Enfermedad hipertensiva,64
+2019,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3
+2019,Hombre,Sin dato,Aneurisma aórtico,10
+2019,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2019,Hombre,Sin dato,Enfermedad renal crónica,16
+2019,Hombre,Sin dato,Enfermedades cerebrovasculares,120
+2019,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,2
+2019,Hombre,Sin dato,Enfermedades isquémicas del corazón,68
+2019,Hombre,Sin dato,Insuficiencia cardíaca,32
+2019,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),18
+2019,Hombre,Sin dato,Leucemia,12
+2019,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,8
+2019,Hombre,Sin dato,Aterosclerosis,4
+2019,Hombre,Sin dato,Trastornos mentales y del comportamiento,53
+2019,Hombre,Sin dato,Tumor maligno de la laringe,6
+2019,Hombre,Sin dato,Tumor maligno de la mama de la mujer,2
+2019,Hombre,Sin dato,Tumor maligno de la próstata,115
+2019,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",51
+2019,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,12
+2019,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2019,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2019,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,20
+2019,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",64
+2019,Hombre,Sin dato,Tumor maligno del esófago,9
+2019,Hombre,Sin dato,Tumor maligno del estómago,32
+2019,Hombre,Sin dato,Tumor maligno del hígado,19
+2019,Hombre,Sin dato,Tumor maligno del páncreas,37
+2019,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",10
+2019,Hombre,Sin dato,Deficiencias nutricionales,21
+2019,Hombre,Sin dato,Diabetes insulinodependiente,12
+2019,Hombre,Sin dato,Diabetes Mellitus no especificada,39
+2019,Hombre,Sin dato,Diabetes no insulinodependiente,16
+2019,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,17
+2019,Hombre,Sin dato,Enfermedad hipertensiva,40
+2020,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2020,Mujer,Sin dato,Aneurisma aórtico,8
+2020,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2020,Mujer,Sin dato,Enfermedad renal crónica,8
+2020,Mujer,Sin dato,Enfermedades cerebrovasculares,122
+2020,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2020,Mujer,Sin dato,Enfermedades isquémicas del corazón,44
+2020,Mujer,Sin dato,Insuficiencia cardíaca,52
+2020,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),8
+2020,Mujer,Sin dato,Leucemia,9
+2020,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2020,Mujer,Sin dato,Aterosclerosis,4
+2020,Mujer,Sin dato,Trastornos mentales y del comportamiento,49
+2020,Mujer,Sin dato,Tumor maligno de la laringe,1
+2020,Mujer,Sin dato,Tumor maligno de la mama de la mujer,60
+2020,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,4
+2020,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",27
+2020,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,5
+2020,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,7
+2020,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2020,Mujer,Sin dato,Tumor maligno de otras partes del útero,43
+2020,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,5
+2020,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",51
+2020,Mujer,Sin dato,Tumor maligno del esófago,1
+2020,Mujer,Sin dato,Tumor maligno del estómago,20
+2020,Mujer,Sin dato,Tumor maligno del hígado,13
+2020,Mujer,Sin dato,Tumor maligno del ovario,16
+2020,Mujer,Sin dato,Tumor maligno del páncreas,37
+2020,Mujer,Sin dato,Tumor maligno del útero,3
+2020,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",5
+2020,Mujer,Sin dato,Deficiencias nutricionales,25
+2020,Mujer,Sin dato,Diabetes insulinodependiente,15
+2020,Mujer,Sin dato,Diabetes Mellitus no especificada,56
+2020,Mujer,Sin dato,Diabetes no insulinodependiente,20
+2020,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,27
+2020,Mujer,Sin dato,Enfermedad hipertensiva,53
+2020,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2020,Hombre,Sin dato,Aneurisma aórtico,11
+2020,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2020,Hombre,Sin dato,Enfermedad renal crónica,17
+2020,Hombre,Sin dato,Enfermedades cerebrovasculares,135
+2020,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2020,Hombre,Sin dato,Enfermedades isquémicas del corazón,50
+2020,Hombre,Sin dato,Insuficiencia cardíaca,31
+2020,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),20
+2020,Hombre,Sin dato,Leucemia,23
+2020,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2020,Hombre,Sin dato,Aterosclerosis,6
+2020,Hombre,Sin dato,Trastornos mentales y del comportamiento,47
+2020,Hombre,Sin dato,Tumor maligno de la laringe,3
+2020,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2020,Hombre,Sin dato,Tumor maligno de la próstata,104
+2020,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2020,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",52
+2020,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,11
+2020,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2020,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2020,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,20
+2020,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",64
+2020,Hombre,Sin dato,Tumor maligno del esófago,11
+2020,Hombre,Sin dato,Tumor maligno del estómago,36
+2020,Hombre,Sin dato,Tumor maligno del hígado,21
+2020,Hombre,Sin dato,Tumor maligno del páncreas,48
+2020,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12
+2020,Hombre,Sin dato,Deficiencias nutricionales,20
+2020,Hombre,Sin dato,Diabetes insulinodependiente,7
+2020,Hombre,Sin dato,Diabetes Mellitus no especificada,63
+2020,Hombre,Sin dato,Diabetes no insulinodependiente,18
+2020,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,21
+2020,Hombre,Sin dato,Enfermedad hipertensiva,40
+2002,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2002,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2002,Mujer,Sin dato,Enfermedad renal crónica,6
+2002,Mujer,Sin dato,Enfermedades cerebrovasculares,169
+2002,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2002,Mujer,Sin dato,Enfermedades isquémicas del corazón,34
+2002,Mujer,Sin dato,Insuficiencia cardíaca,46
+2002,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),3
+2002,Mujer,Sin dato,Leucemia,12
+2002,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2002,Mujer,Sin dato,Paro cardiaco,13
+2002,Mujer,Sin dato,Aterosclerosis,1
+2002,Mujer,Sin dato,Trastornos mentales y del comportamiento,16
+2002,Mujer,Sin dato,Tumor maligno de la mama de la mujer,33
+2002,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2002,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",7
+2002,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,8
+2002,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,4
+2002,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2002,Mujer,Sin dato,Tumor maligno de otras partes del útero,21
+2002,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,7
+2002,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",38
+2002,Mujer,Sin dato,Tumor maligno del esófago,6
+2002,Mujer,Sin dato,Tumor maligno del estómago,20
+2002,Mujer,Sin dato,Tumor maligno del hígado,9
+2002,Mujer,Sin dato,Tumor maligno del ovario,9
+2002,Mujer,Sin dato,Tumor maligno del páncreas,17
+2002,Mujer,Sin dato,Tumor maligno del útero,6
+2002,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4
+2002,Mujer,Sin dato,Deficiencias nutricionales,5
+2002,Mujer,Sin dato,Diabetes insulinodependiente,27
+2002,Mujer,Sin dato,Diabetes Mellitus no especificada,47
+2002,Mujer,Sin dato,Diabetes no insulinodependiente,7
+2002,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,22
+2002,Mujer,Sin dato,Enfermedad hipertensiva,36
+2002,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",3
+2002,Hombre,Sin dato,Aneurisma aórtico,6
+2002,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),10
+2002,Hombre,Sin dato,Enfermedad renal crónica,14
+2002,Hombre,Sin dato,Enfermedades cerebrovasculares,161
+2002,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,15
+2002,Hombre,Sin dato,Enfermedades isquémicas del corazón,47
+2002,Hombre,Sin dato,Insuficiencia cardíaca,41
+2002,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),28
+2002,Hombre,Sin dato,Leucemia,15
+2002,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2002,Hombre,Sin dato,Paro cardiaco,18
+2002,Hombre,Sin dato,Aterosclerosis,3
+2002,Hombre,Sin dato,Trastornos mentales y del comportamiento,26
+2002,Hombre,Sin dato,Tumor maligno de la laringe,4
+2002,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2002,Hombre,Sin dato,Tumor maligno de la próstata,98
+2002,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",30
+2002,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2002,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2002,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2002,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,19
+2002,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",12
+2002,Hombre,Sin dato,Tumor maligno del esófago,19
+2002,Hombre,Sin dato,Tumor maligno del estómago,29
+2002,Hombre,Sin dato,Tumor maligno del hígado,9
+2002,Hombre,Sin dato,Tumor maligno del páncreas,25
+2002,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",14
+2002,Hombre,Sin dato,Deficiencias nutricionales,4
+2002,Hombre,Sin dato,Diabetes insulinodependiente,16
+2002,Hombre,Sin dato,Diabetes Mellitus no especificada,26
+2002,Hombre,Sin dato,Diabetes no insulinodependiente,13
+2002,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,12
+2002,Hombre,Sin dato,Enfermedad hipertensiva,32
+2021,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2021,Mujer,Sin dato,Aneurisma aórtico,3
+2021,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),6
+2021,Mujer,Sin dato,Enfermedad renal crónica,9
+2021,Mujer,Sin dato,Enfermedades cerebrovasculares,140
+2021,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2021,Mujer,Sin dato,Enfermedades isquémicas del corazón,45
+2021,Mujer,Sin dato,Insuficiencia cardíaca,44
+2021,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),3
+2021,Mujer,Sin dato,Leucemia,15
+2021,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2021,Mujer,Sin dato,Aterosclerosis,9
+2021,Mujer,Sin dato,Trastornos mentales y del comportamiento,36
+2021,Mujer,Sin dato,Tumor maligno de la laringe,1
+2021,Mujer,Sin dato,Tumor maligno de la mama de la mujer,77
+2021,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2021,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",41
+2021,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,3
+2021,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2021,Mujer,Sin dato,Tumor maligno de otras partes del útero,27
+2021,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2021,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",66
+2021,Mujer,Sin dato,Tumor maligno del esófago,4
+2021,Mujer,Sin dato,Tumor maligno del estómago,17
+2021,Mujer,Sin dato,Tumor maligno del hígado,7
+2021,Mujer,Sin dato,Tumor maligno del ovario,14
+2021,Mujer,Sin dato,Tumor maligno del páncreas,62
+2021,Mujer,Sin dato,Tumor maligno del útero,11
+2021,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",4
+2021,Mujer,Sin dato,Deficiencias nutricionales,26
+2021,Mujer,Sin dato,Diabetes insulinodependiente,10
+2021,Mujer,Sin dato,Diabetes Mellitus no especificada,72
+2021,Mujer,Sin dato,Diabetes no insulinodependiente,20
+2021,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,32
+2021,Mujer,Sin dato,Enfermedad hipertensiva,69
+2021,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2021,Hombre,Sin dato,Aneurisma aórtico,6
+2021,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2021,Hombre,Sin dato,Enfermedad renal crónica,9
+2021,Hombre,Sin dato,Enfermedades cerebrovasculares,143
+2021,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,8
+2021,Hombre,Sin dato,Enfermedades isquémicas del corazón,52
+2021,Hombre,Sin dato,Insuficiencia cardíaca,44
+2021,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),19
+2021,Hombre,Sin dato,Leucemia,14
+2021,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2021,Hombre,Sin dato,Aterosclerosis,5
+2021,Hombre,Sin dato,Trastornos mentales y del comportamiento,50
+2021,Hombre,Sin dato,Tumor maligno de la laringe,10
+2021,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2021,Hombre,Sin dato,Tumor maligno de la próstata,118
+2021,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2021,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",43
+2021,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2021,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,6
+2021,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,5
+2021,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,16
+2021,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",44
+2021,Hombre,Sin dato,Tumor maligno del esófago,8
+2021,Hombre,Sin dato,Tumor maligno del estómago,26
+2021,Hombre,Sin dato,Tumor maligno del hígado,17
+2021,Hombre,Sin dato,Tumor maligno del páncreas,32
+2021,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",20
+2021,Hombre,Sin dato,Deficiencias nutricionales,11
+2021,Hombre,Sin dato,Diabetes insulinodependiente,5
+2021,Hombre,Sin dato,Diabetes Mellitus no especificada,60
+2021,Hombre,Sin dato,Diabetes no insulinodependiente,13
+2021,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,21
+2021,Hombre,Sin dato,Enfermedad hipertensiva,49
+2022,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8
+2022,Mujer,Sin dato,Aneurisma aórtico,3
+2022,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),4
+2022,Mujer,Sin dato,Enfermedad renal crónica,7
+2022,Mujer,Sin dato,Enfermedades cerebrovasculares,121
+2022,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,4
+2022,Mujer,Sin dato,Enfermedades isquémicas del corazón,43
+2022,Mujer,Sin dato,Insuficiencia cardíaca,46
+2022,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),7
+2022,Mujer,Sin dato,Leucemia,14
+2022,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,8
+2022,Mujer,Sin dato,Paro cardiaco,1
+2022,Mujer,Sin dato,Aterosclerosis,12
+2022,Mujer,Sin dato,Trastornos mentales y del comportamiento,54
+2022,Mujer,Sin dato,Tumor maligno de la mama de la mujer,54
+2022,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",40
+2022,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,6
+2022,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2022,Mujer,Sin dato,Tumor maligno de otras partes del útero,30
+2022,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,5
+2022,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",52
+2022,Mujer,Sin dato,Tumor maligno del esófago,4
+2022,Mujer,Sin dato,Tumor maligno del estómago,12
+2022,Mujer,Sin dato,Tumor maligno del hígado,5
+2022,Mujer,Sin dato,Tumor maligno del ovario,13
+2022,Mujer,Sin dato,Tumor maligno del páncreas,41
+2022,Mujer,Sin dato,Tumor maligno del útero,6
+2022,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",6
+2022,Mujer,Sin dato,Deficiencias nutricionales,23
+2022,Mujer,Sin dato,Diabetes insulinodependiente,14
+2022,Mujer,Sin dato,Diabetes Mellitus no especificada,59
+2022,Mujer,Sin dato,Diabetes no insulinodependiente,18
+2022,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,25
+2022,Mujer,Sin dato,Enfermedad hipertensiva,70
+2022,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7
+2022,Hombre,Sin dato,Aneurisma aórtico,13
+2022,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),11
+2022,Hombre,Sin dato,Enfermedad renal crónica,16
+2022,Hombre,Sin dato,Enfermedades cerebrovasculares,115
+2022,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,2
+2022,Hombre,Sin dato,Enfermedades isquémicas del corazón,60
+2022,Hombre,Sin dato,Insuficiencia cardíaca,42
+2022,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),19
+2022,Hombre,Sin dato,Leucemia,13
+2022,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2022,Hombre,Sin dato,Aterosclerosis,2
+2022,Hombre,Sin dato,Trastornos mentales y del comportamiento,57
+2022,Hombre,Sin dato,Tumor maligno de la laringe,3
+2022,Hombre,Sin dato,Tumor maligno de la próstata,111
+2022,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2022,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",37
+2022,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,6
+2022,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,8
+2022,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,16
+2022,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",48
+2022,Hombre,Sin dato,Tumor maligno del esófago,16
+2022,Hombre,Sin dato,Tumor maligno del estómago,31
+2022,Hombre,Sin dato,Tumor maligno del hígado,18
+2022,Hombre,Sin dato,Tumor maligno del páncreas,39
+2022,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",9
+2022,Hombre,Sin dato,Deficiencias nutricionales,18
+2022,Hombre,Sin dato,Diabetes insulinodependiente,3
+2022,Hombre,Sin dato,Diabetes Mellitus no especificada,38
+2022,Hombre,Sin dato,Diabetes no insulinodependiente,17
+2022,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,16
+2022,Hombre,Sin dato,Enfermedad hipertensiva,51
+2003,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7
+2003,Mujer,Sin dato,Aneurisma aórtico,3
+2003,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2003,Mujer,Sin dato,Enfermedad renal crónica,2
+2003,Mujer,Sin dato,Enfermedades cerebrovasculares,166
+2003,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2003,Mujer,Sin dato,Enfermedades isquémicas del corazón,60
+2003,Mujer,Sin dato,Insuficiencia cardíaca,44
+2003,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),6
+2003,Mujer,Sin dato,Leucemia,17
+2003,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,7
+2003,Mujer,Sin dato,Paro cardiaco,13
+2003,Mujer,Sin dato,Aterosclerosis,2
+2003,Mujer,Sin dato,Trastornos mentales y del comportamiento,26
+2003,Mujer,Sin dato,Tumor maligno de la mama de la mujer,43
+2003,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2003,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",14
+2003,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,5
+2003,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,9
+2003,Mujer,Sin dato,Tumor maligno de otras partes del útero,18
+2003,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2003,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",25
+2003,Mujer,Sin dato,Tumor maligno del esófago,2
+2003,Mujer,Sin dato,Tumor maligno del estómago,29
+2003,Mujer,Sin dato,Tumor maligno del hígado,5
+2003,Mujer,Sin dato,Tumor maligno del ovario,11
+2003,Mujer,Sin dato,Tumor maligno del páncreas,17
+2003,Mujer,Sin dato,Tumor maligno del útero,9
+2003,Mujer,Sin dato,Deficiencias nutricionales,2
+2003,Mujer,Sin dato,Diabetes insulinodependiente,21
+2003,Mujer,Sin dato,Diabetes Mellitus no especificada,39
+2003,Mujer,Sin dato,Diabetes no insulinodependiente,15
+2003,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,18
+2003,Mujer,Sin dato,Enfermedad hipertensiva,50
+2003,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2003,Hombre,Sin dato,Aneurisma aórtico,3
+2003,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2003,Hombre,Sin dato,Enfermedad renal crónica,6
+2003,Hombre,Sin dato,Enfermedades cerebrovasculares,171
+2003,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2003,Hombre,Sin dato,Enfermedades isquémicas del corazón,44
+2003,Hombre,Sin dato,Insuficiencia cardíaca,35
+2003,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),26
+2003,Hombre,Sin dato,Leucemia,16
+2003,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2003,Hombre,Sin dato,Paro cardiaco,9
+2003,Hombre,Sin dato,Aterosclerosis,2
+2003,Hombre,Sin dato,Trastornos mentales y del comportamiento,40
+2003,Hombre,Sin dato,Tumor maligno de la laringe,3
+2003,Hombre,Sin dato,Tumor maligno de la próstata,94
+2003,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,5
+2003,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",33
+2003,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,7
+2003,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2003,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2003,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,12
+2003,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",17
+2003,Hombre,Sin dato,Tumor maligno del esófago,19
+2003,Hombre,Sin dato,Tumor maligno del estómago,40
+2003,Hombre,Sin dato,Tumor maligno del hígado,11
+2003,Hombre,Sin dato,Tumor maligno del páncreas,15
+2003,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",16
+2003,Hombre,Sin dato,Deficiencias nutricionales,5
+2003,Hombre,Sin dato,Diabetes insulinodependiente,8
+2003,Hombre,Sin dato,Diabetes Mellitus no especificada,28
+2003,Hombre,Sin dato,Diabetes no insulinodependiente,6
+2003,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,23
+2003,Hombre,Sin dato,Enfermedad hipertensiva,41
+2004,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",4
+2004,Mujer,Sin dato,Aneurisma aórtico,5
+2004,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2004,Mujer,Sin dato,Enfermedad renal crónica,6
+2004,Mujer,Sin dato,Enfermedades cerebrovasculares,137
+2004,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,10
+2004,Mujer,Sin dato,Enfermedades isquémicas del corazón,46
+2004,Mujer,Sin dato,Insuficiencia cardíaca,36
+2004,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),9
+2004,Mujer,Sin dato,Leucemia,15
+2004,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2004,Mujer,Sin dato,Paro cardiaco,15
+2004,Mujer,Sin dato,Aterosclerosis,4
+2004,Mujer,Sin dato,Trastornos mentales y del comportamiento,20
+2004,Mujer,Sin dato,Tumor maligno de la laringe,1
+2004,Mujer,Sin dato,Tumor maligno de la mama de la mujer,45
+2004,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2004,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",14
+2004,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,4
+2004,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2004,Mujer,Sin dato,Tumor maligno de otras partes del útero,14
+2004,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,2
+2004,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",24
+2004,Mujer,Sin dato,Tumor maligno del esófago,3
+2004,Mujer,Sin dato,Tumor maligno del estómago,21
+2004,Mujer,Sin dato,Tumor maligno del hígado,7
+2004,Mujer,Sin dato,Tumor maligno del ovario,12
+2004,Mujer,Sin dato,Tumor maligno del páncreas,19
+2004,Mujer,Sin dato,Tumor maligno del útero,6
+2004,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2
+2004,Mujer,Sin dato,Deficiencias nutricionales,9
+2004,Mujer,Sin dato,Diabetes insulinodependiente,19
+2004,Mujer,Sin dato,Diabetes Mellitus no especificada,34
+2004,Mujer,Sin dato,Diabetes no insulinodependiente,13
+2004,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,34
+2004,Mujer,Sin dato,Enfermedad hipertensiva,49
+2004,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2004,Hombre,Sin dato,Aneurisma aórtico,8
+2004,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),7
+2004,Hombre,Sin dato,Enfermedad renal crónica,11
+2004,Hombre,Sin dato,Enfermedades cerebrovasculares,162
+2004,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2004,Hombre,Sin dato,Enfermedades isquémicas del corazón,43
+2004,Hombre,Sin dato,Insuficiencia cardíaca,31
+2004,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),25
+2004,Hombre,Sin dato,Leucemia,20
+2004,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2004,Hombre,Sin dato,Paro cardiaco,7
+2004,Hombre,Sin dato,Aterosclerosis,3
+2004,Hombre,Sin dato,Trastornos mentales y del comportamiento,40
+2004,Hombre,Sin dato,Tumor maligno de la laringe,2
+2004,Hombre,Sin dato,Tumor maligno de la próstata,94
+2004,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2004,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",29
+2004,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2004,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2004,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2004,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,22
+2004,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",30
+2004,Hombre,Sin dato,Tumor maligno del esófago,15
+2004,Hombre,Sin dato,Tumor maligno del estómago,30
+2004,Hombre,Sin dato,Tumor maligno del hígado,18
+2004,Hombre,Sin dato,Tumor maligno del páncreas,22
+2004,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13
+2004,Hombre,Sin dato,Deficiencias nutricionales,1
+2004,Hombre,Sin dato,Diabetes insulinodependiente,19
+2004,Hombre,Sin dato,Diabetes Mellitus no especificada,15
+2004,Hombre,Sin dato,Diabetes no insulinodependiente,11
+2004,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,21
+2004,Hombre,Sin dato,Enfermedad hipertensiva,38
+2005,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",8
+2005,Mujer,Sin dato,Aneurisma aórtico,3
+2005,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2005,Mujer,Sin dato,Enfermedad renal crónica,10
+2005,Mujer,Sin dato,Enfermedades cerebrovasculares,127
+2005,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,12
+2005,Mujer,Sin dato,Enfermedades isquémicas del corazón,39
+2005,Mujer,Sin dato,Insuficiencia cardíaca,45
+2005,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),4
+2005,Mujer,Sin dato,Leucemia,11
+2005,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2005,Mujer,Sin dato,Paro cardiaco,12
+2005,Mujer,Sin dato,Aterosclerosis,1
+2005,Mujer,Sin dato,Trastornos mentales y del comportamiento,22
+2005,Mujer,Sin dato,Tumor maligno de la mama de la mujer,58
+2005,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2005,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",14
+2005,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,4
+2005,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2005,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2005,Mujer,Sin dato,Tumor maligno de otras partes del útero,14
+2005,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,9
+2005,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",32
+2005,Mujer,Sin dato,Tumor maligno del esófago,1
+2005,Mujer,Sin dato,Tumor maligno del estómago,27
+2005,Mujer,Sin dato,Tumor maligno del hígado,16
+2005,Mujer,Sin dato,Tumor maligno del ovario,8
+2005,Mujer,Sin dato,Tumor maligno del páncreas,17
+2005,Mujer,Sin dato,Tumor maligno del útero,9
+2005,Mujer,Sin dato,Deficiencias nutricionales,8
+2005,Mujer,Sin dato,Diabetes insulinodependiente,25
+2005,Mujer,Sin dato,Diabetes Mellitus no especificada,31
+2005,Mujer,Sin dato,Diabetes no insulinodependiente,15
+2005,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,20
+2005,Mujer,Sin dato,Enfermedad hipertensiva,53
+2005,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2005,Hombre,Sin dato,Aneurisma aórtico,6
+2005,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),7
+2005,Hombre,Sin dato,Enfermedad renal crónica,8
+2005,Hombre,Sin dato,Enfermedades cerebrovasculares,109
+2005,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2005,Hombre,Sin dato,Enfermedades isquémicas del corazón,52
+2005,Hombre,Sin dato,Insuficiencia cardíaca,25
+2005,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),22
+2005,Hombre,Sin dato,Leucemia,11
+2005,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2005,Hombre,Sin dato,Paro cardiaco,15
+2005,Hombre,Sin dato,Aterosclerosis,2
+2005,Hombre,Sin dato,Trastornos mentales y del comportamiento,41
+2005,Hombre,Sin dato,Tumor maligno de la laringe,6
+2005,Hombre,Sin dato,Tumor maligno de la próstata,119
+2005,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",31
+2005,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,5
+2005,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2005,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2005,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,27
+2005,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",28
+2005,Hombre,Sin dato,Tumor maligno del esófago,5
+2005,Hombre,Sin dato,Tumor maligno del estómago,32
+2005,Hombre,Sin dato,Tumor maligno del hígado,12
+2005,Hombre,Sin dato,Tumor maligno del páncreas,9
+2005,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13
+2005,Hombre,Sin dato,Deficiencias nutricionales,3
+2005,Hombre,Sin dato,Diabetes insulinodependiente,13
+2005,Hombre,Sin dato,Diabetes Mellitus no especificada,14
+2005,Hombre,Sin dato,Diabetes no insulinodependiente,8
+2005,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,13
+2005,Hombre,Sin dato,Enfermedad hipertensiva,33
+2006,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2
+2006,Mujer,Sin dato,Aneurisma aórtico,6
+2006,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2006,Mujer,Sin dato,Enfermedad renal crónica,7
+2006,Mujer,Sin dato,Enfermedades cerebrovasculares,146
+2006,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2006,Mujer,Sin dato,Enfermedades isquémicas del corazón,42
+2006,Mujer,Sin dato,Insuficiencia cardíaca,45
+2006,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),6
+2006,Mujer,Sin dato,Leucemia,13
+2006,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2006,Mujer,Sin dato,Paro cardiaco,18
+2006,Mujer,Sin dato,Aterosclerosis,1
+2006,Mujer,Sin dato,Trastornos mentales y del comportamiento,14
+2006,Mujer,Sin dato,Tumor maligno de la laringe,1
+2006,Mujer,Sin dato,Tumor maligno de la mama de la mujer,41
+2006,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,4
+2006,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",23
+2006,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,5
+2006,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2006,Mujer,Sin dato,Tumor maligno de otras partes del útero,13
+2006,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,6
+2006,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",31
+2006,Mujer,Sin dato,Tumor maligno del esófago,5
+2006,Mujer,Sin dato,Tumor maligno del estómago,17
+2006,Mujer,Sin dato,Tumor maligno del hígado,11
+2006,Mujer,Sin dato,Tumor maligno del ovario,10
+2006,Mujer,Sin dato,Tumor maligno del páncreas,17
+2006,Mujer,Sin dato,Tumor maligno del útero,9
+2006,Mujer,Sin dato,Deficiencias nutricionales,5
+2006,Mujer,Sin dato,Diabetes insulinodependiente,18
+2006,Mujer,Sin dato,Diabetes Mellitus no especificada,43
+2006,Mujer,Sin dato,Diabetes no insulinodependiente,23
+2006,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,22
+2006,Mujer,Sin dato,Enfermedad hipertensiva,48
+2006,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",2
+2006,Hombre,Sin dato,Aneurisma aórtico,8
+2006,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2006,Hombre,Sin dato,Enfermedad renal crónica,8
+2006,Hombre,Sin dato,Enfermedades cerebrovasculares,120
+2006,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2006,Hombre,Sin dato,Enfermedades isquémicas del corazón,59
+2006,Hombre,Sin dato,Insuficiencia cardíaca,30
+2006,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),30
+2006,Hombre,Sin dato,Leucemia,16
+2006,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2006,Hombre,Sin dato,Paro cardiaco,15
+2006,Hombre,Sin dato,Aterosclerosis,3
+2006,Hombre,Sin dato,Trastornos mentales y del comportamiento,39
+2006,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2006,Hombre,Sin dato,Tumor maligno de la próstata,123
+2006,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,3
+2006,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",47
+2006,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,10
+2006,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,2
+2006,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,3
+2006,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,24
+2006,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",21
+2006,Hombre,Sin dato,Tumor maligno del esófago,11
+2006,Hombre,Sin dato,Tumor maligno del estómago,33
+2006,Hombre,Sin dato,Tumor maligno del hígado,14
+2006,Hombre,Sin dato,Tumor maligno del páncreas,9
+2006,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",18
+2006,Hombre,Sin dato,Deficiencias nutricionales,4
+2006,Hombre,Sin dato,Diabetes insulinodependiente,14
+2006,Hombre,Sin dato,Diabetes Mellitus no especificada,23
+2006,Hombre,Sin dato,Diabetes no insulinodependiente,9
+2006,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,15
+2006,Hombre,Sin dato,Enfermedad hipertensiva,31
+2007,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2007,Mujer,Sin dato,Aneurisma aórtico,7
+2007,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),5
+2007,Mujer,Sin dato,Enfermedad renal crónica,8
+2007,Mujer,Sin dato,Enfermedades cerebrovasculares,145
+2007,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,9
+2007,Mujer,Sin dato,Enfermedades isquémicas del corazón,49
+2007,Mujer,Sin dato,Insuficiencia cardíaca,62
+2007,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),5
+2007,Mujer,Sin dato,Leucemia,21
+2007,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2007,Mujer,Sin dato,Paro cardiaco,11
+2007,Mujer,Sin dato,Aterosclerosis,8
+2007,Mujer,Sin dato,Trastornos mentales y del comportamiento,23
+2007,Mujer,Sin dato,Tumor maligno de la mama de la mujer,41
+2007,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",28
+2007,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,3
+2007,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,5
+2007,Mujer,Sin dato,Tumor maligno de otras partes del útero,20
+2007,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,9
+2007,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",28
+2007,Mujer,Sin dato,Tumor maligno del esófago,2
+2007,Mujer,Sin dato,Tumor maligno del estómago,22
+2007,Mujer,Sin dato,Tumor maligno del hígado,8
+2007,Mujer,Sin dato,Tumor maligno del ovario,13
+2007,Mujer,Sin dato,Tumor maligno del páncreas,17
+2007,Mujer,Sin dato,Tumor maligno del útero,6
+2007,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2
+2007,Mujer,Sin dato,Deficiencias nutricionales,9
+2007,Mujer,Sin dato,Diabetes insulinodependiente,24
+2007,Mujer,Sin dato,Diabetes Mellitus no especificada,36
+2007,Mujer,Sin dato,Diabetes no insulinodependiente,10
+2007,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,22
+2007,Mujer,Sin dato,Enfermedad hipertensiva,51
+2007,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2007,Hombre,Sin dato,Aneurisma aórtico,5
+2007,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),5
+2007,Hombre,Sin dato,Enfermedad renal crónica,8
+2007,Hombre,Sin dato,Enfermedades cerebrovasculares,116
+2007,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,10
+2007,Hombre,Sin dato,Enfermedades isquémicas del corazón,53
+2007,Hombre,Sin dato,Insuficiencia cardíaca,46
+2007,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),27
+2007,Hombre,Sin dato,Leucemia,16
+2007,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2007,Hombre,Sin dato,Paro cardiaco,8
+2007,Hombre,Sin dato,Aterosclerosis,1
+2007,Hombre,Sin dato,Trastornos mentales y del comportamiento,40
+2007,Hombre,Sin dato,Tumor maligno de la laringe,4
+2007,Hombre,Sin dato,Tumor maligno de la próstata,113
+2007,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2007,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",33
+2007,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,3
+2007,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,3
+2007,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2007,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,17
+2007,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",21
+2007,Hombre,Sin dato,Tumor maligno del esófago,12
+2007,Hombre,Sin dato,Tumor maligno del estómago,26
+2007,Hombre,Sin dato,Tumor maligno del hígado,14
+2007,Hombre,Sin dato,Tumor maligno del páncreas,20
+2007,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",13
+2007,Hombre,Sin dato,Deficiencias nutricionales,3
+2007,Hombre,Sin dato,Diabetes insulinodependiente,11
+2007,Hombre,Sin dato,Diabetes Mellitus no especificada,34
+2007,Hombre,Sin dato,Diabetes no insulinodependiente,14
+2007,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,18
+2007,Hombre,Sin dato,Enfermedad hipertensiva,41
+2008,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",7
+2008,Mujer,Sin dato,Aneurisma aórtico,3
+2008,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2008,Mujer,Sin dato,Enfermedad renal crónica,5
+2008,Mujer,Sin dato,Enfermedades cerebrovasculares,127
+2008,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,7
+2008,Mujer,Sin dato,Enfermedades isquémicas del corazón,48
+2008,Mujer,Sin dato,Insuficiencia cardíaca,46
+2008,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),6
+2008,Mujer,Sin dato,Leucemia,18
+2008,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,5
+2008,Mujer,Sin dato,Paro cardiaco,10
+2008,Mujer,Sin dato,Aterosclerosis,5
+2008,Mujer,Sin dato,Trastornos mentales y del comportamiento,16
+2008,Mujer,Sin dato,Tumor maligno de la laringe,2
+2008,Mujer,Sin dato,Tumor maligno de la mama de la mujer,49
+2008,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2008,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",26
+2008,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,8
+2008,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,8
+2008,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2008,Mujer,Sin dato,Tumor maligno de otras partes del útero,25
+2008,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,4
+2008,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",29
+2008,Mujer,Sin dato,Tumor maligno del esófago,3
+2008,Mujer,Sin dato,Tumor maligno del estómago,23
+2008,Mujer,Sin dato,Tumor maligno del hígado,12
+2008,Mujer,Sin dato,Tumor maligno del ovario,17
+2008,Mujer,Sin dato,Tumor maligno del páncreas,27
+2008,Mujer,Sin dato,Tumor maligno del útero,6
+2008,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2008,Mujer,Sin dato,Deficiencias nutricionales,5
+2008,Mujer,Sin dato,Diabetes insulinodependiente,28
+2008,Mujer,Sin dato,Diabetes Mellitus no especificada,41
+2008,Mujer,Sin dato,Diabetes no insulinodependiente,8
+2008,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,21
+2008,Mujer,Sin dato,Enfermedad hipertensiva,73
+2008,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2008,Hombre,Sin dato,Aneurisma aórtico,6
+2008,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),9
+2008,Hombre,Sin dato,Enfermedad renal crónica,7
+2008,Hombre,Sin dato,Enfermedades cerebrovasculares,126
+2008,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,8
+2008,Hombre,Sin dato,Enfermedades isquémicas del corazón,58
+2008,Hombre,Sin dato,Insuficiencia cardíaca,28
+2008,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),44
+2008,Hombre,Sin dato,Leucemia,16
+2008,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,3
+2008,Hombre,Sin dato,Paro cardiaco,10
+2008,Hombre,Sin dato,Aterosclerosis,4
+2008,Hombre,Sin dato,Trastornos mentales y del comportamiento,35
+2008,Hombre,Sin dato,Tumor maligno de la laringe,3
+2008,Hombre,Sin dato,Tumor maligno de la próstata,92
+2008,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",26
+2008,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,8
+2008,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,1
+2008,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,19
+2008,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",36
+2008,Hombre,Sin dato,Tumor maligno del esófago,9
+2008,Hombre,Sin dato,Tumor maligno del estómago,26
+2008,Hombre,Sin dato,Tumor maligno del hígado,17
+2008,Hombre,Sin dato,Tumor maligno del páncreas,22
+2008,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",11
+2008,Hombre,Sin dato,Deficiencias nutricionales,8
+2008,Hombre,Sin dato,Diabetes insulinodependiente,26
+2008,Hombre,Sin dato,Diabetes Mellitus no especificada,23
+2008,Hombre,Sin dato,Diabetes no insulinodependiente,12
+2008,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,20
+2008,Hombre,Sin dato,Enfermedad hipertensiva,36
+2009,Mujer,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",6
+2009,Mujer,Sin dato,Aneurisma aórtico,3
+2009,Mujer,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3
+2009,Mujer,Sin dato,Enfermedad renal crónica,7
+2009,Mujer,Sin dato,Enfermedades cerebrovasculares,97
+2009,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,9
+2009,Mujer,Sin dato,Enfermedades isquémicas del corazón,38
+2009,Mujer,Sin dato,Insuficiencia cardíaca,37
+2009,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),7
+2009,Mujer,Sin dato,Leucemia,14
+2009,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,4
+2009,Mujer,Sin dato,Paro cardiaco,7
+2009,Mujer,Sin dato,Aterosclerosis,3
+2009,Mujer,Sin dato,Trastornos mentales y del comportamiento,29
+2009,Mujer,Sin dato,Tumor maligno de la mama de la mujer,53
+2009,Mujer,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,2
+2009,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",26
+2009,Mujer,Sin dato,Tumor maligno de la vejiga urinaria,3
+2009,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,4
+2009,Mujer,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,1
+2009,Mujer,Sin dato,Tumor maligno de otras partes del útero,25
+2009,Mujer,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,8
+2009,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",43
+2009,Mujer,Sin dato,Tumor maligno del esófago,2
+2009,Mujer,Sin dato,Tumor maligno del estómago,20
+2009,Mujer,Sin dato,Tumor maligno del hígado,13
+2009,Mujer,Sin dato,Tumor maligno del ovario,12
+2009,Mujer,Sin dato,Tumor maligno del páncreas,23
+2009,Mujer,Sin dato,Tumor maligno del útero,10
+2009,Mujer,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2009,Mujer,Sin dato,Deficiencias nutricionales,3
+2009,Mujer,Sin dato,Diabetes insulinodependiente,11
+2009,Mujer,Sin dato,Diabetes Mellitus no especificada,36
+2009,Mujer,Sin dato,Diabetes no insulinodependiente,13
+2009,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,20
+2009,Mujer,Sin dato,Enfermedad hipertensiva,51
+2009,Hombre,Sin dato,"Anemias: nutricionales, hemolíticas, aplásticas y otras",5
+2009,Hombre,Sin dato,Aneurisma aórtico,9
+2009,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),2
+2009,Hombre,Sin dato,Enfermedad renal crónica,7
+2009,Hombre,Sin dato,Enfermedades cerebrovasculares,125
+2009,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,6
+2009,Hombre,Sin dato,Enfermedades isquémicas del corazón,60
+2009,Hombre,Sin dato,Insuficiencia cardíaca,41
+2009,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),19
+2009,Hombre,Sin dato,Leucemia,16
+2009,Hombre,Sin dato,Melanoma y otros tumores malignos de la piel,2
+2009,Hombre,Sin dato,Paro cardiaco,7
+2009,Hombre,Sin dato,Aterosclerosis,10
+2009,Hombre,Sin dato,Trastornos mentales y del comportamiento,44
+2009,Hombre,Sin dato,Tumor maligno de la laringe,5
+2009,Hombre,Sin dato,Tumor maligno de la mama de la mujer,1
+2009,Hombre,Sin dato,Tumor maligno de la próstata,105
+2009,Hombre,Sin dato,Tumor maligno de la tiroides y otras glándulas endocrinas,1
+2009,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",35
+2009,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,11
+2009,Hombre,Sin dato,Tumor maligno de los huesos y de los cartílagos articulares,2
+2009,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,15
+2009,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",37
+2009,Hombre,Sin dato,Tumor maligno del esófago,6
+2009,Hombre,Sin dato,Tumor maligno del estómago,38
+2009,Hombre,Sin dato,Tumor maligno del hígado,23
+2009,Hombre,Sin dato,Tumor maligno del páncreas,26
+2009,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",12
+2009,Hombre,Sin dato,Deficiencias nutricionales,4
+2009,Hombre,Sin dato,Diabetes insulinodependiente,11
+2009,Hombre,Sin dato,Diabetes Mellitus no especificada,26
+2009,Hombre,Sin dato,Diabetes no insulinodependiente,11
+2009,Hombre,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,14
+2009,Hombre,Sin dato,Enfermedad hipertensiva,36

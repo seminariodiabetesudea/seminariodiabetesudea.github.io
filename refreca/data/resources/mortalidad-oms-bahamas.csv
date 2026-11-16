@@ -904,6 +904,7 @@
 2010,Hombre,80-84,Tumor maligno del esófago,1,1475
 2010,Hombre,80-84,Tumor maligno del estómago,3,1475
 2010,Hombre,80-84,Tumor maligno del hígado,1,1475
+2010,Hombre,80-84,Deficiencias nutricionales,1,1475
 2010,Hombre,80-84,Diabetes Mellitus no especificada,4,1475
 2010,Hombre,80-84,Enfermedad hipertensiva,8,1475
 2010,Hombre,85 y más,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,975
@@ -1080,6 +1081,7 @@
 2011,Mujer,80-84,Tumor maligno del páncreas,2,2066
 2011,Mujer,80-84,Tumor maligno del útero,2,2066
 2011,Mujer,80-84,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1,2066
+2011,Mujer,80-84,Deficiencias nutricionales,1,2066
 2011,Mujer,80-84,Diabetes Mellitus no especificada,3,2066
 2011,Mujer,80-84,Diabetes no insulinodependiente,1,2066
 2011,Mujer,80-84,Enfermedad cardiopulmonar y de la circulación pulmonar,1,2066
@@ -2627,7 +2629,7 @@
 2015,Hombre,70-74,Diabetes Mellitus no especificada,9,5133
 2015,Hombre,70-74,Diabetes no insulinodependiente,1,5133
 2015,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,1,5133
-2015,Hombre,70-74,Enfermedad hipertensiva,15,5133
+2015,Hombre,70-74,Enfermedad hipertensiva,16,5133
 2015,Hombre,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1,3427
 2015,Hombre,75-79,Enfermedad renal crónica,3,3427
 2015,Hombre,75-79,Enfermedades cerebrovasculares,8,3427
@@ -3758,6 +3760,7 @@
 2004,Mujer,70-74,Tumor maligno del estómago,3,3562
 2004,Mujer,70-74,Tumor maligno del ovario,3,3562
 2004,Mujer,70-74,Tumor maligno del útero,1,3562
+2004,Mujer,70-74,Deficiencias nutricionales,1,3562
 2004,Mujer,70-74,Diabetes insulinodependiente,1,3562
 2004,Mujer,70-74,Diabetes Mellitus no especificada,7,3562
 2004,Mujer,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,2,3562

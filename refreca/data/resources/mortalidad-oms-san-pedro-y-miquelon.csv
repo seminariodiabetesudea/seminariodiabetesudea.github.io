@@ -1,0 +1,96 @@
+﻿anio,sexo,grupo_edad,causa,defunciones
+2005,Mujer,Sin dato,Aterosclerosis,1
+2005,Mujer,Sin dato,Enfermedades isquémicas del corazón,5
+2005,Mujer,Sin dato,Insuficiencia cardíaca,1
+2005,Mujer,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1
+2005,Mujer,Sin dato,Trastornos mentales y del comportamiento,2
+2005,Mujer,Sin dato,Tumor maligno de la mama de la mujer,1
+2005,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1
+2005,Mujer,Sin dato,Enfermedades cerebrovasculares,4
+2005,Hombre,Sin dato,Aneurisma aórtico,2
+2005,Hombre,Sin dato,Enfermedades isquémicas del corazón,3
+2005,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1
+2005,Hombre,Sin dato,Tumor maligno de la próstata,1
+2005,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1
+2005,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,2
+2005,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
+2005,Hombre,Sin dato,Tumor maligno del esófago,1
+2005,Hombre,Sin dato,Tumor maligno del hígado,1
+2005,Hombre,Sin dato,Diabetes Mellitus no especificada,1
+2005,Hombre,Sin dato,Diabetes no insulinodependiente,1
+2005,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2005,Hombre,Sin dato,Enfermedades cerebrovasculares,3
+2006,Mujer,Sin dato,Enfermedades isquémicas del corazón,3
+2006,Mujer,Sin dato,Insuficiencia cardíaca,1
+2006,Mujer,Sin dato,Melanoma y otros tumores malignos de la piel,1
+2006,Mujer,Sin dato,Tumor maligno de la mama de la mujer,2
+2006,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",2
+2006,Mujer,Sin dato,Tumor maligno de otras partes del útero,1
+2006,Mujer,Sin dato,Tumor maligno del estómago,1
+2006,Mujer,Sin dato,Diabetes Mellitus no especificada,2
+2006,Mujer,Sin dato,Enfermedad hipertensiva,1
+2006,Hombre,Sin dato,Enfermedades isquémicas del corazón,4
+2006,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1
+2006,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",5
+2006,Hombre,Sin dato,Tumor maligno de la vejiga urinaria,1
+2006,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,1
+2006,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
+2006,Hombre,Sin dato,Tumor maligno del hígado,1
+2006,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",1
+2006,Hombre,Sin dato,Enfermedad hipertensiva,2
+2006,Hombre,Sin dato,Enfermedades cerebrovasculares,1
+2008,Mujer,Sin dato,Insuficiencia cardíaca,1
+2008,Mujer,Sin dato,Paro cardiaco,1
+2008,Mujer,Sin dato,Trastornos mentales y del comportamiento,1
+2008,Mujer,Sin dato,Tumor maligno de la mama de la mujer,2
+2008,Mujer,Sin dato,Tumor maligno de otras partes del útero,1
+2008,Mujer,Sin dato,Tumor maligno del esófago,1
+2008,Mujer,Sin dato,Diabetes Mellitus no especificada,2
+2008,Mujer,Sin dato,Diabetes no insulinodependiente,1
+2008,Mujer,Sin dato,Enfermedad cardiopulmonar y de la circulación pulmonar,1
+2008,Mujer,Sin dato,Enfermedades cerebrovasculares,1
+2008,Hombre,Sin dato,Enfermedades isquémicas del corazón,2
+2008,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1
+2008,Hombre,Sin dato,Trastornos mentales y del comportamiento,2
+2008,Hombre,Sin dato,Tumor maligno de la próstata,1
+2008,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1
+2008,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,1
+2008,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
+2008,Hombre,Sin dato,Tumor maligno del hígado,1
+2008,Hombre,Sin dato,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2
+2008,Hombre,Sin dato,Enfermedades cerebrovasculares,2
+2009,Mujer,Sin dato,Enfermedades isquémicas del corazón,3
+2009,Mujer,Sin dato,Trastornos mentales y del comportamiento,3
+2009,Mujer,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1
+2009,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
+2009,Mujer,Sin dato,Enfermedad hipertensiva,1
+2009,Mujer,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,1
+2009,Hombre,Sin dato,Enfermedades isquémicas del corazón,2
+2009,Hombre,Sin dato,Insuficiencia cardíaca,1
+2009,Hombre,Sin dato,Paro cardiaco,1
+2009,Hombre,Sin dato,Trastornos mentales y del comportamiento,1
+2009,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",3
+2009,Hombre,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",2
+2009,Hombre,Sin dato,Diabetes Mellitus no especificada,1
+2009,Hombre,Sin dato,Enfermedad Pulmonar Obstructiva Crónica (EPOC),1
+2009,Hombre,Sin dato,Enfermedades cerebrovasculares,1
+2009,Hombre,Sin dato,Enfermedades crónicas de las vías respiratorias inferiores,1
+2010,Mujer,Sin dato,Enfermedades isquémicas del corazón,1
+2010,Mujer,Sin dato,Insuficiencia cardíaca,3
+2010,Mujer,Sin dato,Trastornos mentales y del comportamiento,2
+2010,Mujer,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,1
+2010,Mujer,Sin dato,Tumor maligno de otras partes del útero,1
+2010,Mujer,Sin dato,"Tumor maligno del colon, de la unión rectosigmoidea, recto y ano",1
+2010,Mujer,Sin dato,Tumor maligno del ovario,1
+2010,Mujer,Sin dato,Tumor maligno del útero,1
+2010,Mujer,Sin dato,Enfermedades cerebrovasculares,1
+2010,Hombre,Sin dato,Enfermedades isquémicas del corazón,3
+2010,Hombre,Sin dato,Lesiones autoinfligidas intencionalmente (suicidios),1
+2010,Hombre,Sin dato,Tumor maligno de la próstata,2
+2010,Hombre,Sin dato,"Tumor maligno de la tráquea, bronquios y pulmón",1
+2010,Hombre,Sin dato,Ciertas enfermedades crónicas del hígado y cirrosis,1
+2010,Hombre,Sin dato,Tumor maligno de la vesícula biliar y de las vías biliares,1
+2010,Hombre,Sin dato,Tumor maligno del esófago,1
+2010,Hombre,Sin dato,Tumor maligno del estómago,1
+2010,Hombre,Sin dato,Tumor maligno del hígado,2
+2010,Hombre,Sin dato,Enfermedad hipertensiva,1

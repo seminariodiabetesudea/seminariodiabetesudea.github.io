@@ -366,7 +366,7 @@
 2000,Sin dato,45-49,Deficiencias nutricionales,1,
 2001,Mujer,0-4,"Anemias: nutricionales, hemolíticas, aplásticas y otras",1,27640
 2001,Mujer,0-4,Enfermedades crónicas de las vías respiratorias inferiores,1,27640
-2001,Mujer,0-4,Deficiencias nutricionales,2,27640
+2001,Mujer,0-4,Deficiencias nutricionales,3,27640
 2001,Mujer,5-9,Enfermedad cardiopulmonar y de la circulación pulmonar,1,24928
 2001,Mujer,50-54,Enfermedad renal crónica,4,8515
 2001,Mujer,50-54,Enfermedades cerebrovasculares,3,8515
@@ -3531,6 +3531,7 @@
 2003,Hombre,40-44,Ciertas enfermedades crónicas del hígado y cirrosis,1,17093
 2003,Hombre,40-44,Tumor maligno del hígado,1,17093
 2003,Hombre,40-44,Tumor maligno del páncreas,1,17093
+2003,Hombre,40-44,Deficiencias nutricionales,1,17093
 2003,Hombre,40-44,Diabetes Mellitus no especificada,6,17093
 2003,Hombre,40-44,Enfermedad hipertensiva,3,17093
 2003,Hombre,45-49,Enfermedad renal crónica,3,12425
@@ -4004,6 +4005,7 @@
 2005,Mujer,70-74,Tumor maligno del hígado,2,4555
 2005,Mujer,70-74,Tumor maligno del útero,1,4555
 2005,Mujer,70-74,"Tumores malignos del labio, de la cavidad bucal y de la faringe",2,4555
+2005,Mujer,70-74,Deficiencias nutricionales,1,4555
 2005,Mujer,70-74,Diabetes Mellitus no especificada,6,4555
 2005,Mujer,70-74,Enfermedad hipertensiva,8,4555
 2005,Mujer,75-79,Enfermedad Pulmonar Obstructiva Crónica (EPOC),3,2860
@@ -4578,6 +4580,7 @@
 2006,Hombre,70-74,Tumor maligno del estómago,1,4174
 2006,Hombre,70-74,Tumor maligno del hígado,6,4174
 2006,Hombre,70-74,Tumor maligno del páncreas,1,4174
+2006,Hombre,70-74,Deficiencias nutricionales,1,4174
 2006,Hombre,70-74,Diabetes Mellitus no especificada,15,4174
 2006,Hombre,70-74,Enfermedad cardiopulmonar y de la circulación pulmonar,1,4174
 2006,Hombre,70-74,Enfermedad hipertensiva,4,4174
@@ -5413,6 +5416,7 @@
 2008,Hombre,35-39,Ciertas enfermedades crónicas del hígado y cirrosis,3,20446
 2008,Hombre,35-39,Tumor maligno del estómago,1,20446
 2008,Hombre,35-39,Tumor maligno del hígado,1,20446
+2008,Hombre,35-39,Deficiencias nutricionales,1,20446
 2008,Hombre,35-39,Diabetes Mellitus no especificada,3,20446
 2008,Hombre,35-39,Enfermedad hipertensiva,1,20446
 2008,Hombre,40-44,Enfermedad renal crónica,1,19124
@@ -5439,7 +5443,7 @@
 2008,Hombre,45-49,Enfermedad hipertensiva,1,16217
 2009,Mujer,0-4,Insuficiencia cardíaca,1,27259
 2009,Mujer,0-4,Tumor maligno de la tiroides y otras glándulas endocrinas,1,27259
-2009,Mujer,0-4,Deficiencias nutricionales,1,27259
+2009,Mujer,0-4,Deficiencias nutricionales,2,27259
 2009,Mujer,5-9,Enfermedades cerebrovasculares,1,27956
 2009,Mujer,5-9,Enfermedades isquémicas del corazón,1,27956
 2009,Mujer,50-54,Enfermedad renal crónica,3,13076
