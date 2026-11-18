@@ -26,7 +26,7 @@
   --accent:#3a70ab; --accent-hover:#24588f; --accent-quiet:#6c99c7; --on-accent:#ffffff; --focus-ring:#5283ba;
   --status-good:#0e664d; --status-warning:#8c5e0f; --status-warning-inverse:#f2c27a;
   --chart-cat-1:#3a70ab; --chart-cat-2:#c8382c; --chart-cat-3:#1d9fa0; --chart-grid:#e7ecf0; --chart-axis:#b8bec5;
-  --flow-node:#0c2340; --flow-people:#6c99c7; --flow-out:#c4ccd5; --band-opacity:.5; --ribbon-opacity:.3; --ring-opacity:.13;
+  --flow-node:#0c2340; --flow-people:#8794a3; --flow-out:#c4ccd5; --band-opacity:.5; --ribbon-opacity:.3; --ring-opacity:.13;
   --show-light:block; --show-dark:none;
   --shadow-sm:0 1px 2px rgba(12,35,64,.06),0 1px 1px rgba(12,35,64,.04);
   --shadow-md:0 2px 4px rgba(12,35,64,.06),0 8px 16px -6px rgba(12,35,64,.10);
@@ -44,7 +44,7 @@
   --accent:#76a9e2; --accent-hover:#b0d5fe; --accent-quiet:#6c99c7; --on-accent:#0c2340; --focus-ring:#76afee;
   --status-good:#46b591; --status-warning:#eaa948; --status-warning-inverse:#8c5e0f;
   --chart-cat-1:#4b8fd9; --chart-cat-2:#de5c4d; --chart-cat-3:#1ea4a5; --chart-grid:#223246; --chart-axis:#4d5f75;
-  --flow-node:#e7eef5; --flow-people:#6c99c7; --flow-out:#3a4a5c; --band-opacity:.62; --ribbon-opacity:.42; --ring-opacity:.18;
+  --flow-node:#e7eef5; --flow-people:#a3afbc; --flow-out:#3a4a5c; --band-opacity:.62; --ribbon-opacity:.42; --ring-opacity:.18;
   --show-light:none; --show-dark:block;
   --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 2px 4px rgba(0,0,0,.4),0 8px 16px -6px rgba(0,0,0,.55); --shadow-lg:0 4px 8px rgba(0,0,0,.4),0 20px 40px -12px rgba(0,0,0,.6);
   color-scheme:dark; } }
@@ -56,7 +56,7 @@
   --accent:#76a9e2; --accent-hover:#b0d5fe; --accent-quiet:#6c99c7; --on-accent:#0c2340; --focus-ring:#76afee;
   --status-good:#46b591; --status-warning:#eaa948; --status-warning-inverse:#8c5e0f;
   --chart-cat-1:#4b8fd9; --chart-cat-2:#de5c4d; --chart-cat-3:#1ea4a5; --chart-grid:#223246; --chart-axis:#4d5f75;
-  --flow-node:#e7eef5; --flow-people:#6c99c7; --flow-out:#3a4a5c; --band-opacity:.62; --ribbon-opacity:.42; --ring-opacity:.18;
+  --flow-node:#e7eef5; --flow-people:#a3afbc; --flow-out:#3a4a5c; --band-opacity:.62; --ribbon-opacity:.42; --ring-opacity:.18;
   --show-light:none; --show-dark:block;
   --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 2px 4px rgba(0,0,0,.4),0 8px 16px -6px rgba(0,0,0,.55); --shadow-lg:0 4px 8px rgba(0,0,0,.4),0 20px 40px -12px rgba(0,0,0,.6);
   color-scheme:dark; }
@@ -655,7 +655,7 @@ html[lang="en"] .sn [lang="es"], html:not([lang="en"]) .sn [lang="en"] { display
     groups.push({ group: "hidden", svg: `<rect class="universe" data-id="box" x="${x0}" y="${f1(boxTop)}" width="${f1(W - x0 - 2)}" height="${f1(boxBot - boxTop)}" rx="10"/>` + railSvg(bHid, "hidden") });
     TIPS.cohort = [L_.cohortTitle, `${nf(cohort)} ${L_.people} · ${winL(S.win)}`];
     const c = cohort * k;
-    groups.push({ group: "cohort", svg: `<path class="band" data-id="cohort" d="${ribbonV(x0, x0 + c, yCoh1, vx - c / 2, vx + c / 2, vy - 1.2 * R)}" fill="var(--accent)" style="fill-opacity:var(--ribbon-opacity)"/><rect data-id="cohort" x="${x0}" y="${f1(yCoh0)}" width="${f1(Math.max(c, 2))}" height="${cohH}" fill="var(--accent)"/>` + leader(x0 + c + 6, bCoh.anchor) + railSvg(bCoh, "cohort") });
+    groups.push({ group: "cohort", svg: `<path class="band" data-id="cohort" d="${ribbonV(x0, x0 + c, yCoh1, vx - c / 2, vx + c / 2, vy - 1.2 * R)}" fill="var(--flow-node)" style="fill-opacity:var(--ribbon-opacity)"/><rect data-id="cohort" x="${x0}" y="${f1(yCoh0)}" width="${f1(Math.max(c, 2))}" height="${cohH}" fill="var(--flow-node)"/>` + leader(x0 + c + 6, bCoh.anchor) + railSvg(bCoh, "cohort") });
     const cen = { A: [vx - 0.55 * R, vy - 0.32 * R], B: [vx + 0.55 * R, vy - 0.32 * R], C: [vx, vy + 0.62 * R] };
     const pos = { A: [vx - 0.97 * R, vy - 0.44 * R], B: [vx + 0.97 * R, vy - 0.44 * R], C: [vx, vy + 1.07 * R], AB: [vx, vy - 0.6 * R], AC: [vx - 0.5 * R, vy + 0.28 * R], BC: [vx + 0.5 * R, vy + 0.28 * R], ABC: [vx, vy + 0.05 * R] };
     const letters = { A: [vx - 1.36 * R, vy - 1.08 * R], B: [vx + 1.36 * R, vy - 1.08 * R], C: [vx + 0.92 * R, vy + 1.5 * R] };
