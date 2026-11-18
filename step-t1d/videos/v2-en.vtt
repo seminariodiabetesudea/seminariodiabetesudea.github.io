@@ -1,0 +1,142 @@
+WEBVTT
+
+00:00:00.104 --> 00:00:04.453
+Every year, some children in the Valle de
+Aburrá are diagnosed with type 1
+
+00:00:04.466 --> 00:00:06.771
+diabetes. Counting them sounds simple.
+
+00:00:07.214 --> 00:00:10.000
+But no hospital or clinic
+sees every child,
+
+00:00:10.417 --> 00:00:13.555
+and some children are never written down
+on the lists we can read.
+
+00:00:13.997 --> 00:00:16.107
+So how do you count the cases
+nobody recorded?
+
+00:00:17.242 --> 00:00:18.896
+Think of a party with two doors.
+
+00:00:19.326 --> 00:00:22.203
+At each door, someone writes down
+the guests who come in.
+
+00:00:22.633 --> 00:00:24.286
+Some guests are on the first list,
+
+00:00:24.521 --> 00:00:26.695
+some on the second, and some are on both.
+
+00:00:27.125 --> 00:00:28.701
+And a few slip in through a window,
+
+00:00:29.065 --> 00:00:30.380
+so they are on neither list.
+
+00:00:31.472 --> 00:00:35.483
+The overlap is the clue. Say list A
+has one hundred children,
+
+00:00:35.873 --> 00:00:38.764
+list B has eighty, and forty are on both.
+
+00:00:39.194 --> 00:00:41.655
+List B found forty of A's
+hundred children:
+
+00:00:42.032 --> 00:00:45.951
+four in ten. If B finds about four
+in ten children overall,
+
+00:00:46.329 --> 00:00:49.220
+its eighty children are about four
+tenths of everyone.
+
+00:00:49.662 --> 00:00:51.303
+That makes about two hundred children,
+
+00:00:51.680 --> 00:00:54.011
+so around sixty were on no list at all.
+
+00:00:55.125 --> 00:00:58.654
+This idea has a name: the
+Lincoln–Petersen estimator.
+
+00:00:59.097 --> 00:01:01.531
+The total is list A times list B,
+
+00:01:01.857 --> 00:01:06.453
+divided by the number on both. Chapman's
+version adds one to each count,
+
+00:01:06.870 --> 00:01:08.940
+which behaves better when the
+numbers are small.
+
+00:01:10.053 --> 00:01:12.540
+But it only works if the two
+lists are independent.
+
+00:01:12.970 --> 00:01:15.418
+If one hospital refers
+children to the other,
+
+00:01:15.730 --> 00:01:18.113
+the same children turn up on both lists.
+
+00:01:18.543 --> 00:01:20.535
+The overlap looks bigger than it should,
+
+00:01:20.939 --> 00:01:22.918
+and we would count too few
+hidden children.
+
+00:01:24.008 --> 00:01:26.573
+That is why this study uses three lists:
+
+00:01:26.847 --> 00:01:29.073
+referral hospitals, the public network,
+
+00:01:29.295 --> 00:01:31.821
+and private clinics. With three lists,
+
+00:01:32.042 --> 00:01:34.555
+every child has a pattern: on A only,
+
+00:01:34.815 --> 00:01:37.901
+on A and B, on all three, and so on.
+
+00:01:38.344 --> 00:01:40.154
+Seven of these patterns can be counted.
+
+00:01:40.584 --> 00:01:42.667
+The eighth, children on no list,
+
+00:01:42.888 --> 00:01:45.206
+is hidden. Models use the other seven,
+
+00:01:45.506 --> 00:01:47.381
+and the way the lists depend
+on each other,
+
+00:01:47.641 --> 00:01:48.641
+to estimate it.
+
+00:01:49.520 --> 00:01:51.447
+The answer is not one exact number,
+
+00:01:51.825 --> 00:01:53.648
+but an estimate with its uncertainty.
+
+00:01:54.091 --> 00:01:58.322
+Several models are averaged, each weighted by
+how well it explains the data.
+
+00:01:58.765 --> 00:02:02.333
+That is capture-recapture: counting the
+children nobody recorded.

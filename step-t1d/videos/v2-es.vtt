@@ -1,0 +1,146 @@
+WEBVTT
+
+00:00:00.102 --> 00:00:04.021
+Cada año, algunos niños y niñas del Valle de
+Aburrá reciben el diagnóstico de
+
+00:00:04.126 --> 00:00:07.435
+diabetes tipo 1. Contarlos parece fácil.
+
+00:00:08.346 --> 00:00:10.833
+Pero ningún hospital ni clínica
+ve a todos los niños,
+
+00:00:11.120 --> 00:00:14.167
+y algunos nunca quedan anotados en las
+listas que podemos consultar.
+
+00:00:15.091 --> 00:00:18.177
+Entonces, ¿cómo se cuentan los
+casos que nadie registró?
+
+00:00:19.854 --> 00:00:21.729
+Piense en una fiesta con dos puertas.
+
+00:00:22.695 --> 00:00:25.637
+En cada puerta, alguien anota a los
+invitados que entran.
+
+00:00:26.562 --> 00:00:28.085
+Unos quedan en la primera lista,
+
+00:00:28.294 --> 00:00:30.312
+otros en la segunda y algunos en las dos.
+
+00:00:31.275 --> 00:00:33.059
+Y unos pocos se cuelan por la ventana,
+
+00:00:33.359 --> 00:00:34.583
+así que no están en ninguna.
+
+00:00:36.246 --> 00:00:40.519
+El traslape es la pista. Digamos que la
+lista A tiene cien niños,
+
+00:00:40.884 --> 00:00:43.240
+la lista B tiene ochenta y
+cuarenta están en las dos.
+
+00:00:44.204 --> 00:00:46.600
+La lista B encontró cuarenta de
+los cien niños de A:
+
+00:00:46.834 --> 00:00:51.274
+cuatro de cada diez. Si B encuentra más o
+menos cuatro de cada diez niños en
+
+00:00:51.300 --> 00:00:55.220
+general, sus ochenta niños son cerca de
+cuatro décimas partes del total.
+
+00:00:56.144 --> 00:01:00.285
+Eso da unos doscientos niños, así que unos
+sesenta no estaban en ninguna lista.
+
+00:01:01.950 --> 00:01:05.062
+Esta idea tiene nombre: el
+estimador de Lincoln-Petersen.
+
+00:01:06.002 --> 00:01:07.968
+El total es la lista A por la lista B,
+
+00:01:08.332 --> 00:01:10.012
+dividido entre los que están en ambas.
+
+00:01:10.950 --> 00:01:13.306
+La versión de Chapman le suma
+uno a cada conteo,
+
+00:01:13.580 --> 00:01:15.924
+y funciona mejor cuando los
+números son pequeños.
+
+00:01:17.574 --> 00:01:20.334
+Pero solo funciona si las dos
+listas son independientes.
+
+00:01:21.287 --> 00:01:23.175
+Si un hospital remite niños al otro,
+
+00:01:23.475 --> 00:01:25.701
+los mismos niños aparecen en
+las dos listas.
+
+00:01:26.639 --> 00:01:28.644
+El traslape se ve más grande de lo que es,
+
+00:01:28.878 --> 00:01:31.274
+y contaríamos menos niños
+ocultos de los que hay.
+
+00:01:32.910 --> 00:01:34.824
+Por eso este estudio usa tres listas:
+
+00:01:35.176 --> 00:01:39.030
+los hospitales de referencia, la red
+pública y las clínicas privadas.
+
+00:01:39.956 --> 00:01:42.430
+Con tres listas, cada niño
+tiene un patrón:
+
+00:01:42.600 --> 00:01:45.152
+solo en A, en A y en B, en las tres,
+
+00:01:45.321 --> 00:01:48.693
+y así. Siete de esos patrones
+se pueden contar.
+
+00:01:49.618 --> 00:01:52.365
+El octavo, los niños que no
+están en ninguna lista,
+
+00:01:52.626 --> 00:01:56.037
+está oculto. Los modelos usan
+los otros siete,
+
+00:01:56.219 --> 00:01:58.381
+y la forma en que las listas
+dependen entre sí,
+
+00:01:58.680 --> 00:01:59.680
+para estimarlo.
+
+00:02:01.038 --> 00:02:02.861
+La respuesta no es un número exacto,
+
+00:02:03.187 --> 00:02:05.048
+sino una estimación con su incertidumbre.
+
+00:02:05.988 --> 00:02:10.064
+Se promedian varios modelos, cada uno según
+qué tan bien explica los datos.
+
+00:02:11.014 --> 00:02:14.452
+Eso es captura-recaptura: contar a los
+niños que nadie registró.
