@@ -172,12 +172,23 @@ tr.sel td { background:var(--surface-wash); }
 @media (max-width: 520px) { .fig { padding:16px; } .hero .wrap { padding-block:28px 32px; } .hero-logo svg { width:180px; } .banner p { font-size:14px; } }
 </style>
 
+<style id="sitenav-css">
+.mast .wrap { flex-wrap:wrap; justify-content:space-between; gap:8px 16px; }
+.sn { display:flex; flex-wrap:wrap; align-items:center; gap:4px 16px; font-size:14px; font-weight:600; min-width:0; }
+.sn a { color:var(--text-link); text-decoration:none; padding:4px 0; }
+.sn a:hover { text-decoration:underline; text-underline-offset:3px; }
+.sn .sn-home { color:var(--text); font-weight:700; letter-spacing:.02em; }
+.sn a[aria-current="page"] { color:var(--text); text-decoration:underline; text-decoration-color:var(--accent); text-decoration-thickness:2px; text-underline-offset:6px; }
+html[lang="en"] .sn [lang="es"], html:not([lang="en"]) .sn [lang="en"] { display:none; }
+@media (max-width:520px) { .sn { gap:2px 12px; font-size:13px; } }
+</style>
 </head>
 <body>
 <header class="banner" role="alert"><div class="wrap"><span id="bannerIcon"></span><p id="bannerText"></p></div></header>
 <header class="mast">
   <div class="wrap">
-    <span class="brand">STEP-T1D</span>
+<nav class="sn" aria-label="STEP-T1D"><a class="sn-home" href="../">STEP-T1D</a><a href="../proceso/"><span lang="es">Proceso</span><span lang="en">Process</span></a><a href="../resultados/" aria-current="page"><span lang="es">Resultados</span><span lang="en">Results</span></a><a href="../calculadora/"><span lang="es">Calculadora</span><span lang="en">Calculator</span></a><a href="../videos/"><span lang="es">Videos</span><span lang="en">Videos</span></a></nav>
+    
     <div class="tools">
       <button type="button" class="theme-btn" id="themeBtn"></button>
       <div class="lang" role="group" id="langToggle">
